@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfusb__ephandle__linux" kind="class" language="C++" prot="public">
+    <compoundname>fusb_ephandle_linux</compoundname>
+    <basecompoundref refid="classfusb__ephandle" prot="public" virt="non-virtual">fusb_ephandle</basecompoundref>
+    <includes refid="fusb__linux_8h" local="no">fusb_linux.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classfusb__ephandle__linux_1aeaa61115637224e134bb351c8a3c217c" prot="private" static="no" mutable="no">
+        <type><ref refid="classfusb__devhandle__linux" kindref="compound">fusb_devhandle_linux</ref> *</type>
+        <definition>fusb_devhandle_linux* fusb_ephandle_linux::d_devhandle</definition>
+        <argsstring></argsstring>
+        <name>d_devhandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="69" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__linux_1aadb1cf2b68d584f8aefc2815c8834af7" prot="private" static="no" mutable="no">
+        <type>std::list&lt; usbdevfs_urb * &gt;</type>
+        <definition>std::list&lt;usbdevfs_urb*&gt; fusb_ephandle_linux::d_free_list</definition>
+        <argsstring></argsstring>
+        <name>d_free_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="70" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__linux_1aad46fca1fe3ab888bccb83cfe41c0961" prot="private" static="no" mutable="no">
+        <type>std::list&lt; usbdevfs_urb * &gt;</type>
+        <definition>std::list&lt;usbdevfs_urb*&gt; fusb_ephandle_linux::d_completed_list</definition>
+        <argsstring></argsstring>
+        <name>d_completed_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="71" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__linux_1aa1c94145e5dfa104092a54da308f129a" prot="private" static="no" mutable="no">
+        <type>usbdevfs_urb *</type>
+        <definition>usbdevfs_urb* fusb_ephandle_linux::d_write_work_in_progress</definition>
+        <argsstring></argsstring>
+        <name>d_write_work_in_progress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="72" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__linux_1a53c9424356b40696504de397ef89c2af" prot="private" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* fusb_ephandle_linux::d_write_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_write_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="73" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__linux_1a04d9d44db5631def51bad151e6a17eef" prot="private" static="no" mutable="no">
+        <type>usbdevfs_urb *</type>
+        <definition>usbdevfs_urb* fusb_ephandle_linux::d_read_work_in_progress</definition>
+        <argsstring></argsstring>
+        <name>d_read_work_in_progress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="74" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__linux_1a5691bf1ea6c5276a5cb29016cc82b5f1" prot="private" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* fusb_ephandle_linux::d_read_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_read_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="75" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__linux_1afcfb42f17c2b28da7ab57a171b974d86" prot="private" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* fusb_ephandle_linux::d_read_buffer_end</definition>
+        <argsstring></argsstring>
+        <name>d_read_buffer_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="76" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfusb__ephandle__linux_1a55d265cae274129f742680501a240d07" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>usbdevfs_urb *</type>
+        <definition>usbdevfs_urb * fusb_ephandle_linux::get_write_work_in_progress</definition>
+        <argsstring>()</argsstring>
+        <name>get_write_work_in_progress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="78" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="504" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1a223ebb74964ebf67681a34b8d2c55e0d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fusb_ephandle_linux::reap_complete_writes</definition>
+        <argsstring>()</argsstring>
+        <name>reap_complete_writes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="79" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="532" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1a911582a02d8abec97041fee1fa4a4b06" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool fusb_ephandle_linux::reload_read_buffer</definition>
+        <argsstring>()</argsstring>
+        <name>reload_read_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="80" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="597" bodyend="638"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1a13628595cb95921866c8f71417285da1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool fusb_ephandle_linux::submit_urb</definition>
+        <argsstring>(usbdevfs_urb *urb)</argsstring>
+        <name>submit_urb</name>
+        <param>
+          <type>usbdevfs_urb *</type>
+          <declname>urb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="81" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="684" bodyend="692"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfusb__ephandle__linux_1af7000716d3733e2b4b3ed6510fd7ebcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fusb_ephandle_linux::fusb_ephandle_linux</definition>
+        <argsstring>(fusb_devhandle_linux *dh, int endpoint, bool input_p, int block_size=0, int nblocks=0)</argsstring>
+        <name>fusb_ephandle_linux</name>
+        <param>
+          <type><ref refid="classfusb__devhandle__linux" kindref="compound">fusb_devhandle_linux</ref> *</type>
+          <declname>dh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>endpoint</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>input_p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block_size</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nblocks</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="84" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="301" bodyend="336"/>
+        <references refid="classfusb__ephandle_1aa8b4afe1f6aaa45491d9ae0dfdad3c0b" compoundref="fusb_8h" startline="73">fusb_ephandle::d_block_size</references>
+        <references refid="classfusb__ephandle_1a136e1ab7ba9e180a78ea5085739dd018" compoundref="fusb_8h" startline="71">fusb_ephandle::d_endpoint</references>
+        <references refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" compoundref="fusb_8h" startline="72">fusb_ephandle::d_input_p</references>
+        <references refid="classfusb__ephandle_1a3d38bb3ad76925c044fe8e14ecb408e7" compoundref="fusb_8h" startline="74">fusb_ephandle::d_nblocks</references>
+        <references refid="fusb__linux_8cc_1a5375e2e38a16451a109c60da1610c3d9" compoundref="fusb__linux_8cc" startline="42">MINIMIZE_TX_BUFFERING</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1a5978d6295cbfe0f8fa8961d0a24e7ba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>fusb_ephandle_linux::~fusb_ephandle_linux</definition>
+        <argsstring>()</argsstring>
+        <name>~fusb_ephandle_linux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="86" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="338" bodyend="357"/>
+        <references refid="classfusb__ephandle__linux_1a668168194e27bfd84a708acd93560df7" compoundref="fusb__linux_8cc" startline="669" endline="677">completed_list_get</references>
+        <references refid="classfusb__ephandle__linux_1ab8edb43836585a3f1f1ae817686e4231" compoundref="fusb__linux_8cc" startline="651" endline="659">free_list_get</references>
+        <references refid="classfusb__ephandle__linux_1a0ab27c7fa6bacaa042a89de22cb36e91" compoundref="fusb__linux_8cc" startline="387" endline="421">stop</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1a765993be306d930b5c0fda742d21e87e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool fusb_ephandle_linux::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <reimplements refid="classfusb__ephandle_1aac0498804e009ab78c47f2265f34a054">start</reimplements>
+        <briefdescription>
+<para>begin streaming i/o </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="88" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="362" bodyend="380"/>
+        <references refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" compoundref="fusb_8h" startline="72">fusb_ephandle::d_input_p</references>
+        <references refid="classfusb__ephandle_1a3d38bb3ad76925c044fe8e14ecb408e7" compoundref="fusb_8h" startline="74">fusb_ephandle::d_nblocks</references>
+        <references refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" compoundref="fusb_8h" startline="75">fusb_ephandle::d_started</references>
+        <references refid="classfusb__ephandle__linux_1ab8edb43836585a3f1f1ae817686e4231" compoundref="fusb__linux_8cc" startline="651" endline="659">free_list_get</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1a0ab27c7fa6bacaa042a89de22cb36e91" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool fusb_ephandle_linux::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <reimplements refid="classfusb__ephandle_1a3cfe2cbb78870a6ce0ec8f696ebe45ab">stop</reimplements>
+        <briefdescription>
+<para>stop streaming i/o </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="89" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="387" bodyend="421"/>
+        <references refid="classfusb__devhandle__linux_1ac2e57831b7cf37e533f1c56a7ecb452f" compoundref="fusb__linux_8cc" startline="159" endline="167">fusb_devhandle_linux::_cancel_pending_rqsts</references>
+        <references refid="classfusb__devhandle__linux_1a9825994b3a8346f1a8284de755f1d6e0" compoundref="fusb__linux_8cc" startline="253" endline="288">fusb_devhandle_linux::_reap</references>
+        <references refid="classfusb__ephandle__linux_1a668168194e27bfd84a708acd93560df7" compoundref="fusb__linux_8cc" startline="669" endline="677">completed_list_get</references>
+        <references refid="classfusb__ephandle_1a3d38bb3ad76925c044fe8e14ecb408e7" compoundref="fusb_8h" startline="74">fusb_ephandle::d_nblocks</references>
+        <references refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" compoundref="fusb_8h" startline="75">fusb_ephandle::d_started</references>
+        <references refid="classfusb__ephandle__linux_1a57c578355685f5b86d976c2204f38f36" compoundref="fusb__linux_8cc" startline="643" endline="648">free_list_add</references>
+        <referencedby refid="classfusb__ephandle__linux_1a5978d6295cbfe0f8fa8961d0a24e7ba3" compoundref="fusb__linux_8cc" startline="338" endline="357">~fusb_ephandle_linux</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1adfe7bf7550c1a8f19308de1d889ecc37" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int fusb_ephandle_linux::write</definition>
+        <argsstring>(const void *buffer, int nbytes)</argsstring>
+        <name>write</name>
+        <reimplements refid="classfusb__ephandle_1ab2a965c0f5fea6632bc08ea59c8c8fe1">write</reimplements>
+        <param>
+          <type>const void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>nbytes</computeroutput> if write was successfully enqueued, else -1. Will block if no free buffers available. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="95" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="430" bodyend="463"/>
+        <references refid="classfusb__devhandle__linux_1a9825994b3a8346f1a8284de755f1d6e0" compoundref="fusb__linux_8cc" startline="253" endline="288">fusb_devhandle_linux::_reap</references>
+        <references refid="classfusb__ephandle__linux_1a668168194e27bfd84a708acd93560df7" compoundref="fusb__linux_8cc" startline="669" endline="677">completed_list_get</references>
+        <references refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" compoundref="fusb_8h" startline="72">fusb_ephandle::d_input_p</references>
+        <references refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" compoundref="fusb_8h" startline="75">fusb_ephandle::d_started</references>
+        <references refid="classfusb__ephandle__linux_1a57c578355685f5b86d976c2204f38f36" compoundref="fusb__linux_8cc" startline="643" endline="648">free_list_add</references>
+        <references refid="classfusb__ephandle__linux_1ab8edb43836585a3f1f1ae817686e4231" compoundref="fusb__linux_8cc" startline="651" endline="659">free_list_get</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1a7dff0426304357101b6e34e5918d6098" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int fusb_ephandle_linux::read</definition>
+        <argsstring>(void *buffer, int nbytes)</argsstring>
+        <name>read</name>
+        <reimplements refid="classfusb__ephandle_1a835533e974fb159174c44f2ec0d5668d">read</reimplements>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of bytes read or -1 if error. number of bytes read will be &lt;= nbytes. Will block if no input available. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="102" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="569" bodyend="594"/>
+        <references refid="classfusb__devhandle__linux_1a9825994b3a8346f1a8284de755f1d6e0" compoundref="fusb__linux_8cc" startline="253" endline="288">fusb_devhandle_linux::_reap</references>
+        <references refid="classfusb__ephandle__linux_1a668168194e27bfd84a708acd93560df7" compoundref="fusb__linux_8cc" startline="669" endline="677">completed_list_get</references>
+        <references refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" compoundref="fusb_8h" startline="72">fusb_ephandle::d_input_p</references>
+        <references refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" compoundref="fusb_8h" startline="75">fusb_ephandle::d_started</references>
+        <references refid="classfusb__ephandle__linux_1a57c578355685f5b86d976c2204f38f36" compoundref="fusb__linux_8cc" startline="643" endline="648">free_list_add</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1ad84618ba52ecfe49c8848cba69b0a04c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void fusb_ephandle_linux::wait_for_completion</definition>
+        <argsstring>()</argsstring>
+        <name>wait_for_completion</name>
+        <reimplements refid="classfusb__ephandle_1a1e1a2c7173a14aea99686fad7c0e061c">wait_for_completion</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="107" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="559" bodyend="562"/>
+        <references refid="classfusb__devhandle__linux_1addd226a9f8221e6742551ea8171b35a6" compoundref="fusb__linux_8cc" startline="291" endline="296">fusb_devhandle_linux::_wait_for_completion</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1a57c578355685f5b86d976c2204f38f36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fusb_ephandle_linux::free_list_add</definition>
+        <argsstring>(usbdevfs_urb *urb)</argsstring>
+        <name>free_list_add</name>
+        <param>
+          <type>usbdevfs_urb *</type>
+          <declname>urb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="110" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="643" bodyend="648"/>
+        <referencedby refid="classfusb__ephandle__linux_1a668168194e27bfd84a708acd93560df7" compoundref="fusb__linux_8cc" startline="669" endline="677">completed_list_get</referencedby>
+        <referencedby refid="classfusb__ephandle__linux_1a7dff0426304357101b6e34e5918d6098" compoundref="fusb__linux_8cc" startline="569" endline="594">read</referencedby>
+        <referencedby refid="classfusb__ephandle__linux_1a0ab27c7fa6bacaa042a89de22cb36e91" compoundref="fusb__linux_8cc" startline="387" endline="421">stop</referencedby>
+        <referencedby refid="classfusb__ephandle__linux_1adfe7bf7550c1a8f19308de1d889ecc37" compoundref="fusb__linux_8cc" startline="430" endline="463">write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1a5d4f19af3499104c7e146d61afc3cbd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fusb_ephandle_linux::completed_list_add</definition>
+        <argsstring>(usbdevfs_urb *urb)</argsstring>
+        <name>completed_list_add</name>
+        <param>
+          <type>usbdevfs_urb *</type>
+          <declname>urb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="111" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="662" bodyend="666"/>
+        <referencedby refid="classfusb__devhandle__linux_1a9825994b3a8346f1a8284de755f1d6e0" compoundref="fusb__linux_8cc" startline="253" endline="288">fusb_devhandle_linux::_reap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1ab8edb43836585a3f1f1ae817686e4231" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>usbdevfs_urb *</type>
+        <definition>usbdevfs_urb * fusb_ephandle_linux::free_list_get</definition>
+        <argsstring>()</argsstring>
+        <name>free_list_get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="112" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="651" bodyend="659"/>
+        <referencedby refid="classfusb__ephandle__linux_1a765993be306d930b5c0fda742d21e87e" compoundref="fusb__linux_8cc" startline="362" endline="380">start</referencedby>
+        <referencedby refid="classfusb__ephandle__linux_1adfe7bf7550c1a8f19308de1d889ecc37" compoundref="fusb__linux_8cc" startline="430" endline="463">write</referencedby>
+        <referencedby refid="classfusb__ephandle__linux_1a5978d6295cbfe0f8fa8961d0a24e7ba3" compoundref="fusb__linux_8cc" startline="338" endline="357">~fusb_ephandle_linux</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__linux_1a668168194e27bfd84a708acd93560df7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>usbdevfs_urb *</type>
+        <definition>usbdevfs_urb * fusb_ephandle_linux::completed_list_get</definition>
+        <argsstring>()</argsstring>
+        <name>completed_list_get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="113" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.cc" bodystart="669" bodyend="677"/>
+        <references refid="classfusb__devhandle__linux_1ad35214661f5e6fe85a34008e760fa49f" compoundref="fusb__linux_8cc" startline="205" endline="217">fusb_devhandle_linux::_submit_urb</references>
+        <references refid="classfusb__ephandle__linux_1a57c578355685f5b86d976c2204f38f36" compoundref="fusb__linux_8cc" startline="643" endline="648">free_list_add</references>
+        <referencedby refid="classfusb__ephandle__linux_1a7dff0426304357101b6e34e5918d6098" compoundref="fusb__linux_8cc" startline="569" endline="594">read</referencedby>
+        <referencedby refid="classfusb__ephandle__linux_1a0ab27c7fa6bacaa042a89de22cb36e91" compoundref="fusb__linux_8cc" startline="387" endline="421">stop</referencedby>
+        <referencedby refid="classfusb__ephandle__linux_1adfe7bf7550c1a8f19308de1d889ecc37" compoundref="fusb__linux_8cc" startline="430" endline="463">write</referencedby>
+        <referencedby refid="classfusb__ephandle__linux_1a5978d6295cbfe0f8fa8961d0a24e7ba3" compoundref="fusb__linux_8cc" startline="338" endline="357">~fusb_ephandle_linux</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>linux specific implementation of <ref refid="classfusb__ephandle" kindref="compound">fusb_ephandle</ref> using usbdevice_fs </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="852">
+        <label>fusb_ephandle_linux</label>
+        <link refid="classfusb__ephandle__linux"/>
+        <childnode refid="853" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="853">
+        <label>fusb_ephandle</label>
+        <link refid="classfusb__ephandle"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="854">
+        <label>fusb_ephandle_linux</label>
+        <link refid="classfusb__ephandle__linux"/>
+        <childnode refid="855" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="855">
+        <label>fusb_ephandle</label>
+        <link refid="classfusb__ephandle"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" line="67" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_linux.h" bodystart="67" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classfusb__ephandle_1a969c00b4d8ef3c8ad6444eb92da7a61c" prot="public" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>block_size</name></member>
+      <member refid="classfusb__ephandle__linux_1a5d4f19af3499104c7e146d61afc3cbd5" prot="public" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>completed_list_add</name></member>
+      <member refid="classfusb__ephandle__linux_1a668168194e27bfd84a708acd93560df7" prot="public" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>completed_list_get</name></member>
+      <member refid="classfusb__ephandle_1aa8b4afe1f6aaa45491d9ae0dfdad3c0b" prot="protected" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_block_size</name></member>
+      <member refid="classfusb__ephandle__linux_1aad46fca1fe3ab888bccb83cfe41c0961" prot="private" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_completed_list</name></member>
+      <member refid="classfusb__ephandle__linux_1aeaa61115637224e134bb351c8a3c217c" prot="private" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_devhandle</name></member>
+      <member refid="classfusb__ephandle_1a136e1ab7ba9e180a78ea5085739dd018" prot="protected" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_endpoint</name></member>
+      <member refid="classfusb__ephandle__linux_1aadb1cf2b68d584f8aefc2815c8834af7" prot="private" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_free_list</name></member>
+      <member refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" prot="protected" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_input_p</name></member>
+      <member refid="classfusb__ephandle_1a3d38bb3ad76925c044fe8e14ecb408e7" prot="protected" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_nblocks</name></member>
+      <member refid="classfusb__ephandle__linux_1a5691bf1ea6c5276a5cb29016cc82b5f1" prot="private" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_read_buffer</name></member>
+      <member refid="classfusb__ephandle__linux_1afcfb42f17c2b28da7ab57a171b974d86" prot="private" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_read_buffer_end</name></member>
+      <member refid="classfusb__ephandle__linux_1a04d9d44db5631def51bad151e6a17eef" prot="private" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_read_work_in_progress</name></member>
+      <member refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" prot="protected" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_started</name></member>
+      <member refid="classfusb__ephandle__linux_1a53c9424356b40696504de397ef89c2af" prot="private" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_write_buffer</name></member>
+      <member refid="classfusb__ephandle__linux_1aa1c94145e5dfa104092a54da308f129a" prot="private" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>d_write_work_in_progress</name></member>
+      <member refid="classfusb__ephandle__linux_1a57c578355685f5b86d976c2204f38f36" prot="public" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>free_list_add</name></member>
+      <member refid="classfusb__ephandle__linux_1ab8edb43836585a3f1f1ae817686e4231" prot="public" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>free_list_get</name></member>
+      <member refid="classfusb__ephandle_1a5ad892734f7649f8444ce6c5fe33382e" prot="public" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>fusb_ephandle</name></member>
+      <member refid="classfusb__ephandle__linux_1af7000716d3733e2b4b3ed6510fd7ebcd" prot="public" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>fusb_ephandle_linux</name></member>
+      <member refid="classfusb__ephandle__linux_1a55d265cae274129f742680501a240d07" prot="private" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>get_write_work_in_progress</name></member>
+      <member refid="classfusb__ephandle__linux_1a7dff0426304357101b6e34e5918d6098" prot="public" virt="virtual"><scope>fusb_ephandle_linux</scope><name>read</name></member>
+      <member refid="classfusb__ephandle__linux_1a223ebb74964ebf67681a34b8d2c55e0d" prot="private" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>reap_complete_writes</name></member>
+      <member refid="classfusb__ephandle__linux_1a911582a02d8abec97041fee1fa4a4b06" prot="private" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>reload_read_buffer</name></member>
+      <member refid="classfusb__ephandle__linux_1a765993be306d930b5c0fda742d21e87e" prot="public" virt="virtual"><scope>fusb_ephandle_linux</scope><name>start</name></member>
+      <member refid="classfusb__ephandle__linux_1a0ab27c7fa6bacaa042a89de22cb36e91" prot="public" virt="virtual"><scope>fusb_ephandle_linux</scope><name>stop</name></member>
+      <member refid="classfusb__ephandle__linux_1a13628595cb95921866c8f71417285da1" prot="private" virt="non-virtual"><scope>fusb_ephandle_linux</scope><name>submit_urb</name></member>
+      <member refid="classfusb__ephandle__linux_1ad84618ba52ecfe49c8848cba69b0a04c" prot="public" virt="virtual"><scope>fusb_ephandle_linux</scope><name>wait_for_completion</name></member>
+      <member refid="classfusb__ephandle__linux_1adfe7bf7550c1a8f19308de1d889ecc37" prot="public" virt="virtual"><scope>fusb_ephandle_linux</scope><name>write</name></member>
+      <member refid="classfusb__ephandle_1a1450872641591afb4cdcda1853c0c81a" prot="public" virt="virtual"><scope>fusb_ephandle_linux</scope><name>~fusb_ephandle</name></member>
+      <member refid="classfusb__ephandle__linux_1a5978d6295cbfe0f8fa8961d0a24e7ba3" prot="public" virt="virtual"><scope>fusb_ephandle_linux</scope><name>~fusb_ephandle_linux</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

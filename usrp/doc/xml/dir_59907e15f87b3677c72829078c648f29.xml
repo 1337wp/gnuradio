@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_59907e15f87b3677c72829078c648f29" kind="dir">
+    <compoundname>usrp</compoundname>
+    <innerfile refid="db__base_8h">db_base.h</innerfile>
+    <innerfile refid="db__basic_8h">db_basic.h</innerfile>
+    <innerfile refid="db__bitshark__rx_8h">db_bitshark_rx.h</innerfile>
+    <innerfile refid="db__dbs__rx_8h">db_dbs_rx.h</innerfile>
+    <innerfile refid="db__dtt754_8h">db_dtt754.h</innerfile>
+    <innerfile refid="db__dtt768_8h">db_dtt768.h</innerfile>
+    <innerfile refid="db__flexrf_8h">db_flexrf.h</innerfile>
+    <innerfile refid="db__flexrf__mimo_8h">db_flexrf_mimo.h</innerfile>
+    <innerfile refid="db__tv__rx_8h">db_tv_rx.h</innerfile>
+    <innerfile refid="db__tv__rx__mimo_8h">db_tv_rx_mimo.h</innerfile>
+    <innerfile refid="db__wbxng_8h">db_wbxng.h</innerfile>
+    <innerfile refid="db__xcvr2450_8h">db_xcvr2450.h</innerfile>
+    <innerfile refid="libusb__types_8h">libusb_types.h</innerfile>
+    <innerfile refid="usrp__basic_8h">usrp_basic.h</innerfile>
+    <innerfile refid="usrp__bytesex_8h">usrp_bytesex.h</innerfile>
+    <innerfile refid="usrp__dbid_8h">usrp_dbid.h</innerfile>
+    <innerfile refid="usrp__local__sighandler_8h">usrp_local_sighandler.h</innerfile>
+    <innerfile refid="usrp__prims_8h">usrp_prims.h</innerfile>
+    <innerfile refid="usrp__slots_8h">usrp_slots.h</innerfile>
+    <innerfile refid="usrp__standard_8h">usrp_standard.h</innerfile>
+    <innerfile refid="usrp__subdev__spec_8h">usrp_subdev_spec.h</innerfile>
+    <innerfile refid="usrp__tune__result_8h">usrp_tune_result.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/"/>
+  </compounddef>
+</doxygen>

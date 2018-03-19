@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class__400__rx" kind="class" language="C++" prot="public">
+    <compoundname>_400_rx</compoundname>
+    <basecompoundref refid="class__400__common" prot="public" virt="non-virtual">_400_common</basecompoundref>
+    <includes refid="db__flexrf_8h" local="no">db_flexrf.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class__400__rx_1a75ed0f75575bed201c3895a90fa5c9ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_400_rx::_400_rx</definition>
+        <argsstring>()</argsstring>
+        <name>_400_rx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="221" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_flexrf.cc" bodystart="841" bodyend="845"/>
+        <references refid="class__AD4360__common_1aaeed848bcf7a4cb0a13be54fda9c38b0" compoundref="db__flexrf_8h" startline="135">_AD4360_common::d_DIV2</references>
+      </memberdef>
+      <memberdef kind="function" id="class__400__rx_1ac73711b3ed1382a03264840e5b5e6c56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_400_rx::~_400_rx</definition>
+        <argsstring>()</argsstring>
+        <name>~_400_rx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="222" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="222" bodyend="222"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="23">
+        <label>_400_common</label>
+        <link refid="class__400__common"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>_400_rx</label>
+        <link refid="class__400__rx"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>_AD4360_common</label>
+        <link refid="class__AD4360__common"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="26">
+        <label>_400_common</label>
+        <link refid="class__400__common"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>_400_rx</label>
+        <link refid="class__400__rx"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>_AD4360_common</label>
+        <link refid="class__AD4360__common"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="219" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="218" bodyend="223"/>
+    <listofallmembers>
+      <member refid="class__400__common_1a3f33d1c6359403a93f7cc022e3b8facb" prot="public" virt="non-virtual"><scope>_400_rx</scope><name>_400_common</name></member>
+      <member refid="class__400__rx_1a75ed0f75575bed201c3895a90fa5c9ae" prot="public" virt="non-virtual"><scope>_400_rx</scope><name>_400_rx</name></member>
+      <member refid="class__AD4360__common_1ab549861642206b4a92255d36e3ebced8" prot="public" virt="non-virtual"><scope>_400_rx</scope><name>_AD4360_common</name></member>
+      <member refid="class__AD4360__common_1aa6038f27dbbb8512cccaa7a63cdfd904" prot="public" virt="non-virtual"><scope>_400_rx</scope><name>_compute_control_reg</name></member>
+      <member refid="class__AD4360__common_1aadcc4f3490555f4d6239b7344329c799" prot="public" virt="non-virtual"><scope>_400_rx</scope><name>_compute_regs</name></member>
+      <member refid="class__AD4360__common_1afb65e23494fd4bd49452a1f8faf90ad9" prot="public" virt="non-virtual"><scope>_400_rx</scope><name>_prescaler</name></member>
+      <member refid="class__AD4360__common_1a69977e4c15fe6b253c9cd033ee3b0219" prot="public" virt="virtual"><scope>_400_rx</scope><name>_refclk_divisor</name></member>
+      <member refid="class__AD4360__common_1a82c2c397622b5ecbc416873b189d8dc6" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_A_DIV</name></member>
+      <member refid="class__AD4360__common_1a11c88b6cd6fbd51c5f1680aab70243c1" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_ABP</name></member>
+      <member refid="class__AD4360__common_1a72d73a72c396a1003449268c2faaec43" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_B_DIV</name></member>
+      <member refid="class__AD4360__common_1a90674604db3f6a1ce57915940942aa57" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_BSC</name></member>
+      <member refid="class__AD4360__common_1adff5846a38cc6f69695f5ef5faba9f95" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_CP1</name></member>
+      <member refid="class__AD4360__common_1ad75393245f7868fe38c583d23336d04a" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_CP2</name></member>
+      <member refid="class__AD4360__common_1abe642853e653b8c8cccc19951415ef8b" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_CP3S</name></member>
+      <member refid="class__AD4360__common_1a7392371fbd5f08a29fe331b5a89f5b5c" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_CPG</name></member>
+      <member refid="class__AD4360__common_1af0dd2b57f79ec53f430b0ca339c3a752" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_CPGAIN</name></member>
+      <member refid="class__AD4360__common_1a8465d7d6aea6051d8085dab7e00f2223" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_CR</name></member>
+      <member refid="class__AD4360__common_1aaeed848bcf7a4cb0a13be54fda9c38b0" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_DIV2</name></member>
+      <member refid="class__AD4360__common_1ab14229ca30e2f5d7af12ec3380a3cbfd" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_DIVSEL</name></member>
+      <member refid="class__AD4360__common_1aed35fa971d46d8329a05c94ad31a71de" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_freq_mult</name></member>
+      <member refid="class__AD4360__common_1aab518a97fb565c3af821572a97252cb7" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_LDP</name></member>
+      <member refid="class__AD4360__common_1a874f22b59bc809a8677328a395c220b6" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_MTLD</name></member>
+      <member refid="class__AD4360__common_1a1552d3adfde3e8a56d25092107257228" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_MUXOUT</name></member>
+      <member refid="class__AD4360__common_1a0b8abeecbe27d71d1c8fe6d7a13c00d3" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_N_RSV</name></member>
+      <member refid="class__AD4360__common_1a58526b089e7621cdb8858863556b69c0" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_P</name></member>
+      <member refid="class__AD4360__common_1a5bb01c4d565f067c0894d8dee4ab4703" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_PC</name></member>
+      <member refid="class__AD4360__common_1a6fbf3c6f6793c404a22429818f3129b1" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_PD</name></member>
+      <member refid="class__AD4360__common_1acb7459c3fe58beddbf8665d414cb6619" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_PDP</name></member>
+      <member refid="class__AD4360__common_1af493b620c0f41c35c630a304ce7165f2" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_PL</name></member>
+      <member refid="class__AD4360__common_1ad8acb524b55741639773aaba2a93a6d4" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_R_DIV</name></member>
+      <member refid="class__AD4360__common_1a80eb93d6bec181472001cf88399203b8" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_R_RSV</name></member>
+      <member refid="class__AD4360__common_1a56bc313f1a2f2c77c803e8438bf3d02b" prot="protected" virt="non-virtual"><scope>_400_rx</scope><name>d_TEST</name></member>
+      <member refid="class__400__common_1a75c38e043e7c7291ca35fcd2fc602571" prot="public" virt="virtual"><scope>_400_rx</scope><name>freq_max</name></member>
+      <member refid="class__400__common_1ae194803319c917e65690873fb613d469" prot="public" virt="virtual"><scope>_400_rx</scope><name>freq_min</name></member>
+      <member refid="class__AD4360__common_1ae0be237318cd32cfc30cdc277b1179ea" prot="public" virt="non-virtual"><scope>_400_rx</scope><name>R_DIV</name></member>
+      <member refid="class__400__common_1a45b4c9796f7cb964b282c463aa306498" prot="public" virt="non-virtual"><scope>_400_rx</scope><name>~_400_common</name></member>
+      <member refid="class__400__rx_1ac73711b3ed1382a03264840e5b5e6c56" prot="public" virt="non-virtual"><scope>_400_rx</scope><name>~_400_rx</name></member>
+      <member refid="class__AD4360__common_1ab246698cac4149987ec48a7a78de976e" prot="public" virt="virtual"><scope>_400_rx</scope><name>~_AD4360_common</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classdb__flexrf__400__tx__mimo__b" kind="class" language="C++" prot="public">
+    <compoundname>db_flexrf_400_tx_mimo_b</compoundname>
+    <basecompoundref refid="classdb__flexrf__400__tx" prot="public" virt="non-virtual">db_flexrf_400_tx</basecompoundref>
+    <includes refid="db__flexrf__mimo_8h" local="no">db_flexrf_mimo.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdb__flexrf__400__tx__mimo__b_1a8888d60de5d9f75547d892b75f8ae895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_flexrf_400_tx_mimo_b::db_flexrf_400_tx_mimo_b</definition>
+        <argsstring>(usrp_basic_sptr usrp, int which)</argsstring>
+        <name>db_flexrf_400_tx_mimo_b</name>
+        <param>
+          <type><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref></type>
+          <declname>usrp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf_mimo.h" line="154" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_flexrf_mimo.cc" bodystart="258" bodyend="262"/>
+        <references refid="classflexrf__base_1accabcedc76c7c162c0eea193b99a7674" compoundref="db__flexrf_8h" startline="69">flexrf_base::d_common</references>
+        <references refid="class__AD4360__common_1ae0be237318cd32cfc30cdc277b1179ea" compoundref="db__flexrf_8h" startline="127" endline="127">_AD4360_common::R_DIV</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__flexrf__400__tx__mimo__b_1a3751a36ec4bf698a783de61b95fd13ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int db_flexrf_400_tx_mimo_b::_refclk_divisor</definition>
+        <argsstring>()</argsstring>
+        <name>_refclk_divisor</name>
+        <reimplements refid="classflexrf__base_1a12bc5bc6f5d29a934a52378b7fea7e0b">_refclk_divisor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf_mimo.h" line="155" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_flexrf_mimo.cc" bodystart="265" bodyend="268"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="507">
+        <label>flexrf_base_tx</label>
+        <link refid="classflexrf__base__tx"/>
+        <childnode refid="508" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="505">
+        <label>db_flexrf_400_tx_mimo_b</label>
+        <link refid="classdb__flexrf__400__tx__mimo__b"/>
+        <childnode refid="506" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="506">
+        <label>db_flexrf_400_tx</label>
+        <link refid="classdb__flexrf__400__tx"/>
+        <childnode refid="507" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="509">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+      </node>
+      <node id="508">
+        <label>flexrf_base</label>
+        <link refid="classflexrf__base"/>
+        <childnode refid="509" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="516">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="517">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="512">
+        <label>flexrf_base_tx</label>
+        <link refid="classflexrf__base__tx"/>
+        <childnode refid="513" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="510">
+        <label>db_flexrf_400_tx_mimo_b</label>
+        <link refid="classdb__flexrf__400__tx__mimo__b"/>
+        <childnode refid="511" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="511">
+        <label>db_flexrf_400_tx</label>
+        <link refid="classdb__flexrf__400__tx"/>
+        <childnode refid="512" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="515">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="516" relation="private-inheritance">
+        </childnode>
+        <childnode refid="517" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+      <node id="518">
+        <label>_AD4360_common</label>
+        <link refid="class__AD4360__common"/>
+      </node>
+      <node id="514">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+        <childnode refid="515" relation="usage">
+          <edgelabel>d_raw_usrp</edgelabel>
+        </childnode>
+      </node>
+      <node id="513">
+        <label>flexrf_base</label>
+        <link refid="classflexrf__base"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+        <childnode refid="518" relation="usage">
+          <edgelabel>d_common</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf_mimo.h" line="152" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf_mimo.h" bodystart="151" bodyend="156"/>
+    <listofallmembers>
+      <member refid="classflexrf__base_1a6fc44cb9070a05330ff2b5af4eb56f38" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>_compute_control_reg</name></member>
+      <member refid="classdb__flexrf__400__tx_1a10eeb8d6480a7b69ba4fc25a0c1ad083" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>_compute_regs</name></member>
+      <member refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>_enable_refclk</name></member>
+      <member refid="classflexrf__base_1a8924efaa69d04bbabe98b9d246cab842" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>_lock_detect</name></member>
+      <member refid="classdb__flexrf__400__tx__mimo__b_1a3751a36ec4bf698a783de61b95fd13ac" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>_refclk_divisor</name></member>
+      <member refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" prot="protected" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>_refclk_freq</name></member>
+      <member refid="classflexrf__base_1a200870dd8643ad072067c7bdbdf5568d" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>_set_pga</name></member>
+      <member refid="classflexrf__base_1ac74f7ac8df18050ccdca1f8b5c2f7ef5" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>_write_all</name></member>
+      <member refid="classflexrf__base_1a9c780fe7682f78b1170ec8dec59e2f1f" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>_write_control</name></member>
+      <member refid="classflexrf__base_1a4da803ee0702b047ecf6f10f3d87b62b" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>_write_it</name></member>
+      <member refid="classflexrf__base_1a7e04fb97735cb0df3870a022f6902d0c" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>_write_N</name></member>
+      <member refid="classflexrf__base_1a8d229d5f0cc1e02887e2dd1b51009928" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>_write_R</name></member>
+      <member refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>bypass_adc_buffers</name></member>
+      <member refid="classflexrf__base_1accabcedc76c7c162c0eea193b99a7674" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>d_common</name></member>
+      <member refid="classflexrf__base_1a4f5ed906661b35436eed0585efe80d60" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>d_first</name></member>
+      <member refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>d_is_shutdown</name></member>
+      <member refid="classdb__base_1a0665a615c2eb4236814825c89dd024e0" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>d_lo_offset</name></member>
+      <member refid="classflexrf__base_1a7a79d232b0cd8759fd63d9bdd36119af" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>d_PD</name></member>
+      <member refid="classflexrf__base_1a20b1117176ea98e01d7da3b5e306dc35" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>d_power_on</name></member>
+      <member refid="classdb__base_1aa6e5420338ff3e0a9b1afe2ae1fbc58b" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>d_raw_usrp</name></member>
+      <member refid="classflexrf__base_1ad80b4ef26a1c9084b90eb5991b96024b" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>d_spi_enable</name></member>
+      <member refid="classflexrf__base_1af4502bedf0f99cb6fee8571d64adb681" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>d_spi_format</name></member>
+      <member refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>d_which</name></member>
+      <member refid="classdb__base_1aeddb69ef4218642cb8b03eff94ff8efc" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>db_base</name></member>
+      <member refid="classdb__flexrf__400__tx_1ad7ddc9ddd83262b9f4d9334789d91626" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>db_flexrf_400_tx</name></member>
+      <member refid="classdb__flexrf__400__tx__mimo__b_1a8888d60de5d9f75547d892b75f8ae895" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>db_flexrf_400_tx_mimo_b</name></member>
+      <member refid="classdb__base_1a6c70380b8abff2d051eece9d2b208408" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>dbid</name></member>
+      <member refid="classflexrf__base_1a2aef72cd74675f352110ea881321e74b" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>flexrf_base</name></member>
+      <member refid="classflexrf__base__tx_1ac71b0a3845470a03bc7dd72667cf23ea" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>flexrf_base_tx</name></member>
+      <member refid="classflexrf__base_1a86f590882da38694587ed0b7d460e49a" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>freq_max</name></member>
+      <member refid="classflexrf__base_1a76e7973a7036e1f1aa21627d38504122" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>freq_min</name></member>
+      <member refid="classflexrf__base__tx_1a4a04d493c35b95dd52d7a53c6c7bf2ac" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>gain_db_per_step</name></member>
+      <member refid="classflexrf__base__tx_1a8de317c574ceb426ba13d4f73a08c02d" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>gain_max</name></member>
+      <member refid="classflexrf__base__tx_1ac7ff81bcbc594530a22ad7862a263c56" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>gain_min</name></member>
+      <member refid="classdb__base_1aa2d4002c1550d262e74def064a230e1a" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>i_and_q_swapped</name></member>
+      <member refid="classflexrf__base_1adb44aab4914e60d41dee272218912854" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>is_quadrature</name></member>
+      <member refid="classdb__base_1a07337ac0b59b2d36ced8f0dd7dd58b1e" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>lo_offset</name></member>
+      <member refid="classdb__base_1aef52f371112795b933570a269da85847" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>name</name></member>
+      <member refid="classflexrf__base_1aa2a24e06a291e7a9cfdf9bf758a4d78c" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>power_off</name></member>
+      <member refid="classflexrf__base_1aacb6a96c90a8fd8809d727b330471e12" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>power_on</name></member>
+      <member refid="classdb__base_1aecc92b603e94509aa04f12aec563ea17" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1ab6aba3bd757102bf14fba4e98fb17f0d" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>set_atr_mask</name></member>
+      <member refid="classdb__base_1aec8010d1f2412ffe33bb0f27ee6d8275" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>set_atr_rx_delay</name></member>
+      <member refid="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>set_atr_rxval</name></member>
+      <member refid="classdb__base_1a01586c74a2cab95c3e12951402fab1a3" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>set_atr_tx_delay</name></member>
+      <member refid="classdb__base_1a9722d03f078d1206539ad097c28a9562" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>set_atr_txval</name></member>
+      <member refid="classflexrf__base__tx_1a4a06db467b00912b657ffc1613c7a572" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>set_auto_tr</name></member>
+      <member refid="classdb__base_1a7adcd5e0883f838cc6cd2bc9dda1ef87" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>set_bw</name></member>
+      <member refid="classflexrf__base__tx_1ab49f99f5f41b7066a8a06a34f5efbdd5" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>set_enable</name></member>
+      <member refid="classflexrf__base_1aab0ad1d00de0050f1ae9c9e535b9a87e" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>set_freq</name></member>
+      <member refid="classflexrf__base__tx_1a88ac3c4c44db98b3f5b4abc67ce0cd85" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>set_gain</name></member>
+      <member refid="classdb__base_1a3d8eb19a95b9ca4970c56f1a699e85bf" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>set_lo_offset</name></member>
+      <member refid="classflexrf__base__tx_1ae751608de601b11c0c067f4e0ce654bc" prot="protected" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>shutdown</name></member>
+      <member refid="classdb__base_1a9cee7496d9a4d09b72a008fb5d7e6664" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>side_and_name</name></member>
+      <member refid="classdb__base_1ab6a6fad01c3df159fb7124aec13489d7" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>spectrum_inverted</name></member>
+      <member refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" prot="protected" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>usrp</name></member>
+      <member refid="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>which</name></member>
+      <member refid="classdb__base_1a6c28d39ecaa14d475acb9ce6bfc1b4b0" prot="public" virt="virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>~db_base</name></member>
+      <member refid="classdb__flexrf__400__tx_1abc9a6b2965da7aa330843889e6487e79" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>~db_flexrf_400_tx</name></member>
+      <member refid="classflexrf__base_1a676ad44b46cd2ac3d9ff7741a603c9c4" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>~flexrf_base</name></member>
+      <member refid="classflexrf__base__tx_1a4387457d553dcd4812fadd8bb7828b48" prot="public" virt="non-virtual"><scope>db_flexrf_400_tx_mimo_b</scope><name>~flexrf_base_tx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

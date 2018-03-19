@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfusb__devhandle__generic" kind="class" language="C++" prot="public">
+    <compoundname>fusb_devhandle_generic</compoundname>
+    <basecompoundref refid="classfusb__devhandle" prot="public" virt="non-virtual">fusb_devhandle</basecompoundref>
+    <includes refid="fusb__generic_8h" local="no">fusb_generic.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfusb__devhandle__generic_1ac0f4e12cd9454cf3afb4bf0c45f4c68e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fusb_devhandle_generic::fusb_devhandle_generic</definition>
+        <argsstring>(usb_dev_handle *udh)</argsstring>
+        <name>fusb_devhandle_generic</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>udh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_generic.h" line="35" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_generic.cc" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__generic_1a7e564ac32aa8e6d79a7d40e226b7995b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>fusb_devhandle_generic::~fusb_devhandle_generic</definition>
+        <argsstring>()</argsstring>
+        <name>~fusb_devhandle_generic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_generic.h" line="36" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_generic.cc" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__generic_1af2fa0d024d120cdf0d7e05da7031dbc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classfusb__ephandle" kindref="compound">fusb_ephandle</ref> *</type>
+        <definition>fusb_ephandle * fusb_devhandle_generic::make_ephandle</definition>
+        <argsstring>(int endpoint, bool input_p, int block_size=0, int nblocks=0)</argsstring>
+        <name>make_ephandle</name>
+        <reimplements refid="classfusb__devhandle_1a9783b6b0082f783dc7638ff557998ff2">make_ephandle</reimplements>
+        <param>
+          <type>int</type>
+          <declname>endpoint</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>input_p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block_size</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nblocks</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>return an ephandle of the correct subtype </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_generic.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_generic.cc" bodystart="46" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>generic implementation of <ref refid="classfusb__devhandle" kindref="compound">fusb_devhandle</ref> using only libusb </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="805">
+        <label>fusb_devhandle_generic</label>
+        <link refid="classfusb__devhandle__generic"/>
+        <childnode refid="806" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="806">
+        <label>fusb_devhandle</label>
+        <link refid="classfusb__devhandle"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="807">
+        <label>fusb_devhandle_generic</label>
+        <link refid="classfusb__devhandle__generic"/>
+        <childnode refid="808" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="809">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="808">
+        <label>fusb_devhandle</label>
+        <link refid="classfusb__devhandle"/>
+        <childnode refid="809" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_generic.h" line="32" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_generic.h" bodystart="31" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classfusb__devhandle_1a6252a726fbddc4dccd936e46b59f7f0a" prot="protected" virt="non-virtual"><scope>fusb_devhandle_generic</scope><name>d_udh</name></member>
+      <member refid="classfusb__devhandle_1a874740e2d90be7f4a526ab0e6f1007d9" prot="public" virt="non-virtual"><scope>fusb_devhandle_generic</scope><name>fusb_devhandle</name></member>
+      <member refid="classfusb__devhandle__generic_1ac0f4e12cd9454cf3afb4bf0c45f4c68e" prot="public" virt="non-virtual"><scope>fusb_devhandle_generic</scope><name>fusb_devhandle_generic</name></member>
+      <member refid="classfusb__devhandle_1a0f1b7e9680e730d0f6faca7ec41175f1" prot="public" virt="non-virtual"><scope>fusb_devhandle_generic</scope><name>get_usb_dev_handle</name></member>
+      <member refid="classfusb__devhandle__generic_1af2fa0d024d120cdf0d7e05da7031dbc2" prot="public" virt="virtual"><scope>fusb_devhandle_generic</scope><name>make_ephandle</name></member>
+      <member refid="classfusb__devhandle_1a4dce7007e8565b2bb5951b60b517a8b5" prot="public" virt="virtual"><scope>fusb_devhandle_generic</scope><name>~fusb_devhandle</name></member>
+      <member refid="classfusb__devhandle__generic_1a7e564ac32aa8e6d79a7d40e226b7995b" prot="public" virt="virtual"><scope>fusb_devhandle_generic</scope><name>~fusb_devhandle_generic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

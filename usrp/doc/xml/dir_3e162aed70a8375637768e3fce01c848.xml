@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_3e162aed70a8375637768e3fce01c848" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="ad9862_8h">ad9862.h</innerfile>
+    <innerfile refid="circular__buffer_8h">circular_buffer.h</innerfile>
+    <innerfile refid="circular__linked__list_8h">circular_linked_list.h</innerfile>
+    <innerfile refid="darwin__libusb_8h">darwin_libusb.h</innerfile>
+    <innerfile refid="db__base_8cc">db_base.cc</innerfile>
+    <innerfile refid="db__base__impl_8h">db_base_impl.h</innerfile>
+    <innerfile refid="db__basic_8cc">db_basic.cc</innerfile>
+    <innerfile refid="db__bitshark__rx_8cc">db_bitshark_rx.cc</innerfile>
+    <innerfile refid="db__boards_8cc">db_boards.cc</innerfile>
+    <innerfile refid="db__boards_8h">db_boards.h</innerfile>
+    <innerfile refid="db__dbs__rx_8cc">db_dbs_rx.cc</innerfile>
+    <innerfile refid="db__dtt754_8cc">db_dtt754.cc</innerfile>
+    <innerfile refid="db__dtt768_8cc">db_dtt768.cc</innerfile>
+    <innerfile refid="db__flexrf_8cc">db_flexrf.cc</innerfile>
+    <innerfile refid="db__flexrf__mimo_8cc">db_flexrf_mimo.cc</innerfile>
+    <innerfile refid="db__tv__rx_8cc">db_tv_rx.cc</innerfile>
+    <innerfile refid="db__tv__rx__mimo_8cc">db_tv_rx_mimo.cc</innerfile>
+    <innerfile refid="db__util_8cc">db_util.cc</innerfile>
+    <innerfile refid="db__util_8h">db_util.h</innerfile>
+    <innerfile refid="db__wbxng_8cc">db_wbxng.cc</innerfile>
+    <innerfile refid="db__wbxng__adf4350_8cc">db_wbxng_adf4350.cc</innerfile>
+    <innerfile refid="db__wbxng__adf4350_8h">db_wbxng_adf4350.h</innerfile>
+    <innerfile refid="db__wbxng__adf4350__regs_8cc">db_wbxng_adf4350_regs.cc</innerfile>
+    <innerfile refid="db__wbxng__adf4350__regs_8h">db_wbxng_adf4350_regs.h</innerfile>
+    <innerfile refid="db__xcvr2450_8cc">db_xcvr2450.cc</innerfile>
+    <innerfile refid="fusb_8cc">fusb.cc</innerfile>
+    <innerfile refid="fusb_8h">fusb.h</innerfile>
+    <innerfile refid="fusb__darwin_8cc">fusb_darwin.cc</innerfile>
+    <innerfile refid="fusb__darwin_8h">fusb_darwin.h</innerfile>
+    <innerfile refid="fusb__generic_8cc">fusb_generic.cc</innerfile>
+    <innerfile refid="fusb__generic_8h">fusb_generic.h</innerfile>
+    <innerfile refid="fusb__libusb1_8cc">fusb_libusb1.cc</innerfile>
+    <innerfile refid="fusb__libusb1_8h">fusb_libusb1.h</innerfile>
+    <innerfile refid="fusb__linux_8cc">fusb_linux.cc</innerfile>
+    <innerfile refid="fusb__linux_8h">fusb_linux.h</innerfile>
+    <innerfile refid="fusb__ra__wb_8cc">fusb_ra_wb.cc</innerfile>
+    <innerfile refid="fusb__ra__wb_8h">fusb_ra_wb.h</innerfile>
+    <innerfile refid="fusb__sysconfig__darwin_8cc">fusb_sysconfig_darwin.cc</innerfile>
+    <innerfile refid="fusb__sysconfig__generic_8cc">fusb_sysconfig_generic.cc</innerfile>
+    <innerfile refid="fusb__sysconfig__libusb1_8cc">fusb_sysconfig_libusb1.cc</innerfile>
+    <innerfile refid="fusb__sysconfig__linux_8cc">fusb_sysconfig_linux.cc</innerfile>
+    <innerfile refid="fusb__sysconfig__ra__wb_8cc">fusb_sysconfig_ra_wb.cc</innerfile>
+    <innerfile refid="fusb__sysconfig__win32_8cc">fusb_sysconfig_win32.cc</innerfile>
+    <innerfile refid="fusb__win32_8cc">fusb_win32.cc</innerfile>
+    <innerfile refid="fusb__win32_8h">fusb_win32.h</innerfile>
+    <innerfile refid="md5_8h">md5.h</innerfile>
+    <innerfile refid="rate__to__regval_8h">rate_to_regval.h</innerfile>
+    <innerfile refid="std__paths_8h">std_paths.h</innerfile>
+    <innerfile refid="usrp__basic_8cc">usrp_basic.cc</innerfile>
+    <innerfile refid="usrp__config_8cc">usrp_config.cc</innerfile>
+    <innerfile refid="usrp__config_8h">usrp_config.h</innerfile>
+    <innerfile refid="usrp__dbid_8cc">usrp_dbid.cc</innerfile>
+    <innerfile refid="usrp__local__sighandler_8cc">usrp_local_sighandler.cc</innerfile>
+    <innerfile refid="usrp__prims__common_8cc">usrp_prims_common.cc</innerfile>
+    <innerfile refid="usrp__prims__libusb0_8cc">usrp_prims_libusb0.cc</innerfile>
+    <innerfile refid="usrp__prims__libusb1_8cc">usrp_prims_libusb1.cc</innerfile>
+    <innerfile refid="usrp__primsi_8h">usrp_primsi.h</innerfile>
+    <innerfile refid="usrp__standard_8cc">usrp_standard.cc</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/"/>
+  </compounddef>
+</doxygen>

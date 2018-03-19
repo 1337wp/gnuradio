@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib64
+includedir=${prefix}/include/gnuradio
+guile_load_path=/usr/local/share/guile/site
+
+Name: gnuradio-core
+Description: GNU Software Radio toolkit
+Requires: gruel fftw3f gsl
+Version: 3.4.0
+Libs.private: -L/usr/lib/x86_64-linux-gnu -lboost_thread -lboost_date_time
+Libs: -L${libdir} -lgnuradio-core
+Cflags: -I/usr/include -pthread -I${includedir}

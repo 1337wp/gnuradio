@@ -1,0 +1,1189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classxcvr2450" kind="class" language="C++" prot="public">
+    <compoundname>xcvr2450</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classxcvr2450_1af26640fb8cc1cec293e01b11d563bf80" prot="private" static="no" mutable="no">
+        <type><ref refid="classusrp__basic" kindref="compound">usrp_basic</ref> *</type>
+        <definition>usrp_basic* xcvr2450::d_raw_usrp</definition>
+        <argsstring></argsstring>
+        <name>d_raw_usrp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="85" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1ade50e2bf32d5f612e1e28713f50ec4da" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_which</definition>
+        <argsstring></argsstring>
+        <name>d_which</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="86" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a6c34b7cf51c6db668b923f5543035a51" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool xcvr2450::d_is_shutdown</definition>
+        <argsstring></argsstring>
+        <name>d_is_shutdown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="88" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1ae2509ea7462f4a6cf8facdc5ae56468c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_spi_format</definition>
+        <argsstring></argsstring>
+        <name>d_spi_format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="89" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a9a338c458c7dfe797dd86666a3cd6fb5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_spi_enable</definition>
+        <argsstring></argsstring>
+        <name>d_spi_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="89" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a3f302a2cdc2984ab8c4ed7102ab38e2c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_mimo</definition>
+        <argsstring></argsstring>
+        <name>d_mimo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="91" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a078167628301a40f5094fe359a21911f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_int_div</definition>
+        <argsstring></argsstring>
+        <name>d_int_div</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="91" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a1eac78c75e8d8339176a4cc156c3e2d5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_frac_div</definition>
+        <argsstring></argsstring>
+        <name>d_frac_div</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="91" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a0a84c734b0597a2b2cb113dce9d9a057" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_highband</definition>
+        <argsstring></argsstring>
+        <name>d_highband</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="91" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a8dc0af87500b09e50f0470110dfd4a20" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_five_gig</definition>
+        <argsstring></argsstring>
+        <name>d_five_gig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="91" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a185456486501cfdd0ab0dab38004ca23" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_cp_current</definition>
+        <argsstring></argsstring>
+        <name>d_cp_current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="92" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a853565970bdee191f5bd8d2f89f807f2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_ref_div</definition>
+        <argsstring></argsstring>
+        <name>d_ref_div</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="92" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1abca35e93f1b3aba5b02fc77601a201fc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_rssi_hbw</definition>
+        <argsstring></argsstring>
+        <name>d_rssi_hbw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="92" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1ac93260be7ed850755ab2e52d02ca3b8d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_txlpf_bw</definition>
+        <argsstring></argsstring>
+        <name>d_txlpf_bw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="93" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1af6a4970b041f318c296db1adb1084120" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_rxlpf_bw</definition>
+        <argsstring></argsstring>
+        <name>d_rxlpf_bw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="93" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1afcea7d1360bb3289683343688c600c98" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_rxlpf_fine</definition>
+        <argsstring></argsstring>
+        <name>d_rxlpf_fine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="93" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a60a17e0e3a55cc3ac87f5e09a8ed7e71" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_rxvga_ser</definition>
+        <argsstring></argsstring>
+        <name>d_rxvga_ser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="93" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a22c6b59b0251db980c6fcb9b8e39d977" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_rssi_range</definition>
+        <argsstring></argsstring>
+        <name>d_rssi_range</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="94" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a5b3a772e92b09a491841515e9d102e91" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_rssi_mode</definition>
+        <argsstring></argsstring>
+        <name>d_rssi_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="94" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1ac8d5ef08f83eda8ae40941e71b97be2f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_rssi_mux</definition>
+        <argsstring></argsstring>
+        <name>d_rssi_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="94" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a1a7dcd82facdee7f4a4587d327991daa" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_rx_hp_pin</definition>
+        <argsstring></argsstring>
+        <name>d_rx_hp_pin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="95" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a9f1fc95e6f184f08ff6ae92fdb4e1694" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_rx_hpf</definition>
+        <argsstring></argsstring>
+        <name>d_rx_hpf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="95" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1af96be4dc30676d335a365d76e67b28f8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_rx_ant</definition>
+        <argsstring></argsstring>
+        <name>d_rx_ant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="95" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a30325676ced0ae9330ffa7cd03e7ac6b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_tx_ant</definition>
+        <argsstring></argsstring>
+        <name>d_tx_ant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="96" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1ae7a9a75719dfcf95688c2a26135f07a4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_txvga_ser</definition>
+        <argsstring></argsstring>
+        <name>d_txvga_ser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="96" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1ab1ced139c690e9c331dca379281977d3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_tx_driver_lin</definition>
+        <argsstring></argsstring>
+        <name>d_tx_driver_lin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="96" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a4a1b6e627f0375145be7f1a619e671e3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_tx_vga_lin</definition>
+        <argsstring></argsstring>
+        <name>d_tx_vga_lin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="97" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1aa9411834146a67cad1a2c973d5daa351" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_tx_upconv_lin</definition>
+        <argsstring></argsstring>
+        <name>d_tx_upconv_lin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="97" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a3ea53db6c87fd5d56c5b4d34a35f6538" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_tx_bb_gain</definition>
+        <argsstring></argsstring>
+        <name>d_tx_bb_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="97" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a7d432acd3a4937e900cefd40320653a1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_pabias_delay</definition>
+        <argsstring></argsstring>
+        <name>d_pabias_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="98" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1ac6f44da335678644bbc07613fce07a7d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_pabias</definition>
+        <argsstring></argsstring>
+        <name>d_pabias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="98" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a2785ff1b225e82b775f791cdb19c9114" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::rx_rf_gain</definition>
+        <argsstring></argsstring>
+        <name>rx_rf_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="98" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a4642c92a2e70b136c4ceb2ee89a52d68" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::rx_bb_gain</definition>
+        <argsstring></argsstring>
+        <name>rx_bb_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="98" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a3c0c808b4ed21d860550c3c87f30fa00" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_txgain</definition>
+        <argsstring></argsstring>
+        <name>d_txgain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="98" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1abade642775401d2406f48bcd091f2a32" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_rx_rf_gain</definition>
+        <argsstring></argsstring>
+        <name>d_rx_rf_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="99" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1afd91efaa42bd2cfe05cd7b7b5889fc80" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_rx_bb_gain</definition>
+        <argsstring></argsstring>
+        <name>d_rx_bb_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="99" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a5b7c5c47b27705d6270a270e272cb60a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_reg_standby</definition>
+        <argsstring></argsstring>
+        <name>d_reg_standby</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="101" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a302ef8d333344d3a59e81ad075eb8918" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_reg_int_divider</definition>
+        <argsstring></argsstring>
+        <name>d_reg_int_divider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="101" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a70ef742367c72d48dc8caeb5e4c23061" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_reg_frac_divider</definition>
+        <argsstring></argsstring>
+        <name>d_reg_frac_divider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="101" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a349adaee62fadea6fb2798e9034b5a04" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_reg_bandselpll</definition>
+        <argsstring></argsstring>
+        <name>d_reg_bandselpll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="101" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1abfddf838e16e482097a54006c624adff" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_reg_cal</definition>
+        <argsstring></argsstring>
+        <name>d_reg_cal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="102" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a59fdc1b9689e36450b1397a07760ae34" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::dsend_reg</definition>
+        <argsstring></argsstring>
+        <name>dsend_reg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="102" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a980d3c3ddfe4ac3ad14a8acf4393242e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_reg_lpf</definition>
+        <argsstring></argsstring>
+        <name>d_reg_lpf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="102" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1acfd29c50d1cea30beae33498c910c57b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_reg_rxrssi_ctrl</definition>
+        <argsstring></argsstring>
+        <name>d_reg_rxrssi_ctrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="102" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1afff7555e9e6506208b0383feb56de4f9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_reg_txlin_gain</definition>
+        <argsstring></argsstring>
+        <name>d_reg_txlin_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="102" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a2e7c9779c0d54cdffbbf47b77f1f854e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_reg_pabias</definition>
+        <argsstring></argsstring>
+        <name>d_reg_pabias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="103" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a7d30802d885319d68295a31e89233810" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_reg_rxgain</definition>
+        <argsstring></argsstring>
+        <name>d_reg_rxgain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="103" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1a998392e5e1f4960f506b01a19a1bdf3f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_reg_txgain</definition>
+        <argsstring></argsstring>
+        <name>d_reg_txgain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="103" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classxcvr2450_1af194edc3177ff09cee86294f6462760d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450::d_ad9515_div</definition>
+        <argsstring></argsstring>
+        <name>d_ad9515_div</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="105" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classxcvr2450_1ab025e4dac4c5477db8f9b472890fe9ef" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::_set_rfagc</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>_set_rfagc</name>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a6a39bd1efe348ff9a5cc91b3add74fde" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::_set_ifagc</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>_set_ifagc</name>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1acd03eb0f394d1f68562702429a3d4ff3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::_set_pga</definition>
+        <argsstring>(float pga_gain)</argsstring>
+        <name>_set_pga</name>
+        <param>
+          <type>float</type>
+          <declname>pga_gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="109" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classxcvr2450_1a6753b44e61dc9706d61422e048b9ab19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classusrp__basic" kindref="compound">usrp_basic</ref> *</type>
+        <definition>usrp_basic* xcvr2450::usrp</definition>
+        <argsstring>()</argsstring>
+        <name>usrp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="112" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="112" bodyend="114"/>
+        <references refid="structxcvr2450__key_1a311069d20e5da20d16e692f5be63d9c8" compoundref="db__xcvr2450_8cc" startline="75">xcvr2450_key::which</references>
+        <referencedby refid="classxcvr2450_1a06e023b09921fe2d7ad58e2cedea9a92" compoundref="db__xcvr2450_8cc" startline="506" endline="521">lock_detect</referencedby>
+        <referencedby refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" compoundref="db__xcvr2450_8cc" startline="381" endline="392">send_reg</referencedby>
+        <referencedby refid="classxcvr2450_1ad2d195dab47cfee0437738bab86b5254" compoundref="db__xcvr2450_8cc" startline="449" endline="503">set_freq</referencedby>
+        <referencedby refid="classxcvr2450_1ada5ef351be289341d53ff1d8b70c1d13" compoundref="db__xcvr2450_8cc" startline="397" endline="445">set_gpio</referencedby>
+        <referencedby refid="classxcvr2450_1a8b1ed01aff5a323683b1fcb926c23ab9" compoundref="db__xcvr2450_8cc" startline="251" endline="260">shutdown</referencedby>
+        <referencedby refid="classxcvr2450_1a6fdaa4251e0b78a74aa3a35abca4f020" compoundref="db__xcvr2450_8cc" startline="167" endline="242">xcvr2450</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a6fdaa4251e0b78a74aa3a35abca4f020" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>xcvr2450::xcvr2450</definition>
+        <argsstring>(usrp_basic_sptr usrp, int which)</argsstring>
+        <name>xcvr2450</name>
+        <param>
+          <type><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref></type>
+          <declname>usrp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="116" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="167" bodyend="242"/>
+        <references refid="classusrp__basic_1a09ce78134eea035e42464123356096e4" compoundref="usrp__basic_8cc" startline="639" endline="646">usrp_basic::_common_write_oe</references>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a29836aad5b486173ae3f31b3cb59f6b9" compoundref="usrp__basic_8h" startline="38">C_RX</references>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1a0997e93568c71e5432c2445b1ebcc991" compoundref="usrp__basic_8cc" startline="700" endline="707">usrp_basic::common_write_atr_mask</references>
+        <references refid="classusrp__basic_1a89eda6a96bc7f4d2d634da793eccbc20" compoundref="usrp__basic_8cc" startline="720" endline="727">usrp_basic::common_write_atr_rxval</references>
+        <references refid="classusrp__basic_1a26e38a0f9f98390b712709812e3387af" compoundref="usrp__basic_8cc" startline="710" endline="717">usrp_basic::common_write_atr_txval</references>
+        <references refid="classusrp__basic_1acf3120592af4df79d38d253c98c633ae" compoundref="usrp__basic_8cc" startline="649" endline="656">usrp_basic::common_write_io</references>
+        <references refid="db__xcvr2450_8cc_1af4b01bf60bf61a5e8325494a52504b66" compoundref="db__xcvr2450_8cc" startline="70">RX_OE_MASK</references>
+        <references refid="db__xcvr2450_8cc_1a40b8656406adc47c098e9960e352064e" compoundref="db__xcvr2450_8cc" startline="71">RX_SAFE_IO</references>
+        <references refid="classxcvr2450_1a65b6997937701598efe139e75aec7008" compoundref="db__xcvr2450_8cc" startline="290" endline="310">set_reg_bandselpll</references>
+        <references refid="classxcvr2450_1ad04f7542e97f9b8903f068247f5ec411" compoundref="db__xcvr2450_8cc" startline="313" endline="318">set_reg_cal</references>
+        <references refid="classxcvr2450_1a274061f7aabe9fe9c0b62a777b851562" compoundref="db__xcvr2450_8cc" startline="321" endline="329">set_reg_lpf</references>
+        <references refid="classxcvr2450_1a925697de0517917e90518154964d307d" compoundref="db__xcvr2450_8cc" startline="356" endline="362">set_reg_pabias</references>
+        <references refid="classxcvr2450_1a76f3688f3b45996638ff735688fcb5d2" compoundref="db__xcvr2450_8cc" startline="365" endline="371">set_reg_rxgain</references>
+        <references refid="classxcvr2450_1a5a92b23d21d9401e2b6f6e58f65f2ad5" compoundref="db__xcvr2450_8cc" startline="332" endline="342">set_reg_rxrssi_ctrl</references>
+        <references refid="classxcvr2450_1ab54c87e337a857b4a03d93734eb2b9e7" compoundref="db__xcvr2450_8cc" startline="264" endline="272">set_reg_standby</references>
+        <references refid="classxcvr2450_1a52e079304ff9d58edc8f635e85da9cb3" compoundref="db__xcvr2450_8cc" startline="374" endline="378">set_reg_txgain</references>
+        <references refid="classxcvr2450_1a88eb9f02e148fb3bc116d589244c4acc" compoundref="db__xcvr2450_8cc" startline="345" endline="353">set_reg_txlin_gain</references>
+        <references refid="db__xcvr2450_8cc_1afddf9ff33ba8b7fcee3309e251a71b9c" compoundref="db__xcvr2450_8cc" startline="62">TX_OE_MASK</references>
+        <references refid="db__xcvr2450_8cc_1ad3ef8febe36d0ade6dc71632432d1cbb" compoundref="db__xcvr2450_8cc" startline="63">TX_SAFE_IO</references>
+        <references refid="classxcvr2450_1a6753b44e61dc9706d61422e048b9ab19" compoundref="db__xcvr2450_8cc" startline="112" endline="114">usrp</references>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a4e32961a52589db1e87ec0721622d025" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>xcvr2450::~xcvr2450</definition>
+        <argsstring>()</argsstring>
+        <name>~xcvr2450</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="117" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="244" bodyend="248"/>
+        <references refid="classxcvr2450_1a8b1ed01aff5a323683b1fcb926c23ab9" compoundref="db__xcvr2450_8cc" startline="251" endline="260">shutdown</references>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a8b1ed01aff5a323683b1fcb926c23ab9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::shutdown</definition>
+        <argsstring>()</argsstring>
+        <name>shutdown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="118" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="251" bodyend="260"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a29836aad5b486173ae3f31b3cb59f6b9" compoundref="usrp__basic_8h" startline="38">C_RX</references>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1a89eda6a96bc7f4d2d634da793eccbc20" compoundref="usrp__basic_8cc" startline="720" endline="727">usrp_basic::common_write_atr_rxval</references>
+        <references refid="classusrp__basic_1a26e38a0f9f98390b712709812e3387af" compoundref="usrp__basic_8cc" startline="710" endline="717">usrp_basic::common_write_atr_txval</references>
+        <references refid="db__xcvr2450_8cc_1a40b8656406adc47c098e9960e352064e" compoundref="db__xcvr2450_8cc" startline="71">RX_SAFE_IO</references>
+        <references refid="db__xcvr2450_8cc_1ad3ef8febe36d0ade6dc71632432d1cbb" compoundref="db__xcvr2450_8cc" startline="63">TX_SAFE_IO</references>
+        <references refid="classxcvr2450_1a6753b44e61dc9706d61422e048b9ab19" compoundref="db__xcvr2450_8cc" startline="112" endline="114">usrp</references>
+        <referencedby refid="classxcvr2450_1a4e32961a52589db1e87ec0721622d025" compoundref="db__xcvr2450_8cc" startline="244" endline="248">~xcvr2450</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1ab54c87e337a857b4a03d93734eb2b9e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::set_reg_standby</definition>
+        <argsstring>()</argsstring>
+        <name>set_reg_standby</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="120" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="264" bodyend="272"/>
+        <references refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" compoundref="db__xcvr2450_8cc" startline="381" endline="392">send_reg</references>
+        <referencedby refid="classxcvr2450_1a6fdaa4251e0b78a74aa3a35abca4f020" compoundref="db__xcvr2450_8cc" startline="167" endline="242">xcvr2450</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a7f5173cc4b42d2a20c56614a64367e50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::set_reg_int_divider</definition>
+        <argsstring>()</argsstring>
+        <name>set_reg_int_divider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="123" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="275" bodyend="280"/>
+        <references refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" compoundref="db__xcvr2450_8cc" startline="381" endline="392">send_reg</references>
+        <referencedby refid="classxcvr2450_1ad2d195dab47cfee0437738bab86b5254" compoundref="db__xcvr2450_8cc" startline="449" endline="503">set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a62a31a159d0081f05b5fe19539eb4210" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::set_reg_frac_divider</definition>
+        <argsstring>()</argsstring>
+        <name>set_reg_frac_divider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="126" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="283" bodyend="287"/>
+        <references refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" compoundref="db__xcvr2450_8cc" startline="381" endline="392">send_reg</references>
+        <referencedby refid="classxcvr2450_1ad2d195dab47cfee0437738bab86b5254" compoundref="db__xcvr2450_8cc" startline="449" endline="503">set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a65b6997937701598efe139e75aec7008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::set_reg_bandselpll</definition>
+        <argsstring>()</argsstring>
+        <name>set_reg_bandselpll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="129" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="290" bodyend="310"/>
+        <references refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" compoundref="db__xcvr2450_8cc" startline="381" endline="392">send_reg</references>
+        <referencedby refid="classxcvr2450_1ad2d195dab47cfee0437738bab86b5254" compoundref="db__xcvr2450_8cc" startline="449" endline="503">set_freq</referencedby>
+        <referencedby refid="classxcvr2450_1a6fdaa4251e0b78a74aa3a35abca4f020" compoundref="db__xcvr2450_8cc" startline="167" endline="242">xcvr2450</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1ad04f7542e97f9b8903f068247f5ec411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::set_reg_cal</definition>
+        <argsstring>()</argsstring>
+        <name>set_reg_cal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="132" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="313" bodyend="318"/>
+        <references refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" compoundref="db__xcvr2450_8cc" startline="381" endline="392">send_reg</references>
+        <referencedby refid="classxcvr2450_1a6fdaa4251e0b78a74aa3a35abca4f020" compoundref="db__xcvr2450_8cc" startline="167" endline="242">xcvr2450</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a274061f7aabe9fe9c0b62a777b851562" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::set_reg_lpf</definition>
+        <argsstring>()</argsstring>
+        <name>set_reg_lpf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="135" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="321" bodyend="329"/>
+        <references refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" compoundref="db__xcvr2450_8cc" startline="381" endline="392">send_reg</references>
+        <referencedby refid="classxcvr2450_1a6fdaa4251e0b78a74aa3a35abca4f020" compoundref="db__xcvr2450_8cc" startline="167" endline="242">xcvr2450</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a5a92b23d21d9401e2b6f6e58f65f2ad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::set_reg_rxrssi_ctrl</definition>
+        <argsstring>()</argsstring>
+        <name>set_reg_rxrssi_ctrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="138" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="332" bodyend="342"/>
+        <references refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" compoundref="db__xcvr2450_8cc" startline="381" endline="392">send_reg</references>
+        <referencedby refid="classxcvr2450_1a6fdaa4251e0b78a74aa3a35abca4f020" compoundref="db__xcvr2450_8cc" startline="167" endline="242">xcvr2450</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a88eb9f02e148fb3bc116d589244c4acc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::set_reg_txlin_gain</definition>
+        <argsstring>()</argsstring>
+        <name>set_reg_txlin_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="141" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="345" bodyend="353"/>
+        <references refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" compoundref="db__xcvr2450_8cc" startline="381" endline="392">send_reg</references>
+        <referencedby refid="classxcvr2450_1a6fdaa4251e0b78a74aa3a35abca4f020" compoundref="db__xcvr2450_8cc" startline="167" endline="242">xcvr2450</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a925697de0517917e90518154964d307d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::set_reg_pabias</definition>
+        <argsstring>()</argsstring>
+        <name>set_reg_pabias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="144" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="356" bodyend="362"/>
+        <references refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" compoundref="db__xcvr2450_8cc" startline="381" endline="392">send_reg</references>
+        <referencedby refid="classxcvr2450_1a6fdaa4251e0b78a74aa3a35abca4f020" compoundref="db__xcvr2450_8cc" startline="167" endline="242">xcvr2450</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a76f3688f3b45996638ff735688fcb5d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::set_reg_rxgain</definition>
+        <argsstring>()</argsstring>
+        <name>set_reg_rxgain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="147" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="365" bodyend="371"/>
+        <references refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" compoundref="db__xcvr2450_8cc" startline="381" endline="392">send_reg</references>
+        <referencedby refid="classxcvr2450_1ae96062e53495a3fd73f4002be22a0fee" compoundref="db__xcvr2450_8cc" startline="524" endline="551">set_rx_gain</referencedby>
+        <referencedby refid="classxcvr2450_1a6fdaa4251e0b78a74aa3a35abca4f020" compoundref="db__xcvr2450_8cc" startline="167" endline="242">xcvr2450</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a52e079304ff9d58edc8f635e85da9cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::set_reg_txgain</definition>
+        <argsstring>()</argsstring>
+        <name>set_reg_txgain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="150" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="374" bodyend="378"/>
+        <references refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" compoundref="db__xcvr2450_8cc" startline="381" endline="392">send_reg</references>
+        <referencedby refid="classxcvr2450_1a73988c43e28a1223eea58d593647ca06" compoundref="db__xcvr2450_8cc" startline="554" endline="567">set_tx_gain</referencedby>
+        <referencedby refid="classxcvr2450_1a6fdaa4251e0b78a74aa3a35abca4f020" compoundref="db__xcvr2450_8cc" startline="167" endline="242">xcvr2450</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::send_reg</definition>
+        <argsstring>(int v)</argsstring>
+        <name>send_reg</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="153" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="381" bodyend="392"/>
+        <references refid="classusrp__basic_1aaf100fafc406ef75faafcf3e38df7849" compoundref="usrp__basic_8cc" startline="454" endline="458">usrp_basic::_write_spi</references>
+        <references refid="classxcvr2450_1a6753b44e61dc9706d61422e048b9ab19" compoundref="db__xcvr2450_8cc" startline="112" endline="114">usrp</references>
+        <referencedby refid="classxcvr2450_1a65b6997937701598efe139e75aec7008" compoundref="db__xcvr2450_8cc" startline="290" endline="310">set_reg_bandselpll</referencedby>
+        <referencedby refid="classxcvr2450_1ad04f7542e97f9b8903f068247f5ec411" compoundref="db__xcvr2450_8cc" startline="313" endline="318">set_reg_cal</referencedby>
+        <referencedby refid="classxcvr2450_1a62a31a159d0081f05b5fe19539eb4210" compoundref="db__xcvr2450_8cc" startline="283" endline="287">set_reg_frac_divider</referencedby>
+        <referencedby refid="classxcvr2450_1a7f5173cc4b42d2a20c56614a64367e50" compoundref="db__xcvr2450_8cc" startline="275" endline="280">set_reg_int_divider</referencedby>
+        <referencedby refid="classxcvr2450_1a274061f7aabe9fe9c0b62a777b851562" compoundref="db__xcvr2450_8cc" startline="321" endline="329">set_reg_lpf</referencedby>
+        <referencedby refid="classxcvr2450_1a925697de0517917e90518154964d307d" compoundref="db__xcvr2450_8cc" startline="356" endline="362">set_reg_pabias</referencedby>
+        <referencedby refid="classxcvr2450_1a76f3688f3b45996638ff735688fcb5d2" compoundref="db__xcvr2450_8cc" startline="365" endline="371">set_reg_rxgain</referencedby>
+        <referencedby refid="classxcvr2450_1a5a92b23d21d9401e2b6f6e58f65f2ad5" compoundref="db__xcvr2450_8cc" startline="332" endline="342">set_reg_rxrssi_ctrl</referencedby>
+        <referencedby refid="classxcvr2450_1ab54c87e337a857b4a03d93734eb2b9e7" compoundref="db__xcvr2450_8cc" startline="264" endline="272">set_reg_standby</referencedby>
+        <referencedby refid="classxcvr2450_1a52e079304ff9d58edc8f635e85da9cb3" compoundref="db__xcvr2450_8cc" startline="374" endline="378">set_reg_txgain</referencedby>
+        <referencedby refid="classxcvr2450_1a88eb9f02e148fb3bc116d589244c4acc" compoundref="db__xcvr2450_8cc" startline="345" endline="353">set_reg_txlin_gain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1ada5ef351be289341d53ff1d8b70c1d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void xcvr2450::set_gpio</definition>
+        <argsstring>()</argsstring>
+        <name>set_gpio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="155" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="397" bodyend="445"/>
+        <references refid="classusrp__basic_1a09ce78134eea035e42464123356096e4" compoundref="usrp__basic_8cc" startline="639" endline="646">usrp_basic::_common_write_oe</references>
+        <references refid="db__xcvr2450_8cc_1a82737c1ff4b6c16325b44d6051ba261e" compoundref="db__xcvr2450_8cc" startline="60">AD9515DIV</references>
+        <references refid="db__xcvr2450_8cc_1a684e8ec1b2b0bbd3b0de4a1a5cf814f1" compoundref="db__xcvr2450_8cc" startline="57">ANTSEL_TX1_RX2</references>
+        <references refid="db__xcvr2450_8cc_1a54754de519eb59cd662eb1565cd3bf23" compoundref="db__xcvr2450_8cc" startline="58">ANTSEL_TX2_RX1</references>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a29836aad5b486173ae3f31b3cb59f6b9" compoundref="usrp__basic_8h" startline="38">C_RX</references>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1a0997e93568c71e5432c2445b1ebcc991" compoundref="usrp__basic_8cc" startline="700" endline="707">usrp_basic::common_write_atr_mask</references>
+        <references refid="classusrp__basic_1a89eda6a96bc7f4d2d634da793eccbc20" compoundref="usrp__basic_8cc" startline="720" endline="727">usrp_basic::common_write_atr_rxval</references>
+        <references refid="classusrp__basic_1a26e38a0f9f98390b712709812e3387af" compoundref="usrp__basic_8cc" startline="710" endline="717">usrp_basic::common_write_atr_txval</references>
+        <references refid="classusrp__basic_1acf3120592af4df79d38d253c98c633ae" compoundref="usrp__basic_8cc" startline="649" endline="656">usrp_basic::common_write_io</references>
+        <references refid="db__xcvr2450_8cc_1a22e6626f2c98ed902f8ded47f6438c05" compoundref="db__xcvr2450_8cc" startline="67">EN</references>
+        <references refid="db__xcvr2450_8cc_1a2d19b4044af32ce544c37f3b5f5da29c" compoundref="db__xcvr2450_8cc" startline="55">HB_PA_OFF</references>
+        <references refid="db__xcvr2450_8cc_1a4276225100e5b2dc99f3a999c36c0474" compoundref="db__xcvr2450_8cc" startline="56">LB_PA_OFF</references>
+        <references refid="db__xcvr2450_8cc_1aa970d7c18f7293a5f2bfe34b60908766" compoundref="db__xcvr2450_8cc" startline="68">RX_EN</references>
+        <references refid="db__xcvr2450_8cc_1a99a3d48b64849339bacf8f2a18cdeabf" compoundref="db__xcvr2450_8cc" startline="69">RX_HP</references>
+        <references refid="db__xcvr2450_8cc_1af4b01bf60bf61a5e8325494a52504b66" compoundref="db__xcvr2450_8cc" startline="70">RX_OE_MASK</references>
+        <references refid="db__xcvr2450_8cc_1a40b8656406adc47c098e9960e352064e" compoundref="db__xcvr2450_8cc" startline="71">RX_SAFE_IO</references>
+        <references refid="db__xcvr2450_8cc_1ae4c2e88d27ad426f32e943e7e56ba110" compoundref="db__xcvr2450_8cc" startline="59">TX_EN</references>
+        <references refid="db__xcvr2450_8cc_1afddf9ff33ba8b7fcee3309e251a71b9c" compoundref="db__xcvr2450_8cc" startline="62">TX_OE_MASK</references>
+        <references refid="db__xcvr2450_8cc_1ad3ef8febe36d0ade6dc71632432d1cbb" compoundref="db__xcvr2450_8cc" startline="63">TX_SAFE_IO</references>
+        <references refid="classxcvr2450_1a6753b44e61dc9706d61422e048b9ab19" compoundref="db__xcvr2450_8cc" startline="112" endline="114">usrp</references>
+        <referencedby refid="classxcvr2450_1ad2d195dab47cfee0437738bab86b5254" compoundref="db__xcvr2450_8cc" startline="449" endline="503">set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a06e023b09921fe2d7ad58e2cedea9a92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool xcvr2450::lock_detect</definition>
+        <argsstring>()</argsstring>
+        <name>lock_detect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="156" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="506" bodyend="521"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a29836aad5b486173ae3f31b3cb59f6b9" compoundref="usrp__basic_8h" startline="38">C_RX</references>
+        <references refid="db__xcvr2450_8cc_1ad324ca477c60eb0843b970cabcfb073c" compoundref="db__xcvr2450_8cc" startline="66">LOCKDET</references>
+        <references refid="classxcvr2450_1a6753b44e61dc9706d61422e048b9ab19" compoundref="db__xcvr2450_8cc" startline="112" endline="114">usrp</references>
+        <referencedby refid="classxcvr2450_1ad2d195dab47cfee0437738bab86b5254" compoundref="db__xcvr2450_8cc" startline="449" endline="503">set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1ae96062e53495a3fd73f4002be22a0fee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool xcvr2450::set_rx_gain</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>set_rx_gain</name>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="157" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="524" bodyend="551"/>
+        <references refid="classxcvr2450_1a76f3688f3b45996638ff735688fcb5d2" compoundref="db__xcvr2450_8cc" startline="365" endline="371">set_reg_rxgain</references>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1a73988c43e28a1223eea58d593647ca06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool xcvr2450::set_tx_gain</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>set_tx_gain</name>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="158" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="554" bodyend="567"/>
+        <references refid="classxcvr2450_1a52e079304ff9d58edc8f635e85da9cb3" compoundref="db__xcvr2450_8cc" startline="374" endline="378">set_reg_txgain</references>
+      </memberdef>
+      <memberdef kind="function" id="classxcvr2450_1ad2d195dab47cfee0437738bab86b5254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct <ref refid="structfreq__result__t" kindref="compound">freq_result_t</ref></type>
+        <definition>struct freq_result_t xcvr2450::set_freq</definition>
+        <argsstring>(double target_freq)</argsstring>
+        <name>set_freq</name>
+        <param>
+          <type>double</type>
+          <declname>target_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="158" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="449" bodyend="503"/>
+        <references refid="structfreq__result__t_1a1c7c958029dfd98e62b6e1fa60fb5a1f" compoundref="db__base_8h" startline="40">freq_result_t::baseband_freq</references>
+        <references refid="classusrp__basic_1a244d4aa01bb6a054cd5bd0998ce2a09a" compoundref="usrp__basic_8h" startline="183" endline="183">usrp_basic::fpga_master_clock_freq</references>
+        <references refid="classxcvr2450_1a06e023b09921fe2d7ad58e2cedea9a92" compoundref="db__xcvr2450_8cc" startline="506" endline="521">lock_detect</references>
+        <references refid="structfreq__result__t_1a05f1d913c001ce385efb798e8ec9b649" compoundref="db__base_8h" startline="39">freq_result_t::ok</references>
+        <references refid="classxcvr2450_1ada5ef351be289341d53ff1d8b70c1d13" compoundref="db__xcvr2450_8cc" startline="397" endline="445">set_gpio</references>
+        <references refid="classxcvr2450_1a65b6997937701598efe139e75aec7008" compoundref="db__xcvr2450_8cc" startline="290" endline="310">set_reg_bandselpll</references>
+        <references refid="classxcvr2450_1a62a31a159d0081f05b5fe19539eb4210" compoundref="db__xcvr2450_8cc" startline="283" endline="287">set_reg_frac_divider</references>
+        <references refid="classxcvr2450_1a7f5173cc4b42d2a20c56614a64367e50" compoundref="db__xcvr2450_8cc" startline="275" endline="280">set_reg_int_divider</references>
+        <references refid="classxcvr2450_1a6753b44e61dc9706d61422e048b9ab19" compoundref="db__xcvr2450_8cc" startline="112" endline="114">usrp</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="83" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="82" bodyend="161"/>
+    <listofallmembers>
+      <member refid="classxcvr2450_1a6a39bd1efe348ff9a5cc91b3add74fde" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>_set_ifagc</name></member>
+      <member refid="classxcvr2450_1acd03eb0f394d1f68562702429a3d4ff3" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>_set_pga</name></member>
+      <member refid="classxcvr2450_1ab025e4dac4c5477db8f9b472890fe9ef" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>_set_rfagc</name></member>
+      <member refid="classxcvr2450_1af194edc3177ff09cee86294f6462760d" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_ad9515_div</name></member>
+      <member refid="classxcvr2450_1a185456486501cfdd0ab0dab38004ca23" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_cp_current</name></member>
+      <member refid="classxcvr2450_1a8dc0af87500b09e50f0470110dfd4a20" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_five_gig</name></member>
+      <member refid="classxcvr2450_1a1eac78c75e8d8339176a4cc156c3e2d5" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_frac_div</name></member>
+      <member refid="classxcvr2450_1a0a84c734b0597a2b2cb113dce9d9a057" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_highband</name></member>
+      <member refid="classxcvr2450_1a078167628301a40f5094fe359a21911f" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_int_div</name></member>
+      <member refid="classxcvr2450_1a6c34b7cf51c6db668b923f5543035a51" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_is_shutdown</name></member>
+      <member refid="classxcvr2450_1a3f302a2cdc2984ab8c4ed7102ab38e2c" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_mimo</name></member>
+      <member refid="classxcvr2450_1ac6f44da335678644bbc07613fce07a7d" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_pabias</name></member>
+      <member refid="classxcvr2450_1a7d432acd3a4937e900cefd40320653a1" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_pabias_delay</name></member>
+      <member refid="classxcvr2450_1af26640fb8cc1cec293e01b11d563bf80" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_raw_usrp</name></member>
+      <member refid="classxcvr2450_1a853565970bdee191f5bd8d2f89f807f2" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_ref_div</name></member>
+      <member refid="classxcvr2450_1a349adaee62fadea6fb2798e9034b5a04" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_reg_bandselpll</name></member>
+      <member refid="classxcvr2450_1abfddf838e16e482097a54006c624adff" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_reg_cal</name></member>
+      <member refid="classxcvr2450_1a70ef742367c72d48dc8caeb5e4c23061" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_reg_frac_divider</name></member>
+      <member refid="classxcvr2450_1a302ef8d333344d3a59e81ad075eb8918" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_reg_int_divider</name></member>
+      <member refid="classxcvr2450_1a980d3c3ddfe4ac3ad14a8acf4393242e" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_reg_lpf</name></member>
+      <member refid="classxcvr2450_1a2e7c9779c0d54cdffbbf47b77f1f854e" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_reg_pabias</name></member>
+      <member refid="classxcvr2450_1a7d30802d885319d68295a31e89233810" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_reg_rxgain</name></member>
+      <member refid="classxcvr2450_1acfd29c50d1cea30beae33498c910c57b" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_reg_rxrssi_ctrl</name></member>
+      <member refid="classxcvr2450_1a5b7c5c47b27705d6270a270e272cb60a" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_reg_standby</name></member>
+      <member refid="classxcvr2450_1a998392e5e1f4960f506b01a19a1bdf3f" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_reg_txgain</name></member>
+      <member refid="classxcvr2450_1afff7555e9e6506208b0383feb56de4f9" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_reg_txlin_gain</name></member>
+      <member refid="classxcvr2450_1abca35e93f1b3aba5b02fc77601a201fc" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_rssi_hbw</name></member>
+      <member refid="classxcvr2450_1a5b3a772e92b09a491841515e9d102e91" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_rssi_mode</name></member>
+      <member refid="classxcvr2450_1ac8d5ef08f83eda8ae40941e71b97be2f" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_rssi_mux</name></member>
+      <member refid="classxcvr2450_1a22c6b59b0251db980c6fcb9b8e39d977" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_rssi_range</name></member>
+      <member refid="classxcvr2450_1af96be4dc30676d335a365d76e67b28f8" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_rx_ant</name></member>
+      <member refid="classxcvr2450_1afd91efaa42bd2cfe05cd7b7b5889fc80" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_rx_bb_gain</name></member>
+      <member refid="classxcvr2450_1a1a7dcd82facdee7f4a4587d327991daa" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_rx_hp_pin</name></member>
+      <member refid="classxcvr2450_1a9f1fc95e6f184f08ff6ae92fdb4e1694" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_rx_hpf</name></member>
+      <member refid="classxcvr2450_1abade642775401d2406f48bcd091f2a32" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_rx_rf_gain</name></member>
+      <member refid="classxcvr2450_1af6a4970b041f318c296db1adb1084120" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_rxlpf_bw</name></member>
+      <member refid="classxcvr2450_1afcea7d1360bb3289683343688c600c98" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_rxlpf_fine</name></member>
+      <member refid="classxcvr2450_1a60a17e0e3a55cc3ac87f5e09a8ed7e71" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_rxvga_ser</name></member>
+      <member refid="classxcvr2450_1a9a338c458c7dfe797dd86666a3cd6fb5" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_spi_enable</name></member>
+      <member refid="classxcvr2450_1ae2509ea7462f4a6cf8facdc5ae56468c" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_spi_format</name></member>
+      <member refid="classxcvr2450_1a30325676ced0ae9330ffa7cd03e7ac6b" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_tx_ant</name></member>
+      <member refid="classxcvr2450_1a3ea53db6c87fd5d56c5b4d34a35f6538" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_tx_bb_gain</name></member>
+      <member refid="classxcvr2450_1ab1ced139c690e9c331dca379281977d3" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_tx_driver_lin</name></member>
+      <member refid="classxcvr2450_1aa9411834146a67cad1a2c973d5daa351" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_tx_upconv_lin</name></member>
+      <member refid="classxcvr2450_1a4a1b6e627f0375145be7f1a619e671e3" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_tx_vga_lin</name></member>
+      <member refid="classxcvr2450_1a3c0c808b4ed21d860550c3c87f30fa00" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_txgain</name></member>
+      <member refid="classxcvr2450_1ac93260be7ed850755ab2e52d02ca3b8d" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_txlpf_bw</name></member>
+      <member refid="classxcvr2450_1ae7a9a75719dfcf95688c2a26135f07a4" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_txvga_ser</name></member>
+      <member refid="classxcvr2450_1ade50e2bf32d5f612e1e28713f50ec4da" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>d_which</name></member>
+      <member refid="classxcvr2450_1a59fdc1b9689e36450b1397a07760ae34" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>dsend_reg</name></member>
+      <member refid="classxcvr2450_1a06e023b09921fe2d7ad58e2cedea9a92" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>lock_detect</name></member>
+      <member refid="classxcvr2450_1a4642c92a2e70b136c4ceb2ee89a52d68" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>rx_bb_gain</name></member>
+      <member refid="classxcvr2450_1a2785ff1b225e82b775f791cdb19c9114" prot="private" virt="non-virtual"><scope>xcvr2450</scope><name>rx_rf_gain</name></member>
+      <member refid="classxcvr2450_1a0e66795ccbc6e66306f36f6a6b215f81" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>send_reg</name></member>
+      <member refid="classxcvr2450_1ad2d195dab47cfee0437738bab86b5254" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_freq</name></member>
+      <member refid="classxcvr2450_1ada5ef351be289341d53ff1d8b70c1d13" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_gpio</name></member>
+      <member refid="classxcvr2450_1a65b6997937701598efe139e75aec7008" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_reg_bandselpll</name></member>
+      <member refid="classxcvr2450_1ad04f7542e97f9b8903f068247f5ec411" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_reg_cal</name></member>
+      <member refid="classxcvr2450_1a62a31a159d0081f05b5fe19539eb4210" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_reg_frac_divider</name></member>
+      <member refid="classxcvr2450_1a7f5173cc4b42d2a20c56614a64367e50" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_reg_int_divider</name></member>
+      <member refid="classxcvr2450_1a274061f7aabe9fe9c0b62a777b851562" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_reg_lpf</name></member>
+      <member refid="classxcvr2450_1a925697de0517917e90518154964d307d" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_reg_pabias</name></member>
+      <member refid="classxcvr2450_1a76f3688f3b45996638ff735688fcb5d2" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_reg_rxgain</name></member>
+      <member refid="classxcvr2450_1a5a92b23d21d9401e2b6f6e58f65f2ad5" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_reg_rxrssi_ctrl</name></member>
+      <member refid="classxcvr2450_1ab54c87e337a857b4a03d93734eb2b9e7" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_reg_standby</name></member>
+      <member refid="classxcvr2450_1a52e079304ff9d58edc8f635e85da9cb3" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_reg_txgain</name></member>
+      <member refid="classxcvr2450_1a88eb9f02e148fb3bc116d589244c4acc" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_reg_txlin_gain</name></member>
+      <member refid="classxcvr2450_1ae96062e53495a3fd73f4002be22a0fee" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_rx_gain</name></member>
+      <member refid="classxcvr2450_1a73988c43e28a1223eea58d593647ca06" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>set_tx_gain</name></member>
+      <member refid="classxcvr2450_1a8b1ed01aff5a323683b1fcb926c23ab9" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>shutdown</name></member>
+      <member refid="classxcvr2450_1a6753b44e61dc9706d61422e048b9ab19" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>usrp</name></member>
+      <member refid="classxcvr2450_1a6fdaa4251e0b78a74aa3a35abca4f020" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>xcvr2450</name></member>
+      <member refid="classxcvr2450_1a4e32961a52589db1e87ec0721622d025" prot="public" virt="non-virtual"><scope>xcvr2450</scope><name>~xcvr2450</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

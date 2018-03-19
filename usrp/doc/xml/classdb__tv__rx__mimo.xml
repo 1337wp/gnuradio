@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classdb__tv__rx__mimo" kind="class" language="C++" prot="public">
+    <compoundname>db_tv_rx_mimo</compoundname>
+    <basecompoundref refid="classdb__tv__rx" prot="public" virt="non-virtual">db_tv_rx</basecompoundref>
+    <includes refid="db__tv__rx__mimo_8h" local="no">db_tv_rx_mimo.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdb__tv__rx__mimo_1a46f290d9bb87cd9ca02417d84bb3ec83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_tv_rx_mimo::db_tv_rx_mimo</definition>
+        <argsstring>(usrp_basic_sptr usrp, int which, double first_IF, double second_IF)</argsstring>
+        <name>db_tv_rx_mimo</name>
+        <param>
+          <type><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref></type>
+          <declname>usrp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>first_IF</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>second_IF</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx_mimo.h" line="30" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx_mimo.cc" bodystart="27" bodyend="32"/>
+        <references refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" compoundref="db__base_8cc" startline="222" endline="235">db_base::_enable_refclk</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx__mimo_1aa09dd3f48ef8c4f703e750a00b6443e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int db_tv_rx_mimo::_refclk_divisor</definition>
+        <argsstring>()</argsstring>
+        <name>_refclk_divisor</name>
+        <reimplements refid="classdb__base_1acd58b612941f45fabab13438463c327b">_refclk_divisor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx_mimo.h" line="31" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx_mimo.cc" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="630">
+        <label>db_tv_rx</label>
+        <link refid="classdb__tv__rx"/>
+        <childnode refid="631" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="629">
+        <label>db_tv_rx_mimo</label>
+        <link refid="classdb__tv__rx__mimo"/>
+        <childnode refid="630" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="631">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="633">
+        <label>db_tv_rx</label>
+        <link refid="classdb__tv__rx"/>
+        <childnode refid="634" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="636">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="632">
+        <label>db_tv_rx_mimo</label>
+        <link refid="classdb__tv__rx__mimo"/>
+        <childnode refid="633" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="637">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="635">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="636" relation="private-inheritance">
+        </childnode>
+        <childnode refid="637" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+      <node id="634">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+        <childnode refid="635" relation="usage">
+          <edgelabel>d_raw_usrp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx_mimo.h" line="28" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx_mimo.h" bodystart="27" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" prot="protected" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>_enable_refclk</name></member>
+      <member refid="classdb__tv__rx__mimo_1aa09dd3f48ef8c4f703e750a00b6443e1" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>_refclk_divisor</name></member>
+      <member refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" prot="protected" virt="virtual"><scope>db_tv_rx_mimo</scope><name>_refclk_freq</name></member>
+      <member refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>bypass_adc_buffers</name></member>
+      <member refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" prot="protected" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>d_is_shutdown</name></member>
+      <member refid="classdb__base_1a0665a615c2eb4236814825c89dd024e0" prot="protected" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>d_lo_offset</name></member>
+      <member refid="classdb__base_1aa6e5420338ff3e0a9b1afe2ae1fbc58b" prot="protected" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>d_raw_usrp</name></member>
+      <member refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" prot="protected" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>d_which</name></member>
+      <member refid="classdb__base_1aeddb69ef4218642cb8b03eff94ff8efc" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>db_base</name></member>
+      <member refid="classdb__tv__rx_1aa18bf4dc902b162e67f698e022b421b8" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>db_tv_rx</name></member>
+      <member refid="classdb__tv__rx__mimo_1a46f290d9bb87cd9ca02417d84bb3ec83" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>db_tv_rx_mimo</name></member>
+      <member refid="classdb__base_1a6c70380b8abff2d051eece9d2b208408" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>dbid</name></member>
+      <member refid="classdb__tv__rx_1adb0bf1a0a5382e1d2a76684ef9c35f09" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>freq_max</name></member>
+      <member refid="classdb__tv__rx_1ae3e4e45c36ae57ef0e85d10de4fdff46" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>freq_min</name></member>
+      <member refid="classdb__tv__rx_1a7e099bf0ed46800224b1535dc004bbd7" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>gain_db_per_step</name></member>
+      <member refid="classdb__tv__rx_1a157ef742e4f1bf2e4697745164423330" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>gain_max</name></member>
+      <member refid="classdb__tv__rx_1a915fa7be293999d5484fcb1ddbc39484" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>gain_min</name></member>
+      <member refid="classdb__base_1aa2d4002c1550d262e74def064a230e1a" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>i_and_q_swapped</name></member>
+      <member refid="classdb__tv__rx_1aee1cf561c09c9cb755bee4051ddfea36" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>is_quadrature</name></member>
+      <member refid="classdb__base_1a07337ac0b59b2d36ced8f0dd7dd58b1e" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>lo_offset</name></member>
+      <member refid="classdb__base_1aef52f371112795b933570a269da85847" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>name</name></member>
+      <member refid="classdb__base_1aecc92b603e94509aa04f12aec563ea17" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1ab6aba3bd757102bf14fba4e98fb17f0d" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>set_atr_mask</name></member>
+      <member refid="classdb__base_1aec8010d1f2412ffe33bb0f27ee6d8275" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>set_atr_rx_delay</name></member>
+      <member refid="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>set_atr_rxval</name></member>
+      <member refid="classdb__base_1a01586c74a2cab95c3e12951402fab1a3" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>set_atr_tx_delay</name></member>
+      <member refid="classdb__base_1a9722d03f078d1206539ad097c28a9562" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>set_atr_txval</name></member>
+      <member refid="classdb__base_1aa636457dfe89f1f0dca5fa06b67fdb58" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>set_auto_tr</name></member>
+      <member refid="classdb__base_1a7adcd5e0883f838cc6cd2bc9dda1ef87" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>set_bw</name></member>
+      <member refid="classdb__base_1afa9d1b54d69312317258723a2ee1a1e7" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>set_enable</name></member>
+      <member refid="classdb__tv__rx_1adcbac7d83d1f3a14d3e6ca653e71b2d6" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>set_freq</name></member>
+      <member refid="classdb__tv__rx_1a6b14232d0c62b5cda467ac2ae0de5dd9" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>set_gain</name></member>
+      <member refid="classdb__base_1a3d8eb19a95b9ca4970c56f1a699e85bf" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>set_lo_offset</name></member>
+      <member refid="classdb__base_1a73aae0d09b138c28e70541c63e2cb498" prot="protected" virt="virtual"><scope>db_tv_rx_mimo</scope><name>shutdown</name></member>
+      <member refid="classdb__base_1a9cee7496d9a4d09b72a008fb5d7e6664" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>side_and_name</name></member>
+      <member refid="classdb__tv__rx_1a67175ec9fcb8f761b922a293217ee2f6" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>spectrum_inverted</name></member>
+      <member refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" prot="protected" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>usrp</name></member>
+      <member refid="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>which</name></member>
+      <member refid="classdb__base_1a6c28d39ecaa14d475acb9ce6bfc1b4b0" prot="public" virt="virtual"><scope>db_tv_rx_mimo</scope><name>~db_base</name></member>
+      <member refid="classdb__tv__rx_1abe6bd97cdb36e7635933568b5453130a" prot="public" virt="non-virtual"><scope>db_tv_rx_mimo</scope><name>~db_tv_rx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structxcvr2450__table__entry" kind="struct" language="C++" prot="public">
+    <compoundname>xcvr2450_table_entry</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structxcvr2450__table__entry_1a58234eb6755c3ce400d0d184c7566b23" prot="public" static="no" mutable="no">
+        <type><ref refid="structxcvr2450__key" kindref="compound">xcvr2450_key</ref></type>
+        <definition>xcvr2450_key xcvr2450_table_entry::key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="574" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structxcvr2450__table__entry_1aa51483e3d49dd50b685e1a508ac29ac1" prot="public" static="no" mutable="no">
+        <type>boost::weak_ptr&lt; <ref refid="classxcvr2450" kindref="compound">xcvr2450</ref> &gt;</type>
+        <definition>boost::weak_ptr&lt;xcvr2450&gt; xcvr2450_table_entry::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="575" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="575" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structxcvr2450__table__entry_1a2854d0862fc5fbe7cbde3b9311c69947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>xcvr2450_table_entry::xcvr2450_table_entry</definition>
+        <argsstring>(const xcvr2450_key &amp;_key, boost::weak_ptr&lt; xcvr2450 &gt; _value)</argsstring>
+        <name>xcvr2450_table_entry</name>
+        <param>
+          <type>const <ref refid="structxcvr2450__key" kindref="compound">xcvr2450_key</ref> &amp;</type>
+          <declname>_key</declname>
+        </param>
+        <param>
+          <type>boost::weak_ptr&lt; <ref refid="classxcvr2450" kindref="compound">xcvr2450</ref> &gt;</type>
+          <declname>_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="577" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="577" bodyend="578"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="953">
+        <label>xcvr2450_table_entry</label>
+        <link refid="structxcvr2450__table__entry"/>
+        <childnode refid="954" relation="usage">
+          <edgelabel>key</edgelabel>
+        </childnode>
+      </node>
+      <node id="954">
+        <label>xcvr2450_key</label>
+        <link refid="structxcvr2450__key"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="573" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="573" bodyend="579"/>
+    <listofallmembers>
+      <member refid="structxcvr2450__table__entry_1a58234eb6755c3ce400d0d184c7566b23" prot="public" virt="non-virtual"><scope>xcvr2450_table_entry</scope><name>key</name></member>
+      <member refid="structxcvr2450__table__entry_1aa51483e3d49dd50b685e1a508ac29ac1" prot="public" virt="non-virtual"><scope>xcvr2450_table_entry</scope><name>value</name></member>
+      <member refid="structxcvr2450__table__entry_1a2854d0862fc5fbe7cbde3b9311c69947" prot="public" virt="non-virtual"><scope>xcvr2450_table_entry</scope><name>xcvr2450_table_entry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

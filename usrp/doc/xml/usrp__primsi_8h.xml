@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="usrp__primsi_8h" kind="file" language="C++">
+    <compoundname>usrp_primsi.h</compoundname>
+    <includes refid="usrp__prims_8h" local="yes">usrp/usrp_prims.h</includes>
+    <includedby refid="usrp__prims__common_8cc" local="yes">usrp_prims_common.cc</includedby>
+    <includedby refid="usrp__prims__libusb0_8cc" local="yes">usrp_prims_libusb0.cc</includedby>
+    <includedby refid="usrp__prims__libusb1_8cc" local="yes">usrp_prims_libusb1.cc</includedby>
+    <incdepgraph>
+      <node id="1157">
+        <label>usrp/libusb_types.h</label>
+        <link refid="libusb__types_8h"/>
+        <childnode refid="1158" relation="include">
+        </childnode>
+      </node>
+      <node id="1156">
+        <label>usrp/usrp_slots.h</label>
+        <link refid="usrp__slots_8h"/>
+      </node>
+      <node id="1159">
+        <label>string</label>
+      </node>
+      <node id="1154">
+        <label>usrp_primsi.h</label>
+        <link refid="usrp_primsi.h"/>
+        <childnode refid="1155" relation="include">
+        </childnode>
+      </node>
+      <node id="1158">
+        <label>usb.h</label>
+      </node>
+      <node id="1155">
+        <label>usrp/usrp_prims.h</label>
+        <link refid="usrp__prims_8h"/>
+        <childnode refid="1156" relation="include">
+        </childnode>
+        <childnode refid="1157" relation="include">
+        </childnode>
+        <childnode refid="1159" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1163">
+        <label>usrp_prims_libusb1.cc</label>
+        <link refid="usrp__prims__libusb1_8cc"/>
+      </node>
+      <node id="1160">
+        <label>usrp_primsi.h</label>
+        <link refid="usrp_primsi.h"/>
+        <childnode refid="1161" relation="include">
+        </childnode>
+        <childnode refid="1162" relation="include">
+        </childnode>
+        <childnode refid="1163" relation="include">
+        </childnode>
+      </node>
+      <node id="1161">
+        <label>usrp_prims_common.cc</label>
+        <link refid="usrp__prims__common_8cc"/>
+      </node>
+      <node id="1162">
+        <label>usrp_prims_libusb0.cc</label>
+        <link refid="usrp__prims__libusb0_8cc"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="usrp__primsi_8h_1a9f3334d2fff2fe19ff36bed963f03451" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb__types_8h_1a7d5bb463830eeed919dfb59dc54eeb2b" kindref="member">libusb_device_handle</ref> *</type>
+        <definition>libusb_device_handle* usrp_open_interface</definition>
+        <argsstring>(libusb_device *dev, int interface, int altinterface)</argsstring>
+        <name>usrp_open_interface</name>
+        <param>
+          <type><ref refid="libusb__types_8h_1a6a41e56fed0168fbd7abd9359c805bf1" kindref="member">libusb_device</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>interface</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>altinterface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_primsi.h" line="37" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_prims_libusb1.cc" bodystart="209" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="usrp__primsi_8h_1ae0bf1f95cea87e052cbb51073d4a0a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int write_cmd</definition>
+        <argsstring>(libusb_device_handle *udh, int request, int value, int index, unsigned char *bytes, int len)</argsstring>
+        <name>write_cmd</name>
+        <param>
+          <type><ref refid="libusb__types_8h_1a7d5bb463830eeed919dfb59dc54eeb2b" kindref="member">libusb_device_handle</ref> *</type>
+          <declname>udh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_primsi.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_prims_libusb0.cc" bodystart="212" bodyend="229"/>
+        <referencedby refid="usrp__prims__common_8cc_1aa35770eefda58f0190190c3191bf10aa" compoundref="usrp__prims__common_8cc" startline="798" endline="809">_usrp_get_status</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1ab78856b82dd0ded8eba5a39b1555a3b6" compoundref="usrp__prims__common_8cc" startline="430" endline="443">usrp_get_hash</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1a67b5af6739c0f41abeae074d2d9821cc" compoundref="usrp__prims__common_8cc" startline="837" endline="845">usrp_i2c_read</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1a9b367498154b59e4b03fd3d4677734cb" compoundref="usrp__prims__common_8cc" startline="825" endline="833">usrp_i2c_write</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1ad0b2eca342b62b862016a167de6b832a" compoundref="usrp__prims__common_8cc" startline="191" endline="194">usrp_open_tx_interface</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1ac856910e04aa0da0a7e1d946a268b7f2" compoundref="usrp__prims__common_8cc" startline="406" endline="411">usrp_set_led</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1a53e607aa5d7526e5da357ac2ee8d499b" compoundref="usrp__prims__common_8cc" startline="863" endline="874">usrp_spi_read</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1a19684ae63c0ce40110e347152742e898" compoundref="usrp__prims__common_8cc" startline="848" endline="859">usrp_spi_write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="usrp__primsi_8h_1a9c0267bace693bb803b490127a69d824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb__types_8h_1a6a41e56fed0168fbd7abd9359c805bf1" kindref="member">libusb_device</ref> *</type>
+        <definition>libusb_device* _get_usb_device</definition>
+        <argsstring>(libusb_device_handle *udh)</argsstring>
+        <name>_get_usb_device</name>
+        <param>
+          <type><ref refid="libusb__types_8h_1a7d5bb463830eeed919dfb59dc54eeb2b" kindref="member">libusb_device_handle</ref> *</type>
+          <declname>udh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_primsi.h" line="46" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_prims_libusb0.cc" bodystart="50" bodyend="53"/>
+        <referencedby refid="usrp__prims__common_8cc_1a4ffbe7a8f1f34c079f4e48dd63d5332b" compoundref="usrp__prims__common_8cc" startline="926" endline="935">usrp_9862_write_many_all</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1a7e80adc49e58e5acb7a69b0458ac7095" compoundref="usrp__prims__common_8cc" startline="503" endline="512">usrp_read_fpga_reg</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1ae687fb1de69502d465285db77cfe3830" compoundref="usrp__prims__common_8cc" startline="1223" endline="1237">usrp_serial_number</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1aaef8715cc33a0cd06fb53e76de13d1eb" compoundref="usrp__prims__common_8cc" startline="491" endline="500">usrp_write_fpga_reg</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="usrp__primsi_8h_1a389e031a922c5eb07af9c5433fdb391f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb__types_8h_1ac5e93e2ccaee6015c0e06cbb7bba88e4" kindref="member">libusb_device_descriptor</ref></type>
+        <definition>libusb_device_descriptor _get_usb_device_descriptor</definition>
+        <argsstring>(libusb_device *q)</argsstring>
+        <name>_get_usb_device_descriptor</name>
+        <param>
+          <type><ref refid="libusb__types_8h_1a6a41e56fed0168fbd7abd9359c805bf1" kindref="member">libusb_device</ref> *</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_primsi.h" line="48" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_prims_libusb1.cc" bodystart="95" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="usrp__primsi_8h_1a8394e470f2ae58c4eaae8c032ad36256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _get_usb_string_descriptor</definition>
+        <argsstring>(libusb_device_handle *udh, int index, unsigned char *data, int length)</argsstring>
+        <name>_get_usb_string_descriptor</name>
+        <param>
+          <type><ref refid="libusb__types_8h_1a7d5bb463830eeed919dfb59dc54eeb2b" kindref="member">libusb_device_handle</ref> *</type>
+          <declname>udh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_primsi.h" line="50" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_prims_libusb0.cc" bodystart="62" bodyend="74"/>
+        <referencedby refid="usrp__prims__common_8cc_1ae687fb1de69502d465285db77cfe3830" compoundref="usrp__prims__common_8cc" startline="1223" endline="1237">usrp_serial_number</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="usrp__primsi_8h_1ae42e393b813e8dc97f38693bad713727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _usb_control_transfer</definition>
+        <argsstring>(libusb_device_handle *udh, int request_type, int request, int value, int index, unsigned char *data, int length, unsigned int timeout)</argsstring>
+        <name>_usb_control_transfer</name>
+        <param>
+          <type><ref refid="libusb__types_8h_1a7d5bb463830eeed919dfb59dc54eeb2b" kindref="member">libusb_device_handle</ref> *</type>
+          <declname>udh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>request_type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_primsi.h" line="53" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_prims_libusb0.cc" bodystart="77" bodyend="89"/>
+        <referencedby refid="usrp__prims__common_8cc_1ab78856b82dd0ded8eba5a39b1555a3b6" compoundref="usrp__prims__common_8cc" startline="430" endline="443">usrp_get_hash</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1ad0b2eca342b62b862016a167de6b832a" compoundref="usrp__prims__common_8cc" startline="191" endline="194">usrp_open_tx_interface</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1a5a4f5c3849c508f01aee76116c403514" compoundref="usrp__prims__common_8cc" startline="414" endline="427">usrp_set_hash</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2003,2009<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>Internal<sp/>usrp_prims<sp/>header<sp/>file</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_USRP_PRIMSI_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USRP_PRIMSI_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="usrp__prims_8h" kindref="compound">usrp/usrp_prims.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>Internal<sp/>functions</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><ref refid="structusb__dev__handle" kindref="compound">libusb_device_handle</ref><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><ref refid="usrp__primsi_8h_1a9f3334d2fff2fe19ff36bed963f03451" kindref="member">usrp_open_interface</ref>(<ref refid="libusb__types_8h_1a6a41e56fed0168fbd7abd9359c805bf1" kindref="member">libusb_device</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structusb__dev__handle_1a2b7e997cdb4735e3b2c1fc58b81cee03" kindref="member">interface</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>altinterface);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="usrp__primsi_8h_1ae0bf1f95cea87e052cbb51073d4a0a3e" kindref="member">write_cmd</ref><sp/>(<ref refid="structusb__dev__handle" kindref="compound">libusb_device_handle</ref><sp/>*udh,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>request,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>Compatibility<sp/>functions</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><ref refid="libusb__types_8h_1a6a41e56fed0168fbd7abd9359c805bf1" kindref="member">libusb_device</ref><sp/>*<ref refid="usrp__primsi_8h_1a9c0267bace693bb803b490127a69d824" kindref="member">_get_usb_device</ref><sp/>(<ref refid="structusb__dev__handle" kindref="compound">libusb_device_handle</ref><sp/>*udh);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><ref refid="libusb__types_8h_1ac5e93e2ccaee6015c0e06cbb7bba88e4" kindref="member">libusb_device_descriptor</ref><sp/><ref refid="usrp__primsi_8h_1a389e031a922c5eb07af9c5433fdb391f" kindref="member">_get_usb_device_descriptor</ref><sp/>(<ref refid="libusb__types_8h_1a6a41e56fed0168fbd7abd9359c805bf1" kindref="member">libusb_device</ref><sp/>*q);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="usrp__primsi_8h_1a8394e470f2ae58c4eaae8c032ad36256" kindref="member">_get_usb_string_descriptor</ref><sp/>(<ref refid="structusb__dev__handle" kindref="compound">libusb_device_handle</ref><sp/>*udh,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="usrp__primsi_8h_1ae42e393b813e8dc97f38693bad713727" kindref="member">_usb_control_transfer</ref><sp/>(<ref refid="structusb__dev__handle" kindref="compound">libusb_device_handle</ref><sp/>*udh,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>request_type,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>request,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>length,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_USRP_PRIMSI_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_primsi.h"/>
+  </compounddef>
+</doxygen>

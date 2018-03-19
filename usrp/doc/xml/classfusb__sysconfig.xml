@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfusb__sysconfig" kind="class" language="C++" prot="public">
+    <compoundname>fusb_sysconfig</compoundname>
+    <includes refid="fusb_8h" local="no">fusb.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classfusb__sysconfig_1af27b17480582325710483900d672bfbe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classfusb__devhandle" kindref="compound">fusb_devhandle</ref> *</type>
+        <definition>fusb_devhandle * fusb_sysconfig::make_devhandle</definition>
+        <argsstring>(libusb_device_handle *udh, libusb_context *ctx=0)</argsstring>
+        <name>make_devhandle</name>
+        <param>
+          <type><ref refid="libusb__types_8h_1a7d5bb463830eeed919dfb59dc54eeb2b" kindref="member">libusb_device_handle</ref> *</type>
+          <declname>udh</declname>
+        </param>
+        <param>
+          <type>libusb_context *</type>
+          <declname>ctx</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>returns <ref refid="classfusb__devhandle" kindref="compound">fusb_devhandle</ref> or throws if trouble </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb.h" line="118" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_sysconfig_darwin.cc" bodystart="30" bodyend="33"/>
+        <referencedby refid="classusrp__basic__rx_1acbda9587edf161df5aa2c504e42096ff" compoundref="usrp__basic_8cc" startline="765" endline="824">usrp_basic_rx::usrp_basic_rx</referencedby>
+        <referencedby refid="classusrp__basic__tx_1ab8bb942f1c956624553ac18b0a838bd6" compoundref="usrp__basic_8cc" startline="1171" endline="1227">usrp_basic_tx::usrp_basic_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__sysconfig_1a984f66e5b11b677d810c0a11f33f4ef6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fusb_sysconfig::max_block_size</definition>
+        <argsstring>()</argsstring>
+        <name>max_block_size</name>
+        <briefdescription>
+<para>Returns max block size in bytes (hard limit). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb.h" line="124" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_sysconfig_darwin.cc" bodystart="35" bodyend="38"/>
+        <referencedby refid="classfusb__sysconfig_1a4cda421aeeb13395e7dbd01894ac9d34" compoundref="fusb__sysconfig__darwin_8cc" startline="40" endline="43">default_block_size</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" compoundref="fusb__darwin_8cc" startline="59" endline="91">fusb_ephandle_darwin::fusb_ephandle_darwin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__sysconfig_1a4cda421aeeb13395e7dbd01894ac9d34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fusb_sysconfig::default_block_size</definition>
+        <argsstring>()</argsstring>
+        <name>default_block_size</name>
+        <briefdescription>
+<para>Returns default block size in bytes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb.h" line="129" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_sysconfig_darwin.cc" bodystart="40" bodyend="43"/>
+        <references refid="classfusb__sysconfig_1a984f66e5b11b677d810c0a11f33f4ef6" compoundref="fusb__sysconfig__darwin_8cc" startline="35" endline="38">max_block_size</references>
+        <referencedby refid="classusrp__basic__rx_1acbda9587edf161df5aa2c504e42096ff" compoundref="usrp__basic_8cc" startline="765" endline="824">usrp_basic_rx::usrp_basic_rx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__sysconfig_1acf6a95f060b7075fb3db2b23deac6e8d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int fusb_sysconfig::default_buffer_size</definition>
+        <argsstring>()</argsstring>
+        <name>default_buffer_size</name>
+        <briefdescription>
+<para>Returns the default buffer size in bytes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb.h" line="134" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_sysconfig_darwin.cc" bodystart="45" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>factory for creating concrete instances of the appropriate subtype. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb.h" line="113" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb.h" bodystart="113" bodyend="136"/>
+    <listofallmembers>
+      <member refid="classfusb__sysconfig_1a4cda421aeeb13395e7dbd01894ac9d34" prot="public" virt="non-virtual"><scope>fusb_sysconfig</scope><name>default_block_size</name></member>
+      <member refid="classfusb__sysconfig_1acf6a95f060b7075fb3db2b23deac6e8d" prot="public" virt="non-virtual"><scope>fusb_sysconfig</scope><name>default_buffer_size</name></member>
+      <member refid="classfusb__sysconfig_1af27b17480582325710483900d672bfbe" prot="public" virt="non-virtual"><scope>fusb_sysconfig</scope><name>make_devhandle</name></member>
+      <member refid="classfusb__sysconfig_1a984f66e5b11b677d810c0a11f33f4ef6" prot="public" virt="non-virtual"><scope>fusb_sysconfig</scope><name>max_block_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

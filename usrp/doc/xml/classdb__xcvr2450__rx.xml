@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classdb__xcvr2450__rx" kind="class" language="C++" prot="public">
+    <compoundname>db_xcvr2450_rx</compoundname>
+    <basecompoundref refid="classdb__xcvr2450__base" prot="public" virt="non-virtual">db_xcvr2450_base</basecompoundref>
+    <includes refid="db__xcvr2450_8h" local="no">db_xcvr2450.h</includes>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classdb__xcvr2450__rx_1a5bf35ddbc43b425c02a4bed6d183608a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void db_xcvr2450_rx::shutdown</definition>
+        <argsstring>()</argsstring>
+        <name>shutdown</name>
+        <reimplements refid="classdb__base_1a73aae0d09b138c28e70541c63e2cb498">shutdown</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called to shutdown daughterboard. Called from dtor and <ref refid="classusrp__basic" kindref="compound">usrp_basic</ref> dtor.</para><para>N.B., any class that overrides shutdown MUST call shutdown in its destructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_xcvr2450.h" line="78" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="765" bodyend="771"/>
+        <references refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" compoundref="db__base_8h" startline="52">db_base::d_is_shutdown</references>
+        <references refid="classdb__xcvr2450__base_1acd0853496dd1c01021436979a2d21986" compoundref="db__xcvr2450_8cc" startline="640" endline="653">db_xcvr2450_base::shutdown_common</references>
+        <referencedby refid="classdb__xcvr2450__rx_1a2a8969eedeca20cfbd64edb07867dc65" compoundref="db__xcvr2450_8cc" startline="759" endline="762">~db_xcvr2450_rx</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdb__xcvr2450__rx_1af1b7da5f0929cd52cf7aa7e7125f5678" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_xcvr2450_rx::db_xcvr2450_rx</definition>
+        <argsstring>(usrp_basic_sptr usrp, int which)</argsstring>
+        <name>db_xcvr2450_rx</name>
+        <param>
+          <type><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref></type>
+          <declname>usrp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_xcvr2450.h" line="81" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="748" bodyend="757"/>
+        <references refid="db__xcvr2450_8cc_1a8609e5f1fe88e1343f10b1a35be4e44f" compoundref="db__xcvr2450_8cc" startline="35">LO_OFFSET</references>
+        <references refid="classdb__base_1a3d8eb19a95b9ca4970c56f1a699e85bf" compoundref="db__base_8cc" startline="179" endline="185">db_base::set_lo_offset</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__xcvr2450__rx_1a2a8969eedeca20cfbd64edb07867dc65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_xcvr2450_rx::~db_xcvr2450_rx</definition>
+        <argsstring>()</argsstring>
+        <name>~db_xcvr2450_rx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_xcvr2450.h" line="82" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="759" bodyend="762"/>
+        <references refid="classdb__xcvr2450__rx_1a5bf35ddbc43b425c02a4bed6d183608a" compoundref="db__xcvr2450_8cc" startline="765" endline="771">shutdown</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__xcvr2450__rx_1aa879e4de2fe3f3ea63de906ba18a0097" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_xcvr2450_rx::gain_min</definition>
+        <argsstring>()</argsstring>
+        <name>gain_min</name>
+        <reimplements refid="classdb__base_1a8879fd876f4b31cd78f4713c64140176">gain_min</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_xcvr2450.h" line="84" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="774" bodyend="777"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__xcvr2450__rx_1a4e23744d6bc2a2bc43e7889fb8f46972" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_xcvr2450_rx::gain_max</definition>
+        <argsstring>()</argsstring>
+        <name>gain_max</name>
+        <reimplements refid="classdb__base_1aff5b963b288947ba6bfb5d5a6275a074">gain_max</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_xcvr2450.h" line="85" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="780" bodyend="783"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__xcvr2450__rx_1ae04e6280ee61dcd1214149b1351b6575" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_xcvr2450_rx::gain_db_per_step</definition>
+        <argsstring>()</argsstring>
+        <name>gain_db_per_step</name>
+        <reimplements refid="classdb__base_1adcb54348e840f7c91cfeaa113974d32f">gain_db_per_step</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_xcvr2450.h" line="86" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="786" bodyend="789"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__xcvr2450__rx_1af24f916314747f425abb247d277028e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_xcvr2450_rx::set_gain</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>set_gain</name>
+        <reimplements refid="classdb__base_1aa3b2f58f8d96e0b6c4652495338ce2da">set_gain</reimplements>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_xcvr2450.h" line="87" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="792" bodyend="795"/>
+        <references refid="classdb__xcvr2450__base_1acf234764a53c933da44f0f15e19dfaa4" compoundref="db__xcvr2450_8h" startline="51">db_xcvr2450_base::d_xcvr</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="666">
+        <label>db_xcvr2450_base</label>
+        <link refid="classdb__xcvr2450__base"/>
+        <childnode refid="667" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="665">
+        <label>db_xcvr2450_rx</label>
+        <link refid="classdb__xcvr2450__rx"/>
+        <childnode refid="666" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="667">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="669">
+        <label>db_xcvr2450_base</label>
+        <link refid="classdb__xcvr2450__base"/>
+        <childnode refid="670" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="672">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="673">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="668">
+        <label>db_xcvr2450_rx</label>
+        <link refid="classdb__xcvr2450__rx"/>
+        <childnode refid="669" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="671">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="672" relation="private-inheritance">
+        </childnode>
+        <childnode refid="673" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+      <node id="670">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+        <childnode refid="671" relation="usage">
+          <edgelabel>d_raw_usrp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_xcvr2450.h" line="76" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_xcvr2450.h" bodystart="75" bodyend="88"/>
+    <listofallmembers>
+      <member refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" prot="protected" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>_enable_refclk</name></member>
+      <member refid="classdb__base_1acd58b612941f45fabab13438463c327b" prot="protected" virt="virtual"><scope>db_xcvr2450_rx</scope><name>_refclk_divisor</name></member>
+      <member refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" prot="protected" virt="virtual"><scope>db_xcvr2450_rx</scope><name>_refclk_freq</name></member>
+      <member refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>bypass_adc_buffers</name></member>
+      <member refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" prot="protected" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>d_is_shutdown</name></member>
+      <member refid="classdb__base_1a0665a615c2eb4236814825c89dd024e0" prot="protected" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>d_lo_offset</name></member>
+      <member refid="classdb__base_1aa6e5420338ff3e0a9b1afe2ae1fbc58b" prot="protected" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>d_raw_usrp</name></member>
+      <member refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" prot="protected" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>d_which</name></member>
+      <member refid="classdb__xcvr2450__base_1acf234764a53c933da44f0f15e19dfaa4" prot="protected" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>d_xcvr</name></member>
+      <member refid="classdb__base_1aeddb69ef4218642cb8b03eff94ff8efc" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>db_base</name></member>
+      <member refid="classdb__xcvr2450__base_1ab0720ef3adb2c71e02b0efee91276dae" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>db_xcvr2450_base</name></member>
+      <member refid="classdb__xcvr2450__rx_1af1b7da5f0929cd52cf7aa7e7125f5678" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>db_xcvr2450_rx</name></member>
+      <member refid="classdb__base_1a6c70380b8abff2d051eece9d2b208408" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>dbid</name></member>
+      <member refid="classdb__xcvr2450__base_1a906e2b5a17507066e8d475eaccd429dc" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>freq_max</name></member>
+      <member refid="classdb__xcvr2450__base_1a440b8d23ca779f8be4471ccbbb048688" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>freq_min</name></member>
+      <member refid="classdb__xcvr2450__rx_1ae04e6280ee61dcd1214149b1351b6575" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>gain_db_per_step</name></member>
+      <member refid="classdb__xcvr2450__rx_1a4e23744d6bc2a2bc43e7889fb8f46972" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>gain_max</name></member>
+      <member refid="classdb__xcvr2450__rx_1aa879e4de2fe3f3ea63de906ba18a0097" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>gain_min</name></member>
+      <member refid="classdb__base_1aa2d4002c1550d262e74def064a230e1a" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>i_and_q_swapped</name></member>
+      <member refid="classdb__xcvr2450__base_1a7083ee22ee594d444aa5ea36004565c5" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>is_quadrature</name></member>
+      <member refid="classdb__base_1a07337ac0b59b2d36ced8f0dd7dd58b1e" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>lo_offset</name></member>
+      <member refid="classdb__base_1aef52f371112795b933570a269da85847" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>name</name></member>
+      <member refid="classdb__base_1aecc92b603e94509aa04f12aec563ea17" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1ab6aba3bd757102bf14fba4e98fb17f0d" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>set_atr_mask</name></member>
+      <member refid="classdb__base_1aec8010d1f2412ffe33bb0f27ee6d8275" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>set_atr_rx_delay</name></member>
+      <member refid="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>set_atr_rxval</name></member>
+      <member refid="classdb__base_1a01586c74a2cab95c3e12951402fab1a3" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>set_atr_tx_delay</name></member>
+      <member refid="classdb__base_1a9722d03f078d1206539ad097c28a9562" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>set_atr_txval</name></member>
+      <member refid="classdb__base_1aa636457dfe89f1f0dca5fa06b67fdb58" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>set_auto_tr</name></member>
+      <member refid="classdb__base_1a7adcd5e0883f838cc6cd2bc9dda1ef87" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>set_bw</name></member>
+      <member refid="classdb__base_1afa9d1b54d69312317258723a2ee1a1e7" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>set_enable</name></member>
+      <member refid="classdb__xcvr2450__base_1a86b9bef019b735ddbf72871d614966ce" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>set_freq</name></member>
+      <member refid="classdb__xcvr2450__rx_1af24f916314747f425abb247d277028e8" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>set_gain</name></member>
+      <member refid="classdb__base_1a3d8eb19a95b9ca4970c56f1a699e85bf" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>set_lo_offset</name></member>
+      <member refid="classdb__xcvr2450__rx_1a5bf35ddbc43b425c02a4bed6d183608a" prot="protected" virt="virtual"><scope>db_xcvr2450_rx</scope><name>shutdown</name></member>
+      <member refid="classdb__xcvr2450__base_1acd0853496dd1c01021436979a2d21986" prot="protected" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>shutdown_common</name></member>
+      <member refid="classdb__base_1a9cee7496d9a4d09b72a008fb5d7e6664" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>side_and_name</name></member>
+      <member refid="classdb__base_1ab6a6fad01c3df159fb7124aec13489d7" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>spectrum_inverted</name></member>
+      <member refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" prot="protected" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>usrp</name></member>
+      <member refid="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>which</name></member>
+      <member refid="classdb__base_1a6c28d39ecaa14d475acb9ce6bfc1b4b0" prot="public" virt="virtual"><scope>db_xcvr2450_rx</scope><name>~db_base</name></member>
+      <member refid="classdb__xcvr2450__base_1a59259c957a2d771efaa4449e27b466e9" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>~db_xcvr2450_base</name></member>
+      <member refid="classdb__xcvr2450__rx_1a2a8969eedeca20cfbd64edb07867dc65" prot="public" virt="non-virtual"><scope>db_xcvr2450_rx</scope><name>~db_xcvr2450_rx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

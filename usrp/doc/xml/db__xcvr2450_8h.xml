@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="db__xcvr2450_8h" kind="file" language="C++">
+    <compoundname>db_xcvr2450.h</compoundname>
+    <includes refid="db__base_8h" local="no">usrp/db_base.h</includes>
+    <includes local="no">boost/shared_ptr.hpp</includes>
+    <includedby refid="db__boards_8cc" local="no">db_boards.cc</includedby>
+    <includedby refid="db__xcvr2450_8cc" local="no">db_xcvr2450.cc</includedby>
+    <incdepgraph>
+      <node id="601">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="600">
+        <label>string</label>
+      </node>
+      <node id="602">
+        <label>boost/weak_ptr.hpp</label>
+      </node>
+      <node id="599">
+        <label>usrp/db_base.h</label>
+        <link refid="db__base_8h"/>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="601" relation="include">
+        </childnode>
+        <childnode refid="602" relation="include">
+        </childnode>
+        <childnode refid="603" relation="include">
+        </childnode>
+      </node>
+      <node id="598">
+        <label>db_xcvr2450.h</label>
+        <link refid="db_xcvr2450.h"/>
+        <childnode refid="599" relation="include">
+        </childnode>
+        <childnode refid="601" relation="include">
+        </childnode>
+      </node>
+      <node id="603">
+        <label>iosfwd</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="605">
+        <label>db_boards.cc</label>
+        <link refid="db__boards_8cc"/>
+      </node>
+      <node id="606">
+        <label>db_xcvr2450.cc</label>
+        <link refid="db__xcvr2450_8cc"/>
+      </node>
+      <node id="604">
+        <label>db_xcvr2450.h</label>
+        <link refid="db_xcvr2450.h"/>
+        <childnode refid="605" relation="include">
+        </childnode>
+        <childnode refid="606" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classdb__xcvr2450__base" prot="public">db_xcvr2450_base</innerclass>
+    <innerclass refid="classdb__xcvr2450__tx" prot="public">db_xcvr2450_tx</innerclass>
+    <innerclass refid="classdb__xcvr2450__rx" prot="public">db_xcvr2450_rx</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="db__xcvr2450_8h_1a5a80b24e855dfe8fe70821da30e4a99c" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classxcvr2450" kindref="compound">xcvr2450</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;xcvr2450&gt; xcvr2450_sptr</definition>
+        <argsstring></argsstring>
+        <name>xcvr2450_sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_xcvr2450.h" line="29" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_xcvr2450.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>2008,2009<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>asversion<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>any<sp/>later<sp/>version.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>DB_XCVR2450_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DB_XCVR2450_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__base_8h" kindref="compound">usrp/db_base.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/shared_ptr.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="db__xcvr2450_8h_1a5a80b24e855dfe8fe70821da30e4a99c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classxcvr2450" kindref="compound">xcvr2450</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::shared_ptr&lt;xcvr2450&gt;<sp/><ref refid="db__xcvr2450_8h_1a5a80b24e855dfe8fe70821da30e4a99c" kindref="member">xcvr2450_sptr</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classdb__xcvr2450__base" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdb__xcvr2450__base" kindref="compound">db_xcvr2450_base</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classdb__base" kindref="compound">db_base</ref></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/>*<sp/>Abstract<sp/>base<sp/>class<sp/>for<sp/>all<sp/>xcvr2450<sp/>boards.</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/>*<sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/>*<sp/>Derive<sp/>board<sp/>specific<sp/>subclasses<sp/>from<sp/>db_xcvr2450_base_{tx,rx}</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><ref refid="classdb__xcvr2450__base_1ab0720ef3adb2c71e02b0efee91276dae" kindref="member">db_xcvr2450_base</ref>(<ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref><sp/><ref refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" kindref="member">usrp</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" kindref="member">which</ref>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><ref refid="classdb__xcvr2450__base_1a59259c957a2d771efaa4449e27b466e9" kindref="member">~db_xcvr2450_base</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structfreq__result__t" kindref="compound">freq_result_t</ref><sp/>set_freq(double<sp/>target_freq);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classdb__xcvr2450__base_1a7083ee22ee594d444aa5ea36004565c5" kindref="member">is_quadrature</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classdb__xcvr2450__base_1a440b8d23ca779f8be4471ccbbb048688" kindref="member">freq_min</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classdb__xcvr2450__base_1a906e2b5a17507066e8d475eaccd429dc" kindref="member">freq_max</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="51" refid="classdb__xcvr2450__base_1acf234764a53c933da44f0f15e19dfaa4" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="db__xcvr2450_8h_1a5a80b24e855dfe8fe70821da30e4a99c" kindref="member">xcvr2450_sptr</ref><sp/><ref refid="classdb__xcvr2450__base_1acf234764a53c933da44f0f15e19dfaa4" kindref="member">d_xcvr</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdb__xcvr2450__base_1acd0853496dd1c01021436979a2d21986" kindref="member">shutdown_common</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="classdb__xcvr2450__tx" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdb__xcvr2450__tx" kindref="compound">db_xcvr2450_tx</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classdb__xcvr2450__base" kindref="compound">db_xcvr2450_base</ref></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdb__base_1a73aae0d09b138c28e70541c63e2cb498" kindref="member">shutdown</ref>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><ref refid="classdb__xcvr2450__tx" kindref="compound">db_xcvr2450_tx</ref>(<ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref><sp/><ref refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" kindref="member">usrp</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" kindref="member">which</ref>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>~<ref refid="classdb__xcvr2450__tx" kindref="compound">db_xcvr2450_tx</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classdb__base_1a8879fd876f4b31cd78f4713c64140176" kindref="member">gain_min</ref>();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classdb__base_1aff5b963b288947ba6bfb5d5a6275a074" kindref="member">gain_max</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classdb__base_1adcb54348e840f7c91cfeaa113974d32f" kindref="member">gain_db_per_step</ref>();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><ref refid="classdb__base_1aa3b2f58f8d96e0b6c4652495338ce2da" kindref="member">set_gain</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>gain);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><ref refid="classdb__base_1aa2d4002c1550d262e74def064a230e1a" kindref="member">i_and_q_swapped</ref>();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="classdb__xcvr2450__rx" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdb__xcvr2450__rx" kindref="compound">db_xcvr2450_rx</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classdb__xcvr2450__base" kindref="compound">db_xcvr2450_base</ref></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdb__base_1a73aae0d09b138c28e70541c63e2cb498" kindref="member">shutdown</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><ref refid="classdb__xcvr2450__rx" kindref="compound">db_xcvr2450_rx</ref>(<ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref><sp/><ref refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" kindref="member">usrp</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" kindref="member">which</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>~<ref refid="classdb__xcvr2450__rx" kindref="compound">db_xcvr2450_rx</ref>();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classdb__base_1a8879fd876f4b31cd78f4713c64140176" kindref="member">gain_min</ref>();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classdb__base_1aff5b963b288947ba6bfb5d5a6275a074" kindref="member">gain_max</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classdb__base_1adcb54348e840f7c91cfeaa113974d32f" kindref="member">gain_db_per_step</ref>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><ref refid="classdb__base_1aa3b2f58f8d96e0b6c4652495338ce2da" kindref="member">set_gain</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>gain);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_xcvr2450.h"/>
+  </compounddef>
+</doxygen>

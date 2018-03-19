@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structdarwin__dev__handle" kind="struct" language="C++" prot="public">
+    <compoundname>darwin_dev_handle</compoundname>
+    <includes refid="fusb__darwin_8h" local="no">fusb_darwin.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdarwin__dev__handle_1adf2931b2cf862a2d3d7a40d33a8a56f1" prot="public" static="no" mutable="no">
+        <type><ref refid="fusb__darwin_8h_1a52434bb39d2aca48100c2efbbda280bc" kindref="member">usb_device_t</ref> **</type>
+        <definition>usb_device_t** darwin_dev_handle::device</definition>
+        <argsstring></argsstring>
+        <name>device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="62" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdarwin__dev__handle_1a24033b6bf2283cebd863675951365439" prot="public" static="no" mutable="no">
+        <type><ref refid="fusb__darwin_8h_1ab20603f7900e18ac518c5684661b9f58" kindref="member">usb_interface_t</ref> **</type>
+        <definition>usb_interface_t** darwin_dev_handle::interface</definition>
+        <argsstring></argsstring>
+        <name>interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="63" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">fusb_ephandle_darwin::start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structdarwin__dev__handle_1a4514111f63826c88fb4e0a96afcff810" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int darwin_dev_handle::open</definition>
+        <argsstring></argsstring>
+        <name>open</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="64" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="61" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="61" bodyend="65"/>
+    <listofallmembers>
+      <member refid="structdarwin__dev__handle_1adf2931b2cf862a2d3d7a40d33a8a56f1" prot="public" virt="non-virtual"><scope>darwin_dev_handle</scope><name>device</name></member>
+      <member refid="structdarwin__dev__handle_1a24033b6bf2283cebd863675951365439" prot="public" virt="non-virtual"><scope>darwin_dev_handle</scope><name>interface</name></member>
+      <member refid="structdarwin__dev__handle_1a4514111f63826c88fb4e0a96afcff810" prot="public" virt="non-virtual"><scope>darwin_dev_handle</scope><name>open</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

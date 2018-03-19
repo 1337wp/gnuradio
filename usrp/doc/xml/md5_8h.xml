@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="md5_8h" kind="file" language="C++">
+    <compoundname>md5.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">limits.h</includes>
+    <includedby refid="usrp__prims__common_8cc" local="yes">usrp_prims_common.cc</includedby>
+    <includedby refid="usrp__prims__libusb0_8cc" local="yes">usrp_prims_libusb0.cc</includedby>
+    <includedby refid="usrp__prims__libusb1_8cc" local="yes">usrp_prims_libusb1.cc</includedby>
+    <incdepgraph>
+      <node id="868">
+        <label>md5.h</label>
+        <link refid="md5.h"/>
+        <childnode refid="869" relation="include">
+        </childnode>
+        <childnode refid="870" relation="include">
+        </childnode>
+      </node>
+      <node id="870">
+        <label>limits.h</label>
+      </node>
+      <node id="869">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="871">
+        <label>md5.h</label>
+        <link refid="md5.h"/>
+        <childnode refid="872" relation="include">
+        </childnode>
+        <childnode refid="873" relation="include">
+        </childnode>
+        <childnode refid="874" relation="include">
+        </childnode>
+      </node>
+      <node id="874">
+        <label>usrp_prims_libusb1.cc</label>
+        <link refid="usrp__prims__libusb1_8cc"/>
+      </node>
+      <node id="872">
+        <label>usrp_prims_common.cc</label>
+        <link refid="usrp__prims__common_8cc"/>
+      </node>
+      <node id="873">
+        <label>usrp_prims_libusb0.cc</label>
+        <link refid="usrp__prims__libusb0_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structmd5__ctx" prot="public">md5_ctx</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="md5_8h_1ab108c64f1909e7e25fe8f8d85acbe7d2" prot="public" static="no">
+        <name>UINT_MAX_32_BITS</name>
+        <initializer>4294967295U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" line="39" column="11" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="md5_8h_1a28f59d6cc7ca29725b37efd74f235ccb" prot="public" static="no">
+        <name>rol</name>
+        <param><defname>x</defname></param>
+        <param><defname>n</defname></param>
+        <initializer>( ((x) &lt;&lt; (n)) | ((x) &gt;&gt; (32-(n))) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" line="127" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="md5_8h_1a2d5490fb601446d2e2dd97ee021e6488" prot="public" static="no" mutable="no">
+        <type>Cannot determine unsigned bit data type typedef unsigned long int</type>
+        <definition>Cannot determine unsigned bit data type typedef unsigned long int md5_uintptr</definition>
+        <argsstring></argsstring>
+        <name>md5_uintptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" line="58" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="md5_8h_1ac3ac4bf337ea2ebffcecb83d4533f877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void md5_init_ctx</definition>
+        <argsstring>(struct md5_ctx *ctx)</argsstring>
+        <name>md5_init_ctx</name>
+        <param>
+          <type>struct <ref refid="structmd5__ctx" kindref="compound">md5_ctx</ref> *</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="md5_8h_1a78c2ce6f92cc655c1e00dcb1d42d2073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void md5_process_block</definition>
+        <argsstring>(const void *buffer, size_t len, struct md5_ctx *ctx)</argsstring>
+        <name>md5_process_block</name>
+        <param>
+          <type>const void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structmd5__ctx" kindref="compound">md5_ctx</ref> *</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="md5_8h_1a2167ee252f9d864c15739ad707f9c88e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void md5_process_bytes</definition>
+        <argsstring>(const void *buffer, size_t len, struct md5_ctx *ctx)</argsstring>
+        <name>md5_process_bytes</name>
+        <param>
+          <type>const void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="structmd5__ctx" kindref="compound">md5_ctx</ref> *</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="md5_8h_1afb354a896f5c60f65a937a95f15ee7b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* md5_finish_ctx</definition>
+        <argsstring>(struct md5_ctx *ctx, void *resbuf)</argsstring>
+        <name>md5_finish_ctx</name>
+        <param>
+          <type>struct <ref refid="structmd5__ctx" kindref="compound">md5_ctx</ref> *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>resbuf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" line="104" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="md5_8h_1ae7623dfff218108d16026127ca6edf31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* md5_read_ctx</definition>
+        <argsstring>(const struct md5_ctx *ctx, void *resbuf)</argsstring>
+        <name>md5_read_ctx</name>
+        <param>
+          <type>const struct <ref refid="structmd5__ctx" kindref="compound">md5_ctx</ref> *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>resbuf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" line="113" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="md5_8h_1a59105467b3fc9dc939e92f16836341b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int md5_stream</definition>
+        <argsstring>(FILE *stream, void *resblock)</argsstring>
+        <name>md5_stream</name>
+        <param>
+          <type>FILE *</type>
+          <declname>stream</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>resblock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" line="119" column="1"/>
+        <referencedby refid="usrp__prims__common_8cc_1acb37b3d6745ae54aa7e280187f919787" compoundref="usrp__prims__common_8cc" startline="539" endline="542">usrp_set_fpga_rx_reset</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="md5_8h_1a62c2b951082f4e72c1e09732dd087c86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* md5_buffer</definition>
+        <argsstring>(const char *buffer, size_t len, void *resblock)</argsstring>
+        <name>md5_buffer</name>
+        <param>
+          <type>const char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>resblock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h" line="125" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>md5.h<sp/>-<sp/>Declaration<sp/>of<sp/>functions<sp/>and<sp/>data<sp/>types<sp/>used<sp/>for<sp/>MD5<sp/>sum</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/>computing<sp/>library<sp/>functions.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/>Copyright<sp/>(C)<sp/>1995,<sp/>1996,<sp/>1999,<sp/>2000,<sp/>2003<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/>NOTE:<sp/>The<sp/>canonical<sp/>source<sp/>of<sp/>this<sp/>file<sp/>is<sp/>maintained<sp/>with<sp/>the<sp/>GNU<sp/>C</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/>Library.<sp/><sp/>Bugs<sp/>can<sp/>be<sp/>reported<sp/>to<sp/>bug-glibc@prep.ai.mit.edu.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/>it</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/>the</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/><sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)<sp/>any</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_MD5_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_MD5_H<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>following<sp/>contortions<sp/>are<sp/>an<sp/>attempt<sp/>to<sp/>use<sp/>the<sp/>C<sp/>preprocessor</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/>to<sp/>determine<sp/>an<sp/>unsigned<sp/>integral<sp/>type<sp/>that<sp/>is<sp/>32<sp/>bits<sp/>wide.<sp/><sp/>An</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/>alternative<sp/>approach<sp/>is<sp/>to<sp/>use<sp/>autoconf&apos;s<sp/>AC_CHECK_SIZEOF<sp/>macro,<sp/>but</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/>doing<sp/>that<sp/>would<sp/>require<sp/>that<sp/>the<sp/>configure<sp/>script<sp/>compile<sp/>and<sp/>*run*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/>the<sp/>resulting<sp/>executable.<sp/><sp/>Locally<sp/>running<sp/>cross-compiled<sp/>executables</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/>is<sp/>usually<sp/>not<sp/>possible.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_LIBC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/>md5_uint32;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uintptr_t<sp/><ref refid="md5_8h_1a2d5490fb601446d2e2dd97ee021e6488" kindref="member">md5_uintptr</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="md5_8h_1ab108c64f1909e7e25fe8f8d85acbe7d2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>UINT_MAX_32_BITS<sp/>4294967295U</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>if<sp/>UINT_MAX<sp/>==<sp/>UINT_MAX_32_BITS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>md5_uint32;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>if<sp/>USHRT_MAX<sp/>==<sp/>UINT_MAX_32_BITS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>md5_uint32;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>if<sp/>ULONG_MAX<sp/>==<sp/>UINT_MAX_32_BITS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>md5_uint32;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>The<sp/>following<sp/>line<sp/>is<sp/>intended<sp/>to<sp/>evoke<sp/>an<sp/>error.</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Using<sp/>#error<sp/>is<sp/>not<sp/>portable<sp/>enough.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Cannot<sp/>determine<sp/>unsigned<sp/>32-bit<sp/>data<sp/>type.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>We<sp/>have<sp/>to<sp/>make<sp/>a<sp/>guess<sp/>about<sp/>the<sp/>integer<sp/>type<sp/>equivalent<sp/>in<sp/>size</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/>to<sp/>pointers<sp/>which<sp/>should<sp/>always<sp/>be<sp/>correct.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="md5_8h_1a2d5490fb601446d2e2dd97ee021e6488" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="md5_8h_1a2d5490fb601446d2e2dd97ee021e6488" kindref="member">md5_uintptr</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Structure<sp/>to<sp/>save<sp/>state<sp/>of<sp/>computation<sp/>between<sp/>the<sp/>single<sp/>steps.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="structmd5__ctx" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structmd5__ctx" kindref="compound">md5_ctx</ref></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64" refid="structmd5__ctx_1ad3cd1fd0daca3d38ab6e12f27cb4f858" refkind="member"><highlight class="normal"><sp/><sp/>md5_uint32<sp/><ref refid="structmd5__ctx_1ad3cd1fd0daca3d38ab6e12f27cb4f858" kindref="member">A</ref>;</highlight></codeline>
+<codeline lineno="65" refid="structmd5__ctx_1a0de0dd443b08898dcb19bdd20fd8e833" refkind="member"><highlight class="normal"><sp/><sp/>md5_uint32<sp/><ref refid="structmd5__ctx_1a0de0dd443b08898dcb19bdd20fd8e833" kindref="member">B</ref>;</highlight></codeline>
+<codeline lineno="66" refid="structmd5__ctx_1a6ee98f3e18acd7f675ea33e23eb1554f" refkind="member"><highlight class="normal"><sp/><sp/>md5_uint32<sp/><ref refid="structmd5__ctx_1a6ee98f3e18acd7f675ea33e23eb1554f" kindref="member">C</ref>;</highlight></codeline>
+<codeline lineno="67" refid="structmd5__ctx_1ae082f2d10560f0d0280c4e99d8a9d16e" refkind="member"><highlight class="normal"><sp/><sp/>md5_uint32<sp/><ref refid="structmd5__ctx_1ae082f2d10560f0d0280c4e99d8a9d16e" kindref="member">D</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="structmd5__ctx_1a508f7d5c0d85800ebfece4c77c30f18e" refkind="member"><highlight class="normal"><sp/><sp/>md5_uint32<sp/><ref refid="structmd5__ctx_1a508f7d5c0d85800ebfece4c77c30f18e" kindref="member">total</ref>[2];</highlight></codeline>
+<codeline lineno="70" refid="structmd5__ctx_1a6d8795406395423360fbdc14b1d03935" refkind="member"><highlight class="normal"><sp/><sp/>md5_uint32<sp/><ref refid="structmd5__ctx_1a6d8795406395423360fbdc14b1d03935" kindref="member">buflen</ref>;</highlight></codeline>
+<codeline lineno="71" refid="structmd5__ctx_1a4c74de4caa754d695d9af448d93d8789" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structmd5__ctx_1a4c74de4caa754d695d9af448d93d8789" kindref="member">buffer</ref>[128];</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>The<sp/>following<sp/>three<sp/>functions<sp/>are<sp/>build<sp/>up<sp/>the<sp/>low<sp/>level<sp/>used<sp/>in</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*<sp/>the<sp/>functions<sp/>`md5_stream&apos;<sp/>and<sp/>`md5_buffer&apos;.</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Initialize<sp/>structure<sp/>containing<sp/>state<sp/>of<sp/>computation.</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/>(RFC<sp/>1321,<sp/>3.3:<sp/>Step<sp/>3)<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="md5_8h_1ac3ac4bf337ea2ebffcecb83d4533f877" kindref="member">md5_init_ctx</ref><sp/>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structmd5__ctx" kindref="compound">md5_ctx</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Starting<sp/>with<sp/>the<sp/>result<sp/>of<sp/>former<sp/>calls<sp/>of<sp/>this<sp/>function<sp/>(or<sp/>the</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/><sp/><sp/>initialization<sp/>function<sp/>update<sp/>the<sp/>context<sp/>for<sp/>the<sp/>next<sp/>LEN<sp/>bytes</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/><sp/><sp/>starting<sp/>at<sp/>BUFFER.</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/><sp/><sp/>It<sp/>is<sp/>necessary<sp/>that<sp/>LEN<sp/>is<sp/>a<sp/>multiple<sp/>of<sp/>64!!!<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="md5_8h_1a78c2ce6f92cc655c1e00dcb1d42d2073" kindref="member">md5_process_block</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structmd5__ctx_1a4c74de4caa754d695d9af448d93d8789" kindref="member">buffer</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structmd5__ctx" kindref="compound">md5_ctx</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Starting<sp/>with<sp/>the<sp/>result<sp/>of<sp/>former<sp/>calls<sp/>of<sp/>this<sp/>function<sp/>(or<sp/>the</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/>initialization<sp/>function<sp/>update<sp/>the<sp/>context<sp/>for<sp/>the<sp/>next<sp/>LEN<sp/>bytes</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/>starting<sp/>at<sp/>BUFFER.</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/><sp/>It<sp/>is<sp/>NOT<sp/>required<sp/>that<sp/>LEN<sp/>is<sp/>a<sp/>multiple<sp/>of<sp/>64.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="md5_8h_1a2167ee252f9d864c15739ad707f9c88e" kindref="member">md5_process_bytes</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structmd5__ctx_1a4c74de4caa754d695d9af448d93d8789" kindref="member">buffer</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structmd5__ctx" kindref="compound">md5_ctx</ref><sp/>*ctx);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Process<sp/>the<sp/>remaining<sp/>bytes<sp/>in<sp/>the<sp/>buffer<sp/>and<sp/>put<sp/>result<sp/>from<sp/>CTX</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/>in<sp/>first<sp/>16<sp/>bytes<sp/>following<sp/>RESBUF.<sp/><sp/>The<sp/>result<sp/>is<sp/>always<sp/>in<sp/>little</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/><sp/>endian<sp/>byte<sp/>order,<sp/>so<sp/>that<sp/>a<sp/>byte-wise<sp/>output<sp/>yields<sp/>to<sp/>the<sp/>wanted</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/><sp/><sp/>ASCII<sp/>representation<sp/>of<sp/>the<sp/>message<sp/>digest.</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"></highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/><sp/><sp/>IMPORTANT:<sp/>On<sp/>some<sp/>systems<sp/>it<sp/>is<sp/>required<sp/>that<sp/>RESBUF<sp/>be<sp/>correctly</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/><sp/><sp/>aligned<sp/>for<sp/>a<sp/>32<sp/>bits<sp/>value.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="md5_8h_1afb354a896f5c60f65a937a95f15ee7b7" kindref="member">md5_finish_ctx</ref><sp/>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structmd5__ctx" kindref="compound">md5_ctx</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*resbuf);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Put<sp/>result<sp/>from<sp/>CTX<sp/>in<sp/>first<sp/>16<sp/>bytes<sp/>following<sp/>RESBUF.<sp/><sp/>The<sp/>result<sp/>is</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/>always<sp/>in<sp/>little<sp/>endian<sp/>byte<sp/>order,<sp/>so<sp/>that<sp/>a<sp/>byte-wise<sp/>output<sp/>yields</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/><sp/><sp/>to<sp/>the<sp/>wanted<sp/>ASCII<sp/>representation<sp/>of<sp/>the<sp/>message<sp/>digest.</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"></highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/><sp/><sp/>IMPORTANT:<sp/>On<sp/>some<sp/>systems<sp/>it<sp/>is<sp/>required<sp/>that<sp/>RESBUF<sp/>is<sp/>correctly</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/>aligned<sp/>for<sp/>a<sp/>32<sp/>bits<sp/>value.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="md5_8h_1ae7623dfff218108d16026127ca6edf31" kindref="member">md5_read_ctx</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structmd5__ctx" kindref="compound">md5_ctx</ref><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*resbuf);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Compute<sp/>MD5<sp/>message<sp/>digest<sp/>for<sp/>bytes<sp/>read<sp/>from<sp/>STREAM.<sp/><sp/>The</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/><sp/><sp/>resulting<sp/>message<sp/>digest<sp/>number<sp/>will<sp/>be<sp/>written<sp/>into<sp/>the<sp/>16<sp/>bytes</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/><sp/><sp/>beginning<sp/>at<sp/>RESBLOCK.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="md5_8h_1a59105467b3fc9dc939e92f16836341b4" kindref="member">md5_stream</ref><sp/>(FILE<sp/>*stream,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*resblock);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Compute<sp/>MD5<sp/>message<sp/>digest<sp/>for<sp/>LEN<sp/>bytes<sp/>beginning<sp/>at<sp/>BUFFER.<sp/><sp/>The</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/>result<sp/>is<sp/>always<sp/>in<sp/>little<sp/>endian<sp/>byte<sp/>order,<sp/>so<sp/>that<sp/>a<sp/>byte-wise</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/>output<sp/>yields<sp/>to<sp/>the<sp/>wanted<sp/>ASCII<sp/>representation<sp/>of<sp/>the<sp/>message</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/><sp/><sp/>digest.<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="md5_8h_1a62c2b951082f4e72c1e09732dd087c86" kindref="member">md5_buffer</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structmd5__ctx_1a4c74de4caa754d695d9af448d93d8789" kindref="member">buffer</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*resblock);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="md5_8h_1a28f59d6cc7ca29725b37efd74f235ccb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>rol(x,n)<sp/>(<sp/>((x)<sp/>&lt;&lt;<sp/>(n))<sp/>|<sp/>((x)<sp/>&gt;&gt;<sp/>(32-(n)))<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/md5.h"/>
+  </compounddef>
+</doxygen>

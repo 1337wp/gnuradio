@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classusrp__signal" kind="class" language="C++" prot="public">
+    <compoundname>usrp_signal</compoundname>
+    <includes refid="usrp__local__sighandler_8h" local="no">usrp_local_sighandler.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classusrp__signal_1a7a7a9cb3fabe3d8d4287a03cb3136bba" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usrp_signal::d_signum</definition>
+        <argsstring></argsstring>
+        <name>d_signum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" line="34" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classusrp__signal_1a5f0c213b5796e400329d15dcc016bc8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>usrp_signal::usrp_signal</definition>
+        <argsstring>(int signum)</argsstring>
+        <name>usrp_signal</name>
+        <param>
+          <type>int</type>
+          <declname>signum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" line="36" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__signal_1a3cac400ab795a7c5e52bf4e43736cbdb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int usrp_signal::signal</definition>
+        <argsstring>() const </argsstring>
+        <name>signal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" line="37" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" bodystart="37" bodyend="37"/>
+        <references refid="classusrp__signal_1a4d7bd083077fa3d0ac9af2304bb2c567" compoundref="usrp__local__sighandler_8cc" startline="79" endline="191">name</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__signal_1a4d7bd083077fa3d0ac9af2304bb2c567" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string usrp_signal::name</definition>
+        <argsstring>() const </argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" line="38" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_local_sighandler.cc" bodystart="79" bodyend="191"/>
+        <references refid="usrp__local__sighandler_8cc_1a9846cdd63edf8cb4e7678b5d04780b12" compoundref="usrp__local__sighandler_8cc" startline="76">SIGNAME</references>
+        <referencedby refid="usrp__cal__dc__offset_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="usrp__cal__dc__offset_8cc" startline="145" endline="238">main</referencedby>
+        <referencedby refid="classusrp__signal_1a3cac400ab795a7c5e52bf4e43736cbdb" compoundref="usrp__local__sighandler_8h" startline="37" endline="37">signal</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Representation of signal. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" line="33" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" bodystart="32" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classusrp__signal_1a7a7a9cb3fabe3d8d4287a03cb3136bba" prot="private" virt="non-virtual"><scope>usrp_signal</scope><name>d_signum</name></member>
+      <member refid="classusrp__signal_1a4d7bd083077fa3d0ac9af2304bb2c567" prot="public" virt="non-virtual"><scope>usrp_signal</scope><name>name</name></member>
+      <member refid="classusrp__signal_1a3cac400ab795a7c5e52bf4e43736cbdb" prot="public" virt="non-virtual"><scope>usrp_signal</scope><name>signal</name></member>
+      <member refid="classusrp__signal_1a5f0c213b5796e400329d15dcc016bc8e" prot="public" virt="non-virtual"><scope>usrp_signal</scope><name>usrp_signal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

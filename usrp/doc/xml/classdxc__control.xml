@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classdxc__control" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>dxc_control</compoundname>
+    <derivedcompoundref refid="classddc__control" prot="public" virt="non-virtual">ddc_control</derivedcompoundref>
+    <derivedcompoundref refid="classduc__control" prot="public" virt="non-virtual">duc_control</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdxc__control_1a4555b45e768acaefb8285b89a620f409" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool dxc_control::is_tx</definition>
+        <argsstring>()=0</argsstring>
+        <name>is_tx</name>
+        <reimplementedby refid="classddc__control_1aa1f6dfd9d87f65ec1b1acf0af3e2ea2f">is_tx</reimplementedby>
+        <reimplementedby refid="classduc__control_1a274a0ee33f11834403a21420a26278fc">is_tx</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" line="116" column="1"/>
+        <referencedby refid="classduc__control_1aa07e6f0983597d6659aff1b7b0c6bd17" compoundref="usrp__standard_8cc" startline="144" endline="144">duc_control::dxc_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdxc__control_1a2dd92d5953f1e09763cbb8ba2f4b1aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool dxc_control::set_dxc_freq</definition>
+        <argsstring>(double dxc_freq)=0</argsstring>
+        <name>set_dxc_freq</name>
+        <reimplementedby refid="classddc__control_1aeff5638c036ddde7234e41cb97d2af7e">set_dxc_freq</reimplementedby>
+        <reimplementedby refid="classduc__control_1a4f6c38fb1ecb6f76d5c694ff44ff8a34">set_dxc_freq</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>dxc_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" line="117" column="1"/>
+        <referencedby refid="classduc__control_1aa07e6f0983597d6659aff1b7b0c6bd17" compoundref="usrp__standard_8cc" startline="144" endline="144">duc_control::dxc_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdxc__control_1aefb33ae501db6e8cc17fae4c3366cc68" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double dxc_control::dxc_freq</definition>
+        <argsstring>()=0</argsstring>
+        <name>dxc_freq</name>
+        <reimplementedby refid="classddc__control_1af60db2ff15829832aaddec9ccca2ab14">dxc_freq</reimplementedby>
+        <reimplementedby refid="classduc__control_1aa07e6f0983597d6659aff1b7b0c6bd17">dxc_freq</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" line="118" column="1"/>
+        <referencedby refid="classduc__control_1aa07e6f0983597d6659aff1b7b0c6bd17" compoundref="usrp__standard_8cc" startline="144" endline="144">duc_control::dxc_freq</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="693">
+        <label>duc_control</label>
+        <link refid="classduc__control"/>
+        <childnode refid="691" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="692">
+        <label>ddc_control</label>
+        <link refid="classddc__control"/>
+        <childnode refid="691" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="691">
+        <label>dxc_control</label>
+        <link refid="classdxc__control"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" line="114" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="114" bodyend="119"/>
+    <listofallmembers>
+      <member refid="classdxc__control_1aefb33ae501db6e8cc17fae4c3366cc68" prot="public" virt="pure-virtual"><scope>dxc_control</scope><name>dxc_freq</name></member>
+      <member refid="classdxc__control_1a4555b45e768acaefb8285b89a620f409" prot="public" virt="pure-virtual"><scope>dxc_control</scope><name>is_tx</name></member>
+      <member refid="classdxc__control_1a2dd92d5953f1e09763cbb8ba2f4b1aa8" prot="public" virt="pure-virtual"><scope>dxc_control</scope><name>set_dxc_freq</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

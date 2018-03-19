@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfusb__devhandle__darwin" kind="class" language="C++" prot="public">
+    <compoundname>fusb_devhandle_darwin</compoundname>
+    <basecompoundref refid="classfusb__devhandle" prot="public" virt="non-virtual">fusb_devhandle</basecompoundref>
+    <includes refid="fusb__darwin_8h" local="no">fusb_darwin.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfusb__devhandle__darwin_1acb62c443d1c750169b3c912735cf6f29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fusb_devhandle_darwin::fusb_devhandle_darwin</definition>
+        <argsstring>(usb_dev_handle *udh)</argsstring>
+        <name>fusb_devhandle_darwin</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>udh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="134" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__darwin_1a37275287d4abb4981d28d3458d75333c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>fusb_devhandle_darwin::~fusb_devhandle_darwin</definition>
+        <argsstring>()</argsstring>
+        <name>~fusb_devhandle_darwin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="135" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__darwin_1a2edab16988958b0e7108d99e18e171df" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classfusb__ephandle" kindref="compound">fusb_ephandle</ref> *</type>
+        <definition>fusb_ephandle * fusb_devhandle_darwin::make_ephandle</definition>
+        <argsstring>(int endpoint, bool input_p, int block_size=0, int nblocks=0)</argsstring>
+        <name>make_ephandle</name>
+        <reimplements refid="classfusb__devhandle_1a9783b6b0082f783dc7638ff557998ff2">make_ephandle</reimplements>
+        <param>
+          <type>int</type>
+          <declname>endpoint</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>input_p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block_size</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nblocks</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>return an ephandle of the correct subtype </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="138" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="50" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>darwin implementation of <ref refid="classfusb__devhandle" kindref="compound">fusb_devhandle</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para>This is currently identical to the generic implementation and is intended as a starting point for whatever magic is required to make usb fly. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="800">
+        <label>fusb_devhandle_darwin</label>
+        <link refid="classfusb__devhandle__darwin"/>
+        <childnode refid="801" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="801">
+        <label>fusb_devhandle</label>
+        <link refid="classfusb__devhandle"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="804">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="802">
+        <label>fusb_devhandle_darwin</label>
+        <link refid="classfusb__devhandle__darwin"/>
+        <childnode refid="803" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="803">
+        <label>fusb_devhandle</label>
+        <link refid="classfusb__devhandle"/>
+        <childnode refid="804" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="131" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="130" bodyend="140"/>
+    <listofallmembers>
+      <member refid="classfusb__devhandle_1a6252a726fbddc4dccd936e46b59f7f0a" prot="protected" virt="non-virtual"><scope>fusb_devhandle_darwin</scope><name>d_udh</name></member>
+      <member refid="classfusb__devhandle_1a874740e2d90be7f4a526ab0e6f1007d9" prot="public" virt="non-virtual"><scope>fusb_devhandle_darwin</scope><name>fusb_devhandle</name></member>
+      <member refid="classfusb__devhandle__darwin_1acb62c443d1c750169b3c912735cf6f29" prot="public" virt="non-virtual"><scope>fusb_devhandle_darwin</scope><name>fusb_devhandle_darwin</name></member>
+      <member refid="classfusb__devhandle_1a0f1b7e9680e730d0f6faca7ec41175f1" prot="public" virt="non-virtual"><scope>fusb_devhandle_darwin</scope><name>get_usb_dev_handle</name></member>
+      <member refid="classfusb__devhandle__darwin_1a2edab16988958b0e7108d99e18e171df" prot="public" virt="virtual"><scope>fusb_devhandle_darwin</scope><name>make_ephandle</name></member>
+      <member refid="classfusb__devhandle_1a4dce7007e8565b2bb5951b60b517a8b5" prot="public" virt="virtual"><scope>fusb_devhandle_darwin</scope><name>~fusb_devhandle</name></member>
+      <member refid="classfusb__devhandle__darwin_1a37275287d4abb4981d28d3458d75333c" prot="public" virt="virtual"><scope>fusb_devhandle_darwin</scope><name>~fusb_devhandle_darwin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

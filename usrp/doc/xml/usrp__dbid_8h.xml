@@ -1,0 +1,759 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="usrp__dbid_8h" kind="file" language="C++">
+    <compoundname>usrp_dbid.h</compoundname>
+    <includedby refid="db__boards_8cc" local="no">db_boards.cc</includedby>
+    <includedby refid="usrp__dbid_8cc" local="no">usrp_dbid.cc</includedby>
+    <invincdepgraph>
+      <node id="1045">
+        <label>usrp_dbid.h</label>
+        <link refid="usrp_dbid.h"/>
+        <childnode refid="1046" relation="include">
+        </childnode>
+        <childnode refid="1047" relation="include">
+        </childnode>
+      </node>
+      <node id="1046">
+        <label>db_boards.cc</label>
+        <link refid="db__boards_8cc"/>
+      </node>
+      <node id="1047">
+        <label>usrp_dbid.cc</label>
+        <link refid="usrp__dbid_8cc"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="usrp__dbid_8h_1a463e9ecf8b5a3f87ff118bb73d9d5101" prot="public" static="no">
+        <name>USRP_DBID_BASIC_TX</name>
+        <initializer>0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="13" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1ab97c0168b5b16de0ea863f7ccb85a74b" prot="public" static="no">
+        <name>USRP_DBID_BASIC_RX</name>
+        <initializer>0x0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="14" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="14" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1ae84dfd43400901caf4cd6417a167745c" prot="public" static="no">
+        <name>USRP_DBID_DBS_RX</name>
+        <initializer>0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="15" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1af8855fd553eab05e416b5a9589f63c91" prot="public" static="no">
+        <name>USRP_DBID_TV_RX</name>
+        <initializer>0x0003</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="16" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a88938d5d1f057a14a7f85ba7631c70b4" prot="public" static="no">
+        <name>USRP_DBID_FLEX_400_RX</name>
+        <initializer>0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="17" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a3d3428b696bf8f649b3eb62fb85f1cdb" prot="public" static="no">
+        <name>USRP_DBID_FLEX_900_RX</name>
+        <initializer>0x0005</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="18" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1ae8e511ae8d9932454e7fc6e0f9df43ba" prot="public" static="no">
+        <name>USRP_DBID_FLEX_1200_RX</name>
+        <initializer>0x0006</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="19" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a1c0a36f4dc274f26f7ef0ed986211b4f" prot="public" static="no">
+        <name>USRP_DBID_FLEX_2400_RX</name>
+        <initializer>0x0007</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="20" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1ab4c96a886230948b27b9f9f5ebb412ba" prot="public" static="no">
+        <name>USRP_DBID_FLEX_400_TX</name>
+        <initializer>0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="21" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a850f6658172a6a6f37ab72abd3b4e365" prot="public" static="no">
+        <name>USRP_DBID_FLEX_900_TX</name>
+        <initializer>0x0009</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="22" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1abaf21e7c23333e025558bd22df1b925d" prot="public" static="no">
+        <name>USRP_DBID_FLEX_1200_TX</name>
+        <initializer>0x000a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="23" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a3f479e898cd0852331fcf37f57561ebb" prot="public" static="no">
+        <name>USRP_DBID_FLEX_2400_TX</name>
+        <initializer>0x000b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="24" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a4d03b61cbc53c45ea4c390cf0c78e4a6" prot="public" static="no">
+        <name>USRP_DBID_TV_RX_REV_2</name>
+        <initializer>0x000c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="25" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a004c2ab5cdc2923a04aa3af6943be921" prot="public" static="no">
+        <name>USRP_DBID_DBS_RX_CLKMOD</name>
+        <initializer>0x000d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="26" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1adee640c223856a7498c61b92518d0a8c" prot="public" static="no">
+        <name>USRP_DBID_LF_TX</name>
+        <initializer>0x000e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="27" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a31d7eb7584336ae87ac16736b3d7f154" prot="public" static="no">
+        <name>USRP_DBID_LF_RX</name>
+        <initializer>0x000f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="28" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a281584fa0a65d9f390184ffee7739c98" prot="public" static="no">
+        <name>USRP_DBID_FLEX_400_RX_MIMO_A</name>
+        <initializer>0x0014</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="29" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a12cd27fa45f8d90ea3be76d142947a16" prot="public" static="no">
+        <name>USRP_DBID_FLEX_900_RX_MIMO_A</name>
+        <initializer>0x0015</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="30" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a7b9470440621874bbbbc5dcc5a14539f" prot="public" static="no">
+        <name>USRP_DBID_FLEX_1200_RX_MIMO_A</name>
+        <initializer>0x0016</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="31" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a6fb0d845563b950af0606cf548720209" prot="public" static="no">
+        <name>USRP_DBID_FLEX_2400_RX_MIMO_A</name>
+        <initializer>0x0017</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="32" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a5c758548b566005dccb51aa663c7b247" prot="public" static="no">
+        <name>USRP_DBID_FLEX_400_TX_MIMO_A</name>
+        <initializer>0x0018</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="33" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a0cf674876098563551793e6bebe8da3b" prot="public" static="no">
+        <name>USRP_DBID_FLEX_900_TX_MIMO_A</name>
+        <initializer>0x0019</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="34" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1ac10d1c44c7bd54eaca19558b39cc6e98" prot="public" static="no">
+        <name>USRP_DBID_FLEX_1200_TX_MIMO_A</name>
+        <initializer>0x001a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="35" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1ac3a1d575eb081542278a0a67c35f65ca" prot="public" static="no">
+        <name>USRP_DBID_FLEX_2400_TX_MIMO_A</name>
+        <initializer>0x001b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="36" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a71efd45e621c10e1381dd23f5420afd8" prot="public" static="no">
+        <name>USRP_DBID_FLEX_400_RX_MIMO_B</name>
+        <initializer>0x0024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="37" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a7b1ab525188c2494679b7c07f9f67aec" prot="public" static="no">
+        <name>USRP_DBID_FLEX_900_RX_MIMO_B</name>
+        <initializer>0x0025</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="38" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1aa088b1af133c443b35b493dc813474cf" prot="public" static="no">
+        <name>USRP_DBID_FLEX_1200_RX_MIMO_B</name>
+        <initializer>0x0026</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="39" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1aa9d2522b8677dd0a861759896c42e134" prot="public" static="no">
+        <name>USRP_DBID_FLEX_2400_RX_MIMO_B</name>
+        <initializer>0x0027</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="40" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1af2a1fb97ec6c082cb0c5f522094f7ad3" prot="public" static="no">
+        <name>USRP_DBID_FLEX_400_TX_MIMO_B</name>
+        <initializer>0x0028</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="41" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a99ee63d11ecc3c165b44df23213ba953" prot="public" static="no">
+        <name>USRP_DBID_FLEX_900_TX_MIMO_B</name>
+        <initializer>0x0029</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="42" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="42" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a31af8e520e75edad747a92443c5b07df" prot="public" static="no">
+        <name>USRP_DBID_FLEX_1200_TX_MIMO_B</name>
+        <initializer>0x002a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="43" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="43" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a10961eba0a70d299d62dca5e85bf5445" prot="public" static="no">
+        <name>USRP_DBID_FLEX_2400_TX_MIMO_B</name>
+        <initializer>0x002b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="44" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a61ac7f4ed6c114eb49ad55b3fe2c7669" prot="public" static="no">
+        <name>USRP_DBID_FLEX_2200_RX_MIMO_B</name>
+        <initializer>0x002c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="45" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a1e9281ab9f219b9ee48226b6c33e86e8" prot="public" static="no">
+        <name>USRP_DBID_FLEX_2200_TX_MIMO_B</name>
+        <initializer>0x002d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="46" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a6e8403ca0e06bd304913559671af74c7" prot="public" static="no">
+        <name>USRP_DBID_FLEX_1800_RX</name>
+        <initializer>0x0030</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="47" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="47" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a59c570b06bd1e60f332abe6bbba96162" prot="public" static="no">
+        <name>USRP_DBID_FLEX_1800_TX</name>
+        <initializer>0x0031</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="48" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a466382d062064b84833fd4c2bcaf8194" prot="public" static="no">
+        <name>USRP_DBID_FLEX_1800_RX_MIMO_A</name>
+        <initializer>0x0032</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="49" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="49" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a2faec59d518b3fc8fbff2fcb80e28c3f" prot="public" static="no">
+        <name>USRP_DBID_FLEX_1800_TX_MIMO_A</name>
+        <initializer>0x0033</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="50" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="50" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a51c42757d3a81ac022475122ba2d3723" prot="public" static="no">
+        <name>USRP_DBID_FLEX_1800_RX_MIMO_B</name>
+        <initializer>0x0034</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="51" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="51" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1ae2d714b572524893c4248a0bc5bd2c2c" prot="public" static="no">
+        <name>USRP_DBID_FLEX_1800_TX_MIMO_B</name>
+        <initializer>0x0035</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="52" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="52" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1ad1e82d8bf38a54b3786eeb5abb725ac2" prot="public" static="no">
+        <name>USRP_DBID_TV_RX_REV_3</name>
+        <initializer>0x0040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="53" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="53" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a762b8bc28af1113951c77aae41242eb8" prot="public" static="no">
+        <name>USRP_DBID_DTT754</name>
+        <initializer>0x0041</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="54" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1ab889be5e68be0715ba8e1fc6ddaf2eb6" prot="public" static="no">
+        <name>USRP_DBID_DTT768</name>
+        <initializer>0x0042</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="55" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="55" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a0d1134103c93cf2dd55289b775b829e3" prot="public" static="no">
+        <name>USRP_DBID_TV_RX_MIMO</name>
+        <initializer>0x0043</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="56" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="56" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1afcb531859b7c89c56f40919fb71d0696" prot="public" static="no">
+        <name>USRP_DBID_TV_RX_REV_2_MIMO</name>
+        <initializer>0x0044</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="57" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="57" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1afc73310b1c3d8c419947e7faf57b4ca5" prot="public" static="no">
+        <name>USRP_DBID_TV_RX_REV_3_MIMO</name>
+        <initializer>0x0045</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="58" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="58" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a3b93f6f77465dd0d674ae537bfa1fad0" prot="public" static="no">
+        <name>USRP_DBID_WBX_LO_TX</name>
+        <initializer>0x0050</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="59" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="59" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1ad93af0a922afed9b7ced55c9f9674092" prot="public" static="no">
+        <name>USRP_DBID_WBX_LO_RX</name>
+        <initializer>0x0051</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="60" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="60" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a18c5932ca572d59e89ae161640c07f28" prot="public" static="no">
+        <name>USRP_DBID_WBX_NG_TX</name>
+        <initializer>0x0052</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="61" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="61" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a32a5d2ec1a6a93891260fd0ef13f47fd" prot="public" static="no">
+        <name>USRP_DBID_WBX_NG_RX</name>
+        <initializer>0x0053</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="62" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="62" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a582e2b1136b70d8fbe0640f304c73d4a" prot="public" static="no">
+        <name>USRP_DBID_XCVR2450_TX</name>
+        <initializer>0x0060</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="63" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="63" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1ab76b55589fc04eb4a93064eba414f431" prot="public" static="no">
+        <name>USRP_DBID_XCVR2450_RX</name>
+        <initializer>0x0061</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="64" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="64" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a73156ef431fe4dfb4ba737091c7fa1c3" prot="public" static="no">
+        <name>USRP_DBID_BITSHARK_RX</name>
+        <initializer>0x0070</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="65" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="65" bodyend="-1"/>
+        <referencedby refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" compoundref="db__boards_8cc" startline="43" endline="244">instantiate_dbs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1adc2a2109a9842a2269ef8dd89e28c3f4" prot="public" static="no">
+        <name>USRP_DBID_EXPERIMENTAL_TX</name>
+        <initializer>0xfffe</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="66" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usrp__dbid_8h_1a4adaf53c3a2ff82548af5baa04ec67b6" prot="public" static="no">
+        <name>USRP_DBID_EXPERIMENTAL_RX</name>
+        <initializer>0xffff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" line="67" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Machine<sp/>generated<sp/>by<sp/>gen_usrp_dbid.py<sp/>from<sp/>usrp_dbid.dat</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Do<sp/>not<sp/>edit<sp/>by<sp/>hand.<sp/><sp/>All<sp/>edits<sp/>will<sp/>be<sp/>overwritten.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>USRP<sp/>Daughterboard<sp/>ID&apos;s</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_USRP_DBID_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_USRP_DBID_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="usrp__dbid_8h_1a463e9ecf8b5a3f87ff118bb73d9d5101" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_BASIC_TX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="usrp__dbid_8h_1ab97c0168b5b16de0ea863f7ccb85a74b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_BASIC_RX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0001</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="usrp__dbid_8h_1ae84dfd43400901caf4cd6417a167745c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_DBS_RX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0002</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="usrp__dbid_8h_1af8855fd553eab05e416b5a9589f63c91" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_TV_RX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0003</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="usrp__dbid_8h_1a88938d5d1f057a14a7f85ba7631c70b4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_400_RX<sp/><sp/><sp/><sp/><sp/>0x0004</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="usrp__dbid_8h_1a3d3428b696bf8f649b3eb62fb85f1cdb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_900_RX<sp/><sp/><sp/><sp/><sp/>0x0005</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="usrp__dbid_8h_1ae8e511ae8d9932454e7fc6e0f9df43ba" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_1200_RX<sp/><sp/><sp/><sp/>0x0006</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="usrp__dbid_8h_1a1c0a36f4dc274f26f7ef0ed986211b4f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_2400_RX<sp/><sp/><sp/><sp/>0x0007</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="usrp__dbid_8h_1ab4c96a886230948b27b9f9f5ebb412ba" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_400_TX<sp/><sp/><sp/><sp/><sp/>0x0008</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="usrp__dbid_8h_1a850f6658172a6a6f37ab72abd3b4e365" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_900_TX<sp/><sp/><sp/><sp/><sp/>0x0009</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="usrp__dbid_8h_1abaf21e7c23333e025558bd22df1b925d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_1200_TX<sp/><sp/><sp/><sp/>0x000a</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="usrp__dbid_8h_1a3f479e898cd0852331fcf37f57561ebb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_2400_TX<sp/><sp/><sp/><sp/>0x000b</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="usrp__dbid_8h_1a4d03b61cbc53c45ea4c390cf0c78e4a6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_TV_RX_REV_2<sp/><sp/><sp/><sp/><sp/>0x000c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="usrp__dbid_8h_1a004c2ab5cdc2923a04aa3af6943be921" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_DBS_RX_CLKMOD<sp/><sp/><sp/>0x000d</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="usrp__dbid_8h_1adee640c223856a7498c61b92518d0a8c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_LF_TX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x000e</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="usrp__dbid_8h_1a31d7eb7584336ae87ac16736b3d7f154" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_LF_RX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x000f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="usrp__dbid_8h_1a281584fa0a65d9f390184ffee7739c98" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_400_RX_MIMO_A<sp/>0x0014</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="usrp__dbid_8h_1a12cd27fa45f8d90ea3be76d142947a16" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_900_RX_MIMO_A<sp/>0x0015</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="usrp__dbid_8h_1a7b9470440621874bbbbc5dcc5a14539f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_1200_RX_MIMO_A<sp/>0x0016</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="usrp__dbid_8h_1a6fb0d845563b950af0606cf548720209" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_2400_RX_MIMO_A<sp/>0x0017</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="usrp__dbid_8h_1a5c758548b566005dccb51aa663c7b247" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_400_TX_MIMO_A<sp/>0x0018</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="usrp__dbid_8h_1a0cf674876098563551793e6bebe8da3b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_900_TX_MIMO_A<sp/>0x0019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="usrp__dbid_8h_1ac10d1c44c7bd54eaca19558b39cc6e98" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_1200_TX_MIMO_A<sp/>0x001a</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="usrp__dbid_8h_1ac3a1d575eb081542278a0a67c35f65ca" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_2400_TX_MIMO_A<sp/>0x001b</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="usrp__dbid_8h_1a71efd45e621c10e1381dd23f5420afd8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_400_RX_MIMO_B<sp/>0x0024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="usrp__dbid_8h_1a7b1ab525188c2494679b7c07f9f67aec" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_900_RX_MIMO_B<sp/>0x0025</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="usrp__dbid_8h_1aa088b1af133c443b35b493dc813474cf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_1200_RX_MIMO_B<sp/>0x0026</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="usrp__dbid_8h_1aa9d2522b8677dd0a861759896c42e134" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_2400_RX_MIMO_B<sp/>0x0027</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="usrp__dbid_8h_1af2a1fb97ec6c082cb0c5f522094f7ad3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_400_TX_MIMO_B<sp/>0x0028</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="usrp__dbid_8h_1a99ee63d11ecc3c165b44df23213ba953" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_900_TX_MIMO_B<sp/>0x0029</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="usrp__dbid_8h_1a31af8e520e75edad747a92443c5b07df" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_1200_TX_MIMO_B<sp/>0x002a</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="usrp__dbid_8h_1a10961eba0a70d299d62dca5e85bf5445" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_2400_TX_MIMO_B<sp/>0x002b</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="usrp__dbid_8h_1a61ac7f4ed6c114eb49ad55b3fe2c7669" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_2200_RX_MIMO_B<sp/>0x002c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="usrp__dbid_8h_1a1e9281ab9f219b9ee48226b6c33e86e8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_2200_TX_MIMO_B<sp/>0x002d</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="usrp__dbid_8h_1a6e8403ca0e06bd304913559671af74c7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_1800_RX<sp/><sp/><sp/><sp/>0x0030</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="usrp__dbid_8h_1a59c570b06bd1e60f332abe6bbba96162" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_1800_TX<sp/><sp/><sp/><sp/>0x0031</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="usrp__dbid_8h_1a466382d062064b84833fd4c2bcaf8194" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_1800_RX_MIMO_A<sp/>0x0032</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="usrp__dbid_8h_1a2faec59d518b3fc8fbff2fcb80e28c3f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_1800_TX_MIMO_A<sp/>0x0033</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="usrp__dbid_8h_1a51c42757d3a81ac022475122ba2d3723" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_1800_RX_MIMO_B<sp/>0x0034</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="usrp__dbid_8h_1ae2d714b572524893c4248a0bc5bd2c2c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_FLEX_1800_TX_MIMO_B<sp/>0x0035</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="usrp__dbid_8h_1ad1e82d8bf38a54b3786eeb5abb725ac2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_TV_RX_REV_3<sp/><sp/><sp/><sp/><sp/>0x0040</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="usrp__dbid_8h_1a762b8bc28af1113951c77aae41242eb8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_DTT754<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0041</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="usrp__dbid_8h_1ab889be5e68be0715ba8e1fc6ddaf2eb6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_DTT768<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0042</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="usrp__dbid_8h_1a0d1134103c93cf2dd55289b775b829e3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_TV_RX_MIMO<sp/><sp/><sp/><sp/><sp/><sp/>0x0043</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="usrp__dbid_8h_1afcb531859b7c89c56f40919fb71d0696" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_TV_RX_REV_2_MIMO<sp/>0x0044</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="usrp__dbid_8h_1afc73310b1c3d8c419947e7faf57b4ca5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_TV_RX_REV_3_MIMO<sp/>0x0045</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="usrp__dbid_8h_1a3b93f6f77465dd0d674ae537bfa1fad0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_WBX_LO_TX<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0050</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="usrp__dbid_8h_1ad93af0a922afed9b7ced55c9f9674092" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_WBX_LO_RX<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0051</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="usrp__dbid_8h_1a18c5932ca572d59e89ae161640c07f28" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_WBX_NG_TX<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0052</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="usrp__dbid_8h_1a32a5d2ec1a6a93891260fd0ef13f47fd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_WBX_NG_RX<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0053</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="usrp__dbid_8h_1a582e2b1136b70d8fbe0640f304c73d4a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_XCVR2450_TX<sp/><sp/><sp/><sp/><sp/>0x0060</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="usrp__dbid_8h_1ab76b55589fc04eb4a93064eba414f431" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_XCVR2450_RX<sp/><sp/><sp/><sp/><sp/>0x0061</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="usrp__dbid_8h_1a73156ef431fe4dfb4ba737091c7fa1c3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_BITSHARK_RX<sp/><sp/><sp/><sp/><sp/>0x0070</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="usrp__dbid_8h_1adc2a2109a9842a2269ef8dd89e28c3f4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_EXPERIMENTAL_TX<sp/>0xfffe</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="usrp__dbid_8h_1a4adaf53c3a2ff82548af5baa04ec67b6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_DBID_EXPERIMENTAL_RX<sp/>0xffff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_USRP_DBID_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_dbid.h"/>
+  </compounddef>
+</doxygen>

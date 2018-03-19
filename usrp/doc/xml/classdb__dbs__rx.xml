@@ -1,0 +1,838 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classdb__dbs__rx" kind="class" language="C++" prot="public">
+    <compoundname>db_dbs_rx</compoundname>
+    <basecompoundref refid="classdb__base" prot="public" virt="non-virtual">db_base</basecompoundref>
+    <includes refid="db__dbs__rx_8h" local="no">db_dbs_rx.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdb__dbs__rx_1a2a3830b776452e653f1a44b7f25f08a4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_osc</definition>
+        <argsstring></argsstring>
+        <name>d_osc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1ad484a48690eac3af71b28e1c3d31a281" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_cp</definition>
+        <argsstring></argsstring>
+        <name>d_cp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1aba6972ef354f22e1a59aac031c1ae37c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_n</definition>
+        <argsstring></argsstring>
+        <name>d_n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1acae05e72cd8a7136e9e12c1d91d1c0e6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_div2</definition>
+        <argsstring></argsstring>
+        <name>d_div2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1a0b7e8cecd290ca3ff5a5e5f87f8627f0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_r</definition>
+        <argsstring></argsstring>
+        <name>d_r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1ac5d976f8a687eb5b85f557674320f184" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_r_int</definition>
+        <argsstring></argsstring>
+        <name>d_r_int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1a43501465d0bc7d16afc0814c93c06ba9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_fdac</definition>
+        <argsstring></argsstring>
+        <name>d_fdac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1a974e41be10fc4674e69426ce422ebfb3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_m</definition>
+        <argsstring></argsstring>
+        <name>d_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1acdb643f985524f2c69a51e2c600afa0c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_dl</definition>
+        <argsstring></argsstring>
+        <name>d_dl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1acc1bed6fcbe9aeddeb61c1613aacb847" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_ade</definition>
+        <argsstring></argsstring>
+        <name>d_ade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1ab217a914c658edaa6121504417e1a09a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_adl</definition>
+        <argsstring></argsstring>
+        <name>d_adl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1a4acac6283bc987e7676a735adcaad8c5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_gc1</definition>
+        <argsstring></argsstring>
+        <name>d_gc1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1a87031d30be955c29f8fa61853904d4c6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_gc2</definition>
+        <argsstring></argsstring>
+        <name>d_gc2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1a7f378691d662e7df99420e25c6332561" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_diag</definition>
+        <argsstring></argsstring>
+        <name>d_diag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dbs__rx_1a0667b0edda13b2c268b11230a10795f3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dbs_rx::d_i2c_addr</definition>
+        <argsstring></argsstring>
+        <name>d_i2c_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="41" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdb__dbs__rx_1a1d4b2be54c51df12706a433d05bb8f5a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_write_reg</definition>
+        <argsstring>(int regno, int v)</argsstring>
+        <name>_write_reg</name>
+        <param>
+          <type>int</type>
+          <declname>regno</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="44" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="88" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1ad229579190a55874d4b0e6aef093758b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_write_regs</definition>
+        <argsstring>(int starting_regno, const std::vector&lt; int &gt; &amp;vals)</argsstring>
+        <name>_write_regs</name>
+        <param>
+          <type>int</type>
+          <declname>starting_regno</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="45" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="99" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a3221f970a54fc993963894129ba07573" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; db_dbs_rx::_read_status</definition>
+        <argsstring>()</argsstring>
+        <name>_read_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="46" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="112" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a1abcba9ca9b246eb6748818162c0391c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_send_reg</definition>
+        <argsstring>(int regno)</argsstring>
+        <name>_send_reg</name>
+        <param>
+          <type>int</type>
+          <declname>regno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="47" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="124" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1ae9b5fa3b230ae7cf31736d8a621ec943" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_set_m</definition>
+        <argsstring>(int m)</argsstring>
+        <name>_set_m</name>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="48" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="143" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a856d45f6fef6de77024500b9229d0ab6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_set_fdac</definition>
+        <argsstring>(int fdac)</argsstring>
+        <name>_set_fdac</name>
+        <param>
+          <type>int</type>
+          <declname>fdac</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="49" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="151" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a2dfbb3774053841393bf4a22f43df7a4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_set_dl</definition>
+        <argsstring>(int dl)</argsstring>
+        <name>_set_dl</name>
+        <param>
+          <type>int</type>
+          <declname>dl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="50" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="203" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a163d237f43fb58b511682958d0eee35d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_set_gc2</definition>
+        <argsstring>(int gc2)</argsstring>
+        <name>_set_gc2</name>
+        <param>
+          <type>int</type>
+          <declname>gc2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="51" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="211" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1afd8bdef660be191909c69ad34fd70334" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_set_gc1</definition>
+        <argsstring>(int gc1)</argsstring>
+        <name>_set_gc1</name>
+        <param>
+          <type>int</type>
+          <declname>gc1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="52" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="219" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a0c56d46ad00f435834cbd4f2c1679c4e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_set_pga</definition>
+        <argsstring>(int pga_gain)</argsstring>
+        <name>_set_pga</name>
+        <param>
+          <type>int</type>
+          <declname>pga_gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="53" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="227" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a51ec8d24f7d3c7c16fc2f348811d91ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_set_osc</definition>
+        <argsstring>(int osc)</argsstring>
+        <name>_set_osc</name>
+        <param>
+          <type>int</type>
+          <declname>osc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="56" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="306" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a0dc7fe74175867ac1b33a9280157a3f7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_set_cp</definition>
+        <argsstring>(int cp)</argsstring>
+        <name>_set_cp</name>
+        <param>
+          <type>int</type>
+          <declname>cp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="57" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="314" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a7b22c300bffe8a2ed4c1f9415065afc1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_set_n</definition>
+        <argsstring>(int n)</argsstring>
+        <name>_set_n</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="58" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="322" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1ad04e28839f58daa69b65cabc1bd33d54" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_set_div2</definition>
+        <argsstring>(int div2)</argsstring>
+        <name>_set_div2</name>
+        <param>
+          <type>int</type>
+          <declname>div2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="59" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="331" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a7361f68dae7f01fd6e5af78e2c9d1388" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_set_r</definition>
+        <argsstring>(int r)</argsstring>
+        <name>_set_r</name>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="60" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="339" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1ace656db34d083e2517e21848cc11d2ee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::_set_ade</definition>
+        <argsstring>(int ade)</argsstring>
+        <name>_set_ade</name>
+        <param>
+          <type>int</type>
+          <declname>ade</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="61" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="349" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a0befc3af4ea0af5c75d95c3b614edc83" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int db_dbs_rx::_refclk_divisor</definition>
+        <argsstring>()</argsstring>
+        <name>_refclk_divisor</name>
+        <reimplements refid="classdb__base_1acd58b612941f45fabab13438463c327b">_refclk_divisor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="63" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="490" bodyend="494"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classdb__dbs__rx_1a772ca7aea92c7223d4749ff6600f2d29" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void db_dbs_rx::shutdown</definition>
+        <argsstring>()</argsstring>
+        <name>shutdown</name>
+        <reimplements refid="classdb__base_1a73aae0d09b138c28e70541c63e2cb498">shutdown</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called to shutdown daughterboard. Called from dtor and <ref refid="classusrp__basic" kindref="compound">usrp_basic</ref> dtor.</para><para>N.B., any class that overrides shutdown MUST call shutdown in its destructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="66" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="78" bodyend="85"/>
+        <references refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" compoundref="db__base_8cc" startline="222" endline="235">db_base::_enable_refclk</references>
+        <references refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" compoundref="db__base_8h" startline="52">db_base::d_is_shutdown</references>
+        <references refid="db__util_8cc_1ac1397f7615adcb5571c7555538fcf8e8" compoundref="db__util_8cc" startline="29" endline="39">int_seq_to_str</references>
+        <references refid="classusrp__basic_1ab284caa2e15464f62aa80ad1f540ecc5" compoundref="usrp__basic_8cc" startline="284" endline="295">usrp_basic::read_i2c</references>
+        <references refid="db__util_8cc_1a5c37d757f9535b7489cca3dcf7e1fcff" compoundref="db__util_8cc" startline="42" endline="53">str_to_int_seq</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <references refid="classusrp__basic_1a664e5aa3a3fb8a4c50b752906fcb79a0" compoundref="usrp__basic_8cc" startline="278" endline="281">usrp_basic::write_i2c</references>
+        <referencedby refid="classdb__dbs__rx_1a741aebf32735ddb7076747a453b19287" compoundref="db__dbs__rx_8cc" startline="72" endline="75">~db_dbs_rx</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdb__dbs__rx_1a790afd3aebe133fb356734446bd1abf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_dbs_rx::db_dbs_rx</definition>
+        <argsstring>(usrp_basic_sptr usrp, int which)</argsstring>
+        <name>db_dbs_rx</name>
+        <param>
+          <type><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref></type>
+          <declname>usrp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="69" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="34" bodyend="70"/>
+        <references refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" compoundref="db__base_8cc" startline="222" endline="235">db_base::_enable_refclk</references>
+        <references refid="classusrp__basic_1ac540c04b719f1ce30426ecb2214107ef">usrp_basic::_write_oe</references>
+        <references refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" compoundref="db__base_8cc" startline="88" endline="104">db_base::bypass_adc_buffers</references>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">db_base::d_which</references>
+        <references refid="classdb__dbs__rx_1ac4d4c705071d55fb9b9798dd3403dd4c" compoundref="db__dbs__rx_8cc" startline="247" endline="250">gain_max</references>
+        <references refid="classdb__dbs__rx_1a4bf75ec9962da995fe551d12b551375c" compoundref="db__dbs__rx_8cc" startline="241" endline="244">gain_min</references>
+        <references refid="classdb__dbs__rx_1a4b8fa7755676e0573135d9f010ebd55f" compoundref="db__dbs__rx_8cc" startline="259" endline="302">set_gain</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a741aebf32735ddb7076747a453b19287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_dbs_rx::~db_dbs_rx</definition>
+        <argsstring>()</argsstring>
+        <name>~db_dbs_rx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="70" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="72" bodyend="75"/>
+        <references refid="classdb__dbs__rx_1a772ca7aea92c7223d4749ff6600f2d29" compoundref="db__dbs__rx_8cc" startline="78" endline="85">shutdown</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a4bf75ec9962da995fe551d12b551375c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_dbs_rx::gain_min</definition>
+        <argsstring>()</argsstring>
+        <name>gain_min</name>
+        <reimplements refid="classdb__base_1a8879fd876f4b31cd78f4713c64140176">gain_min</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="72" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="241" bodyend="244"/>
+        <referencedby refid="classdb__dbs__rx_1a790afd3aebe133fb356734446bd1abf0" compoundref="db__dbs__rx_8cc" startline="34" endline="70">db_dbs_rx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1ac4d4c705071d55fb9b9798dd3403dd4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_dbs_rx::gain_max</definition>
+        <argsstring>()</argsstring>
+        <name>gain_max</name>
+        <reimplements refid="classdb__base_1aff5b963b288947ba6bfb5d5a6275a074">gain_max</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="73" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="247" bodyend="250"/>
+        <referencedby refid="classdb__dbs__rx_1a790afd3aebe133fb356734446bd1abf0" compoundref="db__dbs__rx_8cc" startline="34" endline="70">db_dbs_rx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a6c797f22695d1d28002b61c0b274f293" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_dbs_rx::gain_db_per_step</definition>
+        <argsstring>()</argsstring>
+        <name>gain_db_per_step</name>
+        <reimplements refid="classdb__base_1adcb54348e840f7c91cfeaa113974d32f">gain_db_per_step</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="74" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="253" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a95f2c8bdfd1b1a2e8d8dabacd299ef7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double db_dbs_rx::freq_min</definition>
+        <argsstring>()</argsstring>
+        <name>freq_min</name>
+        <reimplements refid="classdb__base_1a87f1e9f6ebe56002c0d3cd894f91732a">freq_min</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="75" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="357" bodyend="360"/>
+        <referencedby refid="classdb__dbs__rx_1af68a1c023cddd9fdb8771e59022436a5" compoundref="db__dbs__rx_8cc" startline="369" endline="487">set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a62b404f1d147372fed777117496bf0d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double db_dbs_rx::freq_max</definition>
+        <argsstring>()</argsstring>
+        <name>freq_max</name>
+        <reimplements refid="classdb__base_1afdd3d7d4dc53311b09ce96e06722be08">freq_max</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="76" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="363" bodyend="366"/>
+        <referencedby refid="classdb__dbs__rx_1af68a1c023cddd9fdb8771e59022436a5" compoundref="db__dbs__rx_8cc" startline="369" endline="487">set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1af68a1c023cddd9fdb8771e59022436a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>struct <ref refid="structfreq__result__t" kindref="compound">freq_result_t</ref></type>
+        <definition>struct freq_result_t db_dbs_rx::set_freq</definition>
+        <argsstring>(double freq)</argsstring>
+        <name>set_freq</name>
+        <reimplements refid="classdb__base_1a6b23423681d9df85338f5519eed33159">set_freq</reimplements>
+        <param>
+          <type>double</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="76" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="369" bodyend="487"/>
+        <references refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" compoundref="db__base_8cc" startline="216" endline="219">db_base::_refclk_freq</references>
+        <references refid="classdb__dbs__rx_1a62b404f1d147372fed777117496bf0d1" compoundref="db__dbs__rx_8cc" startline="363" endline="366">freq_max</references>
+        <references refid="classdb__dbs__rx_1a95f2c8bdfd1b1a2e8d8dabacd299ef7b" compoundref="db__dbs__rx_8cc" startline="357" endline="360">freq_min</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a4b8fa7755676e0573135d9f010ebd55f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_dbs_rx::set_gain</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>set_gain</name>
+        <reimplements refid="classdb__base_1aa3b2f58f8d96e0b6c4652495338ce2da">set_gain</reimplements>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="78" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="259" bodyend="302"/>
+        <referencedby refid="classdb__dbs__rx_1a790afd3aebe133fb356734446bd1abf0" compoundref="db__dbs__rx_8cc" startline="34" endline="70">db_dbs_rx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1af522838588d7813ed60b20d47d3951ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_dbs_rx::is_quadrature</definition>
+        <argsstring>()</argsstring>
+        <name>is_quadrature</name>
+        <reimplements refid="classdb__base_1a7c6fac86794800bd49b433cbb0ff3b3b">is_quadrature</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="79" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="497" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dbs__rx_1a99fd704247a94997cc81b4c998feff64" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_dbs_rx::set_bw</definition>
+        <argsstring>(float bw)</argsstring>
+        <name>set_bw</name>
+        <reimplements refid="classdb__base_1a7adcd5e0883f838cc6cd2bc9dda1ef87">set_bw</reimplements>
+        <param>
+          <type>float</type>
+          <declname>bw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="80" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dbs_rx.cc" bodystart="159" bodyend="199"/>
+        <references refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" compoundref="db__base_8cc" startline="216" endline="219">db_base::_refclk_freq</references>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">db_base::d_which</references>
+        <references refid="classusrp__basic_1afdcf0497f2554589b36a57806e239a07">usrp_basic::set_pga</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <references refid="classusrp__basic_1a332790fa84b6b64f82de8983b45b611a">usrp_basic::write_aux_dac</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="138">
+        <label>db_dbs_rx</label>
+        <link refid="classdb__dbs__rx"/>
+        <childnode refid="139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="143">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="144">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="140">
+        <label>db_dbs_rx</label>
+        <link refid="classdb__dbs__rx"/>
+        <childnode refid="141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="142">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="143" relation="private-inheritance">
+        </childnode>
+        <childnode refid="144" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+      <node id="141">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+        <childnode refid="142" relation="usage">
+          <edgelabel>d_raw_usrp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" line="37" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dbs_rx.h" bodystart="36" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" prot="protected" virt="non-virtual"><scope>db_dbs_rx</scope><name>_enable_refclk</name></member>
+      <member refid="classdb__dbs__rx_1a3221f970a54fc993963894129ba07573" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_read_status</name></member>
+      <member refid="classdb__dbs__rx_1a0befc3af4ea0af5c75d95c3b614edc83" prot="private" virt="virtual"><scope>db_dbs_rx</scope><name>_refclk_divisor</name></member>
+      <member refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" prot="protected" virt="virtual"><scope>db_dbs_rx</scope><name>_refclk_freq</name></member>
+      <member refid="classdb__dbs__rx_1a1abcba9ca9b246eb6748818162c0391c" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_send_reg</name></member>
+      <member refid="classdb__dbs__rx_1ace656db34d083e2517e21848cc11d2ee" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_set_ade</name></member>
+      <member refid="classdb__dbs__rx_1a0dc7fe74175867ac1b33a9280157a3f7" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_set_cp</name></member>
+      <member refid="classdb__dbs__rx_1ad04e28839f58daa69b65cabc1bd33d54" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_set_div2</name></member>
+      <member refid="classdb__dbs__rx_1a2dfbb3774053841393bf4a22f43df7a4" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_set_dl</name></member>
+      <member refid="classdb__dbs__rx_1a856d45f6fef6de77024500b9229d0ab6" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_set_fdac</name></member>
+      <member refid="classdb__dbs__rx_1afd8bdef660be191909c69ad34fd70334" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_set_gc1</name></member>
+      <member refid="classdb__dbs__rx_1a163d237f43fb58b511682958d0eee35d" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_set_gc2</name></member>
+      <member refid="classdb__dbs__rx_1ae9b5fa3b230ae7cf31736d8a621ec943" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_set_m</name></member>
+      <member refid="classdb__dbs__rx_1a7b22c300bffe8a2ed4c1f9415065afc1" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_set_n</name></member>
+      <member refid="classdb__dbs__rx_1a51ec8d24f7d3c7c16fc2f348811d91ed" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_set_osc</name></member>
+      <member refid="classdb__dbs__rx_1a0c56d46ad00f435834cbd4f2c1679c4e" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_set_pga</name></member>
+      <member refid="classdb__dbs__rx_1a7361f68dae7f01fd6e5af78e2c9d1388" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_set_r</name></member>
+      <member refid="classdb__dbs__rx_1a1d4b2be54c51df12706a433d05bb8f5a" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_write_reg</name></member>
+      <member refid="classdb__dbs__rx_1ad229579190a55874d4b0e6aef093758b" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>_write_regs</name></member>
+      <member refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>bypass_adc_buffers</name></member>
+      <member refid="classdb__dbs__rx_1acc1bed6fcbe9aeddeb61c1613aacb847" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_ade</name></member>
+      <member refid="classdb__dbs__rx_1ab217a914c658edaa6121504417e1a09a" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_adl</name></member>
+      <member refid="classdb__dbs__rx_1ad484a48690eac3af71b28e1c3d31a281" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_cp</name></member>
+      <member refid="classdb__dbs__rx_1a7f378691d662e7df99420e25c6332561" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_diag</name></member>
+      <member refid="classdb__dbs__rx_1acae05e72cd8a7136e9e12c1d91d1c0e6" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_div2</name></member>
+      <member refid="classdb__dbs__rx_1acdb643f985524f2c69a51e2c600afa0c" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_dl</name></member>
+      <member refid="classdb__dbs__rx_1a43501465d0bc7d16afc0814c93c06ba9" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_fdac</name></member>
+      <member refid="classdb__dbs__rx_1a4acac6283bc987e7676a735adcaad8c5" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_gc1</name></member>
+      <member refid="classdb__dbs__rx_1a87031d30be955c29f8fa61853904d4c6" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_gc2</name></member>
+      <member refid="classdb__dbs__rx_1a0667b0edda13b2c268b11230a10795f3" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_i2c_addr</name></member>
+      <member refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" prot="protected" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_is_shutdown</name></member>
+      <member refid="classdb__base_1a0665a615c2eb4236814825c89dd024e0" prot="protected" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_lo_offset</name></member>
+      <member refid="classdb__dbs__rx_1a974e41be10fc4674e69426ce422ebfb3" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_m</name></member>
+      <member refid="classdb__dbs__rx_1aba6972ef354f22e1a59aac031c1ae37c" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_n</name></member>
+      <member refid="classdb__dbs__rx_1a2a3830b776452e653f1a44b7f25f08a4" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_osc</name></member>
+      <member refid="classdb__dbs__rx_1a0b7e8cecd290ca3ff5a5e5f87f8627f0" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_r</name></member>
+      <member refid="classdb__dbs__rx_1ac5d976f8a687eb5b85f557674320f184" prot="private" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_r_int</name></member>
+      <member refid="classdb__base_1aa6e5420338ff3e0a9b1afe2ae1fbc58b" prot="protected" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_raw_usrp</name></member>
+      <member refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" prot="protected" virt="non-virtual"><scope>db_dbs_rx</scope><name>d_which</name></member>
+      <member refid="classdb__base_1aeddb69ef4218642cb8b03eff94ff8efc" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>db_base</name></member>
+      <member refid="classdb__dbs__rx_1a790afd3aebe133fb356734446bd1abf0" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>db_dbs_rx</name></member>
+      <member refid="classdb__base_1a6c70380b8abff2d051eece9d2b208408" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>dbid</name></member>
+      <member refid="classdb__dbs__rx_1a62b404f1d147372fed777117496bf0d1" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>freq_max</name></member>
+      <member refid="classdb__dbs__rx_1a95f2c8bdfd1b1a2e8d8dabacd299ef7b" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>freq_min</name></member>
+      <member refid="classdb__dbs__rx_1a6c797f22695d1d28002b61c0b274f293" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>gain_db_per_step</name></member>
+      <member refid="classdb__dbs__rx_1ac4d4c705071d55fb9b9798dd3403dd4c" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>gain_max</name></member>
+      <member refid="classdb__dbs__rx_1a4bf75ec9962da995fe551d12b551375c" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>gain_min</name></member>
+      <member refid="classdb__base_1aa2d4002c1550d262e74def064a230e1a" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>i_and_q_swapped</name></member>
+      <member refid="classdb__dbs__rx_1af522838588d7813ed60b20d47d3951ad" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>is_quadrature</name></member>
+      <member refid="classdb__base_1a07337ac0b59b2d36ced8f0dd7dd58b1e" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>lo_offset</name></member>
+      <member refid="classdb__base_1aef52f371112795b933570a269da85847" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>name</name></member>
+      <member refid="classdb__base_1aecc92b603e94509aa04f12aec563ea17" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1ab6aba3bd757102bf14fba4e98fb17f0d" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>set_atr_mask</name></member>
+      <member refid="classdb__base_1aec8010d1f2412ffe33bb0f27ee6d8275" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>set_atr_rx_delay</name></member>
+      <member refid="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>set_atr_rxval</name></member>
+      <member refid="classdb__base_1a01586c74a2cab95c3e12951402fab1a3" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>set_atr_tx_delay</name></member>
+      <member refid="classdb__base_1a9722d03f078d1206539ad097c28a9562" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>set_atr_txval</name></member>
+      <member refid="classdb__base_1aa636457dfe89f1f0dca5fa06b67fdb58" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>set_auto_tr</name></member>
+      <member refid="classdb__dbs__rx_1a99fd704247a94997cc81b4c998feff64" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>set_bw</name></member>
+      <member refid="classdb__base_1afa9d1b54d69312317258723a2ee1a1e7" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>set_enable</name></member>
+      <member refid="classdb__dbs__rx_1af68a1c023cddd9fdb8771e59022436a5" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>set_freq</name></member>
+      <member refid="classdb__dbs__rx_1a4b8fa7755676e0573135d9f010ebd55f" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>set_gain</name></member>
+      <member refid="classdb__base_1a3d8eb19a95b9ca4970c56f1a699e85bf" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>set_lo_offset</name></member>
+      <member refid="classdb__dbs__rx_1a772ca7aea92c7223d4749ff6600f2d29" prot="protected" virt="virtual"><scope>db_dbs_rx</scope><name>shutdown</name></member>
+      <member refid="classdb__base_1a9cee7496d9a4d09b72a008fb5d7e6664" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>side_and_name</name></member>
+      <member refid="classdb__base_1ab6a6fad01c3df159fb7124aec13489d7" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>spectrum_inverted</name></member>
+      <member refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" prot="protected" virt="non-virtual"><scope>db_dbs_rx</scope><name>usrp</name></member>
+      <member refid="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>which</name></member>
+      <member refid="classdb__base_1a6c28d39ecaa14d475acb9ce6bfc1b4b0" prot="public" virt="virtual"><scope>db_dbs_rx</scope><name>~db_base</name></member>
+      <member refid="classdb__dbs__rx_1a741aebf32735ddb7076747a453b19287" prot="public" virt="non-virtual"><scope>db_dbs_rx</scope><name>~db_dbs_rx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

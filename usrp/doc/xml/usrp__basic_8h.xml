@@ -1,0 +1,668 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="usrp__basic_8h" kind="file" language="C++">
+    <compoundname>usrp_basic.h</compoundname>
+    <includes refid="db__base_8h" local="no">usrp/db_base.h</includes>
+    <includes refid="usrp__slots_8h" local="no">usrp/usrp_slots.h</includes>
+    <includes refid="usrp__subdev__spec_8h" local="no">usrp/usrp_subdev_spec.h</includes>
+    <includes refid="libusb__types_8h" local="no">usrp/libusb_types.h</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">boost/utility.hpp</includes>
+    <includedby refid="usrp__standard_8h" local="no">usrp_standard.h</includedby>
+    <includedby refid="db__base__impl_8h" local="no">db_base_impl.h</includedby>
+    <includedby refid="db__boards_8h" local="no">db_boards.h</includedby>
+    <includedby refid="usrp__basic_8cc" local="yes">usrp_basic.cc</includedby>
+    <incdepgraph>
+      <node id="967">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="972">
+        <label>usrp/libusb_types.h</label>
+        <link refid="libusb__types_8h"/>
+        <childnode refid="973" relation="include">
+        </childnode>
+      </node>
+      <node id="970">
+        <label>usrp/usrp_slots.h</label>
+        <link refid="usrp__slots_8h"/>
+      </node>
+      <node id="966">
+        <label>string</label>
+      </node>
+      <node id="968">
+        <label>boost/weak_ptr.hpp</label>
+      </node>
+      <node id="974">
+        <label>vector</label>
+      </node>
+      <node id="965">
+        <label>usrp/db_base.h</label>
+        <link refid="db__base_8h"/>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+      </node>
+      <node id="975">
+        <label>boost/utility.hpp</label>
+      </node>
+      <node id="964">
+        <label>usrp_basic.h</label>
+        <link refid="usrp_basic.h"/>
+        <childnode refid="965" relation="include">
+        </childnode>
+        <childnode refid="970" relation="include">
+        </childnode>
+        <childnode refid="971" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="974" relation="include">
+        </childnode>
+        <childnode refid="975" relation="include">
+        </childnode>
+      </node>
+      <node id="969">
+        <label>iosfwd</label>
+      </node>
+      <node id="971">
+        <label>usrp/usrp_subdev_spec.h</label>
+        <link refid="usrp__subdev__spec_8h"/>
+      </node>
+      <node id="973">
+        <label>usb.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="981">
+        <label>usrp_standard.cc</label>
+        <link refid="usrp__standard_8cc"/>
+      </node>
+      <node id="985">
+        <label>db_bitshark_rx.cc</label>
+        <link refid="db__bitshark__rx_8cc"/>
+      </node>
+      <node id="982">
+        <label>db_base_impl.h</label>
+        <link refid="db__base__impl_8h"/>
+        <childnode refid="983" relation="include">
+        </childnode>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="985" relation="include">
+        </childnode>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="987" relation="include">
+        </childnode>
+        <childnode refid="988" relation="include">
+        </childnode>
+        <childnode refid="989" relation="include">
+        </childnode>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+        <childnode refid="992" relation="include">
+        </childnode>
+        <childnode refid="993" relation="include">
+        </childnode>
+      </node>
+      <node id="986">
+        <label>db_dbs_rx.cc</label>
+        <link refid="db__dbs__rx_8cc"/>
+      </node>
+      <node id="995">
+        <label>db_boards.cc</label>
+        <link refid="db__boards_8cc"/>
+      </node>
+      <node id="983">
+        <label>db_base.cc</label>
+        <link refid="db__base_8cc"/>
+      </node>
+      <node id="984">
+        <label>db_basic.cc</label>
+        <link refid="db__basic_8cc"/>
+      </node>
+      <node id="980">
+        <label>usrp_cal_dc_offset.cc</label>
+        <link refid="usrp__cal__dc__offset_8cc"/>
+      </node>
+      <node id="987">
+        <label>db_dtt754.cc</label>
+        <link refid="db__dtt754_8cc"/>
+      </node>
+      <node id="996">
+        <label>usrp_basic.cc</label>
+        <link refid="usrp__basic_8cc"/>
+      </node>
+      <node id="990">
+        <label>db_tv_rx.cc</label>
+        <link refid="db__tv__rx_8cc"/>
+      </node>
+      <node id="979">
+        <label>test_usrp_standard_tx.cc</label>
+        <link refid="test__usrp__standard__tx_8cc"/>
+      </node>
+      <node id="993">
+        <label>db_xcvr2450.cc</label>
+        <link refid="db__xcvr2450_8cc"/>
+      </node>
+      <node id="977">
+        <label>usrp_standard.h</label>
+        <link refid="usrp__standard_8h"/>
+        <childnode refid="978" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="981" relation="include">
+        </childnode>
+      </node>
+      <node id="992">
+        <label>db_wbxng_adf4350.cc</label>
+        <link refid="db__wbxng__adf4350_8cc"/>
+      </node>
+      <node id="991">
+        <label>db_wbxng.cc</label>
+        <link refid="db__wbxng_8cc"/>
+      </node>
+      <node id="978">
+        <label>test_usrp_standard_rx.cc</label>
+        <link refid="test__usrp__standard__rx_8cc"/>
+      </node>
+      <node id="988">
+        <label>db_dtt768.cc</label>
+        <link refid="db__dtt768_8cc"/>
+      </node>
+      <node id="976">
+        <label>usrp_basic.h</label>
+        <link refid="usrp_basic.h"/>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="994" relation="include">
+        </childnode>
+        <childnode refid="996" relation="include">
+        </childnode>
+      </node>
+      <node id="989">
+        <label>db_flexrf.cc</label>
+        <link refid="db__flexrf_8cc"/>
+      </node>
+      <node id="994">
+        <label>db_boards.h</label>
+        <link refid="db__boards_8h"/>
+        <childnode refid="995" relation="include">
+        </childnode>
+        <childnode refid="996" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classusrp__basic" prot="public">usrp_basic</innerclass>
+    <innerclass refid="classusrp__basic__rx" prot="public">usrp_basic_rx</innerclass>
+    <innerclass refid="classusrp__basic__tx" prot="public">usrp_basic_tx</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" prot="public" static="no">
+        <name>txrx_t</name>
+        <enumvalue id="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a29836aad5b486173ae3f31b3cb59f6b9" prot="public">
+          <name>C_RX</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" prot="public">
+          <name>C_TX</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="37" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" bodystart="37" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/><sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2005,2009<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_USRP_BASIC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_USRP_BASIC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__base_8h" kindref="compound">usrp/db_base.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="usrp__slots_8h" kindref="compound">usrp/usrp_slots.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="usrp__subdev__spec_8h" kindref="compound">usrp/usrp_subdev_spec.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="libusb__types_8h" kindref="compound">usrp/libusb_types.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/utility.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">class<sp/><sp/></highlight><highlight class="normal"><ref refid="classfusb__devhandle" kindref="compound">fusb_devhandle</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">class<sp/><sp/></highlight><highlight class="normal"><ref refid="classfusb__ephandle" kindref="compound">fusb_ephandle</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>{</highlight></codeline>
+<codeline lineno="38" refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a29836aad5b486173ae3f31b3cb59f6b9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a29836aad5b486173ae3f31b3cb59f6b9" kindref="member">C_RX</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="39" refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" kindref="member">C_TX</ref><sp/>=<sp/>1</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>----------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>Mid<sp/>level<sp/>interface<sp/>to<sp/>the<sp/>Universal<sp/>Software<sp/>Radio<sp/>Peripheral<sp/>(Rev<sp/>1)</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>These<sp/>classes<sp/>implement<sp/>the<sp/>basic<sp/>functionality<sp/>for<sp/>talking<sp/>to<sp/>the</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>USRP.<sp/><sp/>They<sp/>try<sp/>to<sp/>be<sp/>as<sp/>independent<sp/>of<sp/>the<sp/>signal<sp/>processing<sp/>code</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>in<sp/>FPGA<sp/>as<sp/>possible.<sp/><sp/>They<sp/>implement<sp/>access<sp/>to<sp/>the<sp/>low<sp/>level</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>peripherals<sp/>on<sp/>the<sp/>board,<sp/>provide<sp/>a<sp/>common<sp/>way<sp/>for<sp/>reading<sp/>and</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>writing<sp/>registers<sp/>in<sp/>the<sp/>FPGA,<sp/>and<sp/>provide<sp/>the<sp/>high<sp/>speed<sp/>interface</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>to<sp/>streaming<sp/>data<sp/>across<sp/>the<sp/>USB.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*<sp/>It<sp/>is<sp/>expected<sp/>that<sp/>subclasses<sp/>will<sp/>be<sp/>derived<sp/>that<sp/>provide</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>access<sp/>to<sp/>the<sp/>functionality<sp/>to<sp/>a<sp/>particular<sp/>FPGA<sp/>configuration.</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>----------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="classusrp__basic" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classusrp__basic" kindref="compound">usrp_basic</ref><sp/>:<sp/>boost::noncopyable</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1afaae41796f1468062d4ad237322baf9e" kindref="member">shutdown_daughterboards</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69" refid="classusrp__basic_1aad5f6f17a9fde484c67e7dbdd0491f74" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="structusb__dev__handle" kindref="compound">libusb_device_handle</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="classusrp__basic_1aad5f6f17a9fde484c67e7dbdd0491f74" kindref="member">d_udh</ref>;</highlight></codeline>
+<codeline lineno="70" refid="classusrp__basic_1a747a3cfca6d00b8d2960b4692ae36bc2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">libusb_context<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="classusrp__basic_1a747a3cfca6d00b8d2960b4692ae36bc2" kindref="member">d_ctx</ref>;</highlight></codeline>
+<codeline lineno="71" refid="classusrp__basic_1a4e5297f0010c8f39cfe4fff838b113a4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classusrp__basic_1a4e5297f0010c8f39cfe4fff838b113a4" kindref="member">d_usb_data_rate</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>bytes/sec</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="classusrp__basic_1a1d6b6839b9ba385d93684c3497c3fb16" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classusrp__basic_1a1d6b6839b9ba385d93684c3497c3fb16" kindref="member">d_bytes_per_poll</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>how<sp/>often<sp/>to<sp/>poll<sp/>for<sp/>overruns</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="classusrp__basic_1a6d0fecbe64f35fef20293c27dc33a0b0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classusrp__basic_1a6d0fecbe64f35fef20293c27dc33a0b0" kindref="member">d_verbose</ref>;</highlight></codeline>
+<codeline lineno="74" refid="classusrp__basic_1afa81d2ee842dd6eef04c422276f52d1d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classusrp__basic_1afa81d2ee842dd6eef04c422276f52d1d" kindref="member">d_fpga_master_clock_freq</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="classusrp__basic_1ae9277f41b745b1c96c422804fafd058a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classusrp__basic_1ae9277f41b745b1c96c422804fafd058a" kindref="member">MAX_REGS</ref><sp/>=<sp/>128;</highlight></codeline>
+<codeline lineno="77" refid="classusrp__basic_1af3d08c8bcdd0ed116e76ffa5449004f2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classusrp__basic_1af3d08c8bcdd0ed116e76ffa5449004f2" kindref="member">d_fpga_shadows</ref>[<ref refid="classusrp__basic_1ae9277f41b745b1c96c422804fafd058a" kindref="member">MAX_REGS</ref>];</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="classusrp__basic_1a686ea66e3f43c9ab6df60bd80f41ac3b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classusrp__basic_1a686ea66e3f43c9ab6df60bd80f41ac3b" kindref="member">d_dbid</ref>[2];<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>daughterboard<sp/>ID&apos;s<sp/>(side<sp/>A,<sp/>side<sp/>B)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="classusrp__basic_1aa45df525ed16ee0c885a4972ac7908b4" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;<sp/>std::vector&lt;db_base_sptr&gt;<sp/>&gt;<sp/><ref refid="classusrp__basic_1aa45df525ed16ee0c885a4972ac7908b4" kindref="member">d_db</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>One<sp/>time<sp/>call,<sp/>made<sp/>only<sp/>only<sp/>from<sp/>usrp_standard_*::make<sp/>after<sp/>shared_ptr<sp/>is<sp/>created.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a9d4d1ef184ad622c7f84a6f940614b9b" kindref="member">init_db</ref>(<ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref><sp/>u);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><ref refid="classusrp__basic_1ac72f072eb9220e798019b60b3fe48af6" kindref="member">usrp_basic</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_board,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structusb__dev__handle" kindref="compound">libusb_device_handle</ref><sp/>*open_interface<sp/>(<ref refid="libusb__types_8h_1a6a41e56fed0168fbd7abd9359c805bf1" kindref="member">libusb_device</ref><sp/>*dev),</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>fpga_filename<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>firmware_filename<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a77535750946e7d8443a76941a9611cae" kindref="member">set_usb_data_rate</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a530c23ff633c630530ec491c368a755d" kindref="member">usb_data_rate</ref>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ab8870a35e0bdc63ee6655b5264a6d142" kindref="member">_write_aux_dac</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>slot,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_dac,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a8f92d2e9630ec614eedc61858756cce1" kindref="member">_read_aux_adc</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>slot,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_adc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a8f92d2e9630ec614eedc61858756cce1" kindref="member">_read_aux_adc</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>slot,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_adc);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a01313a5f1c8e0eea1a1ff26388e25f78" kindref="member">~usrp_basic</ref><sp/>();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="classusrp__basic_1a8eb1f58ca819437d7f43ad87574bd6da" refkind="member"><highlight class="normal"><sp/><sp/>std::vector&lt;std::vector&lt;db_base_sptr&gt;<sp/>&gt;<sp/><ref refid="classusrp__basic_1a8eb1f58ca819437d7f43ad87574bd6da" kindref="member">db</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1aa45df525ed16ee0c885a4972ac7908b4" kindref="member">d_db</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/>std::vector&lt;db_base_sptr&gt;<sp/><ref refid="classusrp__basic_1a8eb1f58ca819437d7f43ad87574bd6da" kindref="member">db</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a61af504df443a9d846ecf909871f1481" kindref="member">is_valid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structusrp__subdev__spec" kindref="compound">usrp_subdev_spec</ref><sp/>&amp;ss);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref><sp/><ref refid="classusrp__basic_1a648de1479d7632b59bf2732f231ddbe0" kindref="member">selected_subdev</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structusrp__subdev__spec" kindref="compound">usrp_subdev_spec</ref><sp/>&amp;ss);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="classusrp__basic_1a244d4aa01bb6a054cd5bd0998ce2a09a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a244d4aa01bb6a054cd5bd0998ce2a09a" kindref="member">fpga_master_clock_freq</ref><sp/>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1afa81d2ee842dd6eef04c422276f52d1d" kindref="member">d_fpga_master_clock_freq</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="classusrp__basic_1a825640d1de15253b5bae18762a0e403e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a825640d1de15253b5bae18762a0e403e" kindref="member">set_fpga_master_clock_freq</ref><sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>master_clock)<sp/>{<sp/>d_fpga_master_clock_freq<sp/>=<sp/>master_clock;<sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="classusrp__basic_1a530c23ff633c630530ec491c368a755d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a530c23ff633c630530ec491c368a755d" kindref="member">usb_data_rate</ref><sp/>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a4e5297f0010c8f39cfe4fff838b113a4" kindref="member">d_usb_data_rate</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="classusrp__basic_1ae200e6eb7dbbaf81a3c1353a401f97d3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ae200e6eb7dbbaf81a3c1353a401f97d3" kindref="member">set_verbose</ref><sp/>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on)<sp/>{<sp/>d_verbose<sp/>=<sp/>on;<sp/>}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="classusrp__basic_1a364d3e56a0749a90cc5de2ac378e6863" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a364d3e56a0749a90cc5de2ac378e6863" kindref="member">READ_FAILED</ref><sp/>=<sp/>-99999;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a3900d37e951b83c938669f5fa0255866" kindref="member">write_eeprom</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i2c_addr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>eeprom_offset,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>buf);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="classusrp__basic_1aefe7a2f10626831304091babff21dc0d" kindref="member">read_eeprom</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i2c_addr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>eeprom_offset,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a664e5aa3a3fb8a4c50b752906fcb79a0" kindref="member">write_i2c</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i2c_addr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>buf);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="classusrp__basic_1ab284caa2e15464f62aa80ad1f540ecc5" kindref="member">read_i2c</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i2c_addr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ad0e07c8d85aa220aaf150e27dd8b545f" kindref="member">set_adc_offset</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_adc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>offset);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ab18f4a02c0efcac10f8e9406ca7a57a7" kindref="member">set_dac_offset</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_dac,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>offset_pin);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a97fc801cbafa85040a3d39be03d27a62" kindref="member">set_adc_buffer_bypass</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_adc,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bypass);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1af20cc324fca8d089226d5a6dfc3d3668" kindref="member">set_dc_offset_cl_enable</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bits,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="classusrp__basic_1a70a71308412a67eaf825c13399faa078" kindref="member">serial_number</ref>();</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a6d639e50633c165b23e0c4770b26bec2" kindref="member">daughterboard_id</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a70f4070830b0db3fd0c3addb97ce966e" kindref="member">write_atr_tx_delay</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ad9b95b1ca0e2616c1b3808892fdda1b0" kindref="member">write_atr_rx_delay</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Routines<sp/>to<sp/>access<sp/>and<sp/>control<sp/>daughterboard<sp/>specific<sp/>i/o</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Those<sp/>with<sp/>a<sp/>common_<sp/>prefix<sp/>access<sp/>either<sp/>the<sp/>Tx<sp/>or<sp/>Rx<sp/>side<sp/>depending</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>on<sp/>the<sp/>txrx<sp/>parameter.<sp/><sp/>Those<sp/>without<sp/>the<sp/>common_<sp/>prefix<sp/>are<sp/>virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>are<sp/>overriden<sp/>in<sp/>usrp_basic_rx<sp/>and<sp/>usrp_basic_tx<sp/>to<sp/>access<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>Rx<sp/>or<sp/>Tx<sp/>sides<sp/>automatically.<sp/><sp/>We<sp/>provide<sp/>the<sp/>common_<sp/>versions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>those<sp/>daughterboards<sp/>such<sp/>as<sp/>the<sp/>WBX<sp/>and<sp/>XCVR2450<sp/>that<sp/>share</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>h/w<sp/>resources<sp/>(such<sp/>as<sp/>the<sp/>LO)<sp/>between<sp/>the<sp/>Tx<sp/>and<sp/>Rx<sp/>sides.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>----------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>BEGIN<sp/>common_<sp/><sp/>daughterboard<sp/>control<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a52f96a90c91ed6e74bfc6a91691a7fa2" kindref="member">common_set_pga</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_amp,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gain_in_db);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ac25d56e74572309a87397f0fce1a102b" kindref="member">common_pga</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_amp)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a95453e5bb4d0ed4c05b1ea64c880170a" kindref="member">common_pga_min</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a7dd5c384b9d2cd4e412939c3b7b7ac79" kindref="member">common_pga_max</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a06cfd0e5675618f773c5466bd235a369" kindref="member">common_pga_db_per_step</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a09ce78134eea035e42464123356096e4" kindref="member">_common_write_oe</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask);</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"></highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1acf3120592af4df79d38d253c98c633ae" kindref="member">common_write_io</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask);</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1af7e33b5762cd9c80a714806fa6fa2244" kindref="member">common_read_io</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1af7e33b5762cd9c80a714806fa6fa2244" kindref="member">common_read_io</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side);</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"></highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ad673bc49b311e29ab01727c5933ea028" kindref="member">common_write_refclk</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"></highlight></codeline>
+<codeline lineno="468"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a0997e93568c71e5432c2445b1ebcc991" kindref="member">common_write_atr_mask</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a26e38a0f9f98390b712709812e3387af" kindref="member">common_write_atr_txval</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="470"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a89eda6a96bc7f4d2d634da793eccbc20" kindref="member">common_write_atr_rxval</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"></highlight></codeline>
+<codeline lineno="483"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ac7354a9c4f7e961cb1b541c970a8d009" kindref="member">common_write_aux_dac</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_dac,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="484"><highlight class="normal"></highlight></codeline>
+<codeline lineno="494"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a37bd03473a98cf3776f1988914c1a5ce" kindref="member">common_read_aux_adc</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_adc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="495"><highlight class="normal"></highlight></codeline>
+<codeline lineno="504"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a37bd03473a98cf3776f1988914c1a5ce" kindref="member">common_read_aux_adc</ref>(<ref refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71" kindref="member">txrx_t</ref><sp/>txrx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_adc);</highlight></codeline>
+<codeline lineno="505"><highlight class="normal"></highlight></codeline>
+<codeline lineno="506"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>END<sp/>common_<sp/>daughterboard<sp/>control<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="507"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>----------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="508"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>BEGIN<sp/>virtual<sp/>daughterboard<sp/>control<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="509"><highlight class="normal"></highlight></codeline>
+<codeline lineno="522"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1afdcf0497f2554589b36a57806e239a07" kindref="member">set_pga</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_amp,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gain_in_db)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="523"><highlight class="normal"></highlight></codeline>
+<codeline lineno="529"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a731389d216c7232020041f7cecd3d581" kindref="member">pga</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_amp)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="530"><highlight class="normal"></highlight></codeline>
+<codeline lineno="534"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1afcab635a411c57f16820e44a83bfe259" kindref="member">pga_min</ref><sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="535"><highlight class="normal"></highlight></codeline>
+<codeline lineno="539"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ae6a0027c59862dcc2d4da73d50b6a598" kindref="member">pga_max</ref><sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="540"><highlight class="normal"></highlight></codeline>
+<codeline lineno="544"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ae67abb570f10f1216c001f2409fe3331" kindref="member">pga_db_per_step</ref><sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="545"><highlight class="normal"></highlight></codeline>
+<codeline lineno="561"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ac540c04b719f1ce30426ecb2214107ef" kindref="member">_write_oe</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="562"><highlight class="normal"></highlight></codeline>
+<codeline lineno="570"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a75aca6cca672ac2deedf14fb2c04ab0e" kindref="member">write_io</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="571"><highlight class="normal"></highlight></codeline>
+<codeline lineno="578"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ad443caee9815e7c69a8b39a29cf8846a" kindref="member">read_io</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="579"><highlight class="normal"></highlight></codeline>
+<codeline lineno="586"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ad443caee9815e7c69a8b39a29cf8846a" kindref="member">read_io</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="587"><highlight class="normal"></highlight></codeline>
+<codeline lineno="608"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a80a4f8800742b6b06ec6f1908a448fc8" kindref="member">write_refclk</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="609"><highlight class="normal"></highlight></codeline>
+<codeline lineno="610"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a49074783b3757b6af17ddf8e8f56be6c" kindref="member">write_atr_mask</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="611"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a504bf45d241c56ddf00ee07fc946207e" kindref="member">write_atr_txval</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="612"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ae5466590dd7ec5646fefbb82d92ad899" kindref="member">write_atr_rxval</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="613"><highlight class="normal"></highlight></codeline>
+<codeline lineno="624"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a332790fa84b6b64f82de8983b45b611a" kindref="member">write_aux_dac</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_dac,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="625"><highlight class="normal"></highlight></codeline>
+<codeline lineno="634"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a7e90fb51366e9d6a8f2c844dbca2798a" kindref="member">read_aux_adc</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_adc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="635"><highlight class="normal"></highlight></codeline>
+<codeline lineno="643"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a7e90fb51366e9d6a8f2c844dbca2798a" kindref="member">read_aux_adc</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_adc)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="644"><highlight class="normal"></highlight></codeline>
+<codeline lineno="648"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a1f769dc9ea28d701fa2f7da2be82325d" kindref="member">block_size</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="649"><highlight class="normal"></highlight></codeline>
+<codeline lineno="653"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a551a0912d265427e595ba826858cf3d0" kindref="member">converter_rate</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="654"><highlight class="normal"></highlight></codeline>
+<codeline lineno="655"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>END<sp/>virtual<sp/>daughterboard<sp/>control<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="656"><highlight class="normal"></highlight></codeline>
+<codeline lineno="657"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>----------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="658"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Low<sp/>level<sp/>implementation<sp/>routines.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="659"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>You<sp/>probably<sp/>shouldn&apos;t<sp/>be<sp/>using<sp/>these...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="660"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="661"><highlight class="normal"></highlight></codeline>
+<codeline lineno="662"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a4585f9c7df7084a6acb29bd6d7950892" kindref="member">_set_led</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_led,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on);</highlight></codeline>
+<codeline lineno="663"><highlight class="normal"></highlight></codeline>
+<codeline lineno="670"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ac5bdb9be69f27eb3a0530cba9536d0f4" kindref="member">_write_fpga_reg</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>regno,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);<sp/><sp/></highlight><highlight class="comment">//&lt;<sp/>7-bit<sp/>regno,<sp/>32-bit<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="671"><highlight class="normal"></highlight></codeline>
+<codeline lineno="678"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a4fa26bd8164bd5782adf7fbe00b3d411" kindref="member">_read_fpga_reg</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>regno,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value);<sp/><sp/></highlight><highlight class="comment">//&lt;<sp/>7-bit<sp/>regno,<sp/>32-bit<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="679"><highlight class="normal"></highlight></codeline>
+<codeline lineno="685"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><ref refid="classusrp__basic_1a4fa26bd8164bd5782adf7fbe00b3d411" kindref="member">_read_fpga_reg</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>regno);</highlight></codeline>
+<codeline lineno="686"><highlight class="normal"></highlight></codeline>
+<codeline lineno="695"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a0c200dc2d39d68d7a77e92859c5228a0" kindref="member">_write_fpga_reg_masked</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>regno,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask);</highlight></codeline>
+<codeline lineno="696"><highlight class="normal"></highlight></codeline>
+<codeline lineno="704"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a8a25444c83f59f7517d0ff687d2ff053" kindref="member">_write_9862</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_codec,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>regno,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="705"><highlight class="normal"></highlight></codeline>
+<codeline lineno="713"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a3814dc28edce07e3b5cb48bb3ebdf244" kindref="member">_read_9862</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_codec,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>regno,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="714"><highlight class="normal"></highlight></codeline>
+<codeline lineno="721"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><ref refid="classusrp__basic_1a3814dc28edce07e3b5cb48bb3ebdf244" kindref="member">_read_9862</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_codec,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>regno)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="722"><highlight class="normal"></highlight></codeline>
+<codeline lineno="736"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1aaf100fafc406ef75faafcf3e38df7849" kindref="member">_write_spi</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>optional_header,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>enables,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>format,<sp/>std::string<sp/>buf);</highlight></codeline>
+<codeline lineno="737"><highlight class="normal"></highlight></codeline>
+<codeline lineno="738"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="739"><highlight class="comment"><sp/><sp/><sp/>*<sp/>\brief<sp/>Read<sp/>data<sp/>from<sp/>SPI<sp/>bus<sp/>peripheral.</highlight></codeline>
+<codeline lineno="740"><highlight class="comment"><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="741"><highlight class="comment"><sp/><sp/><sp/>*<sp/>\param<sp/>optional_header<sp/><sp/><sp/><sp/><sp/>0,1<sp/>or<sp/>2<sp/>bytes<sp/>to<sp/>write<sp/>before<sp/>buf.</highlight></codeline>
+<codeline lineno="742"><highlight class="comment"><sp/><sp/><sp/>*<sp/>\param<sp/>enables<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bitmask<sp/>of<sp/>peripheral<sp/>to<sp/>read.<sp/>See<sp/>usrp_spi_defs.h</highlight></codeline>
+<codeline lineno="743"><highlight class="comment"><sp/><sp/><sp/>*<sp/>\param<sp/>format<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transaction<sp/>format.<sp/><sp/>See<sp/>usrp_spi_defs.h<sp/>SPI_FMT_*</highlight></codeline>
+<codeline lineno="744"><highlight class="comment"><sp/><sp/><sp/>*<sp/>\param<sp/>len<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>number<sp/>of<sp/>bytes<sp/>to<sp/>read.<sp/><sp/>Must<sp/>be<sp/>in<sp/>[0,64].</highlight></codeline>
+<codeline lineno="745"><highlight class="comment"><sp/><sp/><sp/>*<sp/>\returns<sp/>the<sp/>data<sp/>read<sp/>if<sp/>sucessful,<sp/>else<sp/>a<sp/>zero<sp/>length<sp/>string.</highlight></codeline>
+<codeline lineno="746"><highlight class="comment"><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="747"><highlight class="comment"><sp/><sp/><sp/>*<sp/>Reads<sp/>are<sp/>limited<sp/>to<sp/>a<sp/>maximum<sp/>of<sp/>64<sp/>bytes.</highlight></codeline>
+<codeline lineno="748"><highlight class="comment"><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="749"><highlight class="comment"><sp/><sp/><sp/>*<sp/>If<sp/>\p<sp/>format<sp/>specifies<sp/>that<sp/>optional_header<sp/>bytes<sp/>are<sp/>present,<sp/>they</highlight></codeline>
+<codeline lineno="750"><highlight class="comment"><sp/><sp/><sp/>*<sp/>are<sp/>written<sp/>to<sp/>the<sp/>peripheral<sp/>first.<sp/><sp/>Then<sp/>\p<sp/>len<sp/>bytes<sp/>are<sp/>read<sp/>from</highlight></codeline>
+<codeline lineno="751"><highlight class="comment"><sp/><sp/><sp/>*<sp/>the<sp/>peripheral<sp/>and<sp/>returned.</highlight></codeline>
+<codeline lineno="752"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="753"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="classusrp__basic_1a9b54622fec87c2ed9c7808078931371f" kindref="member">_read_spi</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>optional_header,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>enables,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>format,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="754"><highlight class="normal"></highlight></codeline>
+<codeline lineno="759"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a4291ecf3cc0870baaa12644143182db4" kindref="member">start</ref><sp/>();</highlight></codeline>
+<codeline lineno="760"><highlight class="normal"></highlight></codeline>
+<codeline lineno="765"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a69292bbc3b47b5ca85d4c0404dc4a58a" kindref="member">stop</ref><sp/>();</highlight></codeline>
+<codeline lineno="766"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="767"><highlight class="normal"></highlight></codeline>
+<codeline lineno="768"><highlight class="normal"></highlight></codeline>
+<codeline lineno="772" refid="classusrp__basic__rx" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classusrp__basic__rx" kindref="compound">usrp_basic_rx</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic" kindref="compound">usrp_basic</ref><sp/></highlight></codeline>
+<codeline lineno="773"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="774"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="775"><highlight class="normal"><sp/><sp/><ref refid="classfusb__devhandle" kindref="compound">fusb_devhandle</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*d_devhandle;</highlight></codeline>
+<codeline lineno="776"><highlight class="normal"><sp/><sp/><ref refid="classfusb__ephandle" kindref="compound">fusb_ephandle</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*d_ephandle;</highlight></codeline>
+<codeline lineno="777"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d_bytes_seen;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>how<sp/>many<sp/>bytes<sp/>we&apos;ve<sp/>seen</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="778"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d_first_read;</highlight></codeline>
+<codeline lineno="779"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d_rx_enable;</highlight></codeline>
+<codeline lineno="780"><highlight class="normal"></highlight></codeline>
+<codeline lineno="781"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="790"><highlight class="normal"><sp/><sp/><ref refid="classusrp__basic__rx" kindref="compound">usrp_basic_rx</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_board,</highlight></codeline>
+<codeline lineno="791"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fusb_block_size=0,</highlight></codeline>
+<codeline lineno="792"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fusb_nblocks=0,</highlight></codeline>
+<codeline lineno="793"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>fpga_filename<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="794"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>firmware_filename<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="795"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);<sp/><sp/></highlight><highlight class="comment">//<sp/>throws<sp/>if<sp/>trouble</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="796"><highlight class="normal"></highlight></codeline>
+<codeline lineno="797"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>set_rx_enable<sp/>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on);</highlight></codeline>
+<codeline lineno="798" refid="classusrp__basic__rx_1aa25e7e0e84ec50bd8689889401480f84" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic__rx_1aa25e7e0e84ec50bd8689889401480f84" kindref="member">rx_enable</ref><sp/>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_rx_enable;<sp/>}</highlight></codeline>
+<codeline lineno="799"><highlight class="normal"></highlight></codeline>
+<codeline lineno="800"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>disable_rx<sp/>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>conditional<sp/>disable,<sp/>return<sp/>prev<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="801"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>restore_rx<sp/>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>conditional<sp/>set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="802"><highlight class="normal"></highlight></codeline>
+<codeline lineno="803"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>probe_rx_slots<sp/>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>verbose);</highlight></codeline>
+<codeline lineno="804"><highlight class="normal"></highlight></codeline>
+<codeline lineno="805"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="806"><highlight class="normal"><sp/><sp/>~<ref refid="classusrp__basic__rx" kindref="compound">usrp_basic_rx</ref><sp/>();</highlight></codeline>
+<codeline lineno="807"><highlight class="normal"></highlight></codeline>
+<codeline lineno="818"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic__rx" kindref="compound">usrp_basic_rx</ref><sp/>*make<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_board,</highlight></codeline>
+<codeline lineno="819"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fusb_block_size=0,</highlight></codeline>
+<codeline lineno="820"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fusb_nblocks=0,</highlight></codeline>
+<codeline lineno="821"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>fpga_filename<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="822"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>firmware_filename<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="823"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="824"><highlight class="normal"></highlight></codeline>
+<codeline lineno="834"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>set_fpga_rx_sample_rate_divisor<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>div);</highlight></codeline>
+<codeline lineno="835"><highlight class="normal"></highlight></codeline>
+<codeline lineno="844"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>read<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buf,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*overrun);</highlight></codeline>
+<codeline lineno="845"><highlight class="normal"></highlight></codeline>
+<codeline lineno="846"><highlight class="normal"></highlight></codeline>
+<codeline lineno="848" refid="classusrp__basic__rx_1afd14b376f2449cfb71865c9980ea2358" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic__rx_1afd14b376f2449cfb71865c9980ea2358" kindref="member">converter_rate</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a244d4aa01bb6a054cd5bd0998ce2a09a" kindref="member">fpga_master_clock_freq</ref>();<sp/>}<sp/></highlight><highlight class="comment">//<sp/>64M</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="849" refid="classusrp__basic__rx_1ace4aa6537246ecf948ec0ae35e1d6e48" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic__rx_1ace4aa6537246ecf948ec0ae35e1d6e48" kindref="member">adc_rate</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a551a0912d265427e595ba826858cf3d0" kindref="member">converter_rate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="850" refid="classusrp__basic__rx_1a34128f4864ece7fafc011786c42b9994" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic__rx_1a34128f4864ece7fafc011786c42b9994" kindref="member">daughterboard_id</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_dbid[which_side<sp/>&amp;<sp/>0x1];<sp/>}</highlight></codeline>
+<codeline lineno="851"><highlight class="normal"></highlight></codeline>
+<codeline lineno="852"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1afdcf0497f2554589b36a57806e239a07" kindref="member">set_pga</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_amp,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gain_in_db);</highlight></codeline>
+<codeline lineno="853"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a731389d216c7232020041f7cecd3d581" kindref="member">pga</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_amp)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="854"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1afcab635a411c57f16820e44a83bfe259" kindref="member">pga_min</ref><sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="855"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ae6a0027c59862dcc2d4da73d50b6a598" kindref="member">pga_max</ref><sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="856"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ae67abb570f10f1216c001f2409fe3331" kindref="member">pga_db_per_step</ref><sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="857"><highlight class="normal"></highlight></codeline>
+<codeline lineno="858"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ac540c04b719f1ce30426ecb2214107ef" kindref="member">_write_oe</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask);</highlight></codeline>
+<codeline lineno="859"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a75aca6cca672ac2deedf14fb2c04ab0e" kindref="member">write_io</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask);</highlight></codeline>
+<codeline lineno="860"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ad443caee9815e7c69a8b39a29cf8846a" kindref="member">read_io</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="861"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ad443caee9815e7c69a8b39a29cf8846a" kindref="member">read_io</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side);</highlight></codeline>
+<codeline lineno="862"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a80a4f8800742b6b06ec6f1908a448fc8" kindref="member">write_refclk</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="863"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a49074783b3757b6af17ddf8e8f56be6c" kindref="member">write_atr_mask</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="864"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a504bf45d241c56ddf00ee07fc946207e" kindref="member">write_atr_txval</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="865"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ae5466590dd7ec5646fefbb82d92ad899" kindref="member">write_atr_rxval</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="866"><highlight class="normal"></highlight></codeline>
+<codeline lineno="867"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a332790fa84b6b64f82de8983b45b611a" kindref="member">write_aux_dac</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_dac,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="868"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a7e90fb51366e9d6a8f2c844dbca2798a" kindref="member">read_aux_adc</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_adc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="869"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><ref refid="classusrp__basic_1a7e90fb51366e9d6a8f2c844dbca2798a" kindref="member">read_aux_adc</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_adc);</highlight></codeline>
+<codeline lineno="870"><highlight class="normal"></highlight></codeline>
+<codeline lineno="871"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a1f769dc9ea28d701fa2f7da2be82325d" kindref="member">block_size</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="872"><highlight class="normal"></highlight></codeline>
+<codeline lineno="873"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>called<sp/>in<sp/>base<sp/>class<sp/>to<sp/>derived<sp/>class<sp/>order</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="874"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a4291ecf3cc0870baaa12644143182db4" kindref="member">start</ref><sp/>();</highlight></codeline>
+<codeline lineno="875"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a69292bbc3b47b5ca85d4c0404dc4a58a" kindref="member">stop</ref><sp/>();</highlight></codeline>
+<codeline lineno="876"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="877"><highlight class="normal"></highlight></codeline>
+<codeline lineno="878"><highlight class="normal"></highlight></codeline>
+<codeline lineno="882" refid="classusrp__basic__tx" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classusrp__basic__tx" kindref="compound">usrp_basic_tx</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic" kindref="compound">usrp_basic</ref><sp/></highlight></codeline>
+<codeline lineno="883"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="884"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="885"><highlight class="normal"><sp/><sp/><ref refid="classfusb__devhandle" kindref="compound">fusb_devhandle</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*d_devhandle;</highlight></codeline>
+<codeline lineno="886"><highlight class="normal"><sp/><sp/><ref refid="classfusb__ephandle" kindref="compound">fusb_ephandle</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*d_ephandle;</highlight></codeline>
+<codeline lineno="887"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d_bytes_seen;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>how<sp/>many<sp/>bytes<sp/>we&apos;ve<sp/>seen</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="888"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d_first_write;</highlight></codeline>
+<codeline lineno="889"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d_tx_enable;</highlight></codeline>
+<codeline lineno="890"><highlight class="normal"></highlight></codeline>
+<codeline lineno="891"><highlight class="normal"><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="900"><highlight class="normal"><sp/><sp/><ref refid="classusrp__basic__tx" kindref="compound">usrp_basic_tx</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_board,</highlight></codeline>
+<codeline lineno="901"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fusb_block_size=0,</highlight></codeline>
+<codeline lineno="902"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fusb_nblocks=0,</highlight></codeline>
+<codeline lineno="903"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>fpga_filename<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="904"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>firmware_filename<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="905"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>throws<sp/>if<sp/>trouble</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="906"><highlight class="normal"></highlight></codeline>
+<codeline lineno="907"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>set_tx_enable<sp/>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on);</highlight></codeline>
+<codeline lineno="908" refid="classusrp__basic__tx_1ada7b24a807ade928dc5e57e823002f6d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic__tx_1ada7b24a807ade928dc5e57e823002f6d" kindref="member">tx_enable</ref><sp/>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_tx_enable;<sp/>}</highlight></codeline>
+<codeline lineno="909"><highlight class="normal"></highlight></codeline>
+<codeline lineno="910"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>disable_tx<sp/>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>conditional<sp/>disable,<sp/>return<sp/>prev<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="911"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>restore_tx<sp/>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>conditional<sp/>set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="912"><highlight class="normal"></highlight></codeline>
+<codeline lineno="913"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>probe_tx_slots<sp/>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>verbose);</highlight></codeline>
+<codeline lineno="914"><highlight class="normal"></highlight></codeline>
+<codeline lineno="915"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="916"><highlight class="normal"></highlight></codeline>
+<codeline lineno="917"><highlight class="normal"><sp/><sp/>~<ref refid="classusrp__basic__tx" kindref="compound">usrp_basic_tx</ref><sp/>();</highlight></codeline>
+<codeline lineno="918"><highlight class="normal"></highlight></codeline>
+<codeline lineno="929"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic__tx" kindref="compound">usrp_basic_tx</ref><sp/>*make<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_board,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fusb_block_size=0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fusb_nblocks=0,</highlight></codeline>
+<codeline lineno="930"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>fpga_filename<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="931"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>firmware_filename<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="932"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="933"><highlight class="normal"></highlight></codeline>
+<codeline lineno="943"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>set_fpga_tx_sample_rate_divisor<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>div);</highlight></codeline>
+<codeline lineno="944"><highlight class="normal"></highlight></codeline>
+<codeline lineno="954"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>write<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buf,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*underrun);</highlight></codeline>
+<codeline lineno="955"><highlight class="normal"></highlight></codeline>
+<codeline lineno="956"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="957"><highlight class="comment"><sp/><sp/><sp/>*<sp/>Block<sp/>until<sp/>all<sp/>outstanding<sp/>writes<sp/>have<sp/>completed.</highlight></codeline>
+<codeline lineno="958"><highlight class="comment"><sp/><sp/><sp/>*<sp/>This<sp/>is<sp/>typically<sp/>used<sp/>to<sp/>assist<sp/>with<sp/>benchmarking</highlight></codeline>
+<codeline lineno="959"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="960"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>wait_for_completion<sp/>();</highlight></codeline>
+<codeline lineno="961"><highlight class="normal"></highlight></codeline>
+<codeline lineno="963" refid="classusrp__basic__tx_1a4eefc136417ea3a75a296c1b6dbbd470" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic__tx_1a4eefc136417ea3a75a296c1b6dbbd470" kindref="member">converter_rate</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a244d4aa01bb6a054cd5bd0998ce2a09a" kindref="member">fpga_master_clock_freq</ref><sp/>()<sp/>*<sp/>2;<sp/>}<sp/></highlight><highlight class="comment">//<sp/>128M</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="964" refid="classusrp__basic__tx_1a618be27f79f9ab769f33ead42c9283a7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic__tx_1a618be27f79f9ab769f33ead42c9283a7" kindref="member">dac_rate</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a551a0912d265427e595ba826858cf3d0" kindref="member">converter_rate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="965" refid="classusrp__basic__tx_1a25ef6153080bcd83637c87df6ea1d478" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic__tx_1a25ef6153080bcd83637c87df6ea1d478" kindref="member">daughterboard_id</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_dbid[which_side<sp/>&amp;<sp/>0x1];<sp/>}</highlight></codeline>
+<codeline lineno="966"><highlight class="normal"></highlight></codeline>
+<codeline lineno="967"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1afdcf0497f2554589b36a57806e239a07" kindref="member">set_pga</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_amp,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gain_in_db);</highlight></codeline>
+<codeline lineno="968"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a731389d216c7232020041f7cecd3d581" kindref="member">pga</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_amp)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="969"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1afcab635a411c57f16820e44a83bfe259" kindref="member">pga_min</ref><sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="970"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ae6a0027c59862dcc2d4da73d50b6a598" kindref="member">pga_max</ref><sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="971"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ae67abb570f10f1216c001f2409fe3331" kindref="member">pga_db_per_step</ref><sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="972"><highlight class="normal"></highlight></codeline>
+<codeline lineno="973"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ac540c04b719f1ce30426ecb2214107ef" kindref="member">_write_oe</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask);</highlight></codeline>
+<codeline lineno="974"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a75aca6cca672ac2deedf14fb2c04ab0e" kindref="member">write_io</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask);</highlight></codeline>
+<codeline lineno="975"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ad443caee9815e7c69a8b39a29cf8846a" kindref="member">read_io</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="976"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ad443caee9815e7c69a8b39a29cf8846a" kindref="member">read_io</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side);</highlight></codeline>
+<codeline lineno="977"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a80a4f8800742b6b06ec6f1908a448fc8" kindref="member">write_refclk</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="978"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a49074783b3757b6af17ddf8e8f56be6c" kindref="member">write_atr_mask</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="979"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a504bf45d241c56ddf00ee07fc946207e" kindref="member">write_atr_txval</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="980"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1ae5466590dd7ec5646fefbb82d92ad899" kindref="member">write_atr_rxval</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="981"><highlight class="normal"></highlight></codeline>
+<codeline lineno="982"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a332790fa84b6b64f82de8983b45b611a" kindref="member">write_aux_dac</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_dac,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="983"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a7e90fb51366e9d6a8f2c844dbca2798a" kindref="member">read_aux_adc</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_adc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="984"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a7e90fb51366e9d6a8f2c844dbca2798a" kindref="member">read_aux_adc</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_adc);</highlight></codeline>
+<codeline lineno="985"><highlight class="normal"></highlight></codeline>
+<codeline lineno="986"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a1f769dc9ea28d701fa2f7da2be82325d" kindref="member">block_size</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="987"><highlight class="normal"></highlight></codeline>
+<codeline lineno="988"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>called<sp/>in<sp/>base<sp/>class<sp/>to<sp/>derived<sp/>class<sp/>order</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="989"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a4291ecf3cc0870baaa12644143182db4" kindref="member">start</ref><sp/>();</highlight></codeline>
+<codeline lineno="990"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__basic_1a69292bbc3b47b5ca85d4c0404dc4a58a" kindref="member">stop</ref><sp/>();</highlight></codeline>
+<codeline lineno="991"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="992"><highlight class="normal"></highlight></codeline>
+<codeline lineno="993"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_USRP_BASIC_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h"/>
+  </compounddef>
+</doxygen>

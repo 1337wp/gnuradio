@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classs__buffer" kind="class" language="C++" prot="public">
+    <compoundname>s_buffer</compoundname>
+    <includes refid="fusb__darwin_8h" local="no">fusb_darwin.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classs__buffer_1aa56657a45b73d50b1f47cd0639124c88" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* s_buffer::d_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="77" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classs__buffer_1a38f8bb20278f162e0756ef48bc72d227" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t s_buffer::d_n_used</definition>
+        <argsstring></argsstring>
+        <name>d_n_used</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="78" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classs__buffer_1ad04e475f9681e11fcf8f9149eb4343a2" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t s_buffer::d_n_alloc</definition>
+        <argsstring></argsstring>
+        <name>d_n_alloc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="78" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classs__buffer_1ad77967f73d331d08028dd4c6ca7ce051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>s_buffer::s_buffer</definition>
+        <argsstring>(size_t n_alloc=0)</argsstring>
+        <name>s_buffer</name>
+        <param>
+          <type>size_t</type>
+          <declname>n_alloc</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="81" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="81" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__buffer_1a73e9d6dc2c87bb0ff63e4cbf058f6944" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>s_buffer::~s_buffer</definition>
+        <argsstring>()</argsstring>
+        <name>~s_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="90" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="90" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__buffer_1a9a7363a8a0ce0f66235c216e6584d8d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t s_buffer::n_used</definition>
+        <argsstring>()</argsstring>
+        <name>n_used</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="95" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="95" bodyend="95"/>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">fusb_ephandle_darwin::start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" compoundref="fusb__darwin_8cc" startline="441" endline="493">fusb_ephandle_darwin::write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classs__buffer_1a460dac68a205ae299d672f55fb213e73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void s_buffer::n_used</definition>
+        <argsstring>(size_t bufLen)</argsstring>
+        <name>n_used</name>
+        <param>
+          <type>size_t</type>
+          <declname>bufLen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="96" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="96" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__buffer_1a2b38085d51047076ab3b8e6bf90f56e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t s_buffer::n_alloc</definition>
+        <argsstring>()</argsstring>
+        <name>n_alloc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="98" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__buffer_1a9200cbab69c0e3c8f2a9e52042d9e9a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void s_buffer::buffer</definition>
+        <argsstring>(char *l_buffer, size_t bufLen)</argsstring>
+        <name>buffer</name>
+        <param>
+          <type>char *</type>
+          <declname>l_buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>bufLen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="99" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="99" bodyend="110"/>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">fusb_ephandle_darwin::start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" compoundref="fusb__darwin_8cc" startline="441" endline="493">fusb_ephandle_darwin::write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classs__buffer_1a952abdac0f963242f30c63083f414044" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* s_buffer::buffer</definition>
+        <argsstring>()</argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="111" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__buffer_1aa554e07718c3c8160b1e5de3f6a4ee97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void s_buffer::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="112" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="112" bodyend="115"/>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">fusb_ephandle_darwin::start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="75" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="74" bodyend="116"/>
+    <listofallmembers>
+      <member refid="classs__buffer_1a9200cbab69c0e3c8f2a9e52042d9e9a7" prot="public" virt="non-virtual"><scope>s_buffer</scope><name>buffer</name></member>
+      <member refid="classs__buffer_1a952abdac0f963242f30c63083f414044" prot="public" virt="non-virtual"><scope>s_buffer</scope><name>buffer</name></member>
+      <member refid="classs__buffer_1aa56657a45b73d50b1f47cd0639124c88" prot="private" virt="non-virtual"><scope>s_buffer</scope><name>d_buffer</name></member>
+      <member refid="classs__buffer_1ad04e475f9681e11fcf8f9149eb4343a2" prot="private" virt="non-virtual"><scope>s_buffer</scope><name>d_n_alloc</name></member>
+      <member refid="classs__buffer_1a38f8bb20278f162e0756ef48bc72d227" prot="private" virt="non-virtual"><scope>s_buffer</scope><name>d_n_used</name></member>
+      <member refid="classs__buffer_1a2b38085d51047076ab3b8e6bf90f56e0" prot="public" virt="non-virtual"><scope>s_buffer</scope><name>n_alloc</name></member>
+      <member refid="classs__buffer_1a9a7363a8a0ce0f66235c216e6584d8d9" prot="public" virt="non-virtual"><scope>s_buffer</scope><name>n_used</name></member>
+      <member refid="classs__buffer_1a460dac68a205ae299d672f55fb213e73" prot="public" virt="non-virtual"><scope>s_buffer</scope><name>n_used</name></member>
+      <member refid="classs__buffer_1aa554e07718c3c8160b1e5de3f6a4ee97" prot="public" virt="non-virtual"><scope>s_buffer</scope><name>reset</name></member>
+      <member refid="classs__buffer_1ad77967f73d331d08028dd4c6ca7ce051" prot="public" virt="non-virtual"><scope>s_buffer</scope><name>s_buffer</name></member>
+      <member refid="classs__buffer_1a73e9d6dc2c87bb0ff63e4cbf058f6944" prot="public" virt="non-virtual"><scope>s_buffer</scope><name>~s_buffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

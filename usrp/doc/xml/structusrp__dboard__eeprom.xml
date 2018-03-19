@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structusrp__dboard__eeprom" kind="struct" language="C++" prot="public">
+    <compoundname>usrp_dboard_eeprom</compoundname>
+    <includes refid="usrp__prims_8h" local="no">usrp_prims.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusrp__dboard__eeprom_1abb084f9acf442d8b439c8e13479d0618" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short usrp_dboard_eeprom::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_prims.h" line="280" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_prims.h" bodystart="280" bodyend="-1"/>
+        <referencedby refid="classusrp__basic__rx_1a9edf0c0a2aeab58f7f12483a02dd14ee" compoundref="usrp__basic_8cc" startline="986" endline="1031">usrp_basic_rx::probe_rx_slots</referencedby>
+        <referencedby refid="classusrp__basic__tx_1ac9e8934cb2136fd9c1f0bb2677991df0" compoundref="usrp__basic_8cc" startline="1393" endline="1438">usrp_basic_tx::probe_tx_slots</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1a2bc4729b18234e966aadf42d50b882d6" compoundref="usrp__prims__common_8cc" startline="1181" endline="1198">usrp_read_dboard_eeprom</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structusrp__dboard__eeprom_1a644392481788aabc0226af00d4371124" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short usrp_dboard_eeprom::oe</definition>
+        <argsstring></argsstring>
+        <name>oe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_prims.h" line="281" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_prims.h" bodystart="281" bodyend="-1"/>
+        <referencedby refid="classusrp__basic__rx_1a9edf0c0a2aeab58f7f12483a02dd14ee" compoundref="usrp__basic_8cc" startline="986" endline="1031">usrp_basic_rx::probe_rx_slots</referencedby>
+        <referencedby refid="classusrp__basic__tx_1ac9e8934cb2136fd9c1f0bb2677991df0" compoundref="usrp__basic_8cc" startline="1393" endline="1438">usrp_basic_tx::probe_tx_slots</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1a2bc4729b18234e966aadf42d50b882d6" compoundref="usrp__prims__common_8cc" startline="1181" endline="1198">usrp_read_dboard_eeprom</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structusrp__dboard__eeprom_1a55332624480ff6273a9910686286fab1" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short usrp_dboard_eeprom::offset[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_prims.h" line="283" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_prims.h" bodystart="283" bodyend="-1"/>
+        <referencedby refid="classusrp__basic__rx_1a9edf0c0a2aeab58f7f12483a02dd14ee" compoundref="usrp__basic_8cc" startline="986" endline="1031">usrp_basic_rx::probe_rx_slots</referencedby>
+        <referencedby refid="usrp__prims__common_8cc_1a2bc4729b18234e966aadf42d50b882d6" compoundref="usrp__prims__common_8cc" startline="1181" endline="1198">usrp_read_dboard_eeprom</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_prims.h" line="279" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_prims.h" bodystart="279" bodyend="284"/>
+    <listofallmembers>
+      <member refid="structusrp__dboard__eeprom_1abb084f9acf442d8b439c8e13479d0618" prot="public" virt="non-virtual"><scope>usrp_dboard_eeprom</scope><name>id</name></member>
+      <member refid="structusrp__dboard__eeprom_1a644392481788aabc0226af00d4371124" prot="public" virt="non-virtual"><scope>usrp_dboard_eeprom</scope><name>oe</name></member>
+      <member refid="structusrp__dboard__eeprom_1a55332624480ff6273a9910686286fab1" prot="public" virt="non-virtual"><scope>usrp_dboard_eeprom</scope><name>offset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

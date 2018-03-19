@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="bug__work__around__8_8cc" kind="file" language="C++">
+    <compoundname>bug_work_around_8.cc</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="bug__work__around__8_8cc_1ac97d5d3c96a073d4f2cee6a3eda03d9d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr_bug_work_around_8</definition>
+        <argsstring></argsstring>
+        <name>gr_bug_work_around_8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/misc/bug_work_around_8.cc" line="2" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/misc/bug_work_around_8.cc" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>if<sp/>libmisc<sp/>has<sp/>no<sp/>sources,<sp/>it<sp/>doesn&apos;t<sp/>get<sp/>built<sp/>correctly</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="bug__work__around__8_8cc_1ac97d5d3c96a073d4f2cee6a3eda03d9d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="bug__work__around__8_8cc_1ac97d5d3c96a073d4f2cee6a3eda03d9d" kindref="member">gr_bug_work_around_8</ref>;</highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/misc/bug_work_around_8.cc"/>
+  </compounddef>
+</doxygen>

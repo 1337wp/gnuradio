@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structusrp__subdev__spec" kind="struct" language="C++" prot="public">
+    <compoundname>usrp_subdev_spec</compoundname>
+    <includes refid="usrp__subdev__spec_8h" local="no">usrp_subdev_spec.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusrp__subdev__spec_1aeff15f40736fb2af3e1eddb85a243252" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int usrp_subdev_spec::side</definition>
+        <argsstring></argsstring>
+        <name>side</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_subdev_spec.h" line="43" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_subdev_spec.h" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classusrp__standard__rx_1a1b1d513ec9017203d3d2eede645093d5" compoundref="usrp__standard_8cc" startline="539" endline="633">usrp_standard_rx::determine_rx_mux_value</referencedby>
+        <referencedby refid="classusrp__standard__tx_1a386da4e76f7b2393563e48555c613a96" compoundref="usrp__standard_8cc" startline="951" endline="979">usrp_standard_tx::determine_tx_mux_value</referencedby>
+        <referencedby refid="classusrp__basic_1a61af504df443a9d846ecf909871f1481" compoundref="usrp__basic_8cc" startline="196" endline="205">usrp_basic::is_valid</referencedby>
+        <referencedby refid="classusrp__basic_1a648de1479d7632b59bf2732f231ddbe0" compoundref="usrp__basic_8cc" startline="208" endline="214">usrp_basic::selected_subdev</referencedby>
+        <referencedby refid="test__usrp__standard__tx_8cc_1ae9a2141bb5f93c105c756c57de252973" compoundref="test__usrp__standard__tx_8cc" startline="50" endline="74">str_to_subdev</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structusrp__subdev__spec_1abb7b7dbdca4355d0957b2233a32119ef" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int usrp_subdev_spec::subdev</definition>
+        <argsstring></argsstring>
+        <name>subdev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_subdev_spec.h" line="44" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_subdev_spec.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classusrp__standard__rx_1a1b1d513ec9017203d3d2eede645093d5" compoundref="usrp__standard_8cc" startline="539" endline="633">usrp_standard_rx::determine_rx_mux_value</referencedby>
+        <referencedby refid="classusrp__standard__tx_1a386da4e76f7b2393563e48555c613a96" compoundref="usrp__standard_8cc" startline="951" endline="979">usrp_standard_tx::determine_tx_mux_value</referencedby>
+        <referencedby refid="classusrp__basic_1a61af504df443a9d846ecf909871f1481" compoundref="usrp__basic_8cc" startline="196" endline="205">usrp_basic::is_valid</referencedby>
+        <referencedby refid="classusrp__basic_1a648de1479d7632b59bf2732f231ddbe0" compoundref="usrp__basic_8cc" startline="208" endline="214">usrp_basic::selected_subdev</referencedby>
+        <referencedby refid="test__usrp__standard__tx_8cc_1ae9a2141bb5f93c105c756c57de252973" compoundref="test__usrp__standard__tx_8cc" startline="50" endline="74">str_to_subdev</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structusrp__subdev__spec_1a3632b3d09e513f4f43095f20b8a29427" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>usrp_subdev_spec::usrp_subdev_spec</definition>
+        <argsstring>(unsigned int _side=0, unsigned int _subdev=0)</argsstring>
+        <name>usrp_subdev_spec</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>_side</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>_subdev</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_subdev_spec.h" line="46" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_subdev_spec.h" bodystart="46" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>specify a daughterboard and subdevice on a daughterboard. </para>    </briefdescription>
+    <detaileddescription>
+<para>In the USRP1, there are two sides, A and B.</para><para>A daughterboard generally implements a single subdevice, but may in general implement any number of subdevices. At this time, all daughterboards with the exception of the Basic Rx and LF Rx implement a single subdevice.</para><para>The Basic Rx and LF Rx implement 2 subdevices (soon 3). Subdevice 0 routes input RX-A to the DDC I input and routes a constant zero to the DDC Q input. Similarly, subdevice 1 routes input RX-B to the DDC I input and routes a constant zero to the DDC Q input. Subdevice 2 (when implemented) will route RX-A to the DDC I input and RX-B to the DDC Q input. </para>    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_subdev_spec.h" line="42" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_subdev_spec.h" bodystart="42" bodyend="48"/>
+    <listofallmembers>
+      <member refid="structusrp__subdev__spec_1aeff15f40736fb2af3e1eddb85a243252" prot="public" virt="non-virtual"><scope>usrp_subdev_spec</scope><name>side</name></member>
+      <member refid="structusrp__subdev__spec_1abb7b7dbdca4355d0957b2233a32119ef" prot="public" virt="non-virtual"><scope>usrp_subdev_spec</scope><name>subdev</name></member>
+      <member refid="structusrp__subdev__spec_1a3632b3d09e513f4f43095f20b8a29427" prot="public" virt="non-virtual"><scope>usrp_subdev_spec</scope><name>usrp_subdev_spec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

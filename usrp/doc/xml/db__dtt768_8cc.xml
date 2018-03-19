@@ -1,0 +1,515 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="db__dtt768_8cc" kind="file" language="C++">
+    <compoundname>db_dtt768.cc</compoundname>
+    <includes refid="db__dtt768_8h" local="no">usrp/db_dtt768.h</includes>
+    <includes refid="db__base__impl_8h" local="no">db_base_impl.h</includes>
+    <incdepgraph>
+      <node id="312">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="324">
+        <label>fpga_regs_standard.h</label>
+      </node>
+      <node id="321">
+        <label>usrp/libusb_types.h</label>
+        <link refid="libusb__types_8h"/>
+        <childnode refid="322" relation="include">
+        </childnode>
+      </node>
+      <node id="315">
+        <label>db_base_impl.h</label>
+        <link refid="db__base__impl_8h"/>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
+        </childnode>
+        <childnode refid="324" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="327" relation="include">
+        </childnode>
+        <childnode refid="328" relation="include">
+        </childnode>
+      </node>
+      <node id="328">
+        <label>stdexcept</label>
+      </node>
+      <node id="319">
+        <label>usrp/usrp_slots.h</label>
+        <link refid="usrp__slots_8h"/>
+      </node>
+      <node id="311">
+        <label>string</label>
+      </node>
+      <node id="313">
+        <label>boost/weak_ptr.hpp</label>
+      </node>
+      <node id="316">
+        <label>db_util.h</label>
+        <link refid="db__util_8h"/>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+      </node>
+      <node id="309">
+        <label>usrp/db_dtt768.h</label>
+        <link refid="db__dtt768_8h"/>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>vector</label>
+      </node>
+      <node id="308">
+        <label>db_dtt768.cc</label>
+        <link refid="db_dtt768.cc"/>
+        <childnode refid="309" relation="include">
+        </childnode>
+        <childnode refid="315" relation="include">
+        </childnode>
+      </node>
+      <node id="310">
+        <label>usrp/db_base.h</label>
+        <link refid="db__base_8h"/>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="313" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+      </node>
+      <node id="323">
+        <label>boost/utility.hpp</label>
+      </node>
+      <node id="318">
+        <label>usrp/usrp_basic.h</label>
+        <link refid="usrp__basic_8h"/>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="320" relation="include">
+        </childnode>
+        <childnode refid="321" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="323" relation="include">
+        </childnode>
+      </node>
+      <node id="314">
+        <label>iosfwd</label>
+      </node>
+      <node id="320">
+        <label>usrp/usrp_subdev_spec.h</label>
+        <link refid="usrp__subdev__spec_8h"/>
+      </node>
+      <node id="322">
+        <label>usb.h</label>
+      </node>
+      <node id="325">
+        <label>fpga_regs_common.h</label>
+      </node>
+      <node id="326">
+        <label>usrp/usrp_prims.h</label>
+        <link refid="usrp__prims_8h"/>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="321" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+      </node>
+      <node id="327">
+        <label>usrp_spi_defs.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="db__dtt768_8cc_1a06661ed638dfb6aad418d7aa51eec334" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int control_byte_4</definition>
+        <argsstring>()</argsstring>
+        <name>control_byte_4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" line="30" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="30" bodyend="37"/>
+        <referencedby refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" compoundref="db__dtt768_8cc" startline="181" endline="222">db_dtt768::set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db__dtt768_8cc_1a1bc5519c012bc2e70c9649de6298a790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int control_byte_5</definition>
+        <argsstring>(float freq, int agcmode=1)</argsstring>
+        <name>control_byte_5</name>
+        <param>
+          <type>float</type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>agcmode</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="40" bodyend="64"/>
+        <referencedby refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" compoundref="db__dtt768_8cc" startline="181" endline="222">db_dtt768::set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db__dtt768_8cc_1a065e6f7a443ee70059e030fee752a7aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int control_byte_6</definition>
+        <argsstring>()</argsstring>
+        <name>control_byte_6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" line="67" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="67" bodyend="74"/>
+        <referencedby refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" compoundref="db__dtt768_8cc" startline="181" endline="222">db_dtt768::set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db__dtt768_8cc_1a1407b92caa89f35d2afd114fb78be4db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int control_byte_7</definition>
+        <argsstring>()</argsstring>
+        <name>control_byte_7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" line="77" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="77" bodyend="84"/>
+        <referencedby refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" compoundref="db__dtt768_8cc" startline="181" endline="222">db_dtt768::set_freq</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>2008,2009<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>asversion<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>any<sp/>later<sp/>version.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_CONFIG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;config.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__dtt768_8h" kindref="compound">usrp/db_dtt768.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__base__impl_8h" kindref="compound">db_base_impl.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="db__dtt768_8cc_1a06661ed638dfb6aad418d7aa51eec334" refkind="member"><highlight class="normal"><ref refid="db__dtt768_8cc_1a06661ed638dfb6aad418d7aa51eec334" kindref="member">control_byte_4</ref>()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>C<sp/>=<sp/>0;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Charge<sp/>Pump<sp/>Current,<sp/>no<sp/>info<sp/>on<sp/>how<sp/>to<sp/>choose</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>R<sp/>=<sp/>4;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>125<sp/>kHz<sp/>fref</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>int<sp/>ATP<sp/>=<sp/>7;<sp/>//<sp/>Disable<sp/>internal<sp/>AGC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(0x80<sp/>|<sp/>C&lt;&lt;5<sp/>|<sp/>R);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="db__dtt768_8cc_1a1bc5519c012bc2e70c9649de6298a790" refkind="member"><highlight class="normal"><ref refid="db__dtt768_8cc_1a1bc5519c012bc2e70c9649de6298a790" kindref="member">control_byte_5</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>freq,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>agcmode<sp/>=<sp/>1)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(agcmode)<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(freq<sp/>&lt;<sp/>150e6)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0x3B;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(freq<sp/>&lt;<sp/>420e6)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0x7E;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0xB7;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(freq<sp/>&lt;<sp/>150e6)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0x39;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(freq<sp/>&lt;<sp/>420e6)<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0x7C;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0xB5;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="db__dtt768_8cc_1a065e6f7a443ee70059e030fee752a7aa" refkind="member"><highlight class="normal"><ref refid="db__dtt768_8cc_1a065e6f7a443ee70059e030fee752a7aa" kindref="member">control_byte_6</ref>()</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ATC<sp/>=<sp/>0;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AGC<sp/>time<sp/>constant<sp/>=<sp/>100ms,<sp/>1<sp/>=<sp/>3S</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>IFE<sp/>=<sp/>1;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>IF<sp/>AGC<sp/>amplifier<sp/>enable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>AT<sp/>=<sp/>0;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AGC<sp/>control,<sp/>???</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(ATC<sp/>&lt;&lt;<sp/>5<sp/>|<sp/>IFE<sp/>&lt;&lt;<sp/>4<sp/>|<sp/>AT);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="db__dtt768_8cc_1a1407b92caa89f35d2afd114fb78be4db" refkind="member"><highlight class="normal"><ref refid="db__dtt768_8cc_1a1407b92caa89f35d2afd114fb78be4db" kindref="member">control_byte_7</ref>()</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>SAS<sp/>=<sp/>1;<sp/><sp/></highlight><highlight class="comment">//<sp/>SAW<sp/>Digital<sp/>mode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>AGD<sp/>=<sp/>1;<sp/><sp/></highlight><highlight class="comment">//<sp/>AGC<sp/>disable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ADS<sp/>=<sp/>0;<sp/><sp/></highlight><highlight class="comment">//<sp/>AGC<sp/>detector<sp/>into<sp/>ADC<sp/>converter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>T<sp/>=<sp/>0;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Test<sp/>mode,<sp/>undocumented</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(SAS<sp/>&lt;&lt;<sp/>7<sp/>|<sp/>AGD<sp/>&lt;&lt;<sp/>5<sp/>|<sp/>ADS<sp/>&lt;&lt;<sp/>4<sp/>|<sp/>T);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="classdb__dtt768_1a1a81276ebb865a4afabd8c0e49a601ba" refkind="member"><highlight class="normal"><ref refid="classdb__dtt768_1a1a81276ebb865a4afabd8c0e49a601ba" kindref="member">db_dtt768::db_dtt768</ref>(<ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref><sp/>_usrp,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>:<sp/><ref refid="classdb__base" kindref="compound">db_base</ref>(_usrp,<sp/>which)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/>*<sp/>Control<sp/>custom<sp/>DTT76803-based<sp/>daughterboard.</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/>*<sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/>*<sp/>@param<sp/>usrp:<sp/>instance<sp/>of<sp/>usrp.source_c</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/><sp/>*<sp/>@param<sp/>which:<sp/>which<sp/>side:<sp/>0<sp/>or<sp/>1<sp/>corresponding<sp/>to<sp/>RX_A<sp/>or<sp/>RX_B<sp/>respectively</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/>*<sp/>@type<sp/>which:<sp/>int</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" kindref="member">d_which</ref><sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>d_i2c_addr<sp/>=<sp/>0x60;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>d_i2c_addr<sp/>=<sp/>0x62;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>d_IF<sp/>=<sp/>44e6;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>d_f_ref<sp/>=<sp/>125e3;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>d_inverted<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><ref refid="classdb__dtt768_1aafb4a62e6c8b9910b02d1f03311368e2" kindref="member">set_gain</ref>((<ref refid="classdb__dtt768_1a1a79c98e466744f999a30852bc7b009b" kindref="member">gain_min</ref>()<sp/>+<sp/><ref refid="classdb__dtt768_1afdbe7abd05a3cb9d0b607328a6a31034" kindref="member">gain_max</ref>())<sp/>/<sp/>2.0);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><ref refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" kindref="member">bypass_adc_buffers</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="classdb__dtt768_1a89611d8f0eccbe24fbc47e8408ac0f05" refkind="member"><highlight class="normal"><ref refid="classdb__dtt768_1a89611d8f0eccbe24fbc47e8408ac0f05" kindref="member">db_dtt768::~db_dtt768</ref>()</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="classdb__dtt768_1a1a79c98e466744f999a30852bc7b009b" refkind="member"><highlight class="normal"><ref refid="classdb__dtt768_1a1a79c98e466744f999a30852bc7b009b" kindref="member">db_dtt768::gain_min</ref>()</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="classdb__dtt768_1afdbe7abd05a3cb9d0b607328a6a31034" refkind="member"><highlight class="normal"><ref refid="classdb__dtt768_1afdbe7abd05a3cb9d0b607328a6a31034" kindref="member">db_dtt768::gain_max</ref>()</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>115;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="classdb__dtt768_1ad52ff64087aa981200c91e3bb4f6978a" refkind="member"><highlight class="normal"><ref refid="classdb__dtt768_1ad52ff64087aa981200c91e3bb4f6978a" kindref="member">db_dtt768::gain_db_per_step</ref>()</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="classdb__dtt768_1aafb4a62e6c8b9910b02d1f03311368e2" refkind="member"><highlight class="normal"><ref refid="classdb__dtt768_1aafb4a62e6c8b9910b02d1f03311368e2" kindref="member">db_dtt768::set_gain</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>gain)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/>assert(gain&gt;=0<sp/>&amp;&amp;<sp/>gain&lt;=115);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rfgain,<sp/>ifgain,<sp/>pgagain;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(gain<sp/>&gt;<sp/>60)<sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>rfgain<sp/>=<sp/>60;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>gain<sp/>=<sp/>gain<sp/>-<sp/>60;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>rfgain<sp/>=<sp/>gain;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>gain<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(gain<sp/>&gt;<sp/>35)<sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>ifgain<sp/>=<sp/>35;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>gain<sp/>=<sp/>gain<sp/>-<sp/>35;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>ifgain<sp/>=<sp/>gain;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>gain<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/>pgagain<sp/>=<sp/>gain;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/>_set_rfagc(rfgain);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/>_set_ifagc(ifgain);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>_set_pga(pgagain);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="classdb__dtt768_1ac7cece5cfb30fb5d14c78c4a362e803f" refkind="member"><highlight class="normal"><ref refid="classdb__dtt768_1ac7cece5cfb30fb5d14c78c4a362e803f" kindref="member">db_dtt768::freq_min</ref>()</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>44e6;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="classdb__dtt768_1a8231c04e8ed2d5146884594c91d272ab" refkind="member"><highlight class="normal"><ref refid="classdb__dtt768_1a8231c04e8ed2d5146884594c91d272ab" kindref="member">db_dtt768::freq_max</ref>()</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>900e6;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structfreq__result__t" kindref="compound">freq_result_t</ref></highlight></codeline>
+<codeline lineno="181" refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" refkind="member"><highlight class="normal"><ref refid="classdb__dtt768" kindref="compound">db_dtt768</ref>::<ref refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" kindref="member">set_freq</ref>(double<sp/>target_freq)</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/><sp/><sp/>*<sp/>@returns<sp/>(ok,<sp/>actual_baseband_freq)<sp/>where:</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/><sp/><sp/>*<sp/>ok<sp/>is<sp/>True<sp/>or<sp/>False<sp/>and<sp/>indicates<sp/>success<sp/>or<sp/>failure,</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/><sp/><sp/>*<sp/>actual_baseband_freq<sp/>is<sp/>the<sp/>RF<sp/>frequency<sp/>that<sp/>corresponds<sp/>to<sp/>DC<sp/>in<sp/>the<sp/>IF.</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><ref refid="structfreq__result__t" kindref="compound">freq_result_t</ref><sp/>ret<sp/>=<sp/>{</highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>0.0};</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(target_freq<sp/>&lt;<sp/><ref refid="classdb__dtt768_1ac7cece5cfb30fb5d14c78c4a362e803f" kindref="member">freq_min</ref>()<sp/>||<sp/>target_freq<sp/>&gt;<sp/><ref refid="classdb__dtt768_1a8231c04e8ed2d5146884594c91d272ab" kindref="member">freq_max</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>target_lo_freq<sp/>=<sp/>target_freq<sp/>+<sp/>d_IF;<sp/><sp/></highlight><highlight class="comment">//<sp/>High<sp/>side<sp/>mixing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>divisor<sp/>=<sp/>(int)(0.5+(target_lo_freq<sp/>/<sp/>d_f_ref));</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>actual_lo_freq<sp/>=<sp/>d_f_ref*divisor;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((divisor<sp/>&amp;<sp/>~0x7fff)<sp/>!=<sp/>0)<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>must<sp/>be<sp/>15-bits<sp/>or<sp/>less</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>build<sp/>i2c<sp/>command<sp/>string</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/>std::vector&lt;int&gt;<sp/>buf(6);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>buf[0]<sp/>=<sp/>(divisor<sp/>&gt;&gt;<sp/>8)<sp/>&amp;<sp/>0xff;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>DB1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/>buf[1]<sp/>=<sp/>divisor<sp/>&amp;<sp/>0xff;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>DB2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/>buf[2]<sp/>=<sp/><ref refid="db__dtt768_8cc_1a06661ed638dfb6aad418d7aa51eec334" kindref="member">control_byte_4</ref>();</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/>buf[3]<sp/>=<sp/><ref refid="db__dtt768_8cc_1a1bc5519c012bc2e70c9649de6298a790" kindref="member">control_byte_5</ref>(target_freq);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/>buf[4]<sp/>=<sp/><ref refid="db__dtt768_8cc_1a065e6f7a443ee70059e030fee752a7aa" kindref="member">control_byte_6</ref>();</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/>buf[5]<sp/>=<sp/><ref refid="db__dtt768_8cc_1a1407b92caa89f35d2afd114fb78be4db" kindref="member">control_byte_7</ref>();</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ok<sp/>=<sp/><ref refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" kindref="member">usrp</ref>()-&gt;<ref refid="classusrp__basic_1a664e5aa3a3fb8a4c50b752906fcb79a0" kindref="member">write_i2c</ref>(d_i2c_addr,<sp/><ref refid="db__util_8cc_1ac1397f7615adcb5571c7555538fcf8e8" kindref="member">int_seq_to_str</ref><sp/>(buf));</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/>d_freq<sp/>=<sp/>actual_lo_freq<sp/>-<sp/>d_IF;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/>ret.ok<sp/>=<sp/>ok;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/>ret.baseband_freq<sp/>=<sp/>actual_lo_freq;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="classdb__dtt768_1ac536bf49c8c64df282ea04c16c3527ec" refkind="member"><highlight class="normal"><ref refid="classdb__dtt768_1ac536bf49c8c64df282ea04c16c3527ec" kindref="member">db_dtt768::is_quadrature</ref>()</highlight></codeline>
+<codeline lineno="226"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/><sp/><sp/>*<sp/>Return<sp/>True<sp/>if<sp/>this<sp/>board<sp/>requires<sp/>both<sp/>I<sp/>&amp;<sp/>Q<sp/>analog<sp/>channels.</highlight></codeline>
+<codeline lineno="229"><highlight class="comment"><sp/><sp/><sp/>*<sp/></highlight></codeline>
+<codeline lineno="230"><highlight class="comment"><sp/><sp/><sp/>*<sp/>This<sp/>bit<sp/>of<sp/>info<sp/>is<sp/>useful<sp/>when<sp/>setting<sp/>up<sp/>the<sp/>USRP<sp/>Rx<sp/>mux<sp/>register.</highlight></codeline>
+<codeline lineno="231"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="classdb__dtt768_1a65a3a6f2d26812b465867cc74ac271a2" refkind="member"><highlight class="normal"><ref refid="classdb__dtt768_1a65a3a6f2d26812b465867cc74ac271a2" kindref="member">db_dtt768::spectrum_inverted</ref>()</highlight></codeline>
+<codeline lineno="238"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/><sp/><sp/>*<sp/>The<sp/>43.75<sp/>MHz<sp/>version<sp/>is<sp/>inverted</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d_inverted;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="classdb__dtt768_1aec00134aa18ddbe0f8b3fd8a3b950a9b" refkind="member"><highlight class="normal"><ref refid="classdb__dtt768_1aec00134aa18ddbe0f8b3fd8a3b950a9b" kindref="member">db_dtt768::set_bw</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>bw)</highlight></codeline>
+<codeline lineno="248"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="250"><highlight class="comment"><sp/><sp/><sp/>*<sp/>Choose<sp/>the<sp/>SAW<sp/>filter<sp/>bandwidth,<sp/>either<sp/>7MHz<sp/>or<sp/>8MHz)</highlight></codeline>
+<codeline lineno="251"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/>d_bw<sp/>=<sp/>bw;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><ref refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" kindref="member">set_freq</ref>(d_freq);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>FIXME:<sp/>propagate<sp/>set_freq<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal">db_dtt768::_set_rfagc(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>gain)</highlight></codeline>
+<codeline lineno="261"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/>assert(gain<sp/>&lt;=<sp/>60<sp/>&amp;&amp;<sp/>gain<sp/>&gt;=<sp/>0);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>FIXME<sp/>this<sp/>has<sp/>a<sp/>0.5V<sp/>step<sp/>between<sp/>gain<sp/>=<sp/>60<sp/>and<sp/>gain<sp/>=<sp/>59.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Why<sp/>are<sp/>there<sp/>two<sp/>cases<sp/>instead<sp/>of<sp/>a<sp/>single<sp/>linear<sp/>case?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voltage;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(gain<sp/>==<sp/>60)<sp/>{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>voltage<sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>voltage<sp/>=<sp/>gain/60.0<sp/>*<sp/>2.25<sp/>+<sp/>1.25;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dacword<sp/>=<sp/>(int)(4096*voltage/1.22/3.3);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1.22<sp/>=<sp/>opamp<sp/>gain</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/>assert(dacword&gt;=0<sp/>&amp;&amp;<sp/>dacword&lt;4096);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><ref refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" kindref="member">usrp</ref>()-&gt;<ref refid="classusrp__basic_1a332790fa84b6b64f82de8983b45b611a" kindref="member">write_aux_dac</ref>(<ref refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" kindref="member">d_which</ref>,<sp/>1,<sp/>dacword);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal">db_dtt768::_set_ifagc(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>gain)</highlight></codeline>
+<codeline lineno="281"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/>assert(gain<sp/>&lt;=<sp/>35<sp/>&amp;&amp;<sp/>gain<sp/>&gt;=<sp/>0);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voltage<sp/>=<sp/>gain/35.0<sp/>*<sp/>2.1<sp/>+<sp/>1.4;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dacword<sp/>=<sp/>(int)(4096*voltage/1.22/3.3);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1.22<sp/>=<sp/>opamp<sp/>gain</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/>assert(dacword&gt;=0<sp/>&amp;&amp;<sp/>dacword&lt;4096);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><ref refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" kindref="member">usrp</ref>()-&gt;<ref refid="classusrp__basic_1a332790fa84b6b64f82de8983b45b611a" kindref="member">write_aux_dac</ref>(<ref refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" kindref="member">d_which</ref>,<sp/>0,<sp/>dacword);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal">db_dtt768::_set_pga(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pga_gain)</highlight></codeline>
+<codeline lineno="292"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/>assert(pga_gain<sp/>&gt;=0<sp/>&amp;&amp;<sp/>pga_gain<sp/>&lt;=20);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" kindref="member">d_which</ref><sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" kindref="member">usrp</ref>()-&gt;<ref refid="classusrp__basic_1afdcf0497f2554589b36a57806e239a07" kindref="member">set_pga</ref><sp/>(0,<sp/>pga_gain);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" kindref="member">usrp</ref>()-&gt;<ref refid="classusrp__basic_1afdcf0497f2554589b36a57806e239a07" kindref="member">set_pga</ref><sp/>(2,<sp/>pga_gain);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc"/>
+  </compounddef>
+</doxygen>

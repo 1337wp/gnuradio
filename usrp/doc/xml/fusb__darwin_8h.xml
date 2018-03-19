@@ -1,0 +1,535 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="fusb__darwin_8h" kind="file" language="C++">
+    <compoundname>fusb_darwin.h</compoundname>
+    <includes local="no">usb.h</includes>
+    <includes refid="fusb_8h" local="yes">fusb.h</includes>
+    <includes local="no">IOKit/IOCFBundle.h</includes>
+    <includes local="no">IOKit/IOCFPlugIn.h</includes>
+    <includes local="no">IOKit/usb/IOUSBLib.h</includes>
+    <includes local="no">IOKit/IOKitLib.h</includes>
+    <includes refid="circular__linked__list_8h" local="yes">circular_linked_list.h</includes>
+    <includes refid="circular__buffer_8h" local="yes">circular_buffer.h</includes>
+    <includedby refid="fusb__darwin_8cc" local="yes">fusb_darwin.cc</includedby>
+    <includedby refid="fusb__sysconfig__darwin_8cc" local="no">fusb_sysconfig_darwin.cc</includedby>
+    <incdepgraph>
+      <node id="660">
+        <label>circular_linked_list.h</label>
+        <link refid="circular__linked__list_8h"/>
+        <childnode refid="661" relation="include">
+        </childnode>
+        <childnode refid="662" relation="include">
+        </childnode>
+      </node>
+      <node id="652">
+        <label>fusb_darwin.h</label>
+        <link refid="fusb_darwin.h"/>
+        <childnode refid="653" relation="include">
+        </childnode>
+        <childnode refid="654" relation="include">
+        </childnode>
+        <childnode refid="656" relation="include">
+        </childnode>
+        <childnode refid="657" relation="include">
+        </childnode>
+        <childnode refid="658" relation="include">
+        </childnode>
+        <childnode refid="659" relation="include">
+        </childnode>
+        <childnode refid="660" relation="include">
+        </childnode>
+        <childnode refid="663" relation="include">
+        </childnode>
+      </node>
+      <node id="655">
+        <label>usrp/libusb_types.h</label>
+        <link refid="libusb__types_8h"/>
+        <childnode refid="653" relation="include">
+        </childnode>
+      </node>
+      <node id="662">
+        <label>stdexcept</label>
+      </node>
+      <node id="658">
+        <label>IOKit/usb/IOUSBLib.h</label>
+      </node>
+      <node id="659">
+        <label>IOKit/IOKitLib.h</label>
+      </node>
+      <node id="661">
+        <label>gruel/thread.h</label>
+      </node>
+      <node id="654">
+        <label>fusb.h</label>
+        <link refid="fusb_8h"/>
+        <childnode refid="655" relation="include">
+        </childnode>
+      </node>
+      <node id="663">
+        <label>circular_buffer.h</label>
+        <link refid="circular__buffer_8h"/>
+        <childnode refid="661" relation="include">
+        </childnode>
+        <childnode refid="664" relation="include">
+        </childnode>
+        <childnode refid="662" relation="include">
+        </childnode>
+      </node>
+      <node id="664">
+        <label>iostream</label>
+      </node>
+      <node id="657">
+        <label>IOKit/IOCFPlugIn.h</label>
+      </node>
+      <node id="656">
+        <label>IOKit/IOCFBundle.h</label>
+      </node>
+      <node id="653">
+        <label>usb.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="665">
+        <label>fusb_darwin.h</label>
+        <link refid="fusb_darwin.h"/>
+        <childnode refid="666" relation="include">
+        </childnode>
+        <childnode refid="667" relation="include">
+        </childnode>
+      </node>
+      <node id="666">
+        <label>fusb_darwin.cc</label>
+        <link refid="fusb__darwin_8cc"/>
+      </node>
+      <node id="667">
+        <label>fusb_sysconfig_darwin.cc</label>
+        <link refid="fusb__sysconfig__darwin_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structusb__dev__handle" prot="public">usb_dev_handle</innerclass>
+    <innerclass refid="structdarwin__dev__handle" prot="public">darwin_dev_handle</innerclass>
+    <innerclass refid="classs__buffer" prot="public">s_buffer</innerclass>
+    <innerclass refid="classfusb__devhandle__darwin" prot="public">fusb_devhandle_darwin</innerclass>
+    <innerclass refid="classfusb__ephandle__darwin" prot="public">fusb_ephandle_darwin</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="fusb__darwin_8h_1ab20603f7900e18ac518c5684661b9f58" prot="public" static="no">
+        <name>usb_interface_t</name>
+        <initializer>IOUSBInterfaceInterface220</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="36" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">fusb_ephandle_darwin::start</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="fusb__darwin_8h_1ad0310d745330ad5ee62942d02f77f38a" prot="public" static="no">
+        <name>InterfaceInterfaceID</name>
+        <initializer>kIOUSBInterfaceInterfaceID220</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="37" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="fusb__darwin_8h_1aead0c247302c6be65a9ff59d22fe313b" prot="public" static="no">
+        <name>InterfaceVersion</name>
+        <initializer>220</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="38" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="fusb__darwin_8h_1a52434bb39d2aca48100c2efbbda280bc" prot="public" static="no">
+        <name>usb_device_t</name>
+        <initializer>IOUSBDeviceInterface197</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="41" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="fusb__darwin_8h_1a75f09143cdfbb715d528365f9582504e" prot="public" static="no">
+        <name>DeviceInterfaceID</name>
+        <initializer>kIOUSBDeviceInterfaceID197</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="42" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="fusb__darwin_8h_1ad787f3194daacd4416c95d004aa58fc8" prot="public" static="no">
+        <name>DeviceVersion</name>
+        <initializer>197</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="43" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="fusb__darwin_8h_1a38b12f794be606bdf77b939dcfc742bf" prot="public" static="no">
+        <type>struct <ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref></type>
+        <definition>typedef struct usb_dev_handle  usb_dev_handle</definition>
+        <argsstring></argsstring>
+        <name>usb_dev_handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="fusb__darwin_8h_1a064b4b0f262c9876b5328ad326c2eaa4" prot="public" static="no">
+        <type>struct <ref refid="structdarwin__dev__handle" kindref="compound">darwin_dev_handle</ref></type>
+        <definition>typedef struct darwin_dev_handle  darwin_dev_handle</definition>
+        <argsstring></argsstring>
+        <name>darwin_dev_handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="fusb__darwin_8h_1a33b766964215f52ef3eeae1397a3d244" prot="public" static="no">
+        <type>IOReturn</type>
+        <definition>typedef IOReturn io_return_t</definition>
+        <argsstring></argsstring>
+        <name>io_return_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="67" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="fusb__darwin_8h_1a37164a39b8252b4fb1a299aeeb08cb33" prot="public" static="no">
+        <type>IOCFPlugInInterface *</type>
+        <definition>typedef IOCFPlugInInterface* io_cf_plugin_ref_t</definition>
+        <argsstring></argsstring>
+        <name>io_cf_plugin_ref_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="68" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="fusb__darwin_8h_1a091507347a914fd9aa4bd343f136c7a0" prot="public" static="no">
+        <type><ref refid="classs__buffer" kindref="compound">s_buffer</ref> *</type>
+        <definition>typedef s_buffer* s_buffer_ptr</definition>
+        <argsstring></argsstring>
+        <name>s_buffer_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="118" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="fusb__darwin_8h_1ae5e012aa36c5aa632508a8a7a871a269" prot="public" static="no">
+        <type><ref refid="classs__node" kindref="compound">s_node</ref>&lt; <ref refid="fusb__darwin_8h_1a091507347a914fd9aa4bd343f136c7a0" kindref="member">s_buffer_ptr</ref> &gt; *</type>
+        <definition>typedef s_node&lt;s_buffer_ptr&gt;* s_node_ptr</definition>
+        <argsstring></argsstring>
+        <name>s_node_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="119" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="fusb__darwin_8h_1a0ad379ec681818f6ee2e5a507d129f8e" prot="public" static="no">
+        <type><ref refid="classcircular__linked__list" kindref="compound">circular_linked_list</ref>&lt; <ref refid="fusb__darwin_8h_1a091507347a914fd9aa4bd343f136c7a0" kindref="member">s_buffer_ptr</ref> &gt; *</type>
+        <definition>typedef circular_linked_list&lt;s_buffer_ptr&gt;* s_queue_ptr</definition>
+        <argsstring></argsstring>
+        <name>s_queue_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="120" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="fusb__darwin_8h_1a62cf7423e082faa54017f76a4fee983d" prot="public" static="no">
+        <type><ref refid="classs__both" kindref="compound">s_both</ref>&lt; <ref refid="fusb__darwin_8h_1a091507347a914fd9aa4bd343f136c7a0" kindref="member">s_buffer_ptr</ref> &gt; *</type>
+        <definition>typedef s_both&lt;s_buffer_ptr&gt;* s_both_ptr</definition>
+        <argsstring></argsstring>
+        <name>s_both_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="121" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="fusb__darwin_8h_1ae3f6d70c719c77e228ccc905331d7784" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usb_debug</definition>
+        <argsstring></argsstring>
+        <name>usb_debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="71" column="1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1aa5067d1f65048940bffdfdb7996ea8d3" compoundref="fusb__darwin_8cc" startline="523" endline="538">fusb_ephandle_darwin::abort</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a9f45fa5d5fd0c1dda8244da08f707862" compoundref="fusb__darwin_8cc" startline="427" endline="438">fusb_ephandle_darwin::read</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">fusb_ephandle_darwin::start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1af1424a7d28d0fc927ecdd6a5c3c26ef0" compoundref="fusb__darwin_8cc" startline="541" endline="574">fusb_ephandle_darwin::stop</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" compoundref="fusb__darwin_8cc" startline="441" endline="493">fusb_ephandle_darwin::write</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="fusb__darwin_8h_1a805f2ed6930d982da5ff72217848e26d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ep_to_pipeRef</definition>
+        <argsstring>(darwin_dev_handle *device, int ep)</argsstring>
+        <name>ep_to_pipeRef</name>
+        <param>
+          <type><ref refid="structdarwin__dev__handle" kindref="compound">darwin_dev_handle</ref> *</type>
+          <declname>device</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="70" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2006,2009,2010<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_FUSB_DARWIN_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_FUSB_DARWIN_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;usb.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="fusb_8h" kindref="compound">fusb.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;IOKit/IOCFBundle.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;IOKit/IOCFPlugIn.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;IOKit/usb/IOUSBLib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;IOKit/IOKitLib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="circular__linked__list_8h" kindref="compound">circular_linked_list.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="circular__buffer_8h" kindref="compound">circular_buffer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>MacOS<sp/>X<sp/>10.4.[0-3]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="fusb__darwin_8h_1ab20603f7900e18ac518c5684661b9f58" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>usb_interface_t<sp/>IOUSBInterfaceInterface220</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="fusb__darwin_8h_1ad0310d745330ad5ee62942d02f77f38a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>InterfaceInterfaceID<sp/>kIOUSBInterfaceInterfaceID220</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="fusb__darwin_8h_1aead0c247302c6be65a9ff59d22fe313b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>InterfaceVersion<sp/>220</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>MacOS<sp/>X<sp/>10.3.[0-9]<sp/>and<sp/>10.4.[0-3]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="fusb__darwin_8h_1a52434bb39d2aca48100c2efbbda280bc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>usb_device_t<sp/><sp/><sp/><sp/>IOUSBDeviceInterface197</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="fusb__darwin_8h_1a75f09143cdfbb715d528365f9582504e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DeviceInterfaceID<sp/>kIOUSBDeviceInterfaceID197</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="fusb__darwin_8h_1ad787f3194daacd4416c95d004aa58fc8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DeviceVersion<sp/>197</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="46" refid="structusb__dev__handle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>{</highlight></codeline>
+<codeline lineno="47" refid="structusb__dev__handle_1a950bc8d46963caa443fb27cf2ee2b811" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structusb__dev__handle_1a950bc8d46963caa443fb27cf2ee2b811" kindref="member">fd</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="structusb__dev__handle_1a1e6baaed3dc1558ff34555200dd32a17" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_bus<sp/>*<ref refid="structusb__dev__handle_1a1e6baaed3dc1558ff34555200dd32a17" kindref="member">bus</ref>;</highlight></codeline>
+<codeline lineno="50" refid="structusb__dev__handle_1a5557c3388ca9582e186b9ec20bdd480d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_device<sp/>*<ref refid="structusb__dev__handle_1a5557c3388ca9582e186b9ec20bdd480d" kindref="member">device</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="structusb__dev__handle_1aad569349383a9fc8ac71d5bcce7909de" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structusb__dev__handle_1aad569349383a9fc8ac71d5bcce7909de" kindref="member">config</ref>;</highlight></codeline>
+<codeline lineno="53" refid="structusb__dev__handle_1a2b7e997cdb4735e3b2c1fc58b81cee03" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structusb__dev__handle_1a2b7e997cdb4735e3b2c1fc58b81cee03" kindref="member">interface</ref>;</highlight></codeline>
+<codeline lineno="54" refid="structusb__dev__handle_1a822bc050950231b58e041f33a28d349c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structusb__dev__handle_1a822bc050950231b58e041f33a28d349c" kindref="member">altsetting</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Added<sp/>by<sp/>RMT<sp/>so<sp/>implementations<sp/>can<sp/>store<sp/>other<sp/>per-open-device<sp/>data<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="structusb__dev__handle_1ab08f2af9083159ae86648eae05b52c01" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structusb__dev__handle_1ab08f2af9083159ae86648eae05b52c01" kindref="member">impl_info</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}<sp/><ref refid="fusb__darwin_8h_1a38b12f794be606bdf77b939dcfc742bf" kindref="member">usb_dev_handle</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Darwin/OS<sp/>X<sp/>impl<sp/>does<sp/>not<sp/>use<sp/>fd<sp/>field,<sp/>instead<sp/>it<sp/>uses<sp/>this<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="structdarwin__dev__handle" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structdarwin__dev__handle" kindref="compound">darwin_dev_handle</ref><sp/>{</highlight></codeline>
+<codeline lineno="62" refid="structdarwin__dev__handle_1adf2931b2cf862a2d3d7a40d33a8a56f1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="fusb__darwin_8h_1a52434bb39d2aca48100c2efbbda280bc" kindref="member">usb_device_t</ref>**<sp/><ref refid="structdarwin__dev__handle_1adf2931b2cf862a2d3d7a40d33a8a56f1" kindref="member">device</ref>;</highlight></codeline>
+<codeline lineno="63" refid="structdarwin__dev__handle_1a24033b6bf2283cebd863675951365439" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="fusb__darwin_8h_1ab20603f7900e18ac518c5684661b9f58" kindref="member">usb_interface_t</ref>**<sp/><ref refid="structdarwin__dev__handle_1a24033b6bf2283cebd863675951365439" kindref="member">interface</ref>;</highlight></codeline>
+<codeline lineno="64" refid="structdarwin__dev__handle_1a4514111f63826c88fb4e0a96afcff810" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structdarwin__dev__handle_1a4514111f63826c88fb4e0a96afcff810" kindref="member">open</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/><ref refid="fusb__darwin_8h_1a064b4b0f262c9876b5328ad326c2eaa4" kindref="member">darwin_dev_handle</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="fusb__darwin_8h_1a33b766964215f52ef3eeae1397a3d244" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>IOReturn<sp/><ref refid="fusb__darwin_8h_1a33b766964215f52ef3eeae1397a3d244" kindref="member">io_return_t</ref>;</highlight></codeline>
+<codeline lineno="68" refid="fusb__darwin_8h_1a37164a39b8252b4fb1a299aeeb08cb33" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>IOCFPlugInInterface<sp/>*<ref refid="fusb__darwin_8h_1a37164a39b8252b4fb1a299aeeb08cb33" kindref="member">io_cf_plugin_ref_t</ref>;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep_to_pipeRef<sp/>(<ref refid="structdarwin__dev__handle" kindref="compound">darwin_dev_handle</ref>*<sp/><ref refid="structusb__dev__handle_1a5557c3388ca9582e186b9ec20bdd480d" kindref="member">device</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="fusb__darwin_8h_1ae3f6d70c719c77e228ccc905331d7784" kindref="member">usb_debug</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="classs__buffer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classs__buffer" kindref="compound">s_buffer</ref></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>d_buffer;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>d_n_used,<sp/>d_n_alloc;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="81" refid="classs__buffer_1ad77967f73d331d08028dd4c6ca7ce051" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classs__buffer_1ad77967f73d331d08028dd4c6ca7ce051" kindref="member">s_buffer</ref><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n_alloc<sp/>=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>d_n_used<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>d_n_alloc<sp/>=<sp/>n_alloc;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(n_alloc)<sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>d_buffer<sp/>=<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>[n_alloc];</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>d_buffer<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="90" refid="classs__buffer_1a73e9d6dc2c87bb0ff63e4cbf058f6944" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classs__buffer_1a73e9d6dc2c87bb0ff63e4cbf058f6944" kindref="member">~s_buffer</ref><sp/>()<sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(d_n_alloc)<sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>[]<sp/>d_buffer;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="95" refid="classs__buffer_1a9a7363a8a0ce0f66235c216e6584d8d9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classs__buffer_1a9a7363a8a0ce0f66235c216e6584d8d9" kindref="member">n_used</ref><sp/>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(d_n_used);<sp/>};</highlight></codeline>
+<codeline lineno="96" refid="classs__buffer_1a460dac68a205ae299d672f55fb213e73" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classs__buffer_1a460dac68a205ae299d672f55fb213e73" kindref="member">n_used</ref><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bufLen)<sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>d_n_used<sp/>=<sp/>(bufLen<sp/>&gt;<sp/>d_n_alloc)<sp/>?<sp/>d_n_alloc<sp/>:<sp/>bufLen;<sp/>};</highlight></codeline>
+<codeline lineno="98" refid="classs__buffer_1a2b38085d51047076ab3b8e6bf90f56e0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classs__buffer_1a2b38085d51047076ab3b8e6bf90f56e0" kindref="member">n_alloc</ref><sp/>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(d_n_alloc);<sp/>};</highlight></codeline>
+<codeline lineno="99" refid="classs__buffer_1a9200cbab69c0e3c8f2a9e52042d9e9a7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classs__buffer_1a9200cbab69c0e3c8f2a9e52042d9e9a7" kindref="member">buffer</ref><sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>l_buffer,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bufLen)<sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bufLen<sp/>&gt;<sp/>d_n_alloc)<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;s_buffer::set:<sp/>Copying<sp/>only<sp/>allocated<sp/>bytes.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>bufLen<sp/>=<sp/>d_n_alloc;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!l_buffer)<sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;s_buffer::set:<sp/>NULL<sp/>buffer.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>bcopy<sp/>(l_buffer,<sp/>d_buffer,<sp/>bufLen);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>d_n_used<sp/>=<sp/>bufLen;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="111" refid="classs__buffer_1a952abdac0f963242f30c63083f414044" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="classs__buffer_1a952abdac0f963242f30c63083f414044" kindref="member">buffer</ref><sp/>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(d_buffer);<sp/>};</highlight></codeline>
+<codeline lineno="112" refid="classs__buffer_1aa554e07718c3c8160b1e5de3f6a4ee97" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classs__buffer_1aa554e07718c3c8160b1e5de3f6a4ee97" kindref="member">reset</ref><sp/>()<sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>bzero<sp/>(d_buffer,<sp/>d_n_alloc);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>d_n_used<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="fusb__darwin_8h_1a091507347a914fd9aa4bd343f136c7a0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classs__buffer" kindref="compound">s_buffer</ref>*<sp/><ref refid="fusb__darwin_8h_1a091507347a914fd9aa4bd343f136c7a0" kindref="member">s_buffer_ptr</ref>;</highlight></codeline>
+<codeline lineno="119" refid="fusb__darwin_8h_1ae5e012aa36c5aa632508a8a7a871a269" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classs__node" kindref="compound">s_node&lt;s_buffer_ptr&gt;</ref>*<sp/><ref refid="fusb__darwin_8h_1ae5e012aa36c5aa632508a8a7a871a269" kindref="member">s_node_ptr</ref>;</highlight></codeline>
+<codeline lineno="120" refid="fusb__darwin_8h_1a0ad379ec681818f6ee2e5a507d129f8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classcircular__linked__list" kindref="compound">circular_linked_list&lt;s_buffer_ptr&gt;</ref>*<sp/><ref refid="fusb__darwin_8h_1a0ad379ec681818f6ee2e5a507d129f8e" kindref="member">s_queue_ptr</ref>;</highlight></codeline>
+<codeline lineno="121" refid="fusb__darwin_8h_1a62cf7423e082faa54017f76a4fee983d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classs__both" kindref="compound">s_both&lt;s_buffer_ptr&gt;</ref>*<sp/><ref refid="fusb__darwin_8h_1a62cf7423e082faa54017f76a4fee983d" kindref="member">s_both_ptr</ref>;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="classfusb__devhandle__darwin" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classfusb__devhandle__darwin" kindref="compound">fusb_devhandle_darwin</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classfusb__devhandle" kindref="compound">fusb_devhandle</ref></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>CREATORS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><ref refid="classfusb__devhandle__darwin" kindref="compound">fusb_devhandle_darwin</ref><sp/>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref>*<sp/>udh);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classfusb__devhandle__darwin" kindref="compound">fusb_devhandle_darwin</ref><sp/>();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>MANIPULATORS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classfusb__ephandle" kindref="compound">fusb_ephandle</ref>*<sp/>make_ephandle<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>endpoint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>input_p,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>block_size<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nblocks<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="classfusb__ephandle__darwin" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classfusb__ephandle__darwin" kindref="compound">fusb_ephandle_darwin</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classfusb__ephandle" kindref="compound">fusb_ephandle</ref></highlight></codeline>
+<codeline lineno="150"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><ref refid="classfusb__devhandle__darwin" kindref="compound">fusb_devhandle_darwin</ref>*<sp/>d_devhandle;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>gruel::thread*<sp/>d_runThread;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/>gruel::mutex*<sp/>d_runThreadRunning;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/>CFRunLoopRef<sp/>d_CFRunLoopRef;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>write_completed<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>ret_io_size,</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="fusb__darwin_8h_1a33b766964215f52ef3eeae1397a3d244" kindref="member">io_return_t</ref><sp/>result,</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>io_size);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>read_completed<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>ret_io_size,</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="fusb__darwin_8h_1a33b766964215f52ef3eeae1397a3d244" kindref="member">io_return_t</ref><sp/>result,</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>io_size);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>run_thread<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>arg);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>read_thread<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>arg);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>read_issue<sp/>(<ref refid="classs__both" kindref="compound">s_both_ptr</ref><sp/>l_both);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>variables,<sp/>for<sp/>now</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="classfusb__ephandle__darwin_1a6335642bc300216ff8e43a28453c9b6d" refkind="member"><highlight class="normal"><sp/><sp/>UInt8<sp/>d_pipeRef,<sp/><ref refid="classfusb__ephandle__darwin_1a6335642bc300216ff8e43a28453c9b6d" kindref="member">d_transferType</ref>;</highlight></codeline>
+<codeline lineno="172" refid="classfusb__ephandle__darwin_1a833a58e14de40f53f45df6ba213d2058" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="fusb__darwin_8h_1ab20603f7900e18ac518c5684661b9f58" kindref="member">usb_interface_t</ref>**<sp/><ref refid="classfusb__ephandle__darwin_1a833a58e14de40f53f45df6ba213d2058" kindref="member">d_interfaceRef</ref>;</highlight></codeline>
+<codeline lineno="173" refid="classfusb__ephandle__darwin_1a4c946cfbb61ca98f1c3afc5f14e693ec" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="fusb__darwin_8h_1ab20603f7900e18ac518c5684661b9f58" kindref="member">usb_interface_t</ref>*<sp/><ref refid="classfusb__ephandle__darwin_1a4c946cfbb61ca98f1c3afc5f14e693ec" kindref="member">d_interface</ref>;</highlight></codeline>
+<codeline lineno="174" refid="classfusb__ephandle__darwin_1a547ad950d744a4af1fcd1908bfc43135" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classcircular__linked__list" kindref="compound">s_queue_ptr</ref><sp/><ref refid="classfusb__ephandle__darwin_1a547ad950d744a4af1fcd1908bfc43135" kindref="member">d_queue</ref>;</highlight></codeline>
+<codeline lineno="175" refid="classfusb__ephandle__darwin_1a86826bf2951e9be5f28d38f0bc38ec7b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classcircular__buffer" kindref="compound">circular_buffer&lt;char&gt;</ref>*<sp/><ref refid="classfusb__ephandle__darwin_1a86826bf2951e9be5f28d38f0bc38ec7b" kindref="member">d_buffer</ref>;</highlight></codeline>
+<codeline lineno="176" refid="classfusb__ephandle__darwin_1abe51d11608df5388d3ea7d1a0ed125b3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classfusb__ephandle__darwin_1abe51d11608df5388d3ea7d1a0ed125b3" kindref="member">d_bufLenBytes</ref>;</highlight></codeline>
+<codeline lineno="177" refid="classfusb__ephandle__darwin_1a88814e7de36d423c025bdeb126e64f50" refkind="member"><highlight class="normal"><sp/><sp/>gruel::mutex*<sp/><ref refid="classfusb__ephandle__darwin_1a88814e7de36d423c025bdeb126e64f50" kindref="member">d_readRunning</ref>;</highlight></codeline>
+<codeline lineno="178" refid="classfusb__ephandle__darwin_1a42b7dff6eecba8b3157ad44298a8e827" refkind="member"><highlight class="normal"><sp/><sp/>gruel::mutex*<sp/><ref refid="classfusb__ephandle__darwin_1a42b7dff6eecba8b3157ad44298a8e827" kindref="member">d_runBlock_mutex</ref>;</highlight></codeline>
+<codeline lineno="179" refid="classfusb__ephandle__darwin_1ae796719c23f4ca218c8808ba1cf6db34" refkind="member"><highlight class="normal"><sp/><sp/>gruel::mutex*<sp/><ref refid="classfusb__ephandle__darwin_1ae796719c23f4ca218c8808ba1cf6db34" kindref="member">d_readBlock_mutex</ref>;</highlight></codeline>
+<codeline lineno="180" refid="classfusb__ephandle__darwin_1a86634b17d337747f9483db8ba51136fa" refkind="member"><highlight class="normal"><sp/><sp/>gruel::condition_variable*<sp/><ref refid="classfusb__ephandle__darwin_1a86634b17d337747f9483db8ba51136fa" kindref="member">d_runBlock</ref>;</highlight></codeline>
+<codeline lineno="181" refid="classfusb__ephandle__darwin_1acc9a054a9d2e8c8dae26c3f3af7a3039" refkind="member"><highlight class="normal"><sp/><sp/>gruel::condition_variable*<sp/><ref refid="classfusb__ephandle__darwin_1acc9a054a9d2e8c8dae26c3f3af7a3039" kindref="member">d_readBlock</ref>;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="comment">//<sp/>CREATORS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><ref refid="classfusb__ephandle__darwin" kindref="compound">fusb_ephandle_darwin</ref><sp/>(<ref refid="classfusb__devhandle__darwin" kindref="compound">fusb_devhandle_darwin</ref><sp/>*dh,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>endpoint,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>input_p,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>block_size<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nblocks<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classfusb__ephandle__darwin" kindref="compound">fusb_ephandle_darwin</ref><sp/>();</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MANIPULATORS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>start<sp/>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>stop<sp/>();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>write<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbytes);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>read<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbytes);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/><sp/><sp/>*<sp/>abort<sp/>any<sp/>pending<sp/>IO<sp/>transfers</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>abort<sp/>();</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/><sp/><sp/>*<sp/>block<sp/>until<sp/>all<sp/>outstanding<sp/>writes<sp/>have<sp/>completed</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>wait_for_completion<sp/>();</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_FUSB_DARWIN_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h"/>
+  </compounddef>
+</doxygen>

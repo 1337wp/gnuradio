@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structusb__dev__handle" kind="struct" language="C++" prot="public">
+    <compoundname>usb_dev_handle</compoundname>
+    <includes refid="fusb__darwin_8h" local="no">fusb_darwin.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__dev__handle_1a950bc8d46963caa443fb27cf2ee2b811" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usb_dev_handle::fd</definition>
+        <argsstring></argsstring>
+        <name>fd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="47" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__dev__handle_1a1e6baaed3dc1558ff34555200dd32a17" prot="public" static="no" mutable="no">
+        <type>struct usb_bus *</type>
+        <definition>struct usb_bus* usb_dev_handle::bus</definition>
+        <argsstring></argsstring>
+        <name>bus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="49" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__dev__handle_1a5557c3388ca9582e186b9ec20bdd480d" prot="public" static="no" mutable="no">
+        <type>struct usb_device *</type>
+        <definition>struct usb_device* usb_dev_handle::device</definition>
+        <argsstring></argsstring>
+        <name>device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="50" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__dev__handle_1aad569349383a9fc8ac71d5bcce7909de" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usb_dev_handle::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="52" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__dev__handle_1a2b7e997cdb4735e3b2c1fc58b81cee03" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usb_dev_handle::interface</definition>
+        <argsstring></argsstring>
+        <name>interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="53" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__dev__handle_1a822bc050950231b58e041f33a28d349c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usb_dev_handle::altsetting</definition>
+        <argsstring></argsstring>
+        <name>altsetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="54" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__dev__handle_1ab08f2af9083159ae86648eae05b52c01" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* usb_dev_handle::impl_info</definition>
+        <argsstring></argsstring>
+        <name>impl_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="57" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="57" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">fusb_ephandle_darwin::start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="46" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="46" bodyend="58"/>
+    <listofallmembers>
+      <member refid="structusb__dev__handle_1a822bc050950231b58e041f33a28d349c" prot="public" virt="non-virtual"><scope>usb_dev_handle</scope><name>altsetting</name></member>
+      <member refid="structusb__dev__handle_1a1e6baaed3dc1558ff34555200dd32a17" prot="public" virt="non-virtual"><scope>usb_dev_handle</scope><name>bus</name></member>
+      <member refid="structusb__dev__handle_1aad569349383a9fc8ac71d5bcce7909de" prot="public" virt="non-virtual"><scope>usb_dev_handle</scope><name>config</name></member>
+      <member refid="structusb__dev__handle_1a5557c3388ca9582e186b9ec20bdd480d" prot="public" virt="non-virtual"><scope>usb_dev_handle</scope><name>device</name></member>
+      <member refid="structusb__dev__handle_1a950bc8d46963caa443fb27cf2ee2b811" prot="public" virt="non-virtual"><scope>usb_dev_handle</scope><name>fd</name></member>
+      <member refid="structusb__dev__handle_1ab08f2af9083159ae86648eae05b52c01" prot="public" virt="non-virtual"><scope>usb_dev_handle</scope><name>impl_info</name></member>
+      <member refid="structusb__dev__handle_1a2b7e997cdb4735e3b2c1fc58b81cee03" prot="public" virt="non-virtual"><scope>usb_dev_handle</scope><name>interface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

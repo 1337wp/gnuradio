@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="libusb__types_8h" kind="file" language="C++">
+    <compoundname>libusb_types.h</compoundname>
+    <includes local="no">usb.h</includes>
+    <includedby refid="usrp__basic_8h" local="no">usrp_basic.h</includedby>
+    <includedby refid="usrp__prims_8h" local="no">usrp_prims.h</includedby>
+    <includedby refid="fusb_8h" local="no">fusb.h</includedby>
+    <incdepgraph>
+      <node id="814">
+        <label>libusb_types.h</label>
+        <link refid="libusb_types.h"/>
+        <childnode refid="815" relation="include">
+        </childnode>
+      </node>
+      <node id="815">
+        <label>usb.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="822">
+        <label>usrp_standard.cc</label>
+        <link refid="usrp__standard_8cc"/>
+      </node>
+      <node id="845">
+        <label>usrp_prims_libusb1.cc</label>
+        <link refid="usrp__prims__libusb1_8cc"/>
+      </node>
+      <node id="851">
+        <label>fusb_generic.h</label>
+        <link refid="fusb__generic_8h"/>
+        <childnode refid="852" relation="include">
+        </childnode>
+        <childnode refid="853" relation="include">
+        </childnode>
+      </node>
+      <node id="849">
+        <label>fusb_darwin.h</label>
+        <link refid="fusb__darwin_8h"/>
+        <childnode refid="848" relation="include">
+        </childnode>
+        <childnode refid="850" relation="include">
+        </childnode>
+      </node>
+      <node id="852">
+        <label>fusb_generic.cc</label>
+        <link refid="fusb__generic_8cc"/>
+      </node>
+      <node id="862">
+        <label>fusb_sysconfig_ra_wb.cc</label>
+        <link refid="fusb__sysconfig__ra__wb_8cc"/>
+      </node>
+      <node id="826">
+        <label>db_bitshark_rx.cc</label>
+        <link refid="db__bitshark__rx_8cc"/>
+      </node>
+      <node id="816">
+        <label>libusb_types.h</label>
+        <link refid="libusb_types.h"/>
+        <childnode refid="817" relation="include">
+        </childnode>
+        <childnode refid="838" relation="include">
+        </childnode>
+        <childnode refid="846" relation="include">
+        </childnode>
+      </node>
+      <node id="864">
+        <label>fusb_win32.h</label>
+        <link refid="fusb__win32_8h"/>
+        <childnode refid="863" relation="include">
+        </childnode>
+        <childnode refid="865" relation="include">
+        </childnode>
+      </node>
+      <node id="823">
+        <label>db_base_impl.h</label>
+        <link refid="db__base__impl_8h"/>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+        <childnode refid="826" relation="include">
+        </childnode>
+        <childnode refid="827" relation="include">
+        </childnode>
+        <childnode refid="828" relation="include">
+        </childnode>
+        <childnode refid="829" relation="include">
+        </childnode>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="831" relation="include">
+        </childnode>
+        <childnode refid="832" relation="include">
+        </childnode>
+        <childnode refid="833" relation="include">
+        </childnode>
+        <childnode refid="834" relation="include">
+        </childnode>
+      </node>
+      <node id="827">
+        <label>db_dbs_rx.cc</label>
+        <link refid="db__dbs__rx_8cc"/>
+      </node>
+      <node id="863">
+        <label>fusb_sysconfig_win32.cc</label>
+        <link refid="fusb__sysconfig__win32_8cc"/>
+      </node>
+      <node id="836">
+        <label>db_boards.cc</label>
+        <link refid="db__boards_8cc"/>
+      </node>
+      <node id="824">
+        <label>db_base.cc</label>
+        <link refid="db__base_8cc"/>
+      </node>
+      <node id="839">
+        <label>usrper.cc</label>
+        <link refid="usrper_8cc"/>
+      </node>
+      <node id="855">
+        <label>fusb_libusb1.h</label>
+        <link refid="fusb__libusb1_8h"/>
+        <childnode refid="854" relation="include">
+        </childnode>
+        <childnode refid="856" relation="include">
+        </childnode>
+      </node>
+      <node id="858">
+        <label>fusb_linux.cc</label>
+        <link refid="fusb__linux_8cc"/>
+      </node>
+      <node id="859">
+        <label>fusb_sysconfig_linux.cc</label>
+        <link refid="fusb__sysconfig__linux_8cc"/>
+      </node>
+      <node id="848">
+        <label>fusb_darwin.cc</label>
+        <link refid="fusb__darwin_8cc"/>
+      </node>
+      <node id="846">
+        <label>fusb.h</label>
+        <link refid="fusb_8h"/>
+        <childnode refid="847" relation="include">
+        </childnode>
+        <childnode refid="848" relation="include">
+        </childnode>
+        <childnode refid="849" relation="include">
+        </childnode>
+        <childnode refid="851" relation="include">
+        </childnode>
+        <childnode refid="854" relation="include">
+        </childnode>
+        <childnode refid="855" relation="include">
+        </childnode>
+        <childnode refid="857" relation="include">
+        </childnode>
+        <childnode refid="860" relation="include">
+        </childnode>
+        <childnode refid="850" relation="include">
+        </childnode>
+        <childnode refid="853" relation="include">
+        </childnode>
+        <childnode refid="856" relation="include">
+        </childnode>
+        <childnode refid="859" relation="include">
+        </childnode>
+        <childnode refid="862" relation="include">
+        </childnode>
+        <childnode refid="863" relation="include">
+        </childnode>
+        <childnode refid="864" relation="include">
+        </childnode>
+        <childnode refid="837" relation="include">
+        </childnode>
+      </node>
+      <node id="841">
+        <label>usrp_dbid.cc</label>
+        <link refid="usrp__dbid_8cc"/>
+      </node>
+      <node id="825">
+        <label>db_basic.cc</label>
+        <link refid="db__basic_8cc"/>
+      </node>
+      <node id="821">
+        <label>usrp_cal_dc_offset.cc</label>
+        <link refid="usrp__cal__dc__offset_8cc"/>
+      </node>
+      <node id="856">
+        <label>fusb_sysconfig_libusb1.cc</label>
+        <link refid="fusb__sysconfig__libusb1_8cc"/>
+      </node>
+      <node id="828">
+        <label>db_dtt754.cc</label>
+        <link refid="db__dtt754_8cc"/>
+      </node>
+      <node id="837">
+        <label>usrp_basic.cc</label>
+        <link refid="usrp__basic_8cc"/>
+      </node>
+      <node id="831">
+        <label>db_tv_rx.cc</label>
+        <link refid="db__tv__rx_8cc"/>
+      </node>
+      <node id="820">
+        <label>test_usrp_standard_tx.cc</label>
+        <link refid="test__usrp__standard__tx_8cc"/>
+      </node>
+      <node id="842">
+        <label>usrp_primsi.h</label>
+        <link refid="usrp__primsi_8h"/>
+        <childnode refid="843" relation="include">
+        </childnode>
+        <childnode refid="844" relation="include">
+        </childnode>
+        <childnode refid="845" relation="include">
+        </childnode>
+      </node>
+      <node id="850">
+        <label>fusb_sysconfig_darwin.cc</label>
+        <link refid="fusb__sysconfig__darwin_8cc"/>
+      </node>
+      <node id="843">
+        <label>usrp_prims_common.cc</label>
+        <link refid="usrp__prims__common_8cc"/>
+      </node>
+      <node id="834">
+        <label>db_xcvr2450.cc</label>
+        <link refid="db__xcvr2450_8cc"/>
+      </node>
+      <node id="818">
+        <label>usrp_standard.h</label>
+        <link refid="usrp__standard_8h"/>
+        <childnode refid="819" relation="include">
+        </childnode>
+        <childnode refid="820" relation="include">
+        </childnode>
+        <childnode refid="821" relation="include">
+        </childnode>
+        <childnode refid="822" relation="include">
+        </childnode>
+      </node>
+      <node id="833">
+        <label>db_wbxng_adf4350.cc</label>
+        <link refid="db__wbxng__adf4350_8cc"/>
+      </node>
+      <node id="832">
+        <label>db_wbxng.cc</label>
+        <link refid="db__wbxng_8cc"/>
+      </node>
+      <node id="819">
+        <label>test_usrp_standard_rx.cc</label>
+        <link refid="test__usrp__standard__rx_8cc"/>
+      </node>
+      <node id="829">
+        <label>db_dtt768.cc</label>
+        <link refid="db__dtt768_8cc"/>
+      </node>
+      <node id="853">
+        <label>fusb_sysconfig_generic.cc</label>
+        <link refid="fusb__sysconfig__generic_8cc"/>
+      </node>
+      <node id="861">
+        <label>fusb_ra_wb.cc</label>
+        <link refid="fusb__ra__wb_8cc"/>
+      </node>
+      <node id="817">
+        <label>usrp_basic.h</label>
+        <link refid="usrp__basic_8h"/>
+        <childnode refid="818" relation="include">
+        </childnode>
+        <childnode refid="823" relation="include">
+        </childnode>
+        <childnode refid="835" relation="include">
+        </childnode>
+        <childnode refid="837" relation="include">
+        </childnode>
+      </node>
+      <node id="865">
+        <label>fusb_win32.cc</label>
+        <link refid="fusb__win32_8cc"/>
+      </node>
+      <node id="854">
+        <label>fusb_libusb1.cc</label>
+        <link refid="fusb__libusb1_8cc"/>
+      </node>
+      <node id="857">
+        <label>fusb_linux.h</label>
+        <link refid="fusb__linux_8h"/>
+        <childnode refid="858" relation="include">
+        </childnode>
+        <childnode refid="859" relation="include">
+        </childnode>
+      </node>
+      <node id="840">
+        <label>db_flexrf_mimo.cc</label>
+        <link refid="db__flexrf__mimo_8cc"/>
+      </node>
+      <node id="838">
+        <label>usrp_prims.h</label>
+        <link refid="usrp__prims_8h"/>
+        <childnode refid="839" relation="include">
+        </childnode>
+        <childnode refid="823" relation="include">
+        </childnode>
+        <childnode refid="840" relation="include">
+        </childnode>
+        <childnode refid="837" relation="include">
+        </childnode>
+        <childnode refid="841" relation="include">
+        </childnode>
+        <childnode refid="842" relation="include">
+        </childnode>
+        <childnode refid="822" relation="include">
+        </childnode>
+      </node>
+      <node id="830">
+        <label>db_flexrf.cc</label>
+        <link refid="db__flexrf_8cc"/>
+      </node>
+      <node id="860">
+        <label>fusb_ra_wb.h</label>
+        <link refid="fusb__ra__wb_8h"/>
+        <childnode refid="861" relation="include">
+        </childnode>
+        <childnode refid="862" relation="include">
+        </childnode>
+      </node>
+      <node id="835">
+        <label>db_boards.h</label>
+        <link refid="db__boards_8h"/>
+        <childnode refid="836" relation="include">
+        </childnode>
+        <childnode refid="837" relation="include">
+        </childnode>
+      </node>
+      <node id="847">
+        <label>fusb.cc</label>
+        <link refid="fusb_8cc"/>
+      </node>
+      <node id="844">
+        <label>usrp_prims_libusb0.cc</label>
+        <link refid="usrp__prims__libusb0_8cc"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="libusb__types_8h_1a6a41e56fed0168fbd7abd9359c805bf1" prot="public" static="no">
+        <type>struct usb_device</type>
+        <definition>typedef struct usb_device libusb_device</definition>
+        <argsstring></argsstring>
+        <name>libusb_device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/libusb_types.h" line="87" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/libusb_types.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="libusb__types_8h_1a7d5bb463830eeed919dfb59dc54eeb2b" prot="public" static="no">
+        <type>struct <ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref></type>
+        <definition>typedef struct usb_dev_handle libusb_device_handle</definition>
+        <argsstring></argsstring>
+        <name>libusb_device_handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/libusb_types.h" line="87" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/libusb_types.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="libusb__types_8h_1ac5e93e2ccaee6015c0e06cbb7bba88e4" prot="public" static="no">
+        <type>struct usb_device_descriptor</type>
+        <definition>typedef struct usb_device_descriptor libusb_device_descriptor</definition>
+        <argsstring></argsstring>
+        <name>libusb_device_descriptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/libusb_types.h" line="87" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/libusb_types.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/><sp/>-*-<sp/>Mode:<sp/>C++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2009<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_LIBUSB_TYPES_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_LIBUSB_TYPES_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libusb-1.0/libusb.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="libusb__types_8h_1a6a41e56fed0168fbd7abd9359c805bf1" kindref="member">libusb_device</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__dev__handle" kindref="compound">libusb_device_handle</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="libusb__types_8h_1ac5e93e2ccaee6015c0e06cbb7bba88e4" kindref="member">libusb_device_descriptor</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;usb.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="libusb__types_8h_1a6a41e56fed0168fbd7abd9359c805bf1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_device<sp/><ref refid="libusb__types_8h_1a6a41e56fed0168fbd7abd9359c805bf1" kindref="member">libusb_device</ref>;</highlight></codeline>
+<codeline lineno="34" refid="libusb__types_8h_1a7d5bb463830eeed919dfb59dc54eeb2b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/><ref refid="structusb__dev__handle" kindref="compound">libusb_device_handle</ref>;</highlight></codeline>
+<codeline lineno="35" refid="libusb__types_8h_1ac5e93e2ccaee6015c0e06cbb7bba88e4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">usb_device_descriptor<sp/><ref refid="libusb__types_8h_1ac5e93e2ccaee6015c0e06cbb7bba88e4" kindref="member">libusb_device_descriptor</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_LIBUSB_TYPES_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/libusb_types.h"/>
+  </compounddef>
+</doxygen>

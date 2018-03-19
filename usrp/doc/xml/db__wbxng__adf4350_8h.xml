@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="db__wbxng__adf4350_8h" kind="file" language="C++">
+    <compoundname>db_wbxng_adf4350.h</compoundname>
+    <includes refid="db__wbxng__adf4350__regs_8h" local="yes">db_wbxng_adf4350_regs.h</includes>
+    <includes refid="db__base_8h" local="no">usrp/db_base.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includedby refid="db__wbxng_8cc" local="yes">db_wbxng.cc</includedby>
+    <includedby refid="db__wbxng__adf4350_8cc" local="yes">db_wbxng_adf4350.cc</includedby>
+    <includedby refid="db__wbxng__adf4350__regs_8cc" local="yes">db_wbxng_adf4350_regs.cc</includedby>
+    <incdepgraph>
+      <node id="543">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="546">
+        <label>stdint.h</label>
+      </node>
+      <node id="542">
+        <label>string</label>
+      </node>
+      <node id="539">
+        <label>db_wbxng_adf4350.h</label>
+        <link refid="db_wbxng_adf4350.h"/>
+        <childnode refid="540" relation="include">
+        </childnode>
+        <childnode refid="541" relation="include">
+        </childnode>
+        <childnode refid="546" relation="include">
+        </childnode>
+      </node>
+      <node id="544">
+        <label>boost/weak_ptr.hpp</label>
+      </node>
+      <node id="540">
+        <label>db_wbxng_adf4350_regs.h</label>
+        <link refid="db__wbxng__adf4350__regs_8h"/>
+        <childnode refid="541" relation="include">
+        </childnode>
+        <childnode refid="546" relation="include">
+        </childnode>
+      </node>
+      <node id="541">
+        <label>usrp/db_base.h</label>
+        <link refid="db__base_8h"/>
+        <childnode refid="542" relation="include">
+        </childnode>
+        <childnode refid="543" relation="include">
+        </childnode>
+        <childnode refid="544" relation="include">
+        </childnode>
+        <childnode refid="545" relation="include">
+        </childnode>
+      </node>
+      <node id="545">
+        <label>iosfwd</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="547">
+        <label>db_wbxng_adf4350.h</label>
+        <link refid="db_wbxng_adf4350.h"/>
+        <childnode refid="548" relation="include">
+        </childnode>
+        <childnode refid="549" relation="include">
+        </childnode>
+        <childnode refid="550" relation="include">
+        </childnode>
+      </node>
+      <node id="549">
+        <label>db_wbxng_adf4350.cc</label>
+        <link refid="db__wbxng__adf4350_8cc"/>
+      </node>
+      <node id="548">
+        <label>db_wbxng.cc</label>
+        <link refid="db__wbxng_8cc"/>
+      </node>
+      <node id="550">
+        <label>db_wbxng_adf4350_regs.cc</label>
+        <link refid="db__wbxng__adf4350__regs_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classadf4350" prot="public">adf4350</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>typedef uint64_t freq_t</definition>
+        <argsstring></argsstring>
+        <name>freq_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" line="28" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>2009<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>asversion<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>any<sp/>later<sp/>version.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_ADF4350_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_ADF4350_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db__wbxng__adf4350__regs_8h" kindref="compound">db_wbxng_adf4350_regs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__base_8h" kindref="compound">usrp/db_base.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint64_t<sp/><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classadf4350__regs" kindref="compound">adf4350_regs</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classadf4350" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classadf4350" kindref="compound">adf4350</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classadf4350_1a61d649477209dec3e697df729f7586d0" kindref="member">adf4350</ref>();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classadf4350_1ad9f665ccac7ab9ec653c127ed9b90d1b" kindref="member">~adf4350</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classadf4350_1a1f68389c6c6df0bac436eeb5519b495f" kindref="member">_update</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="classadf4350_1a6fe7b405c71c04d0739e60bbb8643994" kindref="member">compute_register</ref>(uint8_t<sp/>addr);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classadf4350_1ac107092e03eb81ebc7cae6f185d27ae2" kindref="member">_set_freq</ref>(<ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref><sp/>freq,<sp/><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref><sp/>refclock_freq);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref><sp/><ref refid="classadf4350_1af25b011f719b1c935ff2504c2ef867cf" kindref="member">_get_freq</ref>(<ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref><sp/>refclock_freq);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref><sp/><ref refid="classadf4350_1a518065c0964039c29d91a65a1550a925" kindref="member">_get_max_freq</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref><sp/><ref refid="classadf4350_1aebd0339aa8723bb931ff201fc310706a" kindref="member">_get_min_freq</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44" refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classadf4350__regs" kindref="compound">adf4350_regs</ref><sp/>*<ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_ADF4350_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h"/>
+  </compounddef>
+</doxygen>

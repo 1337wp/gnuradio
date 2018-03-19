@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classddc__control" kind="class" language="C++" prot="public">
+    <compoundname>ddc_control</compoundname>
+    <basecompoundref refid="classdxc__control" prot="public" virt="non-virtual">dxc_control</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classddc__control_1ac4e4c53ac07192e3ff5db09640d9b5f5" prot="private" static="no" mutable="no">
+        <type><ref refid="classusrp__standard__rx" kindref="compound">usrp_standard_rx</ref> *</type>
+        <definition>usrp_standard_rx* ddc_control::d_u</definition>
+        <argsstring></argsstring>
+        <name>d_u</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" line="122" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classddc__control_1a732795313c75326fee0c0f47b1897484" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ddc_control::d_chan</definition>
+        <argsstring></argsstring>
+        <name>d_chan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" line="123" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classddc__control_1a843c3d3d26aaafc22f12d86bd2dae8cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ddc_control::ddc_control</definition>
+        <argsstring>(usrp_standard_rx *u, int chan)</argsstring>
+        <name>ddc_control</name>
+        <param>
+          <type><ref refid="classusrp__standard__rx" kindref="compound">usrp_standard_rx</ref> *</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>chan</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" line="126" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="126" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classddc__control_1aa1f6dfd9d87f65ec1b1acf0af3e2ea2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool ddc_control::is_tx</definition>
+        <argsstring>()</argsstring>
+        <name>is_tx</name>
+        <reimplements refid="classdxc__control_1a4555b45e768acaefb8285b89a620f409">is_tx</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" line="129" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classddc__control_1aeff5638c036ddde7234e41cb97d2af7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool ddc_control::set_dxc_freq</definition>
+        <argsstring>(double dxc_freq)</argsstring>
+        <name>set_dxc_freq</name>
+        <reimplements refid="classdxc__control_1a2dd92d5953f1e09763cbb8ba2f4b1aa8">set_dxc_freq</reimplements>
+        <param>
+          <type>double</type>
+          <declname>dxc_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" line="130" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="130" bodyend="130"/>
+        <references refid="classusrp__standard__rx_1a4f3584afcc01962580cf420015d93cda" compoundref="usrp__standard_8cc" startline="650" endline="661">usrp_standard_rx::set_rx_freq</references>
+      </memberdef>
+      <memberdef kind="function" id="classddc__control_1af60db2ff15829832aaddec9ccca2ab14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double ddc_control::dxc_freq</definition>
+        <argsstring>()</argsstring>
+        <name>dxc_freq</name>
+        <reimplements refid="classdxc__control_1aefb33ae501db6e8cc17fae4c3366cc68">dxc_freq</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" line="131" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="131" bodyend="131"/>
+        <references refid="classusrp__standard__rx_1a1b8044ecae8a8acc9bb84e40dce4076e" compoundref="usrp__standard_8cc" startline="673" endline="679">usrp_standard_rx::rx_freq</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="683">
+        <label>ddc_control</label>
+        <link refid="classddc__control"/>
+        <childnode refid="684" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="684">
+        <label>dxc_control</label>
+        <link refid="classdxc__control"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="685">
+        <label>ddc_control</label>
+        <link refid="classddc__control"/>
+        <childnode refid="686" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="686">
+        <label>dxc_control</label>
+        <link refid="classdxc__control"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" line="121" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="121" bodyend="132"/>
+    <listofallmembers>
+      <member refid="classddc__control_1a732795313c75326fee0c0f47b1897484" prot="private" virt="non-virtual"><scope>ddc_control</scope><name>d_chan</name></member>
+      <member refid="classddc__control_1ac4e4c53ac07192e3ff5db09640d9b5f5" prot="private" virt="non-virtual"><scope>ddc_control</scope><name>d_u</name></member>
+      <member refid="classddc__control_1a843c3d3d26aaafc22f12d86bd2dae8cb" prot="public" virt="non-virtual"><scope>ddc_control</scope><name>ddc_control</name></member>
+      <member refid="classddc__control_1af60db2ff15829832aaddec9ccca2ab14" prot="public" virt="virtual"><scope>ddc_control</scope><name>dxc_freq</name></member>
+      <member refid="classddc__control_1aa1f6dfd9d87f65ec1b1acf0af3e2ea2f" prot="public" virt="virtual"><scope>ddc_control</scope><name>is_tx</name></member>
+      <member refid="classddc__control_1aeff5638c036ddde7234e41cb97d2af7e" prot="public" virt="virtual"><scope>ddc_control</scope><name>set_dxc_freq</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

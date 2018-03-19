@@ -1,0 +1,1382 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classdb__base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>db_base</compoundname>
+    <derivedcompoundref refid="classdb__basic__rx" prot="public" virt="non-virtual">db_basic_rx</derivedcompoundref>
+    <derivedcompoundref refid="classdb__basic__tx" prot="public" virt="non-virtual">db_basic_tx</derivedcompoundref>
+    <derivedcompoundref refid="classdb__bitshark__rx" prot="public" virt="non-virtual">db_bitshark_rx</derivedcompoundref>
+    <derivedcompoundref refid="classdb__dbs__rx" prot="public" virt="non-virtual">db_dbs_rx</derivedcompoundref>
+    <derivedcompoundref refid="classdb__dtt754" prot="public" virt="non-virtual">db_dtt754</derivedcompoundref>
+    <derivedcompoundref refid="classdb__dtt768" prot="public" virt="non-virtual">db_dtt768</derivedcompoundref>
+    <derivedcompoundref refid="classdb__tv__rx" prot="public" virt="non-virtual">db_tv_rx</derivedcompoundref>
+    <derivedcompoundref refid="classdb__xcvr2450__base" prot="public" virt="non-virtual">db_xcvr2450_base</derivedcompoundref>
+    <derivedcompoundref refid="classflexrf__base" prot="public" virt="non-virtual">flexrf_base</derivedcompoundref>
+    <derivedcompoundref refid="classwbxng__base" prot="public" virt="non-virtual">wbxng_base</derivedcompoundref>
+    <includes refid="db__base_8h" local="no">db_base.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool db_base::d_is_shutdown</definition>
+        <argsstring></argsstring>
+        <name>d_is_shutdown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="52" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" bodystart="52" bodyend="-1"/>
+        <referencedby refid="classdb__bitshark__rx_1a0779158c5040f0f409018969e06c59b7" compoundref="db__bitshark__rx_8cc" startline="183" endline="189">db_bitshark_rx::shutdown</referencedby>
+        <referencedby refid="classdb__xcvr2450__tx_1ad458926ecebb3cb25f7ee18afa4497d9" compoundref="db__xcvr2450_8cc" startline="706" endline="712">db_xcvr2450_tx::shutdown</referencedby>
+        <referencedby refid="classdb__wbxng__tx_1ab4d1a667a20dbdc3699013e932e7bf1e" compoundref="db__wbxng_8cc" startline="222" endline="243">db_wbxng_tx::shutdown</referencedby>
+        <referencedby refid="classdb__dbs__rx_1a772ca7aea92c7223d4749ff6600f2d29" compoundref="db__dbs__rx_8cc" startline="78" endline="85">db_dbs_rx::shutdown</referencedby>
+        <referencedby refid="classflexrf__base__tx_1ae751608de601b11c0c067f4e0ce654bc" compoundref="db__flexrf_8cc" startline="284" endline="302">flexrf_base_tx::shutdown</referencedby>
+        <referencedby refid="classdb__xcvr2450__rx_1a5bf35ddbc43b425c02a4bed6d183608a" compoundref="db__xcvr2450_8cc" startline="765" endline="771">db_xcvr2450_rx::shutdown</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1ab45fea965789fa0da8125ca2df198e46" compoundref="db__wbxng_8cc" startline="391" endline="417">db_wbxng_rx::shutdown</referencedby>
+        <referencedby refid="classdb__base_1a73aae0d09b138c28e70541c63e2cb498" compoundref="db__base_8cc" startline="55" endline="61">shutdown</referencedby>
+        <referencedby refid="classflexrf__base__rx_1afc203def2c43ea338fa00ae95401591c" compoundref="db__flexrf_8cc" startline="406" endline="432">flexrf_base_rx::shutdown</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__base_1aa6e5420338ff3e0a9b1afe2ae1fbc58b" prot="protected" static="no" mutable="no">
+        <type><ref refid="classusrp__basic" kindref="compound">usrp_basic</ref> *</type>
+        <definition>usrp_basic* db_base::d_raw_usrp</definition>
+        <argsstring></argsstring>
+        <name>d_raw_usrp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="53" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_base::d_which</definition>
+        <argsstring></argsstring>
+        <name>d_which</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="54" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" compoundref="db__base_8cc" startline="222" endline="235">_enable_refclk</referencedby>
+        <referencedby refid="classwbxng__base_1a1bc680a65ad2272582c1764e1aff37dd" compoundref="db__wbxng_8cc" startline="166" endline="169">wbxng_base::_get_locked</referencedby>
+        <referencedby refid="classflexrf__base_1a8924efaa69d04bbabe98b9d246cab842" compoundref="db__flexrf_8cc" startline="127" endline="150">flexrf_base::_lock_detect</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1a28ad8d2be4101e0c2616beda249a5acf" compoundref="db__wbxng_8cc" startline="508" endline="514">db_wbxng_rx::_set_attn</referencedby>
+        <referencedby refid="classwbxng__base_1a98f8ea722f6146dca866306d68bb9fed" compoundref="db__wbxng_8cc" startline="129" endline="140">wbxng_base::_set_pga</referencedby>
+        <referencedby refid="classflexrf__base_1a200870dd8643ad072067c7bdbdf5568d" compoundref="db__flexrf_8cc" startline="216" endline="227">flexrf_base::_set_pga</referencedby>
+        <referencedby refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" compoundref="db__base_8cc" startline="88" endline="104">bypass_adc_buffers</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1a880c7e45bb15ba64d1dfa0d6b81c059d" compoundref="db__bitshark__rx_8cc" startline="121" endline="156">db_bitshark_rx::db_bitshark_rx</referencedby>
+        <referencedby refid="classdb__dbs__rx_1a790afd3aebe133fb356734446bd1abf0" compoundref="db__dbs__rx_8cc" startline="34" endline="70">db_dbs_rx::db_dbs_rx</referencedby>
+        <referencedby refid="classdb__dtt754_1ae070ec668405dd6f27eb5de52fc669bb" compoundref="db__dtt754_8cc" startline="111" endline="140">db_dtt754::db_dtt754</referencedby>
+        <referencedby refid="classdb__dtt768_1a1a81276ebb865a4afabd8c0e49a601ba" compoundref="db__dtt768_8cc" startline="86" endline="112">db_dtt768::db_dtt768</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1a9778dac1e79a6c22ab1b1933a7fc9068" compoundref="db__wbxng_8cc" startline="340" endline="383">db_wbxng_rx::db_wbxng_rx</referencedby>
+        <referencedby refid="classdb__wbxng__tx_1aff7a3717c7d8f7ac53889714a189610a" compoundref="db__wbxng_8cc" startline="179" endline="214">db_wbxng_tx::db_wbxng_tx</referencedby>
+        <referencedby refid="classdb__base_1a6c70380b8abff2d051eece9d2b208408" compoundref="db__base_8cc" startline="64" endline="67">dbid</referencedby>
+        <referencedby refid="classflexrf__base_1a2aef72cd74675f352110ea881321e74b" compoundref="db__flexrf_8cc" startline="44" endline="60">flexrf_base::flexrf_base</referencedby>
+        <referencedby refid="classflexrf__base__rx_1ab5d4d0369f5799e982b83eb6299ea9e5" compoundref="db__flexrf_8cc" startline="373" endline="398">flexrf_base_rx::flexrf_base_rx</referencedby>
+        <referencedby refid="classflexrf__base__tx_1ac71b0a3845470a03bc7dd72667cf23ea" compoundref="db__flexrf_8cc" startline="254" endline="275">flexrf_base_tx::flexrf_base_tx</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1aee4e97531ff30353c15444aa72c77948" compoundref="db__wbxng_8cc" startline="437" endline="454">db_wbxng_rx::select_rx_antenna</referencedby>
+        <referencedby refid="classflexrf__base__rx_1a3c3c6dd1ca47bee08a251e6c19d7ead9" compoundref="db__flexrf_8cc" startline="452" endline="470">flexrf_base_rx::select_rx_antenna</referencedby>
+        <referencedby refid="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" compoundref="db__base_8cc" startline="107" endline="111">set_atr_mask</referencedby>
+        <referencedby refid="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" compoundref="db__base_8cc" startline="121" endline="125">set_atr_rxval</referencedby>
+        <referencedby refid="classdb__base_1a9722d03f078d1206539ad097c28a9562" compoundref="db__base_8cc" startline="114" endline="118">set_atr_txval</referencedby>
+        <referencedby refid="classdb__dtt768_1aec00134aa18ddbe0f8b3fd8a3b950a9b" compoundref="db__dtt768_8cc" startline="247" endline="257">db_dtt768::set_bw</referencedby>
+        <referencedby refid="classdb__dtt754_1aa6e9679476c6dd1d925df24506c42a7b" compoundref="db__dtt754_8cc" startline="274" endline="284">db_dtt754::set_bw</referencedby>
+        <referencedby refid="classdb__dbs__rx_1a99fd704247a94997cc81b4c998feff64" compoundref="db__dbs__rx_8cc" startline="159" endline="199">db_dbs_rx::set_bw</referencedby>
+        <referencedby refid="classdb__wbxng__tx_1a93f7d0d939d9e5e6ee3f03fa1d907e66" compoundref="db__wbxng_8cc" startline="263" endline="282">db_wbxng_tx::set_enable</referencedby>
+        <referencedby refid="classflexrf__base__tx_1ab49f99f5f41b7066a8a06a34f5efbdd5" compoundref="db__flexrf_8cc" startline="322" endline="337">flexrf_base_tx::set_enable</referencedby>
+        <referencedby refid="classdb__basic__tx_1a42ee65ad9d8092dc4134b9a1d46c6bf7" compoundref="db__basic_8cc" startline="92" endline="102">db_basic_tx::set_gain</referencedby>
+        <referencedby refid="classdb__basic__rx_1a9f5e21b5284778d5d124a22da6e3cb1f" compoundref="db__basic_8cc" startline="186" endline="194">db_basic_rx::set_gain</referencedby>
+        <referencedby refid="classdb__wbxng__tx_1a0011208d0298d214c6be0b593338f813" compoundref="db__wbxng_8cc" startline="303" endline="334">db_wbxng_tx::set_gain</referencedby>
+        <referencedby refid="classflexrf__base__rx_1adf868f5dabdd1014824c731a5a2cd8ec" compoundref="db__flexrf_8cc" startline="494" endline="530">flexrf_base_rx::set_gain</referencedby>
+        <referencedby refid="classdb__wbxng__tx_1ab4d1a667a20dbdc3699013e932e7bf1e" compoundref="db__wbxng_8cc" startline="222" endline="243">db_wbxng_tx::shutdown</referencedby>
+        <referencedby refid="classflexrf__base__tx_1ae751608de601b11c0c067f4e0ce654bc" compoundref="db__flexrf_8cc" startline="284" endline="302">flexrf_base_tx::shutdown</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1ab45fea965789fa0da8125ca2df198e46" compoundref="db__wbxng_8cc" startline="391" endline="417">db_wbxng_rx::shutdown</referencedby>
+        <referencedby refid="classflexrf__base__rx_1afc203def2c43ea338fa00ae95401591c" compoundref="db__flexrf_8cc" startline="406" endline="432">flexrf_base_rx::shutdown</referencedby>
+        <referencedby refid="classdb__base_1a9cee7496d9a4d09b72a008fb5d7e6664" compoundref="db__base_8cc" startline="76" endline="82">side_and_name</referencedby>
+        <referencedby refid="classwbxng__base_1a5aff8f4f88f2aaaf00865f5776c16745" compoundref="db__wbxng_8cc" startline="52" endline="69">wbxng_base::wbxng_base</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1a2d833936b1fd09b1278c46c02e64db5f" compoundref="db__bitshark__rx_8cc" startline="158" endline="161">db_bitshark_rx::~db_bitshark_rx</referencedby>
+        <referencedby refid="classdb__tv__rx_1abe6bd97cdb36e7635933568b5453130a" compoundref="db__tv__rx_8cc" startline="106" endline="108">db_tv_rx::~db_tv_rx</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__base_1a0665a615c2eb4236814825c89dd024e0" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double db_base::d_lo_offset</definition>
+        <argsstring></argsstring>
+        <name>d_lo_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="55" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" bodystart="55" bodyend="-1"/>
+        <referencedby refid="classflexrf__base_1aab0ad1d00de0050f1ae9c9e535b9a87e" compoundref="db__flexrf_8cc" startline="184" endline="213">flexrf_base::set_freq</referencedby>
+        <referencedby refid="classdb__xcvr2450__base_1a86b9bef019b735ddbf72871d614966ce" compoundref="db__xcvr2450_8cc" startline="656" endline="664">db_xcvr2450_base::set_freq</referencedby>
+        <referencedby refid="classdb__base_1a3d8eb19a95b9ca4970c56f1a699e85bf" compoundref="db__base_8cc" startline="179" endline="185">set_lo_offset</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classdb__base_1ad2a0b81e42e8e574d306cd0f24a13717" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class usrp_basic</definition>
+        <argsstring></argsstring>
+        <name>usrp_basic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="88" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classdb__base_1a7a076785965c3252a663b762b4a25d73" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_base::_enable_refclk</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>_enable_refclk</name>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="57" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="222" bodyend="235"/>
+        <references refid="classdb__base_1acd58b612941f45fabab13438463c327b" compoundref="db__base_8cc" startline="238" endline="242">_refclk_divisor</references>
+        <references refid="classusrp__basic_1ac540c04b719f1ce30426ecb2214107ef">usrp_basic::_write_oe</references>
+        <references refid="db__flexrf_8cc_1a483572219a71ba43ec8932b992fdd54e" compoundref="db__flexrf_8cc" startline="42">CLOCK_OUT</references>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">d_which</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">usrp</references>
+        <references refid="classusrp__basic_1a80a4f8800742b6b06ec6f1908a448fc8">usrp_basic::write_refclk</references>
+        <referencedby refid="classdb__dbs__rx_1a790afd3aebe133fb356734446bd1abf0" compoundref="db__dbs__rx_8cc" startline="34" endline="70">db_dbs_rx::db_dbs_rx</referencedby>
+        <referencedby refid="classdb__flexrf__1200__rx__mimo__a_1a6a4f2bc53deae22dbd8fc86089662b86" compoundref="db__flexrf__mimo_8cc" startline="146" endline="151">db_flexrf_1200_rx_mimo_a::db_flexrf_1200_rx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__1200__tx__mimo__a_1ae623e23658c6b9158fd1c8f44701a5a1" compoundref="db__flexrf__mimo_8cc" startline="133" endline="138">db_flexrf_1200_tx_mimo_a::db_flexrf_1200_tx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__1800__rx__mimo__a_1a05fe95424ae9f0bbbf9588a2c1d1b109" compoundref="db__flexrf__mimo_8cc" startline="96" endline="101">db_flexrf_1800_rx_mimo_a::db_flexrf_1800_rx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__1800__tx__mimo__a_1a63263e0f4ab8a3d9490b48f870b58561" compoundref="db__flexrf__mimo_8cc" startline="83" endline="88">db_flexrf_1800_tx_mimo_a::db_flexrf_1800_tx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__2400__rx__mimo__a_1a1a356672bc067727b54d890488a9a350" compoundref="db__flexrf__mimo_8cc" startline="46" endline="51">db_flexrf_2400_rx_mimo_a::db_flexrf_2400_rx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__2400__tx__mimo__a_1ac675c113ba78718906d9715e1df0f609" compoundref="db__flexrf__mimo_8cc" startline="33" endline="38">db_flexrf_2400_tx_mimo_a::db_flexrf_2400_tx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__400__rx__mimo__a_1a9b796e77d87fe8991936b4641a0b7ab3" compoundref="db__flexrf__mimo_8cc" startline="245" endline="250">db_flexrf_400_rx_mimo_a::db_flexrf_400_rx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__400__tx__mimo__a_1afdf34d9e1370fee6700b515ee3fd2637" compoundref="db__flexrf__mimo_8cc" startline="232" endline="237">db_flexrf_400_tx_mimo_a::db_flexrf_400_tx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__900__rx__mimo__a_1a07cbd271950a6f36fb81fba680816b98" compoundref="db__flexrf__mimo_8cc" startline="196" endline="201">db_flexrf_900_rx_mimo_a::db_flexrf_900_rx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__900__tx__mimo__a_1ae61b9566e7bfbff6f8e381c6293e4c44" compoundref="db__flexrf__mimo_8cc" startline="183" endline="188">db_flexrf_900_tx_mimo_a::db_flexrf_900_tx_mimo_a</referencedby>
+        <referencedby refid="classdb__tv__rx__mimo_1a46f290d9bb87cd9ca02417d84bb3ec83" compoundref="db__tv__rx__mimo_8cc" startline="27" endline="32">db_tv_rx_mimo::db_tv_rx_mimo</referencedby>
+        <referencedby refid="classflexrf__base_1a2aef72cd74675f352110ea881321e74b" compoundref="db__flexrf_8cc" startline="44" endline="60">flexrf_base::flexrf_base</referencedby>
+        <referencedby refid="classdb__wbxng__tx_1ab4d1a667a20dbdc3699013e932e7bf1e" compoundref="db__wbxng_8cc" startline="222" endline="243">db_wbxng_tx::shutdown</referencedby>
+        <referencedby refid="classdb__dbs__rx_1a772ca7aea92c7223d4749ff6600f2d29" compoundref="db__dbs__rx_8cc" startline="78" endline="85">db_dbs_rx::shutdown</referencedby>
+        <referencedby refid="classflexrf__base__tx_1ae751608de601b11c0c067f4e0ce654bc" compoundref="db__flexrf_8cc" startline="284" endline="302">flexrf_base_tx::shutdown</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1ab45fea965789fa0da8125ca2df198e46" compoundref="db__wbxng_8cc" startline="391" endline="417">db_wbxng_rx::shutdown</referencedby>
+        <referencedby refid="classflexrf__base__rx_1afc203def2c43ea338fa00ae95401591c" compoundref="db__flexrf_8cc" startline="406" endline="432">flexrf_base_rx::shutdown</referencedby>
+        <referencedby refid="classwbxng__base_1a5aff8f4f88f2aaaf00865f5776c16745" compoundref="db__wbxng_8cc" startline="52" endline="69">wbxng_base::wbxng_base</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double db_base::_refclk_freq</definition>
+        <argsstring>()</argsstring>
+        <name>_refclk_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="58" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="216" bodyend="219"/>
+        <references refid="classdb__base_1acd58b612941f45fabab13438463c327b" compoundref="db__base_8cc" startline="238" endline="242">_refclk_divisor</references>
+        <references refid="classusrp__basic_1a244d4aa01bb6a054cd5bd0998ce2a09a" compoundref="usrp__basic_8h" startline="183" endline="183">usrp_basic::fpga_master_clock_freq</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">usrp</references>
+        <referencedby refid="classdb__flexrf__2200__tx_1a803c3aaffdb24bc28c21635648ec354d" compoundref="db__flexrf_8cc" startline="860" endline="865">db_flexrf_2200_tx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__2200__rx_1a4ec2b358176b3346f4d8ea1f6141c8a4" compoundref="db__flexrf_8cc" startline="906" endline="911">db_flexrf_2200_rx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__2400__tx_1a2777c1ccd8e9b39aaa17c8fa4f57898a" compoundref="db__flexrf_8cc" startline="926" endline="931">db_flexrf_2400_tx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__2400__rx_1a2acef712b4ea674595bd045d520f6a9b" compoundref="db__flexrf_8cc" startline="972" endline="977">db_flexrf_2400_rx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__1200__tx_1a72f46ce193b1a428442344ca1dd0f49f" compoundref="db__flexrf_8cc" startline="993" endline="998">db_flexrf_1200_tx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__1200__rx_1a688aeab44dd1d1e98c09b8d4b3cb891d" compoundref="db__flexrf_8cc" startline="1039" endline="1044">db_flexrf_1200_rx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__1800__tx_1a79e3ecc2bcdfc07da9cf4f3d895fcef9" compoundref="db__flexrf_8cc" startline="1061" endline="1066">db_flexrf_1800_tx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__1800__rx_1a89c85e4299a0782ce575b38903337832" compoundref="db__flexrf_8cc" startline="1107" endline="1112">db_flexrf_1800_rx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__900__tx_1a7c4cde1455aeec2a79401e2455ab1269" compoundref="db__flexrf_8cc" startline="1129" endline="1134">db_flexrf_900_tx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__900__rx_1a26457afe0002a5f7f729005f4c72b864" compoundref="db__flexrf_8cc" startline="1173" endline="1178">db_flexrf_900_rx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__400__tx_1a10eeb8d6480a7b69ba4fc25a0c1ad083" compoundref="db__flexrf_8cc" startline="1194" endline="1199">db_flexrf_400_tx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__400__rx_1af6e139ab28da02215f252dec9e54649b" compoundref="db__flexrf_8cc" startline="1241" endline="1246">db_flexrf_400_rx::_compute_regs</referencedby>
+        <referencedby refid="classdb__dbs__rx_1a99fd704247a94997cc81b4c998feff64" compoundref="db__dbs__rx_8cc" startline="159" endline="199">db_dbs_rx::set_bw</referencedby>
+        <referencedby refid="classwbxng__base_1a25c57a2564dab8697feea09b0d48b5cd" compoundref="db__wbxng_8cc" startline="82" endline="126">wbxng_base::set_freq</referencedby>
+        <referencedby refid="classdb__dbs__rx_1af68a1c023cddd9fdb8771e59022436a5" compoundref="db__dbs__rx_8cc" startline="369" endline="487">db_dbs_rx::set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1acd58b612941f45fabab13438463c327b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int db_base::_refclk_divisor</definition>
+        <argsstring>()</argsstring>
+        <name>_refclk_divisor</name>
+        <reimplementedby refid="classdb__flexrf__2400__tx__mimo__a_1a9a3b84d0dfb979791a8f9f35777dda91">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__tv__rx__mimo_1aa09dd3f48ef8c4f703e750a00b6443e1">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__2400__rx__mimo__a_1a6e65aedb90341387801165423b6f4b4e">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__2400__tx__mimo__b_1afec4f05120957efc071752800466e80e">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classwbxng__base_1abadb4addb09abc06a91ed255c976e4db">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__2400__rx__mimo__b_1a6f86b3fe4f853830b1a1b6a25549160f">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classflexrf__base_1a12bc5bc6f5d29a934a52378b7fea7e0b">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1800__tx__mimo__a_1afe30b81f8d70688006d70352d22eb1f4">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__dbs__rx_1a0befc3af4ea0af5c75d95c3b614edc83">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1800__rx__mimo__a_1a0247acf50311435940d52dc7a94d38ca">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1800__tx__mimo__b_1ae3b80d870a4b4bbe34adce99890238bf">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1800__rx__mimo__b_1a7d4d55cc715d2af75ef5b46d75fe0736">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1200__tx__mimo__a_1aab930582c20a85e99a3e41675ebe2f6e">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1200__rx__mimo__a_1ae002d063763b6149440d067dbfae0605">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1200__tx__mimo__b_1aae2fe3cdea53e955637e8bf1d6ea94ef">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1200__rx__mimo__b_1a63f6b1560f57ce00e7c04ad00c090a9f">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__900__tx__mimo__a_1a9cba8444a31cdd16a59767659163111e">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__900__rx__mimo__a_1aa912ebf99d46d61a148469f8f671c3fc">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__900__tx__mimo__b_1af975e87fa1a0292bedcd8aba33e91b2c">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__900__rx__mimo__b_1afaf3d0ede74aa935a079b1aecffc1507">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__400__tx__mimo__a_1aa12fb73840e3c58eac5c5639cd8bd48c">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__400__rx__mimo__a_1a979dc29a4ae78f56b6ef7013e76b1996">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__400__tx__mimo__b_1a3751a36ec4bf698a783de61b95fd13ac">_refclk_divisor</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__400__rx__mimo__b_1a2cad35e164b81039084200f12751663f">_refclk_divisor</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="59" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="238" bodyend="242"/>
+        <referencedby refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" compoundref="db__base_8cc" startline="222" endline="235">_enable_refclk</referencedby>
+        <referencedby refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" compoundref="db__base_8cc" startline="216" endline="219">_refclk_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a67eafbae0359d2f082f73914d40abc82" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classusrp__basic" kindref="compound">usrp_basic</ref> *</type>
+        <definition>usrp_basic* db_base::usrp</definition>
+        <argsstring>()</argsstring>
+        <name>usrp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="61" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" bodystart="61" bodyend="63"/>
+        <references refid="usrp__dbid_8cc_1a87c643e07fc4c8ba890706ac2f2203ea" compoundref="usrp__dbid_8cc" startline="34">dbid</references>
+        <references refid="usrp__dbid_8cc_1a8f8f80d37794cde9472343e4487ba3eb" compoundref="usrp__dbid_8cc" startline="35">name</references>
+        <referencedby refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" compoundref="db__base_8cc" startline="222" endline="235">_enable_refclk</referencedby>
+        <referencedby refid="classwbxng__base_1a1bc680a65ad2272582c1764e1aff37dd" compoundref="db__wbxng_8cc" startline="166" endline="169">wbxng_base::_get_locked</referencedby>
+        <referencedby refid="classflexrf__base_1a8924efaa69d04bbabe98b9d246cab842" compoundref="db__flexrf_8cc" startline="127" endline="150">flexrf_base::_lock_detect</referencedby>
+        <referencedby refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" compoundref="db__base_8cc" startline="216" endline="219">_refclk_freq</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1a28ad8d2be4101e0c2616beda249a5acf" compoundref="db__wbxng_8cc" startline="508" endline="514">db_wbxng_rx::_set_attn</referencedby>
+        <referencedby refid="classwbxng__base_1a98f8ea722f6146dca866306d68bb9fed" compoundref="db__wbxng_8cc" startline="129" endline="140">wbxng_base::_set_pga</referencedby>
+        <referencedby refid="classflexrf__base_1a200870dd8643ad072067c7bdbdf5568d" compoundref="db__flexrf_8cc" startline="216" endline="227">flexrf_base::_set_pga</referencedby>
+        <referencedby refid="classflexrf__base_1a4da803ee0702b047ecf6f10f3d87b62b" compoundref="db__flexrf_8cc" startline="116" endline="124">flexrf_base::_write_it</referencedby>
+        <referencedby refid="classwbxng__base_1a8a8d421e91573350da1369977534301f" compoundref="db__wbxng_8cc" startline="172" endline="175">wbxng_base::_write_spi</referencedby>
+        <referencedby refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" compoundref="db__base_8cc" startline="88" endline="104">bypass_adc_buffers</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1a880c7e45bb15ba64d1dfa0d6b81c059d" compoundref="db__bitshark__rx_8cc" startline="121" endline="156">db_bitshark_rx::db_bitshark_rx</referencedby>
+        <referencedby refid="classdb__dbs__rx_1a790afd3aebe133fb356734446bd1abf0" compoundref="db__dbs__rx_8cc" startline="34" endline="70">db_dbs_rx::db_dbs_rx</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1a9778dac1e79a6c22ab1b1933a7fc9068" compoundref="db__wbxng_8cc" startline="340" endline="383">db_wbxng_rx::db_wbxng_rx</referencedby>
+        <referencedby refid="classdb__wbxng__tx_1aff7a3717c7d8f7ac53889714a189610a" compoundref="db__wbxng_8cc" startline="179" endline="214">db_wbxng_tx::db_wbxng_tx</referencedby>
+        <referencedby refid="classdb__base_1a6c70380b8abff2d051eece9d2b208408" compoundref="db__base_8cc" startline="64" endline="67">dbid</referencedby>
+        <referencedby refid="classflexrf__base_1a2aef72cd74675f352110ea881321e74b" compoundref="db__flexrf_8cc" startline="44" endline="60">flexrf_base::flexrf_base</referencedby>
+        <referencedby refid="classflexrf__base__rx_1ab5d4d0369f5799e982b83eb6299ea9e5" compoundref="db__flexrf_8cc" startline="373" endline="398">flexrf_base_rx::flexrf_base_rx</referencedby>
+        <referencedby refid="classflexrf__base__tx_1ac71b0a3845470a03bc7dd72667cf23ea" compoundref="db__flexrf_8cc" startline="254" endline="275">flexrf_base_tx::flexrf_base_tx</referencedby>
+        <referencedby refid="classdb__basic__tx_1afbdf85ff00ab18986d630ce310dff016" compoundref="db__basic_8cc" startline="86" endline="89">db_basic_tx::gain_db_per_step</referencedby>
+        <referencedby refid="classdb__basic__rx_1a8adce7c51695647ff2554ba9026514b1" compoundref="db__basic_8cc" startline="180" endline="183">db_basic_rx::gain_db_per_step</referencedby>
+        <referencedby refid="classdb__basic__tx_1ad3aa9e1b4736dd31461a1a68fb821fae" compoundref="db__basic_8cc" startline="80" endline="83">db_basic_tx::gain_max</referencedby>
+        <referencedby refid="classdb__basic__rx_1aabf66f2516d95c5699efd2db993fe4d5" compoundref="db__basic_8cc" startline="174" endline="177">db_basic_rx::gain_max</referencedby>
+        <referencedby refid="classflexrf__base__tx_1a8de317c574ceb426ba13d4f73a08c02d" compoundref="db__flexrf_8cc" startline="346" endline="349">flexrf_base_tx::gain_max</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1a3e14d62b70c3f8f88a7daa85d025e58b" compoundref="db__wbxng_8cc" startline="523" endline="526">db_wbxng_rx::gain_max</referencedby>
+        <referencedby refid="classdb__flexrf__2200__rx_1aa17e8f9d37bdcbb33f9fc513b35966d1" compoundref="db__flexrf_8cc" startline="887" endline="890">db_flexrf_2200_rx::gain_max</referencedby>
+        <referencedby refid="classdb__flexrf__2400__rx_1a25ea0c7495b1336a71e543e546b6cc43" compoundref="db__flexrf_8cc" startline="953" endline="956">db_flexrf_2400_rx::gain_max</referencedby>
+        <referencedby refid="classdb__flexrf__1200__rx_1a692351f555baf66053f271e538c1010b" compoundref="db__flexrf_8cc" startline="1021" endline="1024">db_flexrf_1200_rx::gain_max</referencedby>
+        <referencedby refid="classdb__flexrf__1800__rx_1a503d62ead7515cf182eca2553a081d12" compoundref="db__flexrf_8cc" startline="1089" endline="1092">db_flexrf_1800_rx::gain_max</referencedby>
+        <referencedby refid="classdb__flexrf__900__rx_1a737fb111ef70ade8c4327cd4722caa98" compoundref="db__flexrf_8cc" startline="1155" endline="1158">db_flexrf_900_rx::gain_max</referencedby>
+        <referencedby refid="classdb__flexrf__400__rx_1a6909930eca017abac077b14062a04c91" compoundref="db__flexrf_8cc" startline="1221" endline="1224">db_flexrf_400_rx::gain_max</referencedby>
+        <referencedby refid="classdb__basic__tx_1a7c0d95c9d9cc3df8b145dd26785f08f6" compoundref="db__basic_8cc" startline="74" endline="77">db_basic_tx::gain_min</referencedby>
+        <referencedby refid="classdb__basic__rx_1ab5aa4b36e059b11f886b44f1f1f57610" compoundref="db__basic_8cc" startline="168" endline="171">db_basic_rx::gain_min</referencedby>
+        <referencedby refid="classflexrf__base__tx_1ac7ff81bcbc594530a22ad7862a263c56" compoundref="db__flexrf_8cc" startline="340" endline="343">flexrf_base_tx::gain_min</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1a2c116e2717bd6dc48506c8b6f14d84ac" compoundref="db__wbxng_8cc" startline="517" endline="520">db_wbxng_rx::gain_min</referencedby>
+        <referencedby refid="classdb__flexrf__2200__rx_1aa82368c82cdce77b7decefb464432429" compoundref="db__flexrf_8cc" startline="881" endline="884">db_flexrf_2200_rx::gain_min</referencedby>
+        <referencedby refid="classdb__flexrf__2400__rx_1a9cd2ffbf157af774e4194773a2e174fb" compoundref="db__flexrf_8cc" startline="947" endline="950">db_flexrf_2400_rx::gain_min</referencedby>
+        <referencedby refid="classdb__flexrf__1200__rx_1a4bba16d730980863eaf8cb67a77b2d2a" compoundref="db__flexrf_8cc" startline="1015" endline="1018">db_flexrf_1200_rx::gain_min</referencedby>
+        <referencedby refid="classdb__flexrf__1800__rx_1a6470ffeb8d829529ec44dc7d9292f52c" compoundref="db__flexrf_8cc" startline="1083" endline="1086">db_flexrf_1800_rx::gain_min</referencedby>
+        <referencedby refid="classdb__flexrf__900__rx_1a30ad09367074b8d2c02fcd3a2cd12c65" compoundref="db__flexrf_8cc" startline="1149" endline="1152">db_flexrf_900_rx::gain_min</referencedby>
+        <referencedby refid="classdb__flexrf__400__rx_1a5878620b1b7a9daaad40bf222c3c324c" compoundref="db__flexrf_8cc" startline="1215" endline="1218">db_flexrf_400_rx::gain_min</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1aee4e97531ff30353c15444aa72c77948" compoundref="db__wbxng_8cc" startline="437" endline="454">db_wbxng_rx::select_rx_antenna</referencedby>
+        <referencedby refid="classflexrf__base__rx_1a3c3c6dd1ca47bee08a251e6c19d7ead9" compoundref="db__flexrf_8cc" startline="452" endline="470">flexrf_base_rx::select_rx_antenna</referencedby>
+        <referencedby refid="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" compoundref="db__base_8cc" startline="107" endline="111">set_atr_mask</referencedby>
+        <referencedby refid="classdb__base_1aec8010d1f2412ffe33bb0f27ee6d8275" compoundref="db__base_8cc" startline="136" endline="141">set_atr_rx_delay</referencedby>
+        <referencedby refid="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" compoundref="db__base_8cc" startline="121" endline="125">set_atr_rxval</referencedby>
+        <referencedby refid="classdb__base_1a01586c74a2cab95c3e12951402fab1a3" compoundref="db__base_8cc" startline="128" endline="133">set_atr_tx_delay</referencedby>
+        <referencedby refid="classdb__base_1a9722d03f078d1206539ad097c28a9562" compoundref="db__base_8cc" startline="114" endline="118">set_atr_txval</referencedby>
+        <referencedby refid="classdb__dtt754_1aa6e9679476c6dd1d925df24506c42a7b" compoundref="db__dtt754_8cc" startline="274" endline="284">db_dtt754::set_bw</referencedby>
+        <referencedby refid="classdb__dtt768_1aec00134aa18ddbe0f8b3fd8a3b950a9b" compoundref="db__dtt768_8cc" startline="247" endline="257">db_dtt768::set_bw</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1ae8b8f942df5c56d3ce7c9653c98ac701" compoundref="db__bitshark__rx_8cc" startline="192" endline="225">db_bitshark_rx::set_bw</referencedby>
+        <referencedby refid="classdb__dbs__rx_1a99fd704247a94997cc81b4c998feff64" compoundref="db__dbs__rx_8cc" startline="159" endline="199">db_dbs_rx::set_bw</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1aed98afdec32fd066bd4ed833390c9cc9" compoundref="db__bitshark__rx_8cc" startline="292" endline="341">db_bitshark_rx::set_clock_scheme</referencedby>
+        <referencedby refid="classdb__wbxng__tx_1a93f7d0d939d9e5e6ee3f03fa1d907e66" compoundref="db__wbxng_8cc" startline="263" endline="282">db_wbxng_tx::set_enable</referencedby>
+        <referencedby refid="classflexrf__base__tx_1ab49f99f5f41b7066a8a06a34f5efbdd5" compoundref="db__flexrf_8cc" startline="322" endline="337">flexrf_base_tx::set_enable</referencedby>
+        <referencedby refid="classdb__dtt754_1a92258314599337578b552d457d816e30" compoundref="db__dtt754_8cc" startline="209" endline="249">db_dtt754::set_freq</referencedby>
+        <referencedby refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" compoundref="db__dtt768_8cc" startline="181" endline="222">db_dtt768::set_freq</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1aa1b71b8cecd0e4f72c16fe15e480d59c" compoundref="db__bitshark__rx_8cc" startline="356" endline="403">db_bitshark_rx::set_freq</referencedby>
+        <referencedby refid="classdb__tv__rx_1adcbac7d83d1f3a14d3e6ca653e71b2d6" compoundref="db__tv__rx_8cc" startline="169" endline="209">db_tv_rx::set_freq</referencedby>
+        <referencedby refid="classdb__basic__tx_1a42ee65ad9d8092dc4134b9a1d46c6bf7" compoundref="db__basic_8cc" startline="92" endline="102">db_basic_tx::set_gain</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1a2bffea86cc9c569523f4c2169bd2b918" compoundref="db__bitshark__rx_8cc" startline="256" endline="288">db_bitshark_rx::set_gain</referencedby>
+        <referencedby refid="classdb__basic__rx_1a9f5e21b5284778d5d124a22da6e3cb1f" compoundref="db__basic_8cc" startline="186" endline="194">db_basic_rx::set_gain</referencedby>
+        <referencedby refid="classdb__wbxng__tx_1a0011208d0298d214c6be0b593338f813" compoundref="db__wbxng_8cc" startline="303" endline="334">db_wbxng_tx::set_gain</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1a595900e96c84910c1596197a3534cba4" compoundref="db__wbxng_8cc" startline="479" endline="505">db_wbxng_rx::set_gain</referencedby>
+        <referencedby refid="classflexrf__base__tx_1a88ac3c4c44db98b3f5b4abc67ce0cd85" compoundref="db__flexrf_8cc" startline="358" endline="367">flexrf_base_tx::set_gain</referencedby>
+        <referencedby refid="classflexrf__base__rx_1adf868f5dabdd1014824c731a5a2cd8ec" compoundref="db__flexrf_8cc" startline="494" endline="530">flexrf_base_rx::set_gain</referencedby>
+        <referencedby refid="classdb__wbxng__tx_1ab4d1a667a20dbdc3699013e932e7bf1e" compoundref="db__wbxng_8cc" startline="222" endline="243">db_wbxng_tx::shutdown</referencedby>
+        <referencedby refid="classdb__dbs__rx_1a772ca7aea92c7223d4749ff6600f2d29" compoundref="db__dbs__rx_8cc" startline="78" endline="85">db_dbs_rx::shutdown</referencedby>
+        <referencedby refid="classflexrf__base__tx_1ae751608de601b11c0c067f4e0ce654bc" compoundref="db__flexrf_8cc" startline="284" endline="302">flexrf_base_tx::shutdown</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1ab45fea965789fa0da8125ca2df198e46" compoundref="db__wbxng_8cc" startline="391" endline="417">db_wbxng_rx::shutdown</referencedby>
+        <referencedby refid="classflexrf__base__rx_1afc203def2c43ea338fa00ae95401591c" compoundref="db__flexrf_8cc" startline="406" endline="432">flexrf_base_rx::shutdown</referencedby>
+        <referencedby refid="classdb__xcvr2450__base_1acd0853496dd1c01021436979a2d21986" compoundref="db__xcvr2450_8cc" startline="640" endline="653">db_xcvr2450_base::shutdown_common</referencedby>
+        <referencedby refid="classwbxng__base_1a5aff8f4f88f2aaaf00865f5776c16745" compoundref="db__wbxng_8cc" startline="52" endline="69">wbxng_base::wbxng_base</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1a2d833936b1fd09b1278c46c02e64db5f" compoundref="db__bitshark__rx_8cc" startline="158" endline="161">db_bitshark_rx::~db_bitshark_rx</referencedby>
+        <referencedby refid="classdb__tv__rx_1abe6bd97cdb36e7635933568b5453130a" compoundref="db__tv__rx_8cc" startline="106" endline="108">db_tv_rx::~db_tv_rx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a73aae0d09b138c28e70541c63e2cb498" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void db_base::shutdown</definition>
+        <argsstring>()</argsstring>
+        <name>shutdown</name>
+        <reimplementedby refid="classdb__bitshark__rx_1a0779158c5040f0f409018969e06c59b7">shutdown</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__tx_1ad458926ecebb3cb25f7ee18afa4497d9">shutdown</reimplementedby>
+        <reimplementedby refid="classdb__wbxng__tx_1ab4d1a667a20dbdc3699013e932e7bf1e">shutdown</reimplementedby>
+        <reimplementedby refid="classdb__dbs__rx_1a772ca7aea92c7223d4749ff6600f2d29">shutdown</reimplementedby>
+        <reimplementedby refid="classflexrf__base__tx_1ae751608de601b11c0c067f4e0ce654bc">shutdown</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__rx_1a5bf35ddbc43b425c02a4bed6d183608a">shutdown</reimplementedby>
+        <reimplementedby refid="classdb__wbxng__rx_1ab45fea965789fa0da8125ca2df198e46">shutdown</reimplementedby>
+        <reimplementedby refid="classflexrf__base__rx_1afc203def2c43ea338fa00ae95401591c">shutdown</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called to shutdown daughterboard. Called from dtor and <ref refid="classusrp__basic" kindref="compound">usrp_basic</ref> dtor.</para><para>N.B., any class that overrides shutdown MUST call shutdown in its destructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="95" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="55" bodyend="61"/>
+        <references refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" compoundref="db__base_8h" startline="52">d_is_shutdown</references>
+        <referencedby refid="classdb__base_1a6c28d39ecaa14d475acb9ce6bfc1b4b0" compoundref="db__base_8cc" startline="49" endline="52">~db_base</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdb__base_1aeddb69ef4218642cb8b03eff94ff8efc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_base::db_base</definition>
+        <argsstring>(boost::shared_ptr&lt; usrp_basic &gt; usrp, int which)</argsstring>
+        <name>db_base</name>
+        <param>
+          <type>boost::shared_ptr&lt; <ref refid="classusrp__basic" kindref="compound">usrp_basic</ref> &gt;</type>
+          <declname>usrp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="66" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a6c28d39ecaa14d475acb9ce6bfc1b4b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>db_base::~db_base</definition>
+        <argsstring>()</argsstring>
+        <name>~db_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="67" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="49" bodyend="52"/>
+        <references refid="classdb__base_1a73aae0d09b138c28e70541c63e2cb498" compoundref="db__base_8cc" startline="55" endline="61">shutdown</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a6c70380b8abff2d051eece9d2b208408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int db_base::dbid</definition>
+        <argsstring>()</argsstring>
+        <name>dbid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="69" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="64" bodyend="67"/>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">d_which</references>
+        <references refid="classusrp__basic_1a6d639e50633c165b23e0c4770b26bec2">usrp_basic::daughterboard_id</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">usrp</references>
+        <referencedby refid="classdb__base_1aef52f371112795b933570a269da85847" compoundref="db__base_8cc" startline="70" endline="73">name</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1aef52f371112795b933570a269da85847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string db_base::name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="70" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="70" bodyend="73"/>
+        <references refid="classdb__base_1a6c70380b8abff2d051eece9d2b208408" compoundref="db__base_8cc" startline="64" endline="67">dbid</references>
+        <references refid="usrp__prims_8h_1ab860189f7bc6e0531912c03aa52d3dbe" compoundref="usrp__dbid_8cc" startline="95" endline="110">usrp_dbid_to_string</references>
+        <referencedby refid="classdb__base_1a9cee7496d9a4d09b72a008fb5d7e6664" compoundref="db__base_8cc" startline="76" endline="82">side_and_name</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a9cee7496d9a4d09b72a008fb5d7e6664" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string db_base::side_and_name</definition>
+        <argsstring>()</argsstring>
+        <name>side_and_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="71" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="76" bodyend="82"/>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">d_which</references>
+        <references refid="classdb__base_1aef52f371112795b933570a269da85847" compoundref="db__base_8cc" startline="70" endline="73">name</references>
+        <referencedby refid="db__base_8cc_1af7425840ce46878ac3269ea46b1b7f94" compoundref="db__base_8cc" startline="252" endline="256">operator&lt;&lt;</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int db_base::which</definition>
+        <argsstring>()</argsstring>
+        <name>which</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="72" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool db_base::bypass_adc_buffers</definition>
+        <argsstring>(bool bypass)</argsstring>
+        <name>bypass_adc_buffers</name>
+        <param>
+          <type>bool</type>
+          <declname>bypass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="74" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="88" bodyend="104"/>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">d_which</references>
+        <references refid="classusrp__basic_1a97fc801cbafa85040a3d39be03d27a62" compoundref="usrp__basic_8cc" startline="338" endline="368">usrp_basic::set_adc_buffer_bypass</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">usrp</references>
+        <referencedby refid="classdb__basic__rx_1aed1ab7dc4fb4a7f5a26f1b82cb8208eb" compoundref="db__basic_8cc" startline="116" endline="133">db_basic_rx::db_basic_rx</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1a880c7e45bb15ba64d1dfa0d6b81c059d" compoundref="db__bitshark__rx_8cc" startline="121" endline="156">db_bitshark_rx::db_bitshark_rx</referencedby>
+        <referencedby refid="classdb__dbs__rx_1a790afd3aebe133fb356734446bd1abf0" compoundref="db__dbs__rx_8cc" startline="34" endline="70">db_dbs_rx::db_dbs_rx</referencedby>
+        <referencedby refid="classdb__dtt754_1ae070ec668405dd6f27eb5de52fc669bb" compoundref="db__dtt754_8cc" startline="111" endline="140">db_dtt754::db_dtt754</referencedby>
+        <referencedby refid="classdb__dtt768_1a1a81276ebb865a4afabd8c0e49a601ba" compoundref="db__dtt768_8cc" startline="86" endline="112">db_dtt768::db_dtt768</referencedby>
+        <referencedby refid="classdb__tv__rx_1aa18bf4dc902b162e67f698e022b421b8" compoundref="db__tv__rx_8cc" startline="79" endline="104">db_tv_rx::db_tv_rx</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1a9778dac1e79a6c22ab1b1933a7fc9068" compoundref="db__wbxng_8cc" startline="340" endline="383">db_wbxng_rx::db_wbxng_rx</referencedby>
+        <referencedby refid="classflexrf__base__rx_1ab5d4d0369f5799e982b83eb6299ea9e5" compoundref="db__flexrf_8cc" startline="373" endline="398">flexrf_base_rx::flexrf_base_rx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool db_base::set_atr_mask</definition>
+        <argsstring>(int v)</argsstring>
+        <name>set_atr_mask</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="75" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="107" bodyend="111"/>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">d_which</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">usrp</references>
+        <references refid="classusrp__basic_1a49074783b3757b6af17ddf8e8f56be6c">usrp_basic::write_atr_mask</references>
+        <referencedby refid="classdb__wbxng__tx_1ae009e4d5b7ac3d4612d728e00f08940f" compoundref="db__wbxng_8cc" startline="246" endline="260">db_wbxng_tx::set_auto_tr</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1ade51b57b003e7a725bb87f2008f87ba4" compoundref="db__wbxng_8cc" startline="420" endline="434">db_wbxng_rx::set_auto_tr</referencedby>
+        <referencedby refid="classflexrf__base__tx_1a4a06db467b00912b657ffc1613c7a572" compoundref="db__flexrf_8cc" startline="305" endline="319">flexrf_base_tx::set_auto_tr</referencedby>
+        <referencedby refid="classflexrf__base__rx_1ac66f7f678b99584856dd99975f04cc10" compoundref="db__flexrf_8cc" startline="435" endline="449">flexrf_base_rx::set_auto_tr</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a9722d03f078d1206539ad097c28a9562" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool db_base::set_atr_txval</definition>
+        <argsstring>(int v)</argsstring>
+        <name>set_atr_txval</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="76" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="114" bodyend="118"/>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">d_which</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">usrp</references>
+        <references refid="classusrp__basic_1a504bf45d241c56ddf00ee07fc946207e">usrp_basic::write_atr_txval</references>
+        <referencedby refid="classdb__wbxng__tx_1ae009e4d5b7ac3d4612d728e00f08940f" compoundref="db__wbxng_8cc" startline="246" endline="260">db_wbxng_tx::set_auto_tr</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1ade51b57b003e7a725bb87f2008f87ba4" compoundref="db__wbxng_8cc" startline="420" endline="434">db_wbxng_rx::set_auto_tr</referencedby>
+        <referencedby refid="classflexrf__base__tx_1a4a06db467b00912b657ffc1613c7a572" compoundref="db__flexrf_8cc" startline="305" endline="319">flexrf_base_tx::set_auto_tr</referencedby>
+        <referencedby refid="classflexrf__base__rx_1ac66f7f678b99584856dd99975f04cc10" compoundref="db__flexrf_8cc" startline="435" endline="449">flexrf_base_rx::set_auto_tr</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool db_base::set_atr_rxval</definition>
+        <argsstring>(int v)</argsstring>
+        <name>set_atr_rxval</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="77" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="121" bodyend="125"/>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">d_which</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">usrp</references>
+        <references refid="classusrp__basic_1ae5466590dd7ec5646fefbb82d92ad899">usrp_basic::write_atr_rxval</references>
+        <referencedby refid="classdb__wbxng__tx_1ae009e4d5b7ac3d4612d728e00f08940f" compoundref="db__wbxng_8cc" startline="246" endline="260">db_wbxng_tx::set_auto_tr</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1ade51b57b003e7a725bb87f2008f87ba4" compoundref="db__wbxng_8cc" startline="420" endline="434">db_wbxng_rx::set_auto_tr</referencedby>
+        <referencedby refid="classflexrf__base__tx_1a4a06db467b00912b657ffc1613c7a572" compoundref="db__flexrf_8cc" startline="305" endline="319">flexrf_base_tx::set_auto_tr</referencedby>
+        <referencedby refid="classflexrf__base__rx_1ac66f7f678b99584856dd99975f04cc10" compoundref="db__flexrf_8cc" startline="435" endline="449">flexrf_base_rx::set_auto_tr</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a01586c74a2cab95c3e12951402fab1a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool db_base::set_atr_tx_delay</definition>
+        <argsstring>(int v)</argsstring>
+        <name>set_atr_tx_delay</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="78" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="128" bodyend="133"/>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">usrp</references>
+        <references refid="classusrp__basic_1a70f4070830b0db3fd0c3addb97ce966e" compoundref="usrp__basic_8cc" startline="482" endline="485">usrp_basic::write_atr_tx_delay</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1aec8010d1f2412ffe33bb0f27ee6d8275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool db_base::set_atr_rx_delay</definition>
+        <argsstring>(int v)</argsstring>
+        <name>set_atr_rx_delay</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="79" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="136" bodyend="141"/>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">usrp</references>
+        <references refid="classusrp__basic_1ad9b95b1ca0e2616c1b3808892fdda1b0" compoundref="usrp__basic_8cc" startline="488" endline="491">usrp_basic::write_atr_rx_delay</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a3d8eb19a95b9ca4970c56f1a699e85bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool db_base::set_lo_offset</definition>
+        <argsstring>(double offset)</argsstring>
+        <name>set_lo_offset</name>
+        <param>
+          <type>double</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="80" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="179" bodyend="185"/>
+        <references refid="classdb__base_1a0665a615c2eb4236814825c89dd024e0" compoundref="db__base_8h" startline="55">d_lo_offset</references>
+        <referencedby refid="classdb__xcvr2450__rx_1af1b7da5f0929cd52cf7aa7e7125f5678" compoundref="db__xcvr2450_8cc" startline="748" endline="757">db_xcvr2450_rx::db_xcvr2450_rx</referencedby>
+        <referencedby refid="classdb__xcvr2450__tx_1a666a6a3c39179c47d332cc2477b2a0fc" compoundref="db__xcvr2450_8cc" startline="693" endline="698">db_xcvr2450_tx::db_xcvr2450_tx</referencedby>
+        <referencedby refid="classflexrf__base__rx_1ab5d4d0369f5799e982b83eb6299ea9e5" compoundref="db__flexrf_8cc" startline="373" endline="398">flexrf_base_rx::flexrf_base_rx</referencedby>
+        <referencedby refid="classflexrf__base__tx_1ac71b0a3845470a03bc7dd72667cf23ea" compoundref="db__flexrf_8cc" startline="254" endline="275">flexrf_base_tx::flexrf_base_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a07337ac0b59b2d36ced8f0dd7dd58b1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double db_base::lo_offset</definition>
+        <argsstring>()</argsstring>
+        <name>lo_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="81" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a8879fd876f4b31cd78f4713c64140176" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float db_base::gain_min</definition>
+        <argsstring>()=0</argsstring>
+        <name>gain_min</name>
+        <reimplementedby refid="classdb__dtt768_1a1a79c98e466744f999a30852bc7b009b">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__dtt754_1acec175fe357c18fca8b5e1b424f2e002">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__basic__tx_1a7c0d95c9d9cc3df8b145dd26785f08f6">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__bitshark__rx_1ac618df0cadb8edc142880e44624ee239">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__tv__rx_1a915fa7be293999d5484fcb1ddbc39484">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__basic__rx_1ab5aa4b36e059b11f886b44f1f1f57610">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__tx_1abcd8278d1dddba2286b39488bbb2d31e">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__wbxng__tx_1aabd5ec8cb49a0dc89237b31289211f67">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__dbs__rx_1a4bf75ec9962da995fe551d12b551375c">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__rx_1aa879e4de2fe3f3ea63de906ba18a0097">gain_min</reimplementedby>
+        <reimplementedby refid="classflexrf__base__tx_1ac7ff81bcbc594530a22ad7862a263c56">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__wbxng__rx_1a2c116e2717bd6dc48506c8b6f14d84ac">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__2200__rx_1aa82368c82cdce77b7decefb464432429">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__2400__rx_1a9cd2ffbf157af774e4194773a2e174fb">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1200__rx_1a4bba16d730980863eaf8cb67a77b2d2a">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1800__rx_1a6470ffeb8d829529ec44dc7d9292f52c">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__900__rx_1a30ad09367074b8d2c02fcd3a2cd12c65">gain_min</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__400__rx_1a5878620b1b7a9daaad40bf222c3c324c">gain_min</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="99" column="1"/>
+        <referencedby refid="classflexrf__base__rx_1adf868f5dabdd1014824c731a5a2cd8ec" compoundref="db__flexrf_8cc" startline="494" endline="530">flexrf_base_rx::set_gain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1aff5b963b288947ba6bfb5d5a6275a074" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float db_base::gain_max</definition>
+        <argsstring>()=0</argsstring>
+        <name>gain_max</name>
+        <reimplementedby refid="classdb__dtt768_1afdbe7abd05a3cb9d0b607328a6a31034">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__dtt754_1a4e38b1bc0ea749f724dedda7294fdade">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__basic__tx_1ad3aa9e1b4736dd31461a1a68fb821fae">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__bitshark__rx_1a67fbb5a4ed7fe79f593b654f4112d907">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__tv__rx_1a157ef742e4f1bf2e4697745164423330">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__basic__rx_1aabf66f2516d95c5699efd2db993fe4d5">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__tx_1a3c55795a8207aeba25f86977715fabdd">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__wbxng__tx_1ad640793dd8659661dfc35168f051c66f">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__dbs__rx_1ac4d4c705071d55fb9b9798dd3403dd4c">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__rx_1a4e23744d6bc2a2bc43e7889fb8f46972">gain_max</reimplementedby>
+        <reimplementedby refid="classflexrf__base__tx_1a8de317c574ceb426ba13d4f73a08c02d">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__wbxng__rx_1a3e14d62b70c3f8f88a7daa85d025e58b">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__2200__rx_1aa17e8f9d37bdcbb33f9fc513b35966d1">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__2400__rx_1a25ea0c7495b1336a71e543e546b6cc43">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1200__rx_1a692351f555baf66053f271e538c1010b">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1800__rx_1a503d62ead7515cf182eca2553a081d12">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__900__rx_1a737fb111ef70ade8c4327cd4722caa98">gain_max</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__400__rx_1a6909930eca017abac077b14062a04c91">gain_max</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="100" column="1"/>
+        <referencedby refid="classflexrf__base__rx_1adf868f5dabdd1014824c731a5a2cd8ec" compoundref="db__flexrf_8cc" startline="494" endline="530">flexrf_base_rx::set_gain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1adcb54348e840f7c91cfeaa113974d32f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float db_base::gain_db_per_step</definition>
+        <argsstring>()=0</argsstring>
+        <name>gain_db_per_step</name>
+        <reimplementedby refid="classdb__dtt768_1ad52ff64087aa981200c91e3bb4f6978a">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__dtt754_1a69455004f5bd1798291b05224877e1db">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__basic__tx_1afbdf85ff00ab18986d630ce310dff016">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__bitshark__rx_1a2d5c438c559d3a1e2ecf15c2690aceb1">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__tv__rx_1a7e099bf0ed46800224b1535dc004bbd7">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__basic__rx_1a8adce7c51695647ff2554ba9026514b1">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__tx_1a6a110a4f4b5401b6247474d13adc35bb">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__wbxng__tx_1a87c06d803f1ba94ab1f86640b2c54678">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__dbs__rx_1a6c797f22695d1d28002b61c0b274f293">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__rx_1ae04e6280ee61dcd1214149b1351b6575">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classflexrf__base__tx_1a4a04d493c35b95dd52d7a53c6c7bf2ac">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__wbxng__rx_1a08622bbfb8ffc901752e37aaa57b9fa0">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__2200__rx_1afb8f922fad6d51707c7e6348da1f22c2">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__2400__rx_1a0ec3b593f07a3d13e0c93fbe981df9e5">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1200__rx_1a34ec28e7fdbfba127811eb819dc57cf9">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1800__rx_1abba417476b3ec944b2026e10220b2ab9">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__900__rx_1aca4145c1b9a4ea4d2214b7f74a18b683">gain_db_per_step</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__400__rx_1a8d7b41285a8014405c2d339718477a03">gain_db_per_step</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a87f1e9f6ebe56002c0d3cd894f91732a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double db_base::freq_min</definition>
+        <argsstring>()=0</argsstring>
+        <name>freq_min</name>
+        <reimplementedby refid="classwbxng__base_1a1ae0a798e1bb637b984690d8343ef7f0">freq_min</reimplementedby>
+        <reimplementedby refid="classdb__dtt768_1ac7cece5cfb30fb5d14c78c4a362e803f">freq_min</reimplementedby>
+        <reimplementedby refid="classdb__dtt754_1a84f94d0f0b7d276ba6d670221bdd6ada">freq_min</reimplementedby>
+        <reimplementedby refid="classdb__basic__tx_1a2ff21f798528688b042248c4a5255b8b">freq_min</reimplementedby>
+        <reimplementedby refid="classflexrf__base_1a76e7973a7036e1f1aa21627d38504122">freq_min</reimplementedby>
+        <reimplementedby refid="classdb__bitshark__rx_1a636404b90ce972e4bcd708c4f9bc08c6">freq_min</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__base_1a440b8d23ca779f8be4471ccbbb048688">freq_min</reimplementedby>
+        <reimplementedby refid="classdb__tv__rx_1ae3e4e45c36ae57ef0e85d10de4fdff46">freq_min</reimplementedby>
+        <reimplementedby refid="classdb__basic__rx_1a9d63966d7e1e714621cc2cc8929b35d4">freq_min</reimplementedby>
+        <reimplementedby refid="classdb__dbs__rx_1a95f2c8bdfd1b1a2e8d8dabacd299ef7b">freq_min</reimplementedby>
+        <reimplementedby refid="classdb__lf__rx_1a7bcfb46b52fa528a220a8674babfb261">freq_min</reimplementedby>
+        <reimplementedby refid="classdb__lf__tx_1a5931304c575ae4122b7a26f4c16da451">freq_min</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1afdd3d7d4dc53311b09ce96e06722be08" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double db_base::freq_max</definition>
+        <argsstring>()=0</argsstring>
+        <name>freq_max</name>
+        <reimplementedby refid="classwbxng__base_1a4aaa1b621ab03d83ffae5a75cb5f45fe">freq_max</reimplementedby>
+        <reimplementedby refid="classdb__dtt768_1a8231c04e8ed2d5146884594c91d272ab">freq_max</reimplementedby>
+        <reimplementedby refid="classdb__dtt754_1a3689997a105a73c7e80af4c157f5cdd4">freq_max</reimplementedby>
+        <reimplementedby refid="classdb__basic__tx_1af6a317197d92de7e3a96dd14eb4849dd">freq_max</reimplementedby>
+        <reimplementedby refid="classflexrf__base_1a86f590882da38694587ed0b7d460e49a">freq_max</reimplementedby>
+        <reimplementedby refid="classdb__bitshark__rx_1ad4c1782f65e66057190141514a3e2c8a">freq_max</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__base_1a906e2b5a17507066e8d475eaccd429dc">freq_max</reimplementedby>
+        <reimplementedby refid="classdb__tv__rx_1adb0bf1a0a5382e1d2a76684ef9c35f09">freq_max</reimplementedby>
+        <reimplementedby refid="classdb__basic__rx_1ae2062673da33fab7b84ebc74b024c6ba">freq_max</reimplementedby>
+        <reimplementedby refid="classdb__dbs__rx_1a62b404f1d147372fed777117496bf0d1">freq_max</reimplementedby>
+        <reimplementedby refid="classdb__lf__rx_1ab3b13e6403e086cc5486f78c477c9b0d">freq_max</reimplementedby>
+        <reimplementedby refid="classdb__lf__tx_1a4ded03488b374324539c35fb4eb31804">freq_max</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a6b23423681d9df85338f5519eed33159" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>struct <ref refid="structfreq__result__t" kindref="compound">freq_result_t</ref></type>
+        <definition>virtual struct freq_result_t db_base::set_freq</definition>
+        <argsstring>(double target_freq)=0</argsstring>
+        <name>set_freq</name>
+        <reimplementedby refid="classwbxng__base_1a25c57a2564dab8697feea09b0d48b5cd">set_freq</reimplementedby>
+        <reimplementedby refid="classflexrf__base_1aab0ad1d00de0050f1ae9c9e535b9a87e">set_freq</reimplementedby>
+        <reimplementedby refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef">set_freq</reimplementedby>
+        <reimplementedby refid="classdb__dtt754_1a92258314599337578b552d457d816e30">set_freq</reimplementedby>
+        <reimplementedby refid="classdb__basic__tx_1abf1638d76bfa2a73bd780a72c01071ab">set_freq</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__base_1a86b9bef019b735ddbf72871d614966ce">set_freq</reimplementedby>
+        <reimplementedby refid="classdb__bitshark__rx_1aa1b71b8cecd0e4f72c16fe15e480d59c">set_freq</reimplementedby>
+        <reimplementedby refid="classdb__tv__rx_1adcbac7d83d1f3a14d3e6ca653e71b2d6">set_freq</reimplementedby>
+        <reimplementedby refid="classdb__basic__rx_1ae8778cd4e9b1a3e4305bf5bd6e620a4a">set_freq</reimplementedby>
+        <reimplementedby refid="classdb__dbs__rx_1af68a1c023cddd9fdb8771e59022436a5">set_freq</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>target_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1aa3b2f58f8d96e0b6c4652495338ce2da" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool db_base::set_gain</definition>
+        <argsstring>(float gain)=0</argsstring>
+        <name>set_gain</name>
+        <reimplementedby refid="classdb__dtt768_1aafb4a62e6c8b9910b02d1f03311368e2">set_gain</reimplementedby>
+        <reimplementedby refid="classdb__dtt754_1aae5f3c4630a79fc0c4423a252bf846e8">set_gain</reimplementedby>
+        <reimplementedby refid="classdb__basic__tx_1a42ee65ad9d8092dc4134b9a1d46c6bf7">set_gain</reimplementedby>
+        <reimplementedby refid="classdb__bitshark__rx_1a2bffea86cc9c569523f4c2169bd2b918">set_gain</reimplementedby>
+        <reimplementedby refid="classdb__tv__rx_1a6b14232d0c62b5cda467ac2ae0de5dd9">set_gain</reimplementedby>
+        <reimplementedby refid="classdb__basic__rx_1a9f5e21b5284778d5d124a22da6e3cb1f">set_gain</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__tx_1aa3d7b890ae4f35750d716fccb49f363b">set_gain</reimplementedby>
+        <reimplementedby refid="classdb__wbxng__tx_1a0011208d0298d214c6be0b593338f813">set_gain</reimplementedby>
+        <reimplementedby refid="classdb__dbs__rx_1a4b8fa7755676e0573135d9f010ebd55f">set_gain</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__rx_1af24f916314747f425abb247d277028e8">set_gain</reimplementedby>
+        <reimplementedby refid="classdb__wbxng__rx_1a595900e96c84910c1596197a3534cba4">set_gain</reimplementedby>
+        <reimplementedby refid="classflexrf__base__tx_1a88ac3c4c44db98b3f5b4abc67ce0cd85">set_gain</reimplementedby>
+        <reimplementedby refid="classflexrf__base__rx_1adf868f5dabdd1014824c731a5a2cd8ec">set_gain</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a7c6fac86794800bd49b433cbb0ff3b3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool db_base::is_quadrature</definition>
+        <argsstring>()=0</argsstring>
+        <name>is_quadrature</name>
+        <reimplementedby refid="classwbxng__base_1abb15ae7942785e2e9add3a00b5c27572">is_quadrature</reimplementedby>
+        <reimplementedby refid="classflexrf__base_1adb44aab4914e60d41dee272218912854">is_quadrature</reimplementedby>
+        <reimplementedby refid="classdb__dtt768_1ac536bf49c8c64df282ea04c16c3527ec">is_quadrature</reimplementedby>
+        <reimplementedby refid="classdb__dtt754_1a9ac565343da722e98975cee0e09c9461">is_quadrature</reimplementedby>
+        <reimplementedby refid="classdb__basic__tx_1ae3442a83400301f00aeb0591f5587127">is_quadrature</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__base_1a7083ee22ee594d444aa5ea36004565c5">is_quadrature</reimplementedby>
+        <reimplementedby refid="classdb__tv__rx_1aee1cf561c09c9cb755bee4051ddfea36">is_quadrature</reimplementedby>
+        <reimplementedby refid="classdb__bitshark__rx_1a300677eed7dc286b67efa3bc83bf686c">is_quadrature</reimplementedby>
+        <reimplementedby refid="classdb__basic__rx_1aa36aeeea8e2bafe463f5576342eb1533">is_quadrature</reimplementedby>
+        <reimplementedby refid="classdb__dbs__rx_1af522838588d7813ed60b20d47d3951ad">is_quadrature</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1aa2d4002c1550d262e74def064a230e1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_base::i_and_q_swapped</definition>
+        <argsstring>()</argsstring>
+        <name>i_and_q_swapped</name>
+        <reimplementedby refid="classdb__bitshark__rx_1ac7fd434e1bd1158d5391cde9d4abd371">i_and_q_swapped</reimplementedby>
+        <reimplementedby refid="classdb__xcvr2450__tx_1a6615febcc9b66d056027402da09c1084">i_and_q_swapped</reimplementedby>
+        <reimplementedby refid="classdb__wbxng__rx_1ad583d6024ddfb5e4ceadab1b5413d3fb">i_and_q_swapped</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__2200__rx_1aae9c592d91cb7aef9119e427c217b693">i_and_q_swapped</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__2400__rx_1a38b9818882659bec25d9ffaf48408f62">i_and_q_swapped</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1200__rx_1a77d00707898953676b80f780a6a5924b">i_and_q_swapped</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__1800__rx_1a1c371429c430b171f69b855596f09a29">i_and_q_swapped</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__900__rx_1a0092287e45bb57db96d3c0b0fc0e67de">i_and_q_swapped</reimplementedby>
+        <reimplementedby refid="classdb__flexrf__400__rx_1ae98a410e803dae8b97653b9b33faa468">i_and_q_swapped</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="107" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="144" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1ab6a6fad01c3df159fb7124aec13489d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_base::spectrum_inverted</definition>
+        <argsstring>()</argsstring>
+        <name>spectrum_inverted</name>
+        <reimplementedby refid="classdb__dtt768_1a65a3a6f2d26812b465867cc74ac271a2">spectrum_inverted</reimplementedby>
+        <reimplementedby refid="classdb__dtt754_1ac28c2bdb114402697042b6efedcdf541">spectrum_inverted</reimplementedby>
+        <reimplementedby refid="classdb__tv__rx_1a67175ec9fcb8f761b922a293217ee2f6">spectrum_inverted</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="108" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="152" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1afa9d1b54d69312317258723a2ee1a1e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_base::set_enable</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>set_enable</name>
+        <reimplementedby refid="classdb__wbxng__tx_1a93f7d0d939d9e5e6ee3f03fa1d907e66">set_enable</reimplementedby>
+        <reimplementedby refid="classflexrf__base__tx_1ab49f99f5f41b7066a8a06a34f5efbdd5">set_enable</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="109" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="160" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1aa636457dfe89f1f0dca5fa06b67fdb58" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_base::set_auto_tr</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>set_auto_tr</name>
+        <reimplementedby refid="classdb__wbxng__tx_1ae009e4d5b7ac3d4612d728e00f08940f">set_auto_tr</reimplementedby>
+        <reimplementedby refid="classdb__wbxng__rx_1ade51b57b003e7a725bb87f2008f87ba4">set_auto_tr</reimplementedby>
+        <reimplementedby refid="classflexrf__base__tx_1a4a06db467b00912b657ffc1613c7a572">set_auto_tr</reimplementedby>
+        <reimplementedby refid="classflexrf__base__rx_1ac66f7f678b99584856dd99975f04cc10">set_auto_tr</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="110" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="168" bodyend="176"/>
+        <referencedby refid="classflexrf__base_1a2aef72cd74675f352110ea881321e74b" compoundref="db__flexrf_8cc" startline="44" endline="60">flexrf_base::flexrf_base</referencedby>
+        <referencedby refid="classwbxng__base_1a5aff8f4f88f2aaaf00865f5776c16745" compoundref="db__wbxng_8cc" startline="52" endline="69">wbxng_base::wbxng_base</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1aecc92b603e94509aa04f12aec563ea17" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_base::select_rx_antenna</definition>
+        <argsstring>(int which_antenna)</argsstring>
+        <name>select_rx_antenna</name>
+        <reimplementedby refid="classdb__wbxng__rx_1aee4e97531ff30353c15444aa72c77948">select_rx_antenna</reimplementedby>
+        <reimplementedby refid="classflexrf__base__rx_1a3c3c6dd1ca47bee08a251e6c19d7ead9">select_rx_antenna</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>which_antenna</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="111" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="188" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1ab6aba3bd757102bf14fba4e98fb17f0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_base::select_rx_antenna</definition>
+        <argsstring>(const std::string &amp;which_antenna)</argsstring>
+        <name>select_rx_antenna</name>
+        <reimplementedby refid="classdb__wbxng__rx_1aa0288c6ce0b15c79e6a03400d69efbb4">select_rx_antenna</reimplementedby>
+        <reimplementedby refid="classflexrf__base__rx_1a8f6d1cd5fff94e743e1e4ae77fdfd245">select_rx_antenna</reimplementedby>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>which_antenna</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="112" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="197" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__base_1a7adcd5e0883f838cc6cd2bc9dda1ef87" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_base::set_bw</definition>
+        <argsstring>(float bw)</argsstring>
+        <name>set_bw</name>
+        <reimplementedby refid="classdb__dtt768_1aec00134aa18ddbe0f8b3fd8a3b950a9b">set_bw</reimplementedby>
+        <reimplementedby refid="classdb__dtt754_1aa6e9679476c6dd1d925df24506c42a7b">set_bw</reimplementedby>
+        <reimplementedby refid="classdb__bitshark__rx_1ae8b8f942df5c56d3ce7c9653c98ac701">set_bw</reimplementedby>
+        <reimplementedby refid="classdb__dbs__rx_1a99fd704247a94997cc81b4c998feff64">set_bw</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>bw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="113" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_base.cc" bodystart="245" bodyend="250"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract base class for all USRP daughterboards. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="106">
+        <label>db_flexrf_900_tx_mimo_a</label>
+        <link refid="classdb__flexrf__900__tx__mimo__a"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>db_flexrf_900_tx_mimo_b</label>
+        <link refid="classdb__flexrf__900__tx__mimo__b"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>db_flexrf_1800_rx_mimo_a</label>
+        <link refid="classdb__flexrf__1800__rx__mimo__a"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>db_flexrf_1800_rx_mimo_b</label>
+        <link refid="classdb__flexrf__1800__rx__mimo__b"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>db_flexrf_1800_tx</label>
+        <link refid="classdb__flexrf__1800__tx"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>db_flexrf_1800_rx</label>
+        <link refid="classdb__flexrf__1800__rx"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>db_xcvr2450_base</label>
+        <link refid="classdb__xcvr2450__base"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>db_tv_rx</label>
+        <link refid="classdb__tv__rx"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>db_flexrf_1200_tx</label>
+        <link refid="classdb__flexrf__1200__tx"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>db_flexrf_1200_rx</label>
+        <link refid="classdb__flexrf__1200__rx"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>db_bitshark_rx</label>
+        <link refid="classdb__bitshark__rx"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>db_flexrf_400_rx_mimo_a</label>
+        <link refid="classdb__flexrf__400__rx__mimo__a"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>db_flexrf_400_rx_mimo_b</label>
+        <link refid="classdb__flexrf__400__rx__mimo__b"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>db_flexrf_2400_tx</label>
+        <link refid="classdb__flexrf__2400__tx"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>db_flexrf_2400_rx</label>
+        <link refid="classdb__flexrf__2400__rx"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>db_flexrf_2400_rx_mimo_a</label>
+        <link refid="classdb__flexrf__2400__rx__mimo__a"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>db_flexrf_2400_rx_mimo_b</label>
+        <link refid="classdb__flexrf__2400__rx__mimo__b"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>db_tv_rx_mimo</label>
+        <link refid="classdb__tv__rx__mimo"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>db_flexrf_1200_rx_mimo_a</label>
+        <link refid="classdb__flexrf__1200__rx__mimo__a"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>db_flexrf_1200_rx_mimo_b</label>
+        <link refid="classdb__flexrf__1200__rx__mimo__b"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>db_basic_rx</label>
+        <link refid="classdb__basic__rx"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>flexrf_base_rx</label>
+        <link refid="classflexrf__base__rx"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>db_flexrf_1800_tx_mimo_a</label>
+        <link refid="classdb__flexrf__1800__tx__mimo__a"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>db_flexrf_1800_tx_mimo_b</label>
+        <link refid="classdb__flexrf__1800__tx__mimo__b"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>db_lf_tx</label>
+        <link refid="classdb__lf__tx"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>db_basic_tx</label>
+        <link refid="classdb__basic__tx"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>db_flexrf_900_rx_mimo_a</label>
+        <link refid="classdb__flexrf__900__rx__mimo__a"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>db_flexrf_900_rx_mimo_b</label>
+        <link refid="classdb__flexrf__900__rx__mimo__b"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>flexrf_base_tx</label>
+        <link refid="classflexrf__base__tx"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>db_lf_rx</label>
+        <link refid="classdb__lf__rx"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>db_dbs_rx</label>
+        <link refid="classdb__dbs__rx"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>db_xcvr2450_tx</label>
+        <link refid="classdb__xcvr2450__tx"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>db_xcvr2450_rx</label>
+        <link refid="classdb__xcvr2450__rx"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>wbxng_base</label>
+        <link refid="classwbxng__base"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>db_flexrf_2200_tx</label>
+        <link refid="classdb__flexrf__2200__tx"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>db_flexrf_2200_rx</label>
+        <link refid="classdb__flexrf__2200__rx"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>db_flexrf_400_tx_mimo_a</label>
+        <link refid="classdb__flexrf__400__tx__mimo__a"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>db_flexrf_400_tx_mimo_b</label>
+        <link refid="classdb__flexrf__400__tx__mimo__b"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>db_wbxng_rx</label>
+        <link refid="classdb__wbxng__rx"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>db_dtt754</label>
+        <link refid="classdb__dtt754"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>db_wbxng_tx</label>
+        <link refid="classdb__wbxng__tx"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>db_dtt768</label>
+        <link refid="classdb__dtt768"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>db_flexrf_400_tx</label>
+        <link refid="classdb__flexrf__400__tx"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>db_flexrf_900_tx</label>
+        <link refid="classdb__flexrf__900__tx"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>db_flexrf_2400_tx_mimo_a</label>
+        <link refid="classdb__flexrf__2400__tx__mimo__a"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>db_flexrf_2400_tx_mimo_b</label>
+        <link refid="classdb__flexrf__2400__tx__mimo__b"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>db_flexrf_400_rx</label>
+        <link refid="classdb__flexrf__400__rx"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>db_flexrf_900_rx</label>
+        <link refid="classdb__flexrf__900__rx"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>db_flexrf_1200_tx_mimo_a</label>
+        <link refid="classdb__flexrf__1200__tx__mimo__a"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>db_flexrf_1200_tx_mimo_b</label>
+        <link refid="classdb__flexrf__1200__tx__mimo__b"/>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+      </node>
+      <node id="73">
+        <label>flexrf_base</label>
+        <link refid="classflexrf__base"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="113">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="114">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="112">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="113" relation="private-inheritance">
+        </childnode>
+        <childnode refid="114" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+      <node id="111">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+        <childnode refid="112" relation="usage">
+          <edgelabel>d_raw_usrp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="50" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" bodystart="49" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" prot="protected" virt="non-virtual"><scope>db_base</scope><name>_enable_refclk</name></member>
+      <member refid="classdb__base_1acd58b612941f45fabab13438463c327b" prot="protected" virt="virtual"><scope>db_base</scope><name>_refclk_divisor</name></member>
+      <member refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" prot="protected" virt="virtual"><scope>db_base</scope><name>_refclk_freq</name></member>
+      <member refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" prot="public" virt="non-virtual"><scope>db_base</scope><name>bypass_adc_buffers</name></member>
+      <member refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" prot="protected" virt="non-virtual"><scope>db_base</scope><name>d_is_shutdown</name></member>
+      <member refid="classdb__base_1a0665a615c2eb4236814825c89dd024e0" prot="protected" virt="non-virtual"><scope>db_base</scope><name>d_lo_offset</name></member>
+      <member refid="classdb__base_1aa6e5420338ff3e0a9b1afe2ae1fbc58b" prot="protected" virt="non-virtual"><scope>db_base</scope><name>d_raw_usrp</name></member>
+      <member refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" prot="protected" virt="non-virtual"><scope>db_base</scope><name>d_which</name></member>
+      <member refid="classdb__base_1aeddb69ef4218642cb8b03eff94ff8efc" prot="public" virt="non-virtual"><scope>db_base</scope><name>db_base</name></member>
+      <member refid="classdb__base_1a6c70380b8abff2d051eece9d2b208408" prot="public" virt="non-virtual"><scope>db_base</scope><name>dbid</name></member>
+      <member refid="classdb__base_1afdd3d7d4dc53311b09ce96e06722be08" prot="public" virt="pure-virtual"><scope>db_base</scope><name>freq_max</name></member>
+      <member refid="classdb__base_1a87f1e9f6ebe56002c0d3cd894f91732a" prot="public" virt="pure-virtual"><scope>db_base</scope><name>freq_min</name></member>
+      <member refid="classdb__base_1adcb54348e840f7c91cfeaa113974d32f" prot="public" virt="pure-virtual"><scope>db_base</scope><name>gain_db_per_step</name></member>
+      <member refid="classdb__base_1aff5b963b288947ba6bfb5d5a6275a074" prot="public" virt="pure-virtual"><scope>db_base</scope><name>gain_max</name></member>
+      <member refid="classdb__base_1a8879fd876f4b31cd78f4713c64140176" prot="public" virt="pure-virtual"><scope>db_base</scope><name>gain_min</name></member>
+      <member refid="classdb__base_1aa2d4002c1550d262e74def064a230e1a" prot="public" virt="virtual"><scope>db_base</scope><name>i_and_q_swapped</name></member>
+      <member refid="classdb__base_1a7c6fac86794800bd49b433cbb0ff3b3b" prot="public" virt="pure-virtual"><scope>db_base</scope><name>is_quadrature</name></member>
+      <member refid="classdb__base_1a07337ac0b59b2d36ced8f0dd7dd58b1e" prot="public" virt="non-virtual"><scope>db_base</scope><name>lo_offset</name></member>
+      <member refid="classdb__base_1aef52f371112795b933570a269da85847" prot="public" virt="non-virtual"><scope>db_base</scope><name>name</name></member>
+      <member refid="classdb__base_1aecc92b603e94509aa04f12aec563ea17" prot="public" virt="virtual"><scope>db_base</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1ab6aba3bd757102bf14fba4e98fb17f0d" prot="public" virt="virtual"><scope>db_base</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" prot="public" virt="non-virtual"><scope>db_base</scope><name>set_atr_mask</name></member>
+      <member refid="classdb__base_1aec8010d1f2412ffe33bb0f27ee6d8275" prot="public" virt="non-virtual"><scope>db_base</scope><name>set_atr_rx_delay</name></member>
+      <member refid="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" prot="public" virt="non-virtual"><scope>db_base</scope><name>set_atr_rxval</name></member>
+      <member refid="classdb__base_1a01586c74a2cab95c3e12951402fab1a3" prot="public" virt="non-virtual"><scope>db_base</scope><name>set_atr_tx_delay</name></member>
+      <member refid="classdb__base_1a9722d03f078d1206539ad097c28a9562" prot="public" virt="non-virtual"><scope>db_base</scope><name>set_atr_txval</name></member>
+      <member refid="classdb__base_1aa636457dfe89f1f0dca5fa06b67fdb58" prot="public" virt="virtual"><scope>db_base</scope><name>set_auto_tr</name></member>
+      <member refid="classdb__base_1a7adcd5e0883f838cc6cd2bc9dda1ef87" prot="public" virt="virtual"><scope>db_base</scope><name>set_bw</name></member>
+      <member refid="classdb__base_1afa9d1b54d69312317258723a2ee1a1e7" prot="public" virt="virtual"><scope>db_base</scope><name>set_enable</name></member>
+      <member refid="classdb__base_1a6b23423681d9df85338f5519eed33159" prot="public" virt="pure-virtual"><scope>db_base</scope><name>set_freq</name></member>
+      <member refid="classdb__base_1aa3b2f58f8d96e0b6c4652495338ce2da" prot="public" virt="pure-virtual"><scope>db_base</scope><name>set_gain</name></member>
+      <member refid="classdb__base_1a3d8eb19a95b9ca4970c56f1a699e85bf" prot="public" virt="non-virtual"><scope>db_base</scope><name>set_lo_offset</name></member>
+      <member refid="classdb__base_1a73aae0d09b138c28e70541c63e2cb498" prot="protected" virt="virtual"><scope>db_base</scope><name>shutdown</name></member>
+      <member refid="classdb__base_1a9cee7496d9a4d09b72a008fb5d7e6664" prot="public" virt="non-virtual"><scope>db_base</scope><name>side_and_name</name></member>
+      <member refid="classdb__base_1ab6a6fad01c3df159fb7124aec13489d7" prot="public" virt="virtual"><scope>db_base</scope><name>spectrum_inverted</name></member>
+      <member refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" prot="protected" virt="non-virtual"><scope>db_base</scope><name>usrp</name></member>
+      <member refid="classdb__base_1ad2a0b81e42e8e574d306cd0f24a13717" prot="protected" virt="non-virtual"><scope>db_base</scope><name>usrp_basic</name></member>
+      <member refid="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" prot="public" virt="non-virtual"><scope>db_base</scope><name>which</name></member>
+      <member refid="classdb__base_1a6c28d39ecaa14d475acb9ce6bfc1b4b0" prot="public" virt="virtual"><scope>db_base</scope><name>~db_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

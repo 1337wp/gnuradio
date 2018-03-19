@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classadf4350" kind="class" language="C++" prot="public">
+    <compoundname>adf4350</compoundname>
+    <includes refid="db__wbxng__adf4350_8h" local="no">db_wbxng_adf4350.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" prot="protected" static="no" mutable="no">
+        <type><ref refid="classadf4350__regs" kindref="compound">adf4350_regs</ref> *</type>
+        <definition>adf4350_regs* adf4350::d_regs</definition>
+        <argsstring></argsstring>
+        <name>d_regs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" line="44" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classadf4350_1af25b011f719b1c935ff2504c2ef867cf" compoundref="db__wbxng__adf4350_8cc" startline="132" endline="148">_get_freq</referencedby>
+        <referencedby refid="classadf4350_1ac107092e03eb81ebc7cae6f185d27ae2" compoundref="db__wbxng__adf4350_8cc" startline="82" endline="129">_set_freq</referencedby>
+        <referencedby refid="classadf4350_1a61d649477209dec3e697df729f7586d0" compoundref="db__wbxng__adf4350_8cc" startline="43" endline="46">adf4350</referencedby>
+        <referencedby refid="classadf4350_1a6fe7b405c71c04d0739e60bbb8643994" compoundref="db__wbxng__adf4350_8cc" startline="54" endline="67">compute_register</referencedby>
+        <referencedby refid="classadf4350_1ad9f665ccac7ab9ec653c127ed9b90d1b" compoundref="db__wbxng__adf4350_8cc" startline="48" endline="51">~adf4350</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classadf4350_1a61d649477209dec3e697df729f7586d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>adf4350::adf4350</definition>
+        <argsstring>()</argsstring>
+        <name>adf4350</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" line="34" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="43" bodyend="46"/>
+        <references refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" compoundref="db__wbxng__adf4350_8h" startline="44">d_regs</references>
+      </memberdef>
+      <memberdef kind="function" id="classadf4350_1ad9f665ccac7ab9ec653c127ed9b90d1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>adf4350::~adf4350</definition>
+        <argsstring>()</argsstring>
+        <name>~adf4350</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" line="35" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="48" bodyend="51"/>
+        <references refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" compoundref="db__wbxng__adf4350_8h" startline="44">d_regs</references>
+      </memberdef>
+      <memberdef kind="function" id="classadf4350_1a1f68389c6c6df0bac436eeb5519b495f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void adf4350::_update</definition>
+        <argsstring>()</argsstring>
+        <name>_update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classadf4350_1a6fe7b405c71c04d0739e60bbb8643994" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string adf4350::compute_register</definition>
+        <argsstring>(uint8_t addr)</argsstring>
+        <name>compute_register</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>addr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" line="37" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="54" bodyend="67"/>
+        <references refid="classadf4350__regs_1a6832cc35d81385287c9e798b267c7699" compoundref="db__wbxng__adf4350__regs_8cc" startline="84" endline="135">adf4350_regs::compute_register</references>
+        <references refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" compoundref="db__wbxng__adf4350_8h" startline="44">d_regs</references>
+      </memberdef>
+      <memberdef kind="function" id="classadf4350_1ac107092e03eb81ebc7cae6f185d27ae2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool adf4350::_set_freq</definition>
+        <argsstring>(freq_t freq, freq_t refclock_freq)</argsstring>
+        <name>_set_freq</name>
+        <param>
+          <type><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref></type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref></type>
+          <declname>refclock_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" line="38" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="82" bodyend="129"/>
+        <references refid="classadf4350__regs_1ab55d7273aae76ce97d68be3365f4fbeb" compoundref="db__wbxng__adf4350__regs_8h" startline="50">adf4350_regs::d_10_bit_r_counter</references>
+        <references refid="classadf4350__regs_1a76e2a5314d84c6d4d8f227fc1d99777f" compoundref="db__wbxng__adf4350__regs_8h" startline="66">adf4350_regs::d_8_bit_band_select_clock_divider_value</references>
+        <references refid="classadf4350__regs_1a10a12a767f493cf8e1a1c494abfe9160" compoundref="db__wbxng__adf4350__regs_8h" startline="65">adf4350_regs::d_divider_select</references>
+        <references refid="classadf4350__regs_1a2d96c2a60d85538106209fddfdcd8a80" compoundref="db__wbxng__adf4350__regs_8h" startline="40">adf4350_regs::d_frac</references>
+        <references refid="classadf4350__regs_1a5b9e7b8f5a63c5e584eecdf826c0e596" compoundref="db__wbxng__adf4350__regs_8h" startline="39">adf4350_regs::d_int</references>
+        <references refid="classadf4350__regs_1a8416de193ee7c543ab520c056b14b8d8" compoundref="db__wbxng__adf4350__regs_8h" startline="44">adf4350_regs::d_mod</references>
+        <references refid="classadf4350__regs_1a354be40452a58e5e19db66b0681c3267" compoundref="db__wbxng__adf4350__regs_8h" startline="42">adf4350_regs::d_prescaler</references>
+        <references refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" compoundref="db__wbxng__adf4350_8h" startline="44">d_regs</references>
+        <references refid="db__wbxng__adf4350_8cc_1a6eafdef0e43abad6d35d4d2b1cf4d232" compoundref="db__wbxng__adf4350_8cc" startline="29">FREQ_C</references>
+        <references refid="db__wbxng__adf4350_8cc_1a9f1abe07c4d92ce70925be770153bb5d" compoundref="db__wbxng__adf4350_8cc" startline="35">MAX_FREQ</references>
+        <references refid="db__wbxng__adf4350_8cc_1a3ff435ff8937e2045dcd00a26064594c" compoundref="db__wbxng__adf4350_8cc" startline="36">MIN_FREQ</references>
+        <references refid="db__wbxng__adf4350_8cc_1a4028643367a81118579bb9ff00dbb317" compoundref="db__wbxng__adf4350_8cc" startline="33">MIN_VCO_FREQ</references>
+      </memberdef>
+      <memberdef kind="function" id="classadf4350_1af25b011f719b1c935ff2504c2ef867cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref></type>
+        <definition>freq_t adf4350::_get_freq</definition>
+        <argsstring>(freq_t refclock_freq)</argsstring>
+        <name>_get_freq</name>
+        <param>
+          <type><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref></type>
+          <declname>refclock_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="132" bodyend="148"/>
+        <references refid="classadf4350__regs_1ab55d7273aae76ce97d68be3365f4fbeb" compoundref="db__wbxng__adf4350__regs_8h" startline="50">adf4350_regs::d_10_bit_r_counter</references>
+        <references refid="classadf4350__regs_1a10a12a767f493cf8e1a1c494abfe9160" compoundref="db__wbxng__adf4350__regs_8h" startline="65">adf4350_regs::d_divider_select</references>
+        <references refid="classadf4350__regs_1a2d96c2a60d85538106209fddfdcd8a80" compoundref="db__wbxng__adf4350__regs_8h" startline="40">adf4350_regs::d_frac</references>
+        <references refid="classadf4350__regs_1a5b9e7b8f5a63c5e584eecdf826c0e596" compoundref="db__wbxng__adf4350__regs_8h" startline="39">adf4350_regs::d_int</references>
+        <references refid="classadf4350__regs_1a8416de193ee7c543ab520c056b14b8d8" compoundref="db__wbxng__adf4350__regs_8h" startline="44">adf4350_regs::d_mod</references>
+        <references refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" compoundref="db__wbxng__adf4350_8h" startline="44">d_regs</references>
+      </memberdef>
+      <memberdef kind="function" id="classadf4350_1a518065c0964039c29d91a65a1550a925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref></type>
+        <definition>freq_t adf4350::_get_max_freq</definition>
+        <argsstring>()</argsstring>
+        <name>_get_max_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="70" bodyend="73"/>
+        <references refid="db__wbxng__adf4350_8cc_1a9f1abe07c4d92ce70925be770153bb5d" compoundref="db__wbxng__adf4350_8cc" startline="35">MAX_FREQ</references>
+      </memberdef>
+      <memberdef kind="function" id="classadf4350_1aebd0339aa8723bb931ff201fc310706a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref></type>
+        <definition>freq_t adf4350::_get_min_freq</definition>
+        <argsstring>()</argsstring>
+        <name>_get_min_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" line="41" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="76" bodyend="79"/>
+        <references refid="db__wbxng__adf4350_8cc_1a3ff435ff8937e2045dcd00a26064594c" compoundref="db__wbxng__adf4350_8cc" startline="36">MIN_FREQ</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="50">
+        <label>adf4350_regs</label>
+        <link refid="classadf4350__regs"/>
+      </node>
+      <node id="49">
+        <label>adf4350</label>
+        <link refid="classadf4350"/>
+        <childnode refid="50" relation="usage">
+          <edgelabel>d_regs</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" line="32" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.h" bodystart="31" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classadf4350_1af25b011f719b1c935ff2504c2ef867cf" prot="public" virt="non-virtual"><scope>adf4350</scope><name>_get_freq</name></member>
+      <member refid="classadf4350_1a518065c0964039c29d91a65a1550a925" prot="public" virt="non-virtual"><scope>adf4350</scope><name>_get_max_freq</name></member>
+      <member refid="classadf4350_1aebd0339aa8723bb931ff201fc310706a" prot="public" virt="non-virtual"><scope>adf4350</scope><name>_get_min_freq</name></member>
+      <member refid="classadf4350_1ac107092e03eb81ebc7cae6f185d27ae2" prot="public" virt="non-virtual"><scope>adf4350</scope><name>_set_freq</name></member>
+      <member refid="classadf4350_1a1f68389c6c6df0bac436eeb5519b495f" prot="public" virt="non-virtual"><scope>adf4350</scope><name>_update</name></member>
+      <member refid="classadf4350_1a61d649477209dec3e697df729f7586d0" prot="public" virt="non-virtual"><scope>adf4350</scope><name>adf4350</name></member>
+      <member refid="classadf4350_1a6fe7b405c71c04d0739e60bbb8643994" prot="public" virt="non-virtual"><scope>adf4350</scope><name>compute_register</name></member>
+      <member refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" prot="protected" virt="non-virtual"><scope>adf4350</scope><name>d_regs</name></member>
+      <member refid="classadf4350_1ad9f665ccac7ab9ec653c127ed9b90d1b" prot="public" virt="non-virtual"><scope>adf4350</scope><name>~adf4350</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

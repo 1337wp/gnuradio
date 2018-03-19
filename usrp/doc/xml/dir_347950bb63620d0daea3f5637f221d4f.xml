@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_347950bb63620d0daea3f5637f221d4f" kind="dir">
+    <compoundname>misc</compoundname>
+    <innerfile refid="bug__work__around__8_8cc">bug_work_around_8.cc</innerfile>
+    <innerfile refid="getopt_8h">getopt.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/misc/"/>
+  </compounddef>
+</doxygen>

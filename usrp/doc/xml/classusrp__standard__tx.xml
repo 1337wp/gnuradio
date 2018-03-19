@@ -1,0 +1,997 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classusrp__standard__tx" kind="class" language="C++" prot="public">
+    <compoundname>usrp_standard_tx</compoundname>
+    <basecompoundref refid="classusrp__basic__tx" prot="public" virt="non-virtual">usrp_basic_tx</basecompoundref>
+    <basecompoundref refid="classusrp__standard__common" prot="public" virt="non-virtual">usrp_standard_common</basecompoundref>
+    <includes refid="usrp__standard_8h" local="no">usrp_standard.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191" prot="public" static="no">
+        <name>coarse_mod_t</name>
+        <enumvalue id="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191a55fe460189a049f7aea3f9bc149adf91" prot="public">
+          <name>CM_NEG_FDAC_OVER_4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191a98ba952bdb469cbbb02a163216162e7c" prot="public">
+          <name>CM_NEG_FDAC_OVER_8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191afd3ae5e29447d64701502467ce0886c7" prot="public">
+          <name>CM_OFF</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191ad3e2a1cb01acbb2e491780a2ad334e14" prot="public">
+          <name>CM_POS_FDAC_OVER_8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191aad92fc027ad13bcbf3cc8839918822bc" prot="public">
+          <name>CM_POS_FDAC_OVER_4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="297" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" bodystart="297" bodyend="303"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classusrp__standard__tx_1a2d21279d48272cf133db170b9f142218" prot="protected" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int usrp_standard_tx::MAX_CHAN</definition>
+        <argsstring></argsstring>
+        <name>MAX_CHAN</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="306" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" bodystart="306" bodyend="-1"/>
+        <referencedby refid="classusrp__standard__tx_1a878b5d0c2c3878a27c54eb95122467f9" compoundref="usrp__standard_8cc" startline="1162" endline="1168">coarse_modulator</referencedby>
+        <referencedby refid="classusrp__standard__tx_1a24a7b471679b8e2485bfff5cce7adb96" compoundref="usrp__standard_8cc" startline="982" endline="994">determine_tx_mux_value</referencedby>
+        <referencedby refid="classusrp__standard__tx_1ac19e5234b3139a369a9c7ad5844190ed" compoundref="usrp__standard_8cc" startline="1103" endline="1141">set_coarse_modulator</referencedby>
+        <referencedby refid="classusrp__standard__tx_1ae75deb35fef49d5e647b2141443d7106" compoundref="usrp__standard_8cc" startline="1018" endline="1099">set_tx_freq</referencedby>
+        <referencedby refid="classusrp__standard__tx_1aa527ce0117c6f6fb6e89f09efb4e381f" compoundref="usrp__standard_8cc" startline="1153" endline="1159">tx_freq</referencedby>
+        <referencedby refid="classusrp__standard__tx_1ab3ebe65a0203867b6c71edcf2d4ffb88" compoundref="usrp__standard_8cc" startline="812" endline="846">usrp_standard_tx</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classusrp__standard__tx_1ac1c7c7ce9479045ad9dca8f409f5ef87" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int usrp_standard_tx::d_interp_rate</definition>
+        <argsstring></argsstring>
+        <name>d_interp_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="307" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" bodystart="307" bodyend="-1"/>
+        <referencedby refid="classusrp__standard__tx_1a2268e9e90e037cce86f9f83cce2a006d" compoundref="usrp__standard_8cc" startline="1144" endline="1144">interp_rate</referencedby>
+        <referencedby refid="classusrp__standard__tx_1a7b092ae2811927291ffc3491e4461282" compoundref="usrp__standard_8cc" startline="897" endline="918">set_interp_rate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__standard__tx_1a536872bd7b7f90d94bf58f5b45df0f3d" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usrp_standard_tx::d_nchan</definition>
+        <argsstring></argsstring>
+        <name>d_nchan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="308" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" bodystart="308" bodyend="-1"/>
+        <referencedby refid="classusrp__standard__tx_1afc401f90409da171a5de0f91cf5749ef" compoundref="usrp__standard_8cc" startline="1147" endline="1147">nchannels</referencedby>
+        <referencedby refid="classusrp__standard__tx_1a5e9167c1f811c6446467ba2935cde618" compoundref="usrp__standard_8cc" startline="921" endline="931">set_nchannels</referencedby>
+        <referencedby refid="classusrp__standard__tx_1abd05aee7bbd18ef62bcc8dc18a11a960" compoundref="usrp__standard_8cc" startline="942" endline="948">write_hw_mux_reg</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__standard__tx_1adc70d6cc3f72451cd83b7276d35b2615" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usrp_standard_tx::d_sw_mux</definition>
+        <argsstring></argsstring>
+        <name>d_sw_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="309" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" bodystart="309" bodyend="-1"/>
+        <referencedby refid="classusrp__standard__tx_1a18b5e48aee2ab110932d382b94e71268" compoundref="usrp__standard_8cc" startline="1150" endline="1150">mux</referencedby>
+        <referencedby refid="classusrp__standard__tx_1a2e432c316c8a91613b9603ebe664bfd1" compoundref="usrp__standard_8cc" startline="934" endline="939">set_mux</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__standard__tx_1a4b22d4e7f26f031d01fe99b4c8394447" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usrp_standard_tx::d_hw_mux</definition>
+        <argsstring></argsstring>
+        <name>d_hw_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="310" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" bodystart="310" bodyend="-1"/>
+        <referencedby refid="classusrp__standard__tx_1a2e432c316c8a91613b9603ebe664bfd1" compoundref="usrp__standard_8cc" startline="934" endline="939">set_mux</referencedby>
+        <referencedby refid="classusrp__standard__tx_1abd05aee7bbd18ef62bcc8dc18a11a960" compoundref="usrp__standard_8cc" startline="942" endline="948">write_hw_mux_reg</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__standard__tx_1a28918715849de2505bd480cccb5d6b4c" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double usrp_standard_tx::d_tx_freq[MAX_CHAN]</definition>
+        <argsstring>[MAX_CHAN]</argsstring>
+        <name>d_tx_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="311" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" bodystart="311" bodyend="-1"/>
+        <referencedby refid="classusrp__standard__tx_1a24a7b471679b8e2485bfff5cce7adb96" compoundref="usrp__standard_8cc" startline="982" endline="994">determine_tx_mux_value</referencedby>
+        <referencedby refid="classusrp__standard__tx_1ae75deb35fef49d5e647b2141443d7106" compoundref="usrp__standard_8cc" startline="1018" endline="1099">set_tx_freq</referencedby>
+        <referencedby refid="classusrp__standard__tx_1aa527ce0117c6f6fb6e89f09efb4e381f" compoundref="usrp__standard_8cc" startline="1153" endline="1159">tx_freq</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__standard__tx_1a5c439350ad4d861c49c21d203110eedb" prot="protected" static="no" mutable="no">
+        <type><ref refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191" kindref="member">coarse_mod_t</ref></type>
+        <definition>coarse_mod_t usrp_standard_tx::d_coarse_mod[MAX_CHAN]</definition>
+        <argsstring>[MAX_CHAN]</argsstring>
+        <name>d_coarse_mod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="312" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" bodystart="312" bodyend="-1"/>
+        <referencedby refid="classusrp__standard__tx_1a878b5d0c2c3878a27c54eb95122467f9" compoundref="usrp__standard_8cc" startline="1162" endline="1168">coarse_modulator</referencedby>
+        <referencedby refid="classusrp__standard__tx_1ac19e5234b3139a369a9c7ad5844190ed" compoundref="usrp__standard_8cc" startline="1103" endline="1141">set_coarse_modulator</referencedby>
+        <referencedby refid="classusrp__standard__tx_1ab3ebe65a0203867b6c71edcf2d4ffb88" compoundref="usrp__standard_8cc" startline="812" endline="846">usrp_standard_tx</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__standard__tx_1a1b713d251419953e67467df19295c385" prot="protected" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usrp_standard_tx::d_tx_modulator_shadow[MAX_CHAN]</definition>
+        <argsstring>[MAX_CHAN]</argsstring>
+        <name>d_tx_modulator_shadow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="313" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" bodystart="313" bodyend="-1"/>
+        <referencedby refid="classusrp__standard__tx_1ac19e5234b3139a369a9c7ad5844190ed" compoundref="usrp__standard_8cc" startline="1103" endline="1141">set_coarse_modulator</referencedby>
+        <referencedby refid="classusrp__standard__tx_1ae75deb35fef49d5e647b2141443d7106" compoundref="usrp__standard_8cc" startline="1018" endline="1099">set_tx_freq</referencedby>
+        <referencedby refid="classusrp__standard__tx_1ab3ebe65a0203867b6c71edcf2d4ffb88" compoundref="usrp__standard_8cc" startline="812" endline="846">usrp_standard_tx</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classusrp__standard__tx_1ac19e5234b3139a369a9c7ad5844190ed" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_standard_tx::set_coarse_modulator</definition>
+        <argsstring>(int channel, coarse_mod_t cm)</argsstring>
+        <name>set_coarse_modulator</name>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type><ref refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191" kindref="member">coarse_mod_t</ref></type>
+          <declname>cm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="315" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="1103" bodyend="1141"/>
+        <references refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191a55fe460189a049f7aea3f9bc149adf91" compoundref="usrp__standard_8h" startline="298">CM_NEG_FDAC_OVER_4</references>
+        <references refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191a98ba952bdb469cbbb02a163216162e7c" compoundref="usrp__standard_8h" startline="299">CM_NEG_FDAC_OVER_8</references>
+        <references refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191afd3ae5e29447d64701502467ce0886c7" compoundref="usrp__standard_8h" startline="300">CM_OFF</references>
+        <references refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191aad92fc027ad13bcbf3cc8839918822bc" compoundref="usrp__standard_8h" startline="302">CM_POS_FDAC_OVER_4</references>
+        <references refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191ad3e2a1cb01acbb2e491780a2ad334e14" compoundref="usrp__standard_8h" startline="301">CM_POS_FDAC_OVER_8</references>
+        <references refid="classusrp__standard__tx_1a5c439350ad4d861c49c21d203110eedb" compoundref="usrp__standard_8h" startline="312">d_coarse_mod</references>
+        <references refid="classusrp__standard__tx_1a1b713d251419953e67467df19295c385" compoundref="usrp__standard_8h" startline="313">d_tx_modulator_shadow</references>
+        <references refid="classusrp__standard__tx_1a2d21279d48272cf133db170b9f142218" compoundref="usrp__standard_8h" startline="306">MAX_CHAN</references>
+        <references refid="ad9862_8h_1ae03b7f81768ddf287e588019f135aab5" compoundref="ad9862_8h" startline="129">TX_MODULATOR_CM_MASK</references>
+        <references refid="ad9862_8h_1a4ba05aa3da6b440873fb92794b3978e3" compoundref="ad9862_8h" startline="127">TX_MODULATOR_COARSE_MODULATION_F_OVER_4</references>
+        <references refid="ad9862_8h_1aeecea632b6bbf221077bce8426c2b2dd" compoundref="ad9862_8h" startline="128">TX_MODULATOR_COARSE_MODULATION_F_OVER_8</references>
+        <references refid="ad9862_8h_1a0b7225cdb6b3e724aa5a2a9cccf0f763" compoundref="ad9862_8h" startline="125">TX_MODULATOR_NEG_COARSE_TUNE</references>
+        <referencedby refid="classusrp__standard__tx_1ae75deb35fef49d5e647b2141443d7106" compoundref="usrp__standard_8cc" startline="1018" endline="1099">set_tx_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1a878b5d0c2c3878a27c54eb95122467f9" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191" kindref="member">usrp_standard_tx::coarse_mod_t</ref></type>
+        <definition>usrp_standard_tx::coarse_mod_t usrp_standard_tx::coarse_modulator</definition>
+        <argsstring>(int channel) const </argsstring>
+        <name>coarse_modulator</name>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="316" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="1162" bodyend="1168"/>
+        <references refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191afd3ae5e29447d64701502467ce0886c7" compoundref="usrp__standard_8h" startline="300">CM_OFF</references>
+        <references refid="classusrp__standard__tx_1a5c439350ad4d861c49c21d203110eedb" compoundref="usrp__standard_8h" startline="312">d_coarse_mod</references>
+        <references refid="classusrp__standard__tx_1a2d21279d48272cf133db170b9f142218" compoundref="usrp__standard_8h" startline="306">MAX_CHAN</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1ab3ebe65a0203867b6c71edcf2d4ffb88" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>usrp_standard_tx::usrp_standard_tx</definition>
+        <argsstring>(int which_board, unsigned int interp_rate, int nchan=1, int mux=-1, int fusb_block_size=0, int fusb_nblocks=0, const std::string fpga_filename=&quot;&quot;, const std::string firmware_filename=&quot;&quot;)</argsstring>
+        <name>usrp_standard_tx</name>
+        <param>
+          <type>int</type>
+          <declname>which_board</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>interp_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nchan</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mux</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fusb_block_size</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fusb_nblocks</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>fpga_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>firmware_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="319" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="812" bodyend="846"/>
+        <references refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191afd3ae5e29447d64701502467ce0886c7" compoundref="usrp__standard_8h" startline="300">CM_OFF</references>
+        <references refid="classusrp__standard__tx_1a5c439350ad4d861c49c21d203110eedb" compoundref="usrp__standard_8h" startline="312">d_coarse_mod</references>
+        <references refid="classusrp__standard__tx_1a1b713d251419953e67467df19295c385" compoundref="usrp__standard_8h" startline="313">d_tx_modulator_shadow</references>
+        <references refid="classusrp__basic_1aad5f6f17a9fde484c67e7dbdd0491f74" compoundref="usrp__basic_8h" startline="69">usrp_basic::d_udh</references>
+        <references refid="classusrp__standard__tx_1a2d21279d48272cf133db170b9f142218" compoundref="usrp__standard_8h" startline="306">MAX_CHAN</references>
+        <references refid="classusrp__standard__tx_1a7b092ae2811927291ffc3491e4461282" compoundref="usrp__standard_8cc" startline="897" endline="918">set_interp_rate</references>
+        <references refid="classusrp__standard__tx_1a2e432c316c8a91613b9603ebe664bfd1" compoundref="usrp__standard_8cc" startline="934" endline="939">set_mux</references>
+        <references refid="classusrp__standard__tx_1a5e9167c1f811c6446467ba2935cde618" compoundref="usrp__standard_8cc" startline="921" endline="931">set_nchannels</references>
+        <references refid="classusrp__standard__tx_1ae75deb35fef49d5e647b2141443d7106" compoundref="usrp__standard_8cc" startline="1018" endline="1099">set_tx_freq</references>
+        <references refid="ad9862_8h_1a43eee1217b373c811b6cbace1b4a008c" compoundref="ad9862_8h" startline="126">TX_MODULATOR_COARSE_MODULATION_NONE</references>
+        <references refid="ad9862_8h_1a10a813fa1f8ad63553a9d5a6843d4010" compoundref="ad9862_8h" startline="122">TX_MODULATOR_DISABLE_NCO</references>
+        <references refid="usrp__prims_8h_1a4ffbe7a8f1f34c079f4e48dd63d5332b" compoundref="usrp__prims__common_8cc" startline="926" endline="935">usrp_9862_write_many_all</references>
+        <referencedby refid="classusrp__standard__tx_1ac156d958c028f4c30a18bda9f23ba8b9" compoundref="usrp__standard_8cc" startline="875" endline="894">make</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1abd05aee7bbd18ef62bcc8dc18a11a960" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_standard_tx::write_hw_mux_reg</definition>
+        <argsstring>()</argsstring>
+        <name>write_hw_mux_reg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="329" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="942" bodyend="948"/>
+        <references refid="classusrp__basic_1ac5bdb9be69f27eb3a0530cba9536d0f4" compoundref="usrp__basic_8cc" startline="380" endline="391">usrp_basic::_write_fpga_reg</references>
+        <references refid="classusrp__standard__tx_1a4b22d4e7f26f031d01fe99b4c8394447" compoundref="usrp__standard_8h" startline="310">d_hw_mux</references>
+        <references refid="classusrp__standard__tx_1a536872bd7b7f90d94bf58f5b45df0f3d" compoundref="usrp__standard_8h" startline="308">d_nchan</references>
+        <references refid="classusrp__basic__tx_1a2298762ed6e3f39c000a141a4964e181" compoundref="usrp__basic_8cc" startline="1376" endline="1382">usrp_basic_tx::disable_tx</references>
+        <references refid="classusrp__basic__tx_1a7dd7dc05a7767f38ce25b407a705c2d5" compoundref="usrp__basic_8cc" startline="1386" endline="1390">usrp_basic_tx::restore_tx</references>
+        <referencedby refid="classusrp__standard__tx_1a2e432c316c8a91613b9603ebe664bfd1" compoundref="usrp__standard_8cc" startline="934" endline="939">set_mux</referencedby>
+        <referencedby refid="classusrp__standard__tx_1a5e9167c1f811c6446467ba2935cde618" compoundref="usrp__standard_8cc" startline="921" endline="931">set_nchannels</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classusrp__standard__tx_1a440777cafe861f07ddeafa4d30327a1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>usrp_standard_tx::~usrp_standard_tx</definition>
+        <argsstring>()</argsstring>
+        <name>~usrp_standard_tx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="332" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="848" bodyend="851"/>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1a7b092ae2811927291ffc3491e4461282" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_standard_tx::set_interp_rate</definition>
+        <argsstring>(unsigned int rate)</argsstring>
+        <name>set_interp_rate</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+<para>Set interpolator rate. <computeroutput>rate</computeroutput> must be in [4, 512] and a multiple of 4. </para>        </briefdescription>
+        <detaileddescription>
+<para>The final complex sample rate across the USB is dac_freq () / interp_rate () * nchannels () </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="363" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="897" bodyend="918"/>
+        <references refid="classusrp__basic_1ac5bdb9be69f27eb3a0530cba9536d0f4" compoundref="usrp__basic_8cc" startline="380" endline="391">usrp_basic::_write_fpga_reg</references>
+        <references refid="classusrp__standard__tx_1ac1c7c7ce9479045ad9dca8f409f5ef87" compoundref="usrp__standard_8h" startline="307">d_interp_rate</references>
+        <references refid="classusrp__basic__tx_1a618be27f79f9ab769f33ead42c9283a7" compoundref="usrp__basic_8h" startline="964" endline="964">usrp_basic_tx::dac_rate</references>
+        <references refid="classusrp__basic__tx_1a2298762ed6e3f39c000a141a4964e181" compoundref="usrp__basic_8cc" startline="1376" endline="1382">usrp_basic_tx::disable_tx</references>
+        <references refid="classusrp__standard__tx_1afc401f90409da171a5de0f91cf5749ef" compoundref="usrp__standard_8cc" startline="1147" endline="1147">nchannels</references>
+        <references refid="classusrp__basic__tx_1a7dd7dc05a7767f38ce25b407a705c2d5" compoundref="usrp__basic_8cc" startline="1386" endline="1390">usrp_basic_tx::restore_tx</references>
+        <references refid="classusrp__basic_1a77535750946e7d8443a76941a9611cae" compoundref="usrp__basic_8cc" startline="229" endline="233">usrp_basic::set_usb_data_rate</references>
+        <referencedby refid="classusrp__standard__tx_1ab3ebe65a0203867b6c71edcf2d4ffb88" compoundref="usrp__standard_8cc" startline="812" endline="846">usrp_standard_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1a5e9167c1f811c6446467ba2935cde618" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_standard_tx::set_nchannels</definition>
+        <argsstring>(int nchannels)</argsstring>
+        <name>set_nchannels</name>
+        <param>
+          <type>int</type>
+          <declname>nchannels</declname>
+        </param>
+        <briefdescription>
+<para>Set number of active channels. <computeroutput>nchannels</computeroutput> must be 1 or 2. </para>        </briefdescription>
+        <detaileddescription>
+<para>The final complex sample rate across the USB is dac_freq () / decim_rate () * nchannels () </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="371" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="921" bodyend="931"/>
+        <references refid="classusrp__standard__tx_1a536872bd7b7f90d94bf58f5b45df0f3d" compoundref="usrp__standard_8h" startline="308">d_nchan</references>
+        <references refid="classusrp__standard__common_1a9dec671bc0d7c50157083f46538844af" compoundref="usrp__standard_8cc" startline="299" endline="302">usrp_standard_common::nducs</references>
+        <references refid="classusrp__standard__tx_1abd05aee7bbd18ef62bcc8dc18a11a960" compoundref="usrp__standard_8cc" startline="942" endline="948">write_hw_mux_reg</references>
+        <referencedby refid="classusrp__standard__tx_1ab3ebe65a0203867b6c71edcf2d4ffb88" compoundref="usrp__standard_8cc" startline="812" endline="846">usrp_standard_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1a2e432c316c8a91613b9603ebe664bfd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_standard_tx::set_mux</definition>
+        <argsstring>(int mux)</argsstring>
+        <name>set_mux</name>
+        <param>
+          <type>int</type>
+          <declname>mux</declname>
+        </param>
+        <briefdescription>
+<para>Set output mux configuration. </para>        </briefdescription>
+        <detaileddescription>
+<para><preformatted>
+    3                   2                   1                       
+  1 0 9 8 7 6 5 4 3 2 1 0 9 8 7 6 5 4 3 2 1 0 9 8 7 6 5 4 3 2 1 0
+ +----------------------------<mdash/>+----<mdash/>+----<mdash/>+----<mdash/>+----<mdash/>+
+ |                               | DAC3  | DAC2  | DAC1  |  DAC0 |
+ +----------------------------<mdash/>+----<mdash/>+----<mdash/>+----<mdash/>+----<mdash/>+</preformatted></para><para><preformatted> There are two interpolators with complex inputs and outputs.
+ There are four DACs.</preformatted></para><para><preformatted> Each 4-bit DACx field specifies the source for the DAC and
+ whether or not that DAC is enabled.  Each subfield is coded
+ like this:</preformatted></para><para><preformatted>    3 2 1 0
+   +-+--<mdash/>+
+   |E|  N  |
+   +-+--<mdash/>+</preformatted></para><para><preformatted> Where E is set if the DAC is enabled, and N specifies which
+ interpolator output is connected to this DAC.</preformatted></para><para><preformatted>  N   which interp output
+<hruler/>
+
+  0   chan 0 I
+  1   chan 0 Q
+  2   chan 1 I
+  3   chan 1 Q
+</preformatted> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="406" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="934" bodyend="939"/>
+        <references refid="classusrp__standard__tx_1a4b22d4e7f26f031d01fe99b4c8394447" compoundref="usrp__standard_8h" startline="310">d_hw_mux</references>
+        <references refid="classusrp__standard__tx_1adc70d6cc3f72451cd83b7276d35b2615" compoundref="usrp__standard_8h" startline="309">d_sw_mux</references>
+        <references refid="classusrp__standard__tx_1a18b5e48aee2ab110932d382b94e71268" compoundref="usrp__standard_8cc" startline="1150" endline="1150">mux</references>
+        <references refid="classusrp__standard__tx_1abd05aee7bbd18ef62bcc8dc18a11a960" compoundref="usrp__standard_8cc" startline="942" endline="948">write_hw_mux_reg</references>
+        <referencedby refid="classusrp__standard__tx_1ab3ebe65a0203867b6c71edcf2d4ffb88" compoundref="usrp__standard_8cc" startline="812" endline="846">usrp_standard_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1a386da4e76f7b2393563e48555c613a96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usrp_standard_tx::determine_tx_mux_value</definition>
+        <argsstring>(const usrp_subdev_spec &amp;ss)</argsstring>
+        <name>determine_tx_mux_value</name>
+        <param>
+          <type>const <ref refid="structusrp__subdev__spec" kindref="compound">usrp_subdev_spec</ref> &amp;</type>
+          <declname>ss</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Determine the appropriate Tx mux value as a function of the subdevice choosen and the characteristics of the respective daughterboard. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="412" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="951" bodyend="979"/>
+        <references refid="classusrp__basic_1a8eb1f58ca819437d7f43ad87574bd6da" compoundref="usrp__basic_8h" startline="154" endline="154">usrp_basic::db</references>
+        <references refid="classusrp__basic_1a61af504df443a9d846ecf909871f1481" compoundref="usrp__basic_8cc" startline="196" endline="205">usrp_basic::is_valid</references>
+        <references refid="structusrp__subdev__spec_1aeff15f40736fb2af3e1eddb85a243252" compoundref="usrp__subdev__spec_8h" startline="43">usrp_subdev_spec::side</references>
+        <references refid="structusrp__subdev__spec_1abb7b7dbdca4355d0957b2233a32119ef" compoundref="usrp__subdev__spec_8h" startline="44">usrp_subdev_spec::subdev</references>
+        <referencedby refid="classusrp__standard__tx_1a24a7b471679b8e2485bfff5cce7adb96" compoundref="usrp__standard_8cc" startline="982" endline="994">determine_tx_mux_value</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1a24a7b471679b8e2485bfff5cce7adb96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usrp_standard_tx::determine_tx_mux_value</definition>
+        <argsstring>(const usrp_subdev_spec &amp;ss_a, const usrp_subdev_spec &amp;ss_b)</argsstring>
+        <name>determine_tx_mux_value</name>
+        <param>
+          <type>const <ref refid="structusrp__subdev__spec" kindref="compound">usrp_subdev_spec</ref> &amp;</type>
+          <declname>ss_a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structusrp__subdev__spec" kindref="compound">usrp_subdev_spec</ref> &amp;</type>
+          <declname>ss_b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="413" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="982" bodyend="994"/>
+        <references refid="classusrp__basic_1ac5bdb9be69f27eb3a0530cba9536d0f4" compoundref="usrp__basic_8cc" startline="380" endline="391">usrp_basic::_write_fpga_reg</references>
+        <references refid="classusrp__standard__tx_1a28918715849de2505bd480cccb5d6b4c" compoundref="usrp__standard_8h" startline="311">d_tx_freq</references>
+        <references refid="classusrp__basic_1a6d0fecbe64f35fef20293c27dc33a0b0" compoundref="usrp__basic_8h" startline="73">usrp_basic::d_verbose</references>
+        <references refid="classusrp__basic__tx_1a618be27f79f9ab769f33ead42c9283a7" compoundref="usrp__basic_8h" startline="964" endline="964">usrp_basic_tx::dac_rate</references>
+        <references refid="classusrp__standard__tx_1a386da4e76f7b2393563e48555c613a96" compoundref="usrp__standard_8cc" startline="951" endline="979">determine_tx_mux_value</references>
+        <references refid="classusrp__standard__tx_1a2d21279d48272cf133db170b9f142218" compoundref="usrp__standard_8h" startline="306">MAX_CHAN</references>
+        <references refid="classusrp__standard__tx_1ae75deb35fef49d5e647b2141443d7106" compoundref="usrp__standard_8cc" startline="1018" endline="1099">set_tx_freq</references>
+        <references refid="structusrp__subdev__spec_1aeff15f40736fb2af3e1eddb85a243252" compoundref="usrp__subdev__spec_8h" startline="43">usrp_subdev_spec::side</references>
+        <references refid="structusrp__subdev__spec_1abb7b7dbdca4355d0957b2233a32119ef" compoundref="usrp__subdev__spec_8h" startline="44">usrp_subdev_spec::subdev</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1ae75deb35fef49d5e647b2141443d7106" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_standard_tx::set_tx_freq</definition>
+        <argsstring>(int channel, double freq)</argsstring>
+        <name>set_tx_freq</name>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+<para>set the frequency of the digital up converter. </para>        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>channel</computeroutput> must be in the range [0,1]. <computeroutput>freq</computeroutput> is the center frequency in Hz. It must be in the range [-44M, 44M]. The frequency specified is quantized. Use tx_freq to retrieve the actual value used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="423" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="1018" bodyend="1099"/>
+        <references refid="classusrp__basic_1a8a25444c83f59f7517d0ff687d2ff053" compoundref="usrp__basic_8cc" startline="426" endline="435">usrp_basic::_write_9862</references>
+        <references refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191a55fe460189a049f7aea3f9bc149adf91" compoundref="usrp__standard_8h" startline="298">CM_NEG_FDAC_OVER_4</references>
+        <references refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191a98ba952bdb469cbbb02a163216162e7c" compoundref="usrp__standard_8h" startline="299">CM_NEG_FDAC_OVER_8</references>
+        <references refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191afd3ae5e29447d64701502467ce0886c7" compoundref="usrp__standard_8h" startline="300">CM_OFF</references>
+        <references refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191aad92fc027ad13bcbf3cc8839918822bc" compoundref="usrp__standard_8h" startline="302">CM_POS_FDAC_OVER_4</references>
+        <references refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191ad3e2a1cb01acbb2e491780a2ad334e14" compoundref="usrp__standard_8h" startline="301">CM_POS_FDAC_OVER_8</references>
+        <references refid="classusrp__standard__tx_1a28918715849de2505bd480cccb5d6b4c" compoundref="usrp__standard_8h" startline="311">d_tx_freq</references>
+        <references refid="classusrp__standard__tx_1a1b713d251419953e67467df19295c385" compoundref="usrp__standard_8h" startline="313">d_tx_modulator_shadow</references>
+        <references refid="classusrp__basic_1a6d0fecbe64f35fef20293c27dc33a0b0" compoundref="usrp__basic_8h" startline="73">usrp_basic::d_verbose</references>
+        <references refid="classusrp__basic__tx_1a618be27f79f9ab769f33ead42c9283a7" compoundref="usrp__basic_8h" startline="964" endline="964">usrp_basic_tx::dac_rate</references>
+        <references refid="classusrp__standard__tx_1a2d21279d48272cf133db170b9f142218" compoundref="usrp__standard_8h" startline="306">MAX_CHAN</references>
+        <references refid="ad9862_8h_1ad5c63f9d7a28affa5c98fb7249a471e5" compoundref="ad9862_8h" startline="120">REG_TX_MODULATOR</references>
+        <references refid="ad9862_8h_1ae0fc0c371977742bad47973948040379" compoundref="ad9862_8h" startline="133">REG_TX_NCO_FTW_15_8</references>
+        <references refid="ad9862_8h_1a7080a286c1b197a710cdc20df0d45e95" compoundref="ad9862_8h" startline="134">REG_TX_NCO_FTW_23_16</references>
+        <references refid="ad9862_8h_1ae6b945733366396fe19e79eb0f7e2440" compoundref="ad9862_8h" startline="132">REG_TX_NCO_FTW_7_0</references>
+        <references refid="classusrp__standard__tx_1ac19e5234b3139a369a9c7ad5844190ed" compoundref="usrp__standard_8cc" startline="1103" endline="1141">set_coarse_modulator</references>
+        <references refid="ad9862_8h_1a1d9dd777b14ba8f17175f00bb8d9d2b5" compoundref="ad9862_8h" startline="123">TX_MODULATOR_ENABLE_NCO</references>
+        <references refid="ad9862_8h_1a188784c36751a24a8150aa1823bb2a04" compoundref="ad9862_8h" startline="121">TX_MODULATOR_NEG_FINE_TUNE</references>
+        <referencedby refid="classusrp__standard__tx_1a24a7b471679b8e2485bfff5cce7adb96" compoundref="usrp__standard_8cc" startline="982" endline="994">determine_tx_mux_value</referencedby>
+        <referencedby refid="classduc__control_1a4f6c38fb1ecb6f76d5c694ff44ff8a34" compoundref="usrp__standard_8cc" startline="143" endline="143">duc_control::set_dxc_freq</referencedby>
+        <referencedby refid="classusrp__standard__tx_1ab3ebe65a0203867b6c71edcf2d4ffb88" compoundref="usrp__standard_8cc" startline="812" endline="846">usrp_standard_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1a2268e9e90e037cce86f9f83cce2a006d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int usrp_standard_tx::interp_rate</definition>
+        <argsstring>() const </argsstring>
+        <name>interp_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="426" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="1144" bodyend="1144"/>
+        <references refid="classusrp__standard__tx_1ac1c7c7ce9479045ad9dca8f409f5ef87" compoundref="usrp__standard_8h" startline="307">d_interp_rate</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1aa527ce0117c6f6fb6e89f09efb4e381f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double usrp_standard_tx::tx_freq</definition>
+        <argsstring>(int channel) const </argsstring>
+        <name>tx_freq</name>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="427" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="1153" bodyend="1159"/>
+        <references refid="classusrp__standard__tx_1a28918715849de2505bd480cccb5d6b4c" compoundref="usrp__standard_8h" startline="311">d_tx_freq</references>
+        <references refid="classusrp__standard__tx_1a2d21279d48272cf133db170b9f142218" compoundref="usrp__standard_8h" startline="306">MAX_CHAN</references>
+        <referencedby refid="classduc__control_1aa07e6f0983597d6659aff1b7b0c6bd17" compoundref="usrp__standard_8cc" startline="144" endline="144">duc_control::dxc_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1afc401f90409da171a5de0f91cf5749ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usrp_standard_tx::nchannels</definition>
+        <argsstring>() const </argsstring>
+        <name>nchannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="428" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="1147" bodyend="1147"/>
+        <references refid="classusrp__standard__tx_1a536872bd7b7f90d94bf58f5b45df0f3d" compoundref="usrp__standard_8h" startline="308">d_nchan</references>
+        <referencedby refid="classusrp__standard__tx_1a7b092ae2811927291ffc3491e4461282" compoundref="usrp__standard_8cc" startline="897" endline="918">set_interp_rate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1a18b5e48aee2ab110932d382b94e71268" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usrp_standard_tx::mux</definition>
+        <argsstring>() const </argsstring>
+        <name>mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="429" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="1150" bodyend="1150"/>
+        <references refid="classusrp__standard__tx_1adc70d6cc3f72451cd83b7276d35b2615" compoundref="usrp__standard_8h" startline="309">d_sw_mux</references>
+        <referencedby refid="classusrp__standard__tx_1a2e432c316c8a91613b9603ebe664bfd1" compoundref="usrp__standard_8cc" startline="934" endline="939">set_mux</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1a5c992590408fe90d4711e355ee12852f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_standard_tx::tune</definition>
+        <argsstring>(int chan, db_base_sptr db, double target_freq, usrp_tune_result *result)</argsstring>
+        <name>tune</name>
+        <param>
+          <type>int</type>
+          <declname>chan</declname>
+        </param>
+        <param>
+          <type><ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref></type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>target_freq</declname>
+        </param>
+        <param>
+          <type><ref refid="classusrp__tune__result" kindref="compound">usrp_tune_result</ref> *</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+<para>High-level &quot;tune&quot; method. Works for the single channel case. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method adjusts both the daughterboard LO and the DUC so that DC in the complex baseband samples ends up at RF target_freq.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>chan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which DUC channel we&apos;re controlling (usually == which_side). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>db</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the daughterboard we&apos;re controlling. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the RF frequency we want our baseband translated to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>details how the hardware was configured.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true iff everything was successful. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="444" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="1171" bodyend="1175"/>
+        <references refid="classusrp__basic__tx_1a4eefc136417ea3a75a296c1b6dbbd470" compoundref="usrp__basic_8h" startline="963" endline="963">usrp_basic_tx::converter_rate</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1ae6f8039f30bf641b937877001127176f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_standard_tx::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="448" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="854" bodyend="862"/>
+        <references refid="classusrp__basic__tx_1a3d16b0d8e96d5124b6392bc44014124d" compoundref="usrp__basic_8cc" startline="1251" endline="1267">usrp_basic_tx::start</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__tx_1a5173292e6162fce54a875683f02cdd5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_standard_tx::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="449" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="865" bodyend="872"/>
+        <references refid="classusrp__basic__tx_1ab1c5851e72e29e86af914da5c7f62cf8" compoundref="usrp__basic_8cc" startline="1270" endline="1285">usrp_basic_tx::stop</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classusrp__standard__tx_1ac156d958c028f4c30a18bda9f23ba8b9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="usrp__standard_8h_1a0982118b5bcfa5fd08137dd5a7583b07" kindref="member">usrp_standard_tx_sptr</ref></type>
+        <definition>usrp_standard_tx_sptr usrp_standard_tx::make</definition>
+        <argsstring>(int which_board, unsigned int interp_rate, int nchan=1, int mux=-1, int fusb_block_size=0, int fusb_nblocks=0, const std::string fpga_filename=&quot;&quot;, const std::string firmware_filename=&quot;&quot;)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>which_board</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>interp_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nchan</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mux</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fusb_block_size</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fusb_nblocks</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>fpga_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>firmware_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>invokes constructor, returns shared_ptr or shared_ptr equivalent of 0 if trouble </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_board</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Which USRP board on usb (not particularly useful; use 0) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>interp_rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>interpolation factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nchan</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of channels </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mux</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tx mux setting, </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classusrp__standard__tx_1a2e432c316c8a91613b9603ebe664bfd1" kindref="member">set_mux</ref> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fusb_block_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fast usb xfer block size. Must be a multiple of 512. Use zero for a reasonable default. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fusb_nblocks</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of fast usb URBs to allocate. Use zero for a reasonable default. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fpga_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of rbf file to load </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>firmware_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of ihx file to load </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="347" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="875" bodyend="894"/>
+        <references refid="classusrp__standard__tx_1ab3ebe65a0203867b6c71edcf2d4ffb88" compoundref="usrp__standard_8cc" startline="812" endline="846">usrp_standard_tx</references>
+        <referencedby refid="test__usrp__standard__tx_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="test__usrp__standard__tx_8cc" startline="169" endline="298">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The C++ interface the transmit side of the USRP</para><para>This is the recommended interface to USRP transmit functionality for applications that use the USRP but not GNU Radio. </para>    </briefdescription>
+    <detaileddescription>
+<para>Uses digital upconverter (coarse &amp; fine modulators) in AD9862... </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="927">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="928">
+        <label>usrp_standard_common</label>
+        <link refid="classusrp__standard__common"/>
+      </node>
+      <node id="925">
+        <label>usrp_basic_tx</label>
+        <link refid="classusrp__basic__tx"/>
+        <childnode refid="926" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="924">
+        <label>usrp_standard_tx</label>
+        <link refid="classusrp__standard__tx"/>
+        <childnode refid="925" relation="public-inheritance">
+        </childnode>
+        <childnode refid="928" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="926">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="927" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="932">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="934">
+        <label>usrp_standard_common</label>
+        <link refid="classusrp__standard__common"/>
+      </node>
+      <node id="930">
+        <label>usrp_basic_tx</label>
+        <link refid="classusrp__basic__tx"/>
+        <childnode refid="931" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="933">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="929">
+        <label>usrp_standard_tx</label>
+        <link refid="classusrp__standard__tx"/>
+        <childnode refid="930" relation="public-inheritance">
+        </childnode>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="931">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="932" relation="private-inheritance">
+        </childnode>
+        <childnode refid="933" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="295" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" bodystart="294" bodyend="450"/>
+    <listofallmembers>
+      <member refid="classusrp__basic_1a09ce78134eea035e42464123356096e4" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_common_write_oe</name></member>
+      <member refid="classusrp__basic_1a3814dc28edce07e3b5cb48bb3ebdf244" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_read_9862</name></member>
+      <member refid="classusrp__basic_1ad28278c9ff7a33b3a151c561ab037b9f" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_read_9862</name></member>
+      <member refid="classusrp__basic_1a8f92d2e9630ec614eedc61858756cce1" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_read_aux_adc</name></member>
+      <member refid="classusrp__basic_1a2aadef5c105459794b22a135730e7480" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_read_aux_adc</name></member>
+      <member refid="classusrp__basic_1a4fa26bd8164bd5782adf7fbe00b3d411" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_read_fpga_reg</name></member>
+      <member refid="classusrp__basic_1abf1f167a1c96dd0ed4589afc6c9fad6c" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_read_fpga_reg</name></member>
+      <member refid="classusrp__basic_1a9b54622fec87c2ed9c7808078931371f" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_read_spi</name></member>
+      <member refid="classusrp__basic_1a4585f9c7df7084a6acb29bd6d7950892" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_set_led</name></member>
+      <member refid="classusrp__basic_1a8a25444c83f59f7517d0ff687d2ff053" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_write_9862</name></member>
+      <member refid="classusrp__basic_1ab8870a35e0bdc63ee6655b5264a6d142" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_write_aux_dac</name></member>
+      <member refid="classusrp__basic_1ac5bdb9be69f27eb3a0530cba9536d0f4" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_write_fpga_reg</name></member>
+      <member refid="classusrp__basic_1a0c200dc2d39d68d7a77e92859c5228a0" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_write_fpga_reg_masked</name></member>
+      <member refid="classusrp__basic__tx_1a0ecdfcb63c28d66b2f036156e33f20d8" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>_write_oe</name></member>
+      <member refid="classusrp__basic_1aaf100fafc406ef75faafcf3e38df7849" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>_write_spi</name></member>
+      <member refid="classusrp__basic__tx_1a3d88f6bddfb24f2ad375b65b935ac6e9" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>block_size</name></member>
+      <member refid="classusrp__standard__common_1a9452b1ce5881965ca36d780f928b6cb6" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>calc_dxc_freq</name></member>
+      <member refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191a55fe460189a049f7aea3f9bc149adf91" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>CM_NEG_FDAC_OVER_4</name></member>
+      <member refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191a98ba952bdb469cbbb02a163216162e7c" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>CM_NEG_FDAC_OVER_8</name></member>
+      <member refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191afd3ae5e29447d64701502467ce0886c7" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>CM_OFF</name></member>
+      <member refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191aad92fc027ad13bcbf3cc8839918822bc" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>CM_POS_FDAC_OVER_4</name></member>
+      <member refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191ad3e2a1cb01acbb2e491780a2ad334e14" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>CM_POS_FDAC_OVER_8</name></member>
+      <member refid="classusrp__standard__tx_1a4c70322824b7b9d040aa265d0587c191" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>coarse_mod_t</name></member>
+      <member refid="classusrp__standard__tx_1a878b5d0c2c3878a27c54eb95122467f9" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>coarse_modulator</name></member>
+      <member refid="classusrp__basic_1ac25d56e74572309a87397f0fce1a102b" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_pga</name></member>
+      <member refid="classusrp__basic_1a06cfd0e5675618f773c5466bd235a369" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_pga_db_per_step</name></member>
+      <member refid="classusrp__basic_1a7dd5c384b9d2cd4e412939c3b7b7ac79" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_pga_max</name></member>
+      <member refid="classusrp__basic_1a95453e5bb4d0ed4c05b1ea64c880170a" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_pga_min</name></member>
+      <member refid="classusrp__basic_1a37bd03473a98cf3776f1988914c1a5ce" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_read_aux_adc</name></member>
+      <member refid="classusrp__basic_1ab84d66e92dc16fdc104fae9341f1e64f" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_read_aux_adc</name></member>
+      <member refid="classusrp__basic_1af7e33b5762cd9c80a714806fa6fa2244" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_read_io</name></member>
+      <member refid="classusrp__basic_1a217f6865ef04d1111c2c1d3e7b4260f5" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_read_io</name></member>
+      <member refid="classusrp__basic_1a52f96a90c91ed6e74bfc6a91691a7fa2" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_set_pga</name></member>
+      <member refid="classusrp__basic_1a0997e93568c71e5432c2445b1ebcc991" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_write_atr_mask</name></member>
+      <member refid="classusrp__basic_1a89eda6a96bc7f4d2d634da793eccbc20" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_write_atr_rxval</name></member>
+      <member refid="classusrp__basic_1a26e38a0f9f98390b712709812e3387af" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_write_atr_txval</name></member>
+      <member refid="classusrp__basic_1ac7354a9c4f7e961cb1b541c970a8d009" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_write_aux_dac</name></member>
+      <member refid="classusrp__basic_1acf3120592af4df79d38d253c98c633ae" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_write_io</name></member>
+      <member refid="classusrp__basic_1ad673bc49b311e29ab01727c5933ea028" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>common_write_refclk</name></member>
+      <member refid="classusrp__basic__tx_1a4eefc136417ea3a75a296c1b6dbbd470" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>converter_rate</name></member>
+      <member refid="classusrp__basic_1a1d6b6839b9ba385d93684c3497c3fb16" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_bytes_per_poll</name></member>
+      <member refid="classusrp__standard__tx_1a5c439350ad4d861c49c21d203110eedb" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_coarse_mod</name></member>
+      <member refid="classusrp__basic_1a747a3cfca6d00b8d2960b4692ae36bc2" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_ctx</name></member>
+      <member refid="classusrp__basic_1aa45df525ed16ee0c885a4972ac7908b4" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_db</name></member>
+      <member refid="classusrp__basic_1a686ea66e3f43c9ab6df60bd80f41ac3b" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_dbid</name></member>
+      <member refid="classusrp__basic_1afa81d2ee842dd6eef04c422276f52d1d" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_fpga_master_clock_freq</name></member>
+      <member refid="classusrp__basic_1af3d08c8bcdd0ed116e76ffa5449004f2" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_fpga_shadows</name></member>
+      <member refid="classusrp__standard__tx_1a4b22d4e7f26f031d01fe99b4c8394447" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_hw_mux</name></member>
+      <member refid="classusrp__standard__tx_1ac1c7c7ce9479045ad9dca8f409f5ef87" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_interp_rate</name></member>
+      <member refid="classusrp__standard__tx_1a536872bd7b7f90d94bf58f5b45df0f3d" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_nchan</name></member>
+      <member refid="classusrp__standard__tx_1adc70d6cc3f72451cd83b7276d35b2615" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_sw_mux</name></member>
+      <member refid="classusrp__standard__tx_1a28918715849de2505bd480cccb5d6b4c" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_tx_freq</name></member>
+      <member refid="classusrp__standard__tx_1a1b713d251419953e67467df19295c385" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_tx_modulator_shadow</name></member>
+      <member refid="classusrp__basic_1aad5f6f17a9fde484c67e7dbdd0491f74" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_udh</name></member>
+      <member refid="classusrp__basic_1a4e5297f0010c8f39cfe4fff838b113a4" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_usb_data_rate</name></member>
+      <member refid="classusrp__basic_1a6d0fecbe64f35fef20293c27dc33a0b0" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>d_verbose</name></member>
+      <member refid="classusrp__basic__tx_1a618be27f79f9ab769f33ead42c9283a7" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>dac_rate</name></member>
+      <member refid="classusrp__basic__tx_1a25ef6153080bcd83637c87df6ea1d478" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>daughterboard_id</name></member>
+      <member refid="classusrp__basic_1a8eb1f58ca819437d7f43ad87574bd6da" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>db</name></member>
+      <member refid="classusrp__basic_1a9e3dfe1821b5aa2438a014fd7ca579f4" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>db</name></member>
+      <member refid="classusrp__standard__tx_1a386da4e76f7b2393563e48555c613a96" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>determine_tx_mux_value</name></member>
+      <member refid="classusrp__standard__tx_1a24a7b471679b8e2485bfff5cce7adb96" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>determine_tx_mux_value</name></member>
+      <member refid="classusrp__basic__tx_1a2298762ed6e3f39c000a141a4964e181" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>disable_tx</name></member>
+      <member refid="classusrp__basic_1a244d4aa01bb6a054cd5bd0998ce2a09a" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>fpga_master_clock_freq</name></member>
+      <member refid="classusrp__standard__common_1ac259e77beebe73376a45b6116ab845e1" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>has_rx_halfband</name></member>
+      <member refid="classusrp__standard__common_1a4192e505766a5920f8771bde1fd871ae" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>has_tx_halfband</name></member>
+      <member refid="classusrp__basic_1a9d4d1ef184ad622c7f84a6f940614b9b" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>init_db</name></member>
+      <member refid="classusrp__standard__tx_1a2268e9e90e037cce86f9f83cce2a006d" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>interp_rate</name></member>
+      <member refid="classusrp__basic_1a61af504df443a9d846ecf909871f1481" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>is_valid</name></member>
+      <member refid="classusrp__standard__tx_1ac156d958c028f4c30a18bda9f23ba8b9" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>make</name></member>
+      <member refid="classusrp__basic__tx_1aee3b2b573a324ca3d8374566543f28ce" prot="public" virt="non-virtual" ambiguityscope="usrp_basic_tx::"><scope>usrp_standard_tx</scope><name>make</name></member>
+      <member refid="classusrp__standard__tx_1a2d21279d48272cf133db170b9f142218" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>MAX_CHAN</name></member>
+      <member refid="classusrp__basic_1ae9277f41b745b1c96c422804fafd058a" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>MAX_REGS</name></member>
+      <member refid="classusrp__standard__tx_1a18b5e48aee2ab110932d382b94e71268" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>mux</name></member>
+      <member refid="classusrp__standard__tx_1afc401f90409da171a5de0f91cf5749ef" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>nchannels</name></member>
+      <member refid="classusrp__standard__common_1a07b889dbe4fecd870f40ddf2401948c6" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>nddcs</name></member>
+      <member refid="classusrp__standard__common_1a9dec671bc0d7c50157083f46538844af" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>nducs</name></member>
+      <member refid="classusrp__basic__tx_1aa7764a14b980820287ebe3d50a303fbd" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>pga</name></member>
+      <member refid="classusrp__basic__tx_1ac8f1b5ab8940fba58fe01d64727deb40" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>pga_db_per_step</name></member>
+      <member refid="classusrp__basic__tx_1ac451445ef6cffdffb9e7817c3885f367" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>pga_max</name></member>
+      <member refid="classusrp__basic__tx_1a7cae37094ad8d1a0095fc058649829d0" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>pga_min</name></member>
+      <member refid="classusrp__basic__tx_1ac9e8934cb2136fd9c1f0bb2677991df0" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>probe_tx_slots</name></member>
+      <member refid="classusrp__basic__tx_1a237f04837e77f428551b6b66217f8d9b" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>read_aux_adc</name></member>
+      <member refid="classusrp__basic__tx_1a1037a256b87c10e54e5650f80052cdc0" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>read_aux_adc</name></member>
+      <member refid="classusrp__basic_1aefe7a2f10626831304091babff21dc0d" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>read_eeprom</name></member>
+      <member refid="classusrp__basic_1a364d3e56a0749a90cc5de2ac378e6863" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>READ_FAILED</name></member>
+      <member refid="classusrp__basic_1ab284caa2e15464f62aa80ad1f540ecc5" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>read_i2c</name></member>
+      <member refid="classusrp__basic__tx_1ad5b21bcc2798026f5a1555e9ca4c899f" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>read_io</name></member>
+      <member refid="classusrp__basic__tx_1a98999c00a4d121c09a234b23c63d8b42" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>read_io</name></member>
+      <member refid="classusrp__basic__tx_1a7dd7dc05a7767f38ce25b407a705c2d5" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>restore_tx</name></member>
+      <member refid="classusrp__basic_1a648de1479d7632b59bf2732f231ddbe0" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>selected_subdev</name></member>
+      <member refid="classusrp__basic_1a70a71308412a67eaf825c13399faa078" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>serial_number</name></member>
+      <member refid="classusrp__basic_1a97fc801cbafa85040a3d39be03d27a62" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>set_adc_buffer_bypass</name></member>
+      <member refid="classusrp__basic_1ad0e07c8d85aa220aaf150e27dd8b545f" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>set_adc_offset</name></member>
+      <member refid="classusrp__standard__tx_1ac19e5234b3139a369a9c7ad5844190ed" prot="protected" virt="virtual"><scope>usrp_standard_tx</scope><name>set_coarse_modulator</name></member>
+      <member refid="classusrp__basic_1ab18f4a02c0efcac10f8e9406ca7a57a7" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>set_dac_offset</name></member>
+      <member refid="classusrp__basic_1af20cc324fca8d089226d5a6dfc3d3668" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>set_dc_offset_cl_enable</name></member>
+      <member refid="classusrp__basic_1a825640d1de15253b5bae18762a0e403e" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>set_fpga_master_clock_freq</name></member>
+      <member refid="classusrp__basic__tx_1a51d29f5416c2db61e74e1938aa22af72" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>set_fpga_tx_sample_rate_divisor</name></member>
+      <member refid="classusrp__standard__tx_1a7b092ae2811927291ffc3491e4461282" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>set_interp_rate</name></member>
+      <member refid="classusrp__standard__tx_1a2e432c316c8a91613b9603ebe664bfd1" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>set_mux</name></member>
+      <member refid="classusrp__standard__tx_1a5e9167c1f811c6446467ba2935cde618" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>set_nchannels</name></member>
+      <member refid="classusrp__basic__tx_1a5d950d5f8a8969e17525cee918d9bd06" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>set_pga</name></member>
+      <member refid="classusrp__basic__tx_1a13148a03a6d6df2be95679bc2bbea896" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>set_tx_enable</name></member>
+      <member refid="classusrp__standard__tx_1ae75deb35fef49d5e647b2141443d7106" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>set_tx_freq</name></member>
+      <member refid="classusrp__basic_1a77535750946e7d8443a76941a9611cae" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>set_usb_data_rate</name></member>
+      <member refid="classusrp__basic_1ae200e6eb7dbbaf81a3c1353a401f97d3" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>set_verbose</name></member>
+      <member refid="classusrp__basic_1afaae41796f1468062d4ad237322baf9e" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>shutdown_daughterboards</name></member>
+      <member refid="classusrp__standard__tx_1ae6f8039f30bf641b937877001127176f" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>start</name></member>
+      <member refid="classusrp__standard__tx_1a5173292e6162fce54a875683f02cdd5c" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>stop</name></member>
+      <member refid="classusrp__standard__tx_1a5c992590408fe90d4711e355ee12852f" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>tune</name></member>
+      <member refid="classusrp__basic__tx_1ada7b24a807ade928dc5e57e823002f6d" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>tx_enable</name></member>
+      <member refid="classusrp__standard__tx_1aa527ce0117c6f6fb6e89f09efb4e381f" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>tx_freq</name></member>
+      <member refid="classusrp__basic_1a530c23ff633c630530ec491c368a755d" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>usb_data_rate</name></member>
+      <member refid="classusrp__basic_1ac72f072eb9220e798019b60b3fe48af6" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>usrp_basic</name></member>
+      <member refid="classusrp__basic__tx_1ab8bb942f1c956624553ac18b0a838bd6" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>usrp_basic_tx</name></member>
+      <member refid="classusrp__standard__common_1a084f39cd160734d41e6c1cb8f6513dd6" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>usrp_standard_common</name></member>
+      <member refid="classusrp__standard__tx_1ab3ebe65a0203867b6c71edcf2d4ffb88" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>usrp_standard_tx</name></member>
+      <member refid="classusrp__basic__tx_1ad6486f2bff896af6109a338d7d954d50" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>wait_for_completion</name></member>
+      <member refid="classusrp__basic__tx_1a0dd15899a23869336f455fa948b725af" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>write</name></member>
+      <member refid="classusrp__basic__tx_1a8cfd094ce093e5d46fcad5531ee20570" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>write_atr_mask</name></member>
+      <member refid="classusrp__basic_1ad9b95b1ca0e2616c1b3808892fdda1b0" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>write_atr_rx_delay</name></member>
+      <member refid="classusrp__basic__tx_1a01b222b0ba0a365db87ab74731325d5b" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>write_atr_rxval</name></member>
+      <member refid="classusrp__basic_1a70f4070830b0db3fd0c3addb97ce966e" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>write_atr_tx_delay</name></member>
+      <member refid="classusrp__basic__tx_1af4c224f2e92a07ded29fc6dedba8c2d7" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>write_atr_txval</name></member>
+      <member refid="classusrp__basic__tx_1a2d3f6eda1859921bb7c0f26d2dd1163d" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>write_aux_dac</name></member>
+      <member refid="classusrp__basic_1a3900d37e951b83c938669f5fa0255866" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>write_eeprom</name></member>
+      <member refid="classusrp__standard__tx_1abd05aee7bbd18ef62bcc8dc18a11a960" prot="protected" virt="non-virtual"><scope>usrp_standard_tx</scope><name>write_hw_mux_reg</name></member>
+      <member refid="classusrp__basic_1a664e5aa3a3fb8a4c50b752906fcb79a0" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>write_i2c</name></member>
+      <member refid="classusrp__basic__tx_1a19a1a1db062ac7d3d4625c95770353ff" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>write_io</name></member>
+      <member refid="classusrp__basic__tx_1a6076561547b3912ea535334e6e6d4c2f" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>write_refclk</name></member>
+      <member refid="classusrp__basic_1a01313a5f1c8e0eea1a1ff26388e25f78" prot="public" virt="virtual"><scope>usrp_standard_tx</scope><name>~usrp_basic</name></member>
+      <member refid="classusrp__basic__tx_1a1742407fda891ebf3eea8f297310e455" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>~usrp_basic_tx</name></member>
+      <member refid="classusrp__standard__tx_1a440777cafe861f07ddeafa4d30327a1d" prot="public" virt="non-virtual"><scope>usrp_standard_tx</scope><name>~usrp_standard_tx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

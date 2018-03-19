@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classdb__dtt768" kind="class" language="C++" prot="public">
+    <compoundname>db_dtt768</compoundname>
+    <basecompoundref refid="classdb__base" prot="public" virt="non-virtual">db_base</basecompoundref>
+    <includes refid="db__dtt768_8h" local="no">db_dtt768.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdb__dtt768_1a257186d1db619526bc85267dd4f0f450" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_dtt768::d_i2c_addr</definition>
+        <argsstring></argsstring>
+        <name>d_i2c_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="52" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dtt768_1a4b6868bdd64cdd199c5bad18a8ee537d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float db_dtt768::d_bw</definition>
+        <argsstring></argsstring>
+        <name>d_bw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="53" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dtt768_1a499b75961893ce927a6f14f8f4072508" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float db_dtt768::d_freq</definition>
+        <argsstring></argsstring>
+        <name>d_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="53" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dtt768_1a4c565b15517d3b0251155ebb4c32d62f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float db_dtt768::d_IF</definition>
+        <argsstring></argsstring>
+        <name>d_IF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="53" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dtt768_1a45fd05a411744900027de45ee0c32265" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float db_dtt768::d_f_ref</definition>
+        <argsstring></argsstring>
+        <name>d_f_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="53" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__dtt768_1a8ec3594ab636e4ce6fe015c4428164af" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool db_dtt768::d_inverted</definition>
+        <argsstring></argsstring>
+        <name>d_inverted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="54" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdb__dtt768_1a1a81276ebb865a4afabd8c0e49a601ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_dtt768::db_dtt768</definition>
+        <argsstring>(usrp_basic_sptr usrp, int which)</argsstring>
+        <name>db_dtt768</name>
+        <param>
+          <type><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref></type>
+          <declname>usrp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="31" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="86" bodyend="112"/>
+        <references refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" compoundref="db__base_8cc" startline="88" endline="104">db_base::bypass_adc_buffers</references>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">db_base::d_which</references>
+        <references refid="classdb__dtt768_1afdbe7abd05a3cb9d0b607328a6a31034" compoundref="db__dtt768_8cc" startline="125" endline="128">gain_max</references>
+        <references refid="classdb__dtt768_1a1a79c98e466744f999a30852bc7b009b" compoundref="db__dtt768_8cc" startline="119" endline="122">gain_min</references>
+        <references refid="classdb__dtt768_1aafb4a62e6c8b9910b02d1f03311368e2" compoundref="db__dtt768_8cc" startline="137" endline="166">set_gain</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1a89611d8f0eccbe24fbc47e8408ac0f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_dtt768::~db_dtt768</definition>
+        <argsstring>()</argsstring>
+        <name>~db_dtt768</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="32" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1a1a79c98e466744f999a30852bc7b009b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_dtt768::gain_min</definition>
+        <argsstring>()</argsstring>
+        <name>gain_min</name>
+        <reimplements refid="classdb__base_1a8879fd876f4b31cd78f4713c64140176">gain_min</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="34" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="119" bodyend="122"/>
+        <referencedby refid="classdb__dtt768_1a1a81276ebb865a4afabd8c0e49a601ba" compoundref="db__dtt768_8cc" startline="86" endline="112">db_dtt768</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1afdbe7abd05a3cb9d0b607328a6a31034" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_dtt768::gain_max</definition>
+        <argsstring>()</argsstring>
+        <name>gain_max</name>
+        <reimplements refid="classdb__base_1aff5b963b288947ba6bfb5d5a6275a074">gain_max</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="35" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="125" bodyend="128"/>
+        <referencedby refid="classdb__dtt768_1a1a81276ebb865a4afabd8c0e49a601ba" compoundref="db__dtt768_8cc" startline="86" endline="112">db_dtt768</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1ad52ff64087aa981200c91e3bb4f6978a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_dtt768::gain_db_per_step</definition>
+        <argsstring>()</argsstring>
+        <name>gain_db_per_step</name>
+        <reimplements refid="classdb__base_1adcb54348e840f7c91cfeaa113974d32f">gain_db_per_step</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="36" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="131" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1aafb4a62e6c8b9910b02d1f03311368e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_dtt768::set_gain</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>set_gain</name>
+        <reimplements refid="classdb__base_1aa3b2f58f8d96e0b6c4652495338ce2da">set_gain</reimplements>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="37" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="137" bodyend="166"/>
+        <referencedby refid="classdb__dtt768_1a1a81276ebb865a4afabd8c0e49a601ba" compoundref="db__dtt768_8cc" startline="86" endline="112">db_dtt768</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1ac7cece5cfb30fb5d14c78c4a362e803f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double db_dtt768::freq_min</definition>
+        <argsstring>()</argsstring>
+        <name>freq_min</name>
+        <reimplements refid="classdb__base_1a87f1e9f6ebe56002c0d3cd894f91732a">freq_min</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="169" bodyend="172"/>
+        <referencedby refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" compoundref="db__dtt768_8cc" startline="181" endline="222">set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1a8231c04e8ed2d5146884594c91d272ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double db_dtt768::freq_max</definition>
+        <argsstring>()</argsstring>
+        <name>freq_max</name>
+        <reimplements refid="classdb__base_1afdd3d7d4dc53311b09ce96e06722be08">freq_max</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="175" bodyend="178"/>
+        <referencedby refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" compoundref="db__dtt768_8cc" startline="181" endline="222">set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>struct <ref refid="structfreq__result__t" kindref="compound">freq_result_t</ref></type>
+        <definition>struct freq_result_t db_dtt768::set_freq</definition>
+        <argsstring>(double target_freq)</argsstring>
+        <name>set_freq</name>
+        <reimplements refid="classdb__base_1a6b23423681d9df85338f5519eed33159">set_freq</reimplements>
+        <param>
+          <type>double</type>
+          <declname>target_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="181" bodyend="222"/>
+        <references refid="db__dtt768_8cc_1a06661ed638dfb6aad418d7aa51eec334" compoundref="db__dtt768_8cc" startline="30" endline="37">control_byte_4</references>
+        <references refid="db__dtt768_8cc_1a1bc5519c012bc2e70c9649de6298a790" compoundref="db__dtt768_8cc" startline="40" endline="64">control_byte_5</references>
+        <references refid="db__dtt768_8cc_1a065e6f7a443ee70059e030fee752a7aa" compoundref="db__dtt768_8cc" startline="67" endline="74">control_byte_6</references>
+        <references refid="db__dtt768_8cc_1a1407b92caa89f35d2afd114fb78be4db" compoundref="db__dtt768_8cc" startline="77" endline="84">control_byte_7</references>
+        <references refid="classdb__dtt768_1a8231c04e8ed2d5146884594c91d272ab" compoundref="db__dtt768_8cc" startline="175" endline="178">freq_max</references>
+        <references refid="classdb__dtt768_1ac7cece5cfb30fb5d14c78c4a362e803f" compoundref="db__dtt768_8cc" startline="169" endline="172">freq_min</references>
+        <references refid="db__util_8cc_1ac1397f7615adcb5571c7555538fcf8e8" compoundref="db__util_8cc" startline="29" endline="39">int_seq_to_str</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <references refid="classusrp__basic_1a664e5aa3a3fb8a4c50b752906fcb79a0" compoundref="usrp__basic_8cc" startline="278" endline="281">usrp_basic::write_i2c</references>
+        <referencedby refid="classdb__dtt768_1aec00134aa18ddbe0f8b3fd8a3b950a9b" compoundref="db__dtt768_8cc" startline="247" endline="257">set_bw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1ac536bf49c8c64df282ea04c16c3527ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_dtt768::is_quadrature</definition>
+        <argsstring>()</argsstring>
+        <name>is_quadrature</name>
+        <reimplements refid="classdb__base_1a7c6fac86794800bd49b433cbb0ff3b3b">is_quadrature</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="43" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="225" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1a65a3a6f2d26812b465867cc74ac271a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_dtt768::spectrum_inverted</definition>
+        <argsstring>()</argsstring>
+        <name>spectrum_inverted</name>
+        <reimplements refid="classdb__base_1ab6a6fad01c3df159fb7124aec13489d7">spectrum_inverted</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="44" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="237" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1aec00134aa18ddbe0f8b3fd8a3b950a9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_dtt768::set_bw</definition>
+        <argsstring>(float bw)</argsstring>
+        <name>set_bw</name>
+        <reimplements refid="classdb__base_1a7adcd5e0883f838cc6cd2bc9dda1ef87">set_bw</reimplements>
+        <param>
+          <type>float</type>
+          <declname>bw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="45" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="247" bodyend="257"/>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">db_base::d_which</references>
+        <references refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" compoundref="db__dtt768_8cc" startline="181" endline="222">set_freq</references>
+        <references refid="classusrp__basic_1afdcf0497f2554589b36a57806e239a07">usrp_basic::set_pga</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <references refid="classusrp__basic_1a332790fa84b6b64f82de8983b45b611a">usrp_basic::write_aux_dac</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdb__dtt768_1aadef49659ee83cd7ba312bf517cb3e33" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dtt768::_set_rfagc</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>_set_rfagc</name>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="48" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="260" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1a44dc2a378f583956e85b6ed52bf04b63" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dtt768::_set_ifagc</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>_set_ifagc</name>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="49" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="280" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__dtt768_1acf9f647b2bd1f56cbd76f3b8654b68db" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_dtt768::_set_pga</definition>
+        <argsstring>(float pga_gain)</argsstring>
+        <name>_set_pga</name>
+        <param>
+          <type>float</type>
+          <declname>pga_gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="50" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_dtt768.cc" bodystart="291" bodyend="300"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="152">
+        <label>db_dtt768</label>
+        <link refid="classdb__dtt768"/>
+        <childnode refid="153" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="157">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="158">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="154">
+        <label>db_dtt768</label>
+        <link refid="classdb__dtt768"/>
+        <childnode refid="155" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="157" relation="private-inheritance">
+        </childnode>
+        <childnode refid="158" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+      <node id="155">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+        <childnode refid="156" relation="usage">
+          <edgelabel>d_raw_usrp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" line="29" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_dtt768.h" bodystart="28" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" prot="protected" virt="non-virtual"><scope>db_dtt768</scope><name>_enable_refclk</name></member>
+      <member refid="classdb__base_1acd58b612941f45fabab13438463c327b" prot="protected" virt="virtual"><scope>db_dtt768</scope><name>_refclk_divisor</name></member>
+      <member refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" prot="protected" virt="virtual"><scope>db_dtt768</scope><name>_refclk_freq</name></member>
+      <member refid="classdb__dtt768_1a44dc2a378f583956e85b6ed52bf04b63" prot="private" virt="non-virtual"><scope>db_dtt768</scope><name>_set_ifagc</name></member>
+      <member refid="classdb__dtt768_1acf9f647b2bd1f56cbd76f3b8654b68db" prot="private" virt="non-virtual"><scope>db_dtt768</scope><name>_set_pga</name></member>
+      <member refid="classdb__dtt768_1aadef49659ee83cd7ba312bf517cb3e33" prot="private" virt="non-virtual"><scope>db_dtt768</scope><name>_set_rfagc</name></member>
+      <member refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>bypass_adc_buffers</name></member>
+      <member refid="classdb__dtt768_1a4b6868bdd64cdd199c5bad18a8ee537d" prot="private" virt="non-virtual"><scope>db_dtt768</scope><name>d_bw</name></member>
+      <member refid="classdb__dtt768_1a45fd05a411744900027de45ee0c32265" prot="private" virt="non-virtual"><scope>db_dtt768</scope><name>d_f_ref</name></member>
+      <member refid="classdb__dtt768_1a499b75961893ce927a6f14f8f4072508" prot="private" virt="non-virtual"><scope>db_dtt768</scope><name>d_freq</name></member>
+      <member refid="classdb__dtt768_1a257186d1db619526bc85267dd4f0f450" prot="private" virt="non-virtual"><scope>db_dtt768</scope><name>d_i2c_addr</name></member>
+      <member refid="classdb__dtt768_1a4c565b15517d3b0251155ebb4c32d62f" prot="private" virt="non-virtual"><scope>db_dtt768</scope><name>d_IF</name></member>
+      <member refid="classdb__dtt768_1a8ec3594ab636e4ce6fe015c4428164af" prot="private" virt="non-virtual"><scope>db_dtt768</scope><name>d_inverted</name></member>
+      <member refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" prot="protected" virt="non-virtual"><scope>db_dtt768</scope><name>d_is_shutdown</name></member>
+      <member refid="classdb__base_1a0665a615c2eb4236814825c89dd024e0" prot="protected" virt="non-virtual"><scope>db_dtt768</scope><name>d_lo_offset</name></member>
+      <member refid="classdb__base_1aa6e5420338ff3e0a9b1afe2ae1fbc58b" prot="protected" virt="non-virtual"><scope>db_dtt768</scope><name>d_raw_usrp</name></member>
+      <member refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" prot="protected" virt="non-virtual"><scope>db_dtt768</scope><name>d_which</name></member>
+      <member refid="classdb__base_1aeddb69ef4218642cb8b03eff94ff8efc" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>db_base</name></member>
+      <member refid="classdb__dtt768_1a1a81276ebb865a4afabd8c0e49a601ba" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>db_dtt768</name></member>
+      <member refid="classdb__base_1a6c70380b8abff2d051eece9d2b208408" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>dbid</name></member>
+      <member refid="classdb__dtt768_1a8231c04e8ed2d5146884594c91d272ab" prot="public" virt="virtual"><scope>db_dtt768</scope><name>freq_max</name></member>
+      <member refid="classdb__dtt768_1ac7cece5cfb30fb5d14c78c4a362e803f" prot="public" virt="virtual"><scope>db_dtt768</scope><name>freq_min</name></member>
+      <member refid="classdb__dtt768_1ad52ff64087aa981200c91e3bb4f6978a" prot="public" virt="virtual"><scope>db_dtt768</scope><name>gain_db_per_step</name></member>
+      <member refid="classdb__dtt768_1afdbe7abd05a3cb9d0b607328a6a31034" prot="public" virt="virtual"><scope>db_dtt768</scope><name>gain_max</name></member>
+      <member refid="classdb__dtt768_1a1a79c98e466744f999a30852bc7b009b" prot="public" virt="virtual"><scope>db_dtt768</scope><name>gain_min</name></member>
+      <member refid="classdb__base_1aa2d4002c1550d262e74def064a230e1a" prot="public" virt="virtual"><scope>db_dtt768</scope><name>i_and_q_swapped</name></member>
+      <member refid="classdb__dtt768_1ac536bf49c8c64df282ea04c16c3527ec" prot="public" virt="virtual"><scope>db_dtt768</scope><name>is_quadrature</name></member>
+      <member refid="classdb__base_1a07337ac0b59b2d36ced8f0dd7dd58b1e" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>lo_offset</name></member>
+      <member refid="classdb__base_1aef52f371112795b933570a269da85847" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>name</name></member>
+      <member refid="classdb__base_1aecc92b603e94509aa04f12aec563ea17" prot="public" virt="virtual"><scope>db_dtt768</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1ab6aba3bd757102bf14fba4e98fb17f0d" prot="public" virt="virtual"><scope>db_dtt768</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>set_atr_mask</name></member>
+      <member refid="classdb__base_1aec8010d1f2412ffe33bb0f27ee6d8275" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>set_atr_rx_delay</name></member>
+      <member refid="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>set_atr_rxval</name></member>
+      <member refid="classdb__base_1a01586c74a2cab95c3e12951402fab1a3" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>set_atr_tx_delay</name></member>
+      <member refid="classdb__base_1a9722d03f078d1206539ad097c28a9562" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>set_atr_txval</name></member>
+      <member refid="classdb__base_1aa636457dfe89f1f0dca5fa06b67fdb58" prot="public" virt="virtual"><scope>db_dtt768</scope><name>set_auto_tr</name></member>
+      <member refid="classdb__dtt768_1aec00134aa18ddbe0f8b3fd8a3b950a9b" prot="public" virt="virtual"><scope>db_dtt768</scope><name>set_bw</name></member>
+      <member refid="classdb__base_1afa9d1b54d69312317258723a2ee1a1e7" prot="public" virt="virtual"><scope>db_dtt768</scope><name>set_enable</name></member>
+      <member refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" prot="public" virt="virtual"><scope>db_dtt768</scope><name>set_freq</name></member>
+      <member refid="classdb__dtt768_1aafb4a62e6c8b9910b02d1f03311368e2" prot="public" virt="virtual"><scope>db_dtt768</scope><name>set_gain</name></member>
+      <member refid="classdb__base_1a3d8eb19a95b9ca4970c56f1a699e85bf" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>set_lo_offset</name></member>
+      <member refid="classdb__base_1a73aae0d09b138c28e70541c63e2cb498" prot="protected" virt="virtual"><scope>db_dtt768</scope><name>shutdown</name></member>
+      <member refid="classdb__base_1a9cee7496d9a4d09b72a008fb5d7e6664" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>side_and_name</name></member>
+      <member refid="classdb__dtt768_1a65a3a6f2d26812b465867cc74ac271a2" prot="public" virt="virtual"><scope>db_dtt768</scope><name>spectrum_inverted</name></member>
+      <member refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" prot="protected" virt="non-virtual"><scope>db_dtt768</scope><name>usrp</name></member>
+      <member refid="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>which</name></member>
+      <member refid="classdb__base_1a6c28d39ecaa14d475acb9ce6bfc1b4b0" prot="public" virt="virtual"><scope>db_dtt768</scope><name>~db_base</name></member>
+      <member refid="classdb__dtt768_1a89611d8f0eccbe24fbc47e8408ac0f05" prot="public" virt="non-virtual"><scope>db_dtt768</scope><name>~db_dtt768</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

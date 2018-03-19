@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfusb__devhandle__libusb1" kind="class" language="C++" prot="public">
+    <compoundname>fusb_devhandle_libusb1</compoundname>
+    <basecompoundref refid="classfusb__devhandle" prot="public" virt="non-virtual">fusb_devhandle</basecompoundref>
+    <includes refid="fusb__libusb1_8h" local="no">fusb_libusb1.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classfusb__devhandle__libusb1_1a34dc478d5af3388c996b17b24665b8e8" prot="private" static="no" mutable="no">
+        <type>std::list&lt; libusb_transfer * &gt;</type>
+        <definition>std::list&lt;libusb_transfer*&gt; fusb_devhandle_libusb1::d_pending_rqsts</definition>
+        <argsstring></argsstring>
+        <name>d_pending_rqsts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__devhandle__libusb1_1a677cb10fbd8dd055348853ecb51061dc" prot="private" static="no" mutable="no">
+        <type>libusb_context *</type>
+        <definition>libusb_context* fusb_devhandle_libusb1::d_ctx</definition>
+        <argsstring></argsstring>
+        <name>d_ctx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="41" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__devhandle__libusb1_1a279f34605359b0aaf3c4a4e2d1f65718" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool fusb_devhandle_libusb1::d_teardown</definition>
+        <argsstring></argsstring>
+        <name>d_teardown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="46" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfusb__devhandle__libusb1_1a3b890872e24e6a7203e103e6defea180" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fusb_devhandle_libusb1::pending_add</definition>
+        <argsstring>(struct libusb_transfer *lut)</argsstring>
+        <name>pending_add</name>
+        <param>
+          <type>struct libusb_transfer *</type>
+          <declname>lut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="43" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.cc" bodystart="167" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__libusb1_1a598ead656f2bbe63e2731d0d3308b7bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct libusb_transfer *</type>
+        <definition>libusb_transfer * fusb_devhandle_libusb1::pending_get</definition>
+        <argsstring>()</argsstring>
+        <name>pending_get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="44" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.cc" bodystart="193" bodyend="201"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfusb__devhandle__libusb1_1ac8393f04ee9b97def2650776348f3356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fusb_devhandle_libusb1::fusb_devhandle_libusb1</definition>
+        <argsstring>(libusb_device_handle *udh, libusb_context *ctx)</argsstring>
+        <name>fusb_devhandle_libusb1</name>
+        <param>
+          <type><ref refid="libusb__types_8h_1a7d5bb463830eeed919dfb59dc54eeb2b" kindref="member">libusb_device_handle</ref> *</type>
+          <declname>udh</declname>
+        </param>
+        <param>
+          <type>libusb_context *</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="50" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.cc" bodystart="128" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__libusb1_1a0dabaf21fc5d3b5695b583a9e1873bb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>fusb_devhandle_libusb1::~fusb_devhandle_libusb1</definition>
+        <argsstring>()</argsstring>
+        <name>~fusb_devhandle_libusb1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="51" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.cc" bodystart="135" bodyend="152"/>
+        <references refid="classfusb__devhandle__libusb1_1a1c5f07939646c5aae7f50520cd0c9cab" compoundref="fusb__libusb1_8cc" startline="251" endline="261">_cancel_lut</references>
+        <references refid="classfusb__devhandle__libusb1_1a2956964241a134a650414df28a69ef6b" compoundref="fusb__libusb1_8cc" startline="308" endline="315">_wait_for_completion</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__libusb1_1a81e28b0836539b822fd0b3c3ce8ef04b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classfusb__ephandle" kindref="compound">fusb_ephandle</ref> *</type>
+        <definition>fusb_ephandle * fusb_devhandle_libusb1::make_ephandle</definition>
+        <argsstring>(int endpoint, bool input_p, int block_size=0, int nblocks=0)</argsstring>
+        <name>make_ephandle</name>
+        <reimplements refid="classfusb__devhandle_1a9783b6b0082f783dc7638ff557998ff2">make_ephandle</reimplements>
+        <param>
+          <type>int</type>
+          <declname>endpoint</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>input_p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block_size</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nblocks</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>return an ephandle of the correct subtype </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="54" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.cc" bodystart="155" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__libusb1_1a2e41764a376a1fa63f244302dbd89864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool fusb_devhandle_libusb1::_submit_lut</definition>
+        <argsstring>(libusb_transfer *)</argsstring>
+        <name>_submit_lut</name>
+        <param>
+          <type>libusb_transfer *</type>
+          <defname>lut</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="57" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.cc" bodystart="229" bodyend="241"/>
+        <referencedby refid="classfusb__ephandle__libusb1_1aed1ccff34fdff1d642cd4165453fc102" compoundref="fusb__libusb1_8cc" startline="683" endline="691">fusb_ephandle_libusb1::completed_list_get</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__libusb1_1a1c5f07939646c5aae7f50520cd0c9cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool fusb_devhandle_libusb1::_cancel_lut</definition>
+        <argsstring>(libusb_transfer *)</argsstring>
+        <name>_cancel_lut</name>
+        <param>
+          <type>libusb_transfer *</type>
+          <defname>lut</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="58" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.cc" bodystart="251" bodyend="261"/>
+        <referencedby refid="classfusb__devhandle__libusb1_1a5d831fb5603fb6e116f4625868bc0142" compoundref="fusb__libusb1_8cc" startline="178" endline="186">_cancel_pending_rqsts</referencedby>
+        <referencedby refid="classfusb__devhandle__libusb1_1a0dabaf21fc5d3b5695b583a9e1873bb9" compoundref="fusb__libusb1_8cc" startline="135" endline="152">~fusb_devhandle_libusb1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__libusb1_1a5d831fb5603fb6e116f4625868bc0142" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fusb_devhandle_libusb1::_cancel_pending_rqsts</definition>
+        <argsstring>(fusb_ephandle_libusb1 *eph)</argsstring>
+        <name>_cancel_pending_rqsts</name>
+        <param>
+          <type><ref refid="classfusb__ephandle__libusb1" kindref="compound">fusb_ephandle_libusb1</ref> *</type>
+          <declname>eph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="59" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.cc" bodystart="178" bodyend="186"/>
+        <references refid="classfusb__devhandle__libusb1_1a1c5f07939646c5aae7f50520cd0c9cab" compoundref="fusb__libusb1_8cc" startline="251" endline="261">_cancel_lut</references>
+        <referencedby refid="classfusb__ephandle__libusb1_1a2229f3407c86d363b5fc2512f304cae4" compoundref="fusb__libusb1_8cc" startline="406" endline="442">fusb_ephandle_libusb1::stop</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__libusb1_1affd28431e9ab6d94ddc727e26b64afa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool fusb_devhandle_libusb1::_reap</definition>
+        <argsstring>(bool ok_to_block_p)</argsstring>
+        <name>_reap</name>
+        <param>
+          <type>bool</type>
+          <declname>ok_to_block_p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="60" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.cc" bodystart="277" bodyend="305"/>
+        <referencedby refid="classfusb__devhandle__libusb1_1a2956964241a134a650414df28a69ef6b" compoundref="fusb__libusb1_8cc" startline="308" endline="315">_wait_for_completion</referencedby>
+        <referencedby refid="classfusb__ephandle__libusb1_1aacdf50b04389abe7ef0d51cc32a7a34e" compoundref="fusb__libusb1_8cc" startline="583" endline="609">fusb_ephandle_libusb1::read</referencedby>
+        <referencedby refid="classfusb__ephandle__libusb1_1a2229f3407c86d363b5fc2512f304cae4" compoundref="fusb__libusb1_8cc" startline="406" endline="442">fusb_ephandle_libusb1::stop</referencedby>
+        <referencedby refid="classfusb__ephandle__libusb1_1a24c7095fa95cc6a7e53c66f3ee2c348a" compoundref="fusb__libusb1_8cc" startline="489" endline="520">fusb_ephandle_libusb1::write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__libusb1_1a2956964241a134a650414df28a69ef6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fusb_devhandle_libusb1::_wait_for_completion</definition>
+        <argsstring>()</argsstring>
+        <name>_wait_for_completion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="61" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.cc" bodystart="308" bodyend="315"/>
+        <references refid="classfusb__devhandle__libusb1_1affd28431e9ab6d94ddc727e26b64afa3" compoundref="fusb__libusb1_8cc" startline="277" endline="305">_reap</references>
+        <referencedby refid="classfusb__ephandle__libusb1_1ab17d6e4231553c3f105c76bdf3037607" compoundref="fusb__libusb1_8cc" startline="573" endline="576">fusb_ephandle_libusb1::wait_for_completion</referencedby>
+        <referencedby refid="classfusb__devhandle__libusb1_1a0dabaf21fc5d3b5695b583a9e1873bb9" compoundref="fusb__libusb1_8cc" startline="135" endline="152">~fusb_devhandle_libusb1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__libusb1_1adab51f02556d8753287047309f6afa5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool fusb_devhandle_libusb1::pending_remove</definition>
+        <argsstring>(struct libusb_transfer *lut)</argsstring>
+        <name>pending_remove</name>
+        <param>
+          <type>struct libusb_transfer *</type>
+          <declname>lut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="64" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.cc" bodystart="209" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__devhandle__libusb1_1a145514ecae9cad4973d39a6010b01167" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool fusb_devhandle_libusb1::_teardown</definition>
+        <argsstring>()</argsstring>
+        <name>_teardown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="65" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>libusb1 implementation of <ref refid="classfusb__devhandle" kindref="compound">fusb_devhandle</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="810">
+        <label>fusb_devhandle_libusb1</label>
+        <link refid="classfusb__devhandle__libusb1"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="811">
+        <label>fusb_devhandle</label>
+        <link refid="classfusb__devhandle"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="812">
+        <label>fusb_devhandle_libusb1</label>
+        <link refid="classfusb__devhandle__libusb1"/>
+        <childnode refid="813" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="814">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="813">
+        <label>fusb_devhandle</label>
+        <link refid="classfusb__devhandle"/>
+        <childnode refid="814" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" line="38" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_libusb1.h" bodystart="37" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classfusb__devhandle__libusb1_1a1c5f07939646c5aae7f50520cd0c9cab" prot="public" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>_cancel_lut</name></member>
+      <member refid="classfusb__devhandle__libusb1_1a5d831fb5603fb6e116f4625868bc0142" prot="public" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>_cancel_pending_rqsts</name></member>
+      <member refid="classfusb__devhandle__libusb1_1affd28431e9ab6d94ddc727e26b64afa3" prot="public" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>_reap</name></member>
+      <member refid="classfusb__devhandle__libusb1_1a2e41764a376a1fa63f244302dbd89864" prot="public" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>_submit_lut</name></member>
+      <member refid="classfusb__devhandle__libusb1_1a145514ecae9cad4973d39a6010b01167" prot="public" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>_teardown</name></member>
+      <member refid="classfusb__devhandle__libusb1_1a2956964241a134a650414df28a69ef6b" prot="public" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>_wait_for_completion</name></member>
+      <member refid="classfusb__devhandle__libusb1_1a677cb10fbd8dd055348853ecb51061dc" prot="private" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>d_ctx</name></member>
+      <member refid="classfusb__devhandle__libusb1_1a34dc478d5af3388c996b17b24665b8e8" prot="private" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>d_pending_rqsts</name></member>
+      <member refid="classfusb__devhandle__libusb1_1a279f34605359b0aaf3c4a4e2d1f65718" prot="private" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>d_teardown</name></member>
+      <member refid="classfusb__devhandle_1a6252a726fbddc4dccd936e46b59f7f0a" prot="protected" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>d_udh</name></member>
+      <member refid="classfusb__devhandle_1a874740e2d90be7f4a526ab0e6f1007d9" prot="public" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>fusb_devhandle</name></member>
+      <member refid="classfusb__devhandle__libusb1_1ac8393f04ee9b97def2650776348f3356" prot="public" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>fusb_devhandle_libusb1</name></member>
+      <member refid="classfusb__devhandle_1a0f1b7e9680e730d0f6faca7ec41175f1" prot="public" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>get_usb_dev_handle</name></member>
+      <member refid="classfusb__devhandle__libusb1_1a81e28b0836539b822fd0b3c3ce8ef04b" prot="public" virt="virtual"><scope>fusb_devhandle_libusb1</scope><name>make_ephandle</name></member>
+      <member refid="classfusb__devhandle__libusb1_1a3b890872e24e6a7203e103e6defea180" prot="private" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>pending_add</name></member>
+      <member refid="classfusb__devhandle__libusb1_1a598ead656f2bbe63e2731d0d3308b7bf" prot="private" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>pending_get</name></member>
+      <member refid="classfusb__devhandle__libusb1_1adab51f02556d8753287047309f6afa5f" prot="public" virt="non-virtual"><scope>fusb_devhandle_libusb1</scope><name>pending_remove</name></member>
+      <member refid="classfusb__devhandle_1a4dce7007e8565b2bb5951b60b517a8b5" prot="public" virt="virtual"><scope>fusb_devhandle_libusb1</scope><name>~fusb_devhandle</name></member>
+      <member refid="classfusb__devhandle__libusb1_1a0dabaf21fc5d3b5695b583a9e1873bb9" prot="public" virt="virtual"><scope>fusb_devhandle_libusb1</scope><name>~fusb_devhandle_libusb1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

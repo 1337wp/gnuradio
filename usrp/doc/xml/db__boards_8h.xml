@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="db__boards_8h" kind="file" language="C++">
+    <compoundname>db_boards.h</compoundname>
+    <includes refid="db__base_8h" local="no">usrp/db_base.h</includes>
+    <includes refid="usrp__basic_8h" local="no">usrp/usrp_basic.h</includes>
+    <includedby refid="db__boards_8cc" local="no">db_boards.cc</includedby>
+    <includedby refid="usrp__basic_8cc" local="yes">usrp_basic.cc</includedby>
+    <incdepgraph>
+      <node id="230">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="236">
+        <label>usrp/libusb_types.h</label>
+        <link refid="libusb__types_8h"/>
+        <childnode refid="237" relation="include">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>usrp/usrp_slots.h</label>
+        <link refid="usrp__slots_8h"/>
+      </node>
+      <node id="229">
+        <label>string</label>
+      </node>
+      <node id="231">
+        <label>boost/weak_ptr.hpp</label>
+      </node>
+      <node id="238">
+        <label>vector</label>
+      </node>
+      <node id="228">
+        <label>usrp/db_base.h</label>
+        <link refid="db__base_8h"/>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+      </node>
+      <node id="239">
+        <label>boost/utility.hpp</label>
+      </node>
+      <node id="233">
+        <label>usrp/usrp_basic.h</label>
+        <link refid="usrp__basic_8h"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+      </node>
+      <node id="232">
+        <label>iosfwd</label>
+      </node>
+      <node id="235">
+        <label>usrp/usrp_subdev_spec.h</label>
+        <link refid="usrp__subdev__spec_8h"/>
+      </node>
+      <node id="237">
+        <label>usb.h</label>
+      </node>
+      <node id="227">
+        <label>db_boards.h</label>
+        <link refid="db_boards.h"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="241">
+        <label>db_boards.cc</label>
+        <link refid="db__boards_8cc"/>
+      </node>
+      <node id="242">
+        <label>usrp_basic.cc</label>
+        <link refid="usrp__basic_8cc"/>
+      </node>
+      <node id="240">
+        <label>db_boards.h</label>
+        <link refid="db_boards.h"/>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref> &gt;</type>
+        <definition>std::vector&lt;db_base_sptr&gt; instantiate_dbs</definition>
+        <argsstring>(int dbid, usrp_basic_sptr usrp, int which_side)</argsstring>
+        <name>instantiate_dbs</name>
+        <param>
+          <type>int</type>
+          <declname>dbid</declname>
+        </param>
+        <param>
+          <type><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref></type>
+          <declname>usrp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_boards.h" line="29" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_boards.cc" bodystart="43" bodyend="244"/>
+        <references refid="usrp__dbid_8h_1ab97c0168b5b16de0ea863f7ccb85a74b" compoundref="usrp__dbid_8h" startline="14">USRP_DBID_BASIC_RX</references>
+        <references refid="usrp__dbid_8h_1a463e9ecf8b5a3f87ff118bb73d9d5101" compoundref="usrp__dbid_8h" startline="13">USRP_DBID_BASIC_TX</references>
+        <references refid="usrp__dbid_8h_1a73156ef431fe4dfb4ba737091c7fa1c3" compoundref="usrp__dbid_8h" startline="65">USRP_DBID_BITSHARK_RX</references>
+        <references refid="usrp__dbid_8h_1ae84dfd43400901caf4cd6417a167745c" compoundref="usrp__dbid_8h" startline="15">USRP_DBID_DBS_RX</references>
+        <references refid="usrp__dbid_8h_1a762b8bc28af1113951c77aae41242eb8" compoundref="usrp__dbid_8h" startline="54">USRP_DBID_DTT754</references>
+        <references refid="usrp__dbid_8h_1ab889be5e68be0715ba8e1fc6ddaf2eb6" compoundref="usrp__dbid_8h" startline="55">USRP_DBID_DTT768</references>
+        <references refid="usrp__dbid_8h_1ae8e511ae8d9932454e7fc6e0f9df43ba" compoundref="usrp__dbid_8h" startline="19">USRP_DBID_FLEX_1200_RX</references>
+        <references refid="usrp__dbid_8h_1a7b9470440621874bbbbc5dcc5a14539f" compoundref="usrp__dbid_8h" startline="31">USRP_DBID_FLEX_1200_RX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1aa088b1af133c443b35b493dc813474cf" compoundref="usrp__dbid_8h" startline="39">USRP_DBID_FLEX_1200_RX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1abaf21e7c23333e025558bd22df1b925d" compoundref="usrp__dbid_8h" startline="23">USRP_DBID_FLEX_1200_TX</references>
+        <references refid="usrp__dbid_8h_1ac10d1c44c7bd54eaca19558b39cc6e98" compoundref="usrp__dbid_8h" startline="35">USRP_DBID_FLEX_1200_TX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1a31af8e520e75edad747a92443c5b07df" compoundref="usrp__dbid_8h" startline="43">USRP_DBID_FLEX_1200_TX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a6e8403ca0e06bd304913559671af74c7" compoundref="usrp__dbid_8h" startline="47">USRP_DBID_FLEX_1800_RX</references>
+        <references refid="usrp__dbid_8h_1a466382d062064b84833fd4c2bcaf8194" compoundref="usrp__dbid_8h" startline="49">USRP_DBID_FLEX_1800_RX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1a51c42757d3a81ac022475122ba2d3723" compoundref="usrp__dbid_8h" startline="51">USRP_DBID_FLEX_1800_RX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a59c570b06bd1e60f332abe6bbba96162" compoundref="usrp__dbid_8h" startline="48">USRP_DBID_FLEX_1800_TX</references>
+        <references refid="usrp__dbid_8h_1a2faec59d518b3fc8fbff2fcb80e28c3f" compoundref="usrp__dbid_8h" startline="50">USRP_DBID_FLEX_1800_TX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1ae2d714b572524893c4248a0bc5bd2c2c" compoundref="usrp__dbid_8h" startline="52">USRP_DBID_FLEX_1800_TX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a1c0a36f4dc274f26f7ef0ed986211b4f" compoundref="usrp__dbid_8h" startline="20">USRP_DBID_FLEX_2400_RX</references>
+        <references refid="usrp__dbid_8h_1a6fb0d845563b950af0606cf548720209" compoundref="usrp__dbid_8h" startline="32">USRP_DBID_FLEX_2400_RX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1aa9d2522b8677dd0a861759896c42e134" compoundref="usrp__dbid_8h" startline="40">USRP_DBID_FLEX_2400_RX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a3f479e898cd0852331fcf37f57561ebb" compoundref="usrp__dbid_8h" startline="24">USRP_DBID_FLEX_2400_TX</references>
+        <references refid="usrp__dbid_8h_1ac3a1d575eb081542278a0a67c35f65ca" compoundref="usrp__dbid_8h" startline="36">USRP_DBID_FLEX_2400_TX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1a10961eba0a70d299d62dca5e85bf5445" compoundref="usrp__dbid_8h" startline="44">USRP_DBID_FLEX_2400_TX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a88938d5d1f057a14a7f85ba7631c70b4" compoundref="usrp__dbid_8h" startline="17">USRP_DBID_FLEX_400_RX</references>
+        <references refid="usrp__dbid_8h_1a281584fa0a65d9f390184ffee7739c98" compoundref="usrp__dbid_8h" startline="29">USRP_DBID_FLEX_400_RX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1a71efd45e621c10e1381dd23f5420afd8" compoundref="usrp__dbid_8h" startline="37">USRP_DBID_FLEX_400_RX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1ab4c96a886230948b27b9f9f5ebb412ba" compoundref="usrp__dbid_8h" startline="21">USRP_DBID_FLEX_400_TX</references>
+        <references refid="usrp__dbid_8h_1a5c758548b566005dccb51aa663c7b247" compoundref="usrp__dbid_8h" startline="33">USRP_DBID_FLEX_400_TX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1af2a1fb97ec6c082cb0c5f522094f7ad3" compoundref="usrp__dbid_8h" startline="41">USRP_DBID_FLEX_400_TX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a3d3428b696bf8f649b3eb62fb85f1cdb" compoundref="usrp__dbid_8h" startline="18">USRP_DBID_FLEX_900_RX</references>
+        <references refid="usrp__dbid_8h_1a12cd27fa45f8d90ea3be76d142947a16" compoundref="usrp__dbid_8h" startline="30">USRP_DBID_FLEX_900_RX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1a7b1ab525188c2494679b7c07f9f67aec" compoundref="usrp__dbid_8h" startline="38">USRP_DBID_FLEX_900_RX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a850f6658172a6a6f37ab72abd3b4e365" compoundref="usrp__dbid_8h" startline="22">USRP_DBID_FLEX_900_TX</references>
+        <references refid="usrp__dbid_8h_1a0cf674876098563551793e6bebe8da3b" compoundref="usrp__dbid_8h" startline="34">USRP_DBID_FLEX_900_TX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1a99ee63d11ecc3c165b44df23213ba953" compoundref="usrp__dbid_8h" startline="42">USRP_DBID_FLEX_900_TX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a31d7eb7584336ae87ac16736b3d7f154" compoundref="usrp__dbid_8h" startline="28">USRP_DBID_LF_RX</references>
+        <references refid="usrp__dbid_8h_1adee640c223856a7498c61b92518d0a8c" compoundref="usrp__dbid_8h" startline="27">USRP_DBID_LF_TX</references>
+        <references refid="usrp__dbid_8h_1af8855fd553eab05e416b5a9589f63c91" compoundref="usrp__dbid_8h" startline="16">USRP_DBID_TV_RX</references>
+        <references refid="usrp__dbid_8h_1a0d1134103c93cf2dd55289b775b829e3" compoundref="usrp__dbid_8h" startline="56">USRP_DBID_TV_RX_MIMO</references>
+        <references refid="usrp__dbid_8h_1a4d03b61cbc53c45ea4c390cf0c78e4a6" compoundref="usrp__dbid_8h" startline="25">USRP_DBID_TV_RX_REV_2</references>
+        <references refid="usrp__dbid_8h_1afcb531859b7c89c56f40919fb71d0696" compoundref="usrp__dbid_8h" startline="57">USRP_DBID_TV_RX_REV_2_MIMO</references>
+        <references refid="usrp__dbid_8h_1ad1e82d8bf38a54b3786eeb5abb725ac2" compoundref="usrp__dbid_8h" startline="53">USRP_DBID_TV_RX_REV_3</references>
+        <references refid="usrp__dbid_8h_1afc73310b1c3d8c419947e7faf57b4ca5" compoundref="usrp__dbid_8h" startline="58">USRP_DBID_TV_RX_REV_3_MIMO</references>
+        <references refid="usrp__dbid_8h_1ad93af0a922afed9b7ced55c9f9674092" compoundref="usrp__dbid_8h" startline="60">USRP_DBID_WBX_LO_RX</references>
+        <references refid="usrp__dbid_8h_1a3b93f6f77465dd0d674ae537bfa1fad0" compoundref="usrp__dbid_8h" startline="59">USRP_DBID_WBX_LO_TX</references>
+        <references refid="usrp__dbid_8h_1a32a5d2ec1a6a93891260fd0ef13f47fd" compoundref="usrp__dbid_8h" startline="62">USRP_DBID_WBX_NG_RX</references>
+        <references refid="usrp__dbid_8h_1a18c5932ca572d59e89ae161640c07f28" compoundref="usrp__dbid_8h" startline="61">USRP_DBID_WBX_NG_TX</references>
+        <references refid="usrp__dbid_8h_1ab76b55589fc04eb4a93064eba414f431" compoundref="usrp__dbid_8h" startline="64">USRP_DBID_XCVR2450_RX</references>
+        <references refid="usrp__dbid_8h_1a582e2b1136b70d8fbe0640f304c73d4a" compoundref="usrp__dbid_8h" startline="63">USRP_DBID_XCVR2450_TX</references>
+        <referencedby refid="classusrp__basic_1a9d4d1ef184ad622c7f84a6f940614b9b" compoundref="usrp__basic_8cc" startline="179" endline="186">usrp_basic::init_db</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>2008<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>asversion<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>any<sp/>later<sp/>version.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>DB_BOARDS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DB_BOARDS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__base_8h" kindref="compound">usrp/db_base.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="usrp__basic_8h" kindref="compound">usrp/usrp_basic.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">std::vector&lt;db_base_sptr&gt;<sp/><ref refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" kindref="member">instantiate_dbs</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="usrp__dbid_8cc_1a87c643e07fc4c8ba890706ac2f2203ea" kindref="member">dbid</ref>,<sp/><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref><sp/>usrp,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_boards.h"/>
+  </compounddef>
+</doxygen>

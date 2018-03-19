@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classdb__tv__rx" kind="class" language="C++" prot="public">
+    <compoundname>db_tv_rx</compoundname>
+    <basecompoundref refid="classdb__base" prot="public" virt="non-virtual">db_base</basecompoundref>
+    <derivedcompoundref refid="classdb__tv__rx__mimo" prot="public" virt="non-virtual">db_tv_rx_mimo</derivedcompoundref>
+    <includes refid="db__tv__rx_8h" local="no">db_tv_rx.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdb__tv__rx_1aa6386543f84124e0527fc475b82226b8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_tv_rx::d_i2c_addr</definition>
+        <argsstring></argsstring>
+        <name>d_i2c_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="34" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__tv__rx_1ad8591f48d951f5b61801663f3ee7f8ee" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double db_tv_rx::d_first_IF</definition>
+        <argsstring></argsstring>
+        <name>d_first_IF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="35" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__tv__rx_1adae845244974be72acdb22d5e96b214a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double db_tv_rx::d_second_IF</definition>
+        <argsstring></argsstring>
+        <name>d_second_IF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="35" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__tv__rx_1ac63e812bedf1c7b6b74d9db3cf060d51" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int db_tv_rx::d_reference_divisor</definition>
+        <argsstring></argsstring>
+        <name>d_reference_divisor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="36" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__tv__rx_1a22db30af53c6e2e49761455b5dd96ab1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool db_tv_rx::d_fast_tuning</definition>
+        <argsstring></argsstring>
+        <name>d_fast_tuning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="37" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdb__tv__rx_1ab06c67477ccf2c68533e2a2e799c2c60" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool db_tv_rx::d_inverted</definition>
+        <argsstring></argsstring>
+        <name>d_inverted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="38" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdb__tv__rx_1a8029069eef836369e32c42101e70620a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_tv_rx::_set_rfagc</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>_set_rfagc</name>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="30" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="112" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx_1a7015c9380909a76061255cb65cc57941" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_tv_rx::_set_ifagc</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>_set_ifagc</name>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="31" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="132" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx_1a5ba2ab986a8b1e4abd8206e09225484f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void db_tv_rx::_set_pga</definition>
+        <argsstring>(float pga_gain)</argsstring>
+        <name>_set_pga</name>
+        <param>
+          <type>float</type>
+          <declname>pga_gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="32" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="145" bodyend="154"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdb__tv__rx_1aa18bf4dc902b162e67f698e022b421b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_tv_rx::db_tv_rx</definition>
+        <argsstring>(usrp_basic_sptr usrp, int which, double first_IF, double second_IF)</argsstring>
+        <name>db_tv_rx</name>
+        <param>
+          <type><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref></type>
+          <declname>usrp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>first_IF</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>second_IF</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="41" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="79" bodyend="104"/>
+        <references refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" compoundref="db__base_8cc" startline="88" endline="104">db_base::bypass_adc_buffers</references>
+        <references refid="classdb__tv__rx_1a157ef742e4f1bf2e4697745164423330" compoundref="db__tv__rx_8cc" startline="218" endline="221">gain_max</references>
+        <references refid="classdb__tv__rx_1a915fa7be293999d5484fcb1ddbc39484" compoundref="db__tv__rx_8cc" startline="212" endline="215">gain_min</references>
+        <references refid="classdb__tv__rx_1a6b14232d0c62b5cda467ac2ae0de5dd9" compoundref="db__tv__rx_8cc" startline="230" endline="264">set_gain</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx_1abe6bd97cdb36e7635933568b5453130a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_tv_rx::~db_tv_rx</definition>
+        <argsstring>()</argsstring>
+        <name>~db_tv_rx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="43" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="106" bodyend="108"/>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">db_base::d_which</references>
+        <references refid="classusrp__basic_1afdcf0497f2554589b36a57806e239a07">usrp_basic::set_pga</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <references refid="classusrp__basic_1a332790fa84b6b64f82de8983b45b611a">usrp_basic::write_aux_dac</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx_1a915fa7be293999d5484fcb1ddbc39484" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_tv_rx::gain_min</definition>
+        <argsstring>()</argsstring>
+        <name>gain_min</name>
+        <reimplements refid="classdb__base_1a8879fd876f4b31cd78f4713c64140176">gain_min</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="45" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="212" bodyend="215"/>
+        <referencedby refid="classdb__tv__rx_1aa18bf4dc902b162e67f698e022b421b8" compoundref="db__tv__rx_8cc" startline="79" endline="104">db_tv_rx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx_1a157ef742e4f1bf2e4697745164423330" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_tv_rx::gain_max</definition>
+        <argsstring>()</argsstring>
+        <name>gain_max</name>
+        <reimplements refid="classdb__base_1aff5b963b288947ba6bfb5d5a6275a074">gain_max</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="46" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="218" bodyend="221"/>
+        <referencedby refid="classdb__tv__rx_1aa18bf4dc902b162e67f698e022b421b8" compoundref="db__tv__rx_8cc" startline="79" endline="104">db_tv_rx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx_1a7e099bf0ed46800224b1535dc004bbd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_tv_rx::gain_db_per_step</definition>
+        <argsstring>()</argsstring>
+        <name>gain_db_per_step</name>
+        <reimplements refid="classdb__base_1adcb54348e840f7c91cfeaa113974d32f">gain_db_per_step</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="47" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="224" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx_1ae3e4e45c36ae57ef0e85d10de4fdff46" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double db_tv_rx::freq_min</definition>
+        <argsstring>()</argsstring>
+        <name>freq_min</name>
+        <reimplements refid="classdb__base_1a87f1e9f6ebe56002c0d3cd894f91732a">freq_min</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="48" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="157" bodyend="160"/>
+        <referencedby refid="classdb__tv__rx_1adcbac7d83d1f3a14d3e6ca653e71b2d6" compoundref="db__tv__rx_8cc" startline="169" endline="209">set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx_1adb0bf1a0a5382e1d2a76684ef9c35f09" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double db_tv_rx::freq_max</definition>
+        <argsstring>()</argsstring>
+        <name>freq_max</name>
+        <reimplements refid="classdb__base_1afdd3d7d4dc53311b09ce96e06722be08">freq_max</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="49" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="163" bodyend="166"/>
+        <referencedby refid="classdb__tv__rx_1adcbac7d83d1f3a14d3e6ca653e71b2d6" compoundref="db__tv__rx_8cc" startline="169" endline="209">set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx_1adcbac7d83d1f3a14d3e6ca653e71b2d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>struct <ref refid="structfreq__result__t" kindref="compound">freq_result_t</ref></type>
+        <definition>struct freq_result_t db_tv_rx::set_freq</definition>
+        <argsstring>(double target_freq)</argsstring>
+        <name>set_freq</name>
+        <reimplements refid="classdb__base_1a6b23423681d9df85338f5519eed33159">set_freq</reimplements>
+        <param>
+          <type>double</type>
+          <declname>target_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="49" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="169" bodyend="209"/>
+        <references refid="db__tv__rx_8cc_1a249b4496f0ad5c17d6c76d16ea01c0ce" compoundref="db__tv__rx_8cc" startline="31" endline="52">control_byte_1</references>
+        <references refid="db__tv__rx_8cc_1aadc38eb1fe389925710cfa47f3c11775" compoundref="db__tv__rx_8cc" startline="55" endline="73">control_byte_2</references>
+        <references refid="classdb__tv__rx_1adb0bf1a0a5382e1d2a76684ef9c35f09" compoundref="db__tv__rx_8cc" startline="163" endline="166">freq_max</references>
+        <references refid="classdb__tv__rx_1ae3e4e45c36ae57ef0e85d10de4fdff46" compoundref="db__tv__rx_8cc" startline="157" endline="160">freq_min</references>
+        <references refid="db__util_8cc_1ac1397f7615adcb5571c7555538fcf8e8" compoundref="db__util_8cc" startline="29" endline="39">int_seq_to_str</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <references refid="classusrp__basic_1a664e5aa3a3fb8a4c50b752906fcb79a0" compoundref="usrp__basic_8cc" startline="278" endline="281">usrp_basic::write_i2c</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx_1a6b14232d0c62b5cda467ac2ae0de5dd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_tv_rx::set_gain</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>set_gain</name>
+        <reimplements refid="classdb__base_1aa3b2f58f8d96e0b6c4652495338ce2da">set_gain</reimplements>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="51" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="230" bodyend="264"/>
+        <referencedby refid="classdb__tv__rx_1aa18bf4dc902b162e67f698e022b421b8" compoundref="db__tv__rx_8cc" startline="79" endline="104">db_tv_rx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx_1aee1cf561c09c9cb755bee4051ddfea36" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_tv_rx::is_quadrature</definition>
+        <argsstring>()</argsstring>
+        <name>is_quadrature</name>
+        <reimplements refid="classdb__base_1a7c6fac86794800bd49b433cbb0ff3b3b">is_quadrature</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="52" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="267" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__tv__rx_1a67175ec9fcb8f761b922a293217ee2f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_tv_rx::spectrum_inverted</definition>
+        <argsstring>()</argsstring>
+        <name>spectrum_inverted</name>
+        <reimplements refid="classdb__base_1ab6a6fad01c3df159fb7124aec13489d7">spectrum_inverted</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="53" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_tv_rx.cc" bodystart="274" bodyend="278"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="621">
+        <label>db_tv_rx</label>
+        <link refid="classdb__tv__rx"/>
+        <childnode refid="622" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="623">
+        <label>db_tv_rx_mimo</label>
+        <link refid="classdb__tv__rx__mimo"/>
+        <childnode refid="621" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="622">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="624">
+        <label>db_tv_rx</label>
+        <link refid="classdb__tv__rx"/>
+        <childnode refid="625" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="627">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="628">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="626">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="627" relation="private-inheritance">
+        </childnode>
+        <childnode refid="628" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+      <node id="625">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+        <childnode refid="626" relation="usage">
+          <edgelabel>d_raw_usrp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" line="28" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_tv_rx.h" bodystart="27" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" prot="protected" virt="non-virtual"><scope>db_tv_rx</scope><name>_enable_refclk</name></member>
+      <member refid="classdb__base_1acd58b612941f45fabab13438463c327b" prot="protected" virt="virtual"><scope>db_tv_rx</scope><name>_refclk_divisor</name></member>
+      <member refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" prot="protected" virt="virtual"><scope>db_tv_rx</scope><name>_refclk_freq</name></member>
+      <member refid="classdb__tv__rx_1a7015c9380909a76061255cb65cc57941" prot="private" virt="non-virtual"><scope>db_tv_rx</scope><name>_set_ifagc</name></member>
+      <member refid="classdb__tv__rx_1a5ba2ab986a8b1e4abd8206e09225484f" prot="private" virt="non-virtual"><scope>db_tv_rx</scope><name>_set_pga</name></member>
+      <member refid="classdb__tv__rx_1a8029069eef836369e32c42101e70620a" prot="private" virt="non-virtual"><scope>db_tv_rx</scope><name>_set_rfagc</name></member>
+      <member refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>bypass_adc_buffers</name></member>
+      <member refid="classdb__tv__rx_1a22db30af53c6e2e49761455b5dd96ab1" prot="private" virt="non-virtual"><scope>db_tv_rx</scope><name>d_fast_tuning</name></member>
+      <member refid="classdb__tv__rx_1ad8591f48d951f5b61801663f3ee7f8ee" prot="private" virt="non-virtual"><scope>db_tv_rx</scope><name>d_first_IF</name></member>
+      <member refid="classdb__tv__rx_1aa6386543f84124e0527fc475b82226b8" prot="private" virt="non-virtual"><scope>db_tv_rx</scope><name>d_i2c_addr</name></member>
+      <member refid="classdb__tv__rx_1ab06c67477ccf2c68533e2a2e799c2c60" prot="private" virt="non-virtual"><scope>db_tv_rx</scope><name>d_inverted</name></member>
+      <member refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" prot="protected" virt="non-virtual"><scope>db_tv_rx</scope><name>d_is_shutdown</name></member>
+      <member refid="classdb__base_1a0665a615c2eb4236814825c89dd024e0" prot="protected" virt="non-virtual"><scope>db_tv_rx</scope><name>d_lo_offset</name></member>
+      <member refid="classdb__base_1aa6e5420338ff3e0a9b1afe2ae1fbc58b" prot="protected" virt="non-virtual"><scope>db_tv_rx</scope><name>d_raw_usrp</name></member>
+      <member refid="classdb__tv__rx_1ac63e812bedf1c7b6b74d9db3cf060d51" prot="private" virt="non-virtual"><scope>db_tv_rx</scope><name>d_reference_divisor</name></member>
+      <member refid="classdb__tv__rx_1adae845244974be72acdb22d5e96b214a" prot="private" virt="non-virtual"><scope>db_tv_rx</scope><name>d_second_IF</name></member>
+      <member refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" prot="protected" virt="non-virtual"><scope>db_tv_rx</scope><name>d_which</name></member>
+      <member refid="classdb__base_1aeddb69ef4218642cb8b03eff94ff8efc" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>db_base</name></member>
+      <member refid="classdb__tv__rx_1aa18bf4dc902b162e67f698e022b421b8" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>db_tv_rx</name></member>
+      <member refid="classdb__base_1a6c70380b8abff2d051eece9d2b208408" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>dbid</name></member>
+      <member refid="classdb__tv__rx_1adb0bf1a0a5382e1d2a76684ef9c35f09" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>freq_max</name></member>
+      <member refid="classdb__tv__rx_1ae3e4e45c36ae57ef0e85d10de4fdff46" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>freq_min</name></member>
+      <member refid="classdb__tv__rx_1a7e099bf0ed46800224b1535dc004bbd7" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>gain_db_per_step</name></member>
+      <member refid="classdb__tv__rx_1a157ef742e4f1bf2e4697745164423330" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>gain_max</name></member>
+      <member refid="classdb__tv__rx_1a915fa7be293999d5484fcb1ddbc39484" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>gain_min</name></member>
+      <member refid="classdb__base_1aa2d4002c1550d262e74def064a230e1a" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>i_and_q_swapped</name></member>
+      <member refid="classdb__tv__rx_1aee1cf561c09c9cb755bee4051ddfea36" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>is_quadrature</name></member>
+      <member refid="classdb__base_1a07337ac0b59b2d36ced8f0dd7dd58b1e" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>lo_offset</name></member>
+      <member refid="classdb__base_1aef52f371112795b933570a269da85847" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>name</name></member>
+      <member refid="classdb__base_1aecc92b603e94509aa04f12aec563ea17" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1ab6aba3bd757102bf14fba4e98fb17f0d" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>set_atr_mask</name></member>
+      <member refid="classdb__base_1aec8010d1f2412ffe33bb0f27ee6d8275" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>set_atr_rx_delay</name></member>
+      <member refid="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>set_atr_rxval</name></member>
+      <member refid="classdb__base_1a01586c74a2cab95c3e12951402fab1a3" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>set_atr_tx_delay</name></member>
+      <member refid="classdb__base_1a9722d03f078d1206539ad097c28a9562" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>set_atr_txval</name></member>
+      <member refid="classdb__base_1aa636457dfe89f1f0dca5fa06b67fdb58" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>set_auto_tr</name></member>
+      <member refid="classdb__base_1a7adcd5e0883f838cc6cd2bc9dda1ef87" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>set_bw</name></member>
+      <member refid="classdb__base_1afa9d1b54d69312317258723a2ee1a1e7" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>set_enable</name></member>
+      <member refid="classdb__tv__rx_1adcbac7d83d1f3a14d3e6ca653e71b2d6" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>set_freq</name></member>
+      <member refid="classdb__tv__rx_1a6b14232d0c62b5cda467ac2ae0de5dd9" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>set_gain</name></member>
+      <member refid="classdb__base_1a3d8eb19a95b9ca4970c56f1a699e85bf" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>set_lo_offset</name></member>
+      <member refid="classdb__base_1a73aae0d09b138c28e70541c63e2cb498" prot="protected" virt="virtual"><scope>db_tv_rx</scope><name>shutdown</name></member>
+      <member refid="classdb__base_1a9cee7496d9a4d09b72a008fb5d7e6664" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>side_and_name</name></member>
+      <member refid="classdb__tv__rx_1a67175ec9fcb8f761b922a293217ee2f6" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>spectrum_inverted</name></member>
+      <member refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" prot="protected" virt="non-virtual"><scope>db_tv_rx</scope><name>usrp</name></member>
+      <member refid="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>which</name></member>
+      <member refid="classdb__base_1a6c28d39ecaa14d475acb9ce6bfc1b4b0" prot="public" virt="virtual"><scope>db_tv_rx</scope><name>~db_base</name></member>
+      <member refid="classdb__tv__rx_1abe6bd97cdb36e7635933568b5453130a" prot="public" virt="non-virtual"><scope>db_tv_rx</scope><name>~db_tv_rx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classdb__wbxng__rx" kind="class" language="C++" prot="public">
+    <compoundname>db_wbxng_rx</compoundname>
+    <basecompoundref refid="classwbxng__base" prot="public" virt="non-virtual">wbxng_base</basecompoundref>
+    <includes refid="db__wbxng_8h" local="no">db_wbxng.h</includes>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classdb__wbxng__rx_1ab45fea965789fa0da8125ca2df198e46" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void db_wbxng_rx::shutdown</definition>
+        <argsstring>()</argsstring>
+        <name>shutdown</name>
+        <reimplements refid="classdb__base_1a73aae0d09b138c28e70541c63e2cb498">shutdown</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called to shutdown daughterboard. Called from dtor and <ref refid="classusrp__basic" kindref="compound">usrp_basic</ref> dtor.</para><para>N.B., any class that overrides shutdown MUST call shutdown in its destructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="80" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng.cc" bodystart="391" bodyend="417"/>
+        <references refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" compoundref="db__base_8cc" startline="222" endline="235">db_base::_enable_refclk</references>
+        <references refid="db__wbxng_8cc_1aa49986170468beba14b89883e1c3dddf" compoundref="db__wbxng_8cc" startline="50">ATTN_MASK</references>
+        <references refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" compoundref="db__base_8h" startline="52">db_base::d_is_shutdown</references>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">db_base::d_which</references>
+        <references refid="db__wbxng_8cc_1acf1dbde328a81126fa8ac1b2e0f5faff" compoundref="db__wbxng_8cc" startline="36">ENABLE_33</references>
+        <references refid="db__wbxng_8cc_1ab6b087446d6c24d36aa3baf533d681b3" compoundref="db__wbxng_8cc" startline="35">ENABLE_5</references>
+        <references refid="db__wbxng_8cc_1a0ad29c635523da4e55ec25783ebce0c7" compoundref="db__wbxng_8cc" startline="43">PLL_CE</references>
+        <references refid="db__wbxng_8cc_1a3c82137a98c99c484ac39940a4da705c" compoundref="db__wbxng_8cc" startline="44">PLL_PDBRF</references>
+        <references refid="db__wbxng_8cc_1a0fa4ba56ee629b74af4d32d9afa30e6b" compoundref="db__wbxng_8cc" startline="40">RX2_RX1N</references>
+        <references refid="db__wbxng_8cc_1af604181a6fae1593f3f3d2566e2cb242" compoundref="db__wbxng_8cc" startline="41">RXBB_EN</references>
+        <references refid="classdb__wbxng__rx_1ade51b57b003e7a725bb87f2008f87ba4" compoundref="db__wbxng_8cc" startline="420" endline="434">set_auto_tr</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <references refid="classusrp__basic_1a75aca6cca672ac2deedf14fb2c04ab0e">usrp_basic::write_io</references>
+        <referencedby refid="classdb__wbxng__rx_1a3e9dd147d50695529593c1d50c6e54d9" compoundref="db__wbxng_8cc" startline="385" endline="388">~db_wbxng_rx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__wbxng__rx_1a28ad8d2be4101e0c2616beda249a5acf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool db_wbxng_rx::_set_attn</definition>
+        <argsstring>(float attn)</argsstring>
+        <name>_set_attn</name>
+        <param>
+          <type>float</type>
+          <declname>attn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="81" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng.cc" bodystart="508" bodyend="514"/>
+        <references refid="db__wbxng_8cc_1aa49986170468beba14b89883e1c3dddf" compoundref="db__wbxng_8cc" startline="50">ATTN_MASK</references>
+        <references refid="db__wbxng_8cc_1aed68a9e69f4301d7c3a6a726eeaca2ea" compoundref="db__wbxng_8cc" startline="49">ATTN_SHIFT</references>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">db_base::d_which</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <references refid="classusrp__basic_1a75aca6cca672ac2deedf14fb2c04ab0e">usrp_basic::write_io</references>
+        <referencedby refid="classdb__wbxng__rx_1a595900e96c84910c1596197a3534cba4" compoundref="db__wbxng_8cc" startline="479" endline="505">set_gain</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdb__wbxng__rx_1a9778dac1e79a6c22ab1b1933a7fc9068" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_wbxng_rx::db_wbxng_rx</definition>
+        <argsstring>(usrp_basic_sptr usrp, int which)</argsstring>
+        <name>db_wbxng_rx</name>
+        <param>
+          <type><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref></type>
+          <declname>usrp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="84" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng.cc" bodystart="340" bodyend="383"/>
+        <references refid="classusrp__basic_1ac540c04b719f1ce30426ecb2214107ef">usrp_basic::_write_oe</references>
+        <references refid="classwbxng__base_1a8a8d421e91573350da1369977534301f" compoundref="db__wbxng_8cc" startline="172" endline="175">wbxng_base::_write_spi</references>
+        <references refid="db__wbxng_8cc_1aa49986170468beba14b89883e1c3dddf" compoundref="db__wbxng_8cc" startline="50">ATTN_MASK</references>
+        <references refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" compoundref="db__base_8cc" startline="88" endline="104">db_base::bypass_adc_buffers</references>
+        <references refid="classwbxng__base_1a9d1c3a18cca0b22d66046d16ad56f47a" compoundref="db__wbxng_8h" startline="54">wbxng_base::d_common</references>
+        <references refid="classwbxng__base_1a273ff60175deff8127d9f2692315a199" compoundref="db__wbxng_8h" startline="50">wbxng_base::d_spi_enable</references>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">db_base::d_which</references>
+        <references refid="db__wbxng_8cc_1acf1dbde328a81126fa8ac1b2e0f5faff" compoundref="db__wbxng_8cc" startline="36">ENABLE_33</references>
+        <references refid="db__wbxng_8cc_1ab6b087446d6c24d36aa3baf533d681b3" compoundref="db__wbxng_8cc" startline="35">ENABLE_5</references>
+        <references refid="classdb__wbxng__rx_1a2c116e2717bd6dc48506c8b6f14d84ac" compoundref="db__wbxng_8cc" startline="517" endline="520">gain_min</references>
+        <references refid="db__wbxng_8cc_1a0ad29c635523da4e55ec25783ebce0c7" compoundref="db__wbxng_8cc" startline="43">PLL_CE</references>
+        <references refid="db__wbxng_8cc_1a3c82137a98c99c484ac39940a4da705c" compoundref="db__wbxng_8cc" startline="44">PLL_PDBRF</references>
+        <references refid="db__wbxng_8cc_1a0fa4ba56ee629b74af4d32d9afa30e6b" compoundref="db__wbxng_8cc" startline="40">RX2_RX1N</references>
+        <references refid="db__wbxng_8cc_1af604181a6fae1593f3f3d2566e2cb242" compoundref="db__wbxng_8cc" startline="41">RXBB_EN</references>
+        <references refid="classdb__wbxng__rx_1aee4e97531ff30353c15444aa72c77948" compoundref="db__wbxng_8cc" startline="437" endline="454">select_rx_antenna</references>
+        <references refid="classdb__wbxng__rx_1a595900e96c84910c1596197a3534cba4" compoundref="db__wbxng_8cc" startline="479" endline="505">set_gain</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <references refid="classusrp__basic_1a75aca6cca672ac2deedf14fb2c04ab0e">usrp_basic::write_io</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__wbxng__rx_1a3e9dd147d50695529593c1d50c6e54d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_wbxng_rx::~db_wbxng_rx</definition>
+        <argsstring>()</argsstring>
+        <name>~db_wbxng_rx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="85" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng.cc" bodystart="385" bodyend="388"/>
+        <references refid="classdb__wbxng__rx_1ab45fea965789fa0da8125ca2df198e46" compoundref="db__wbxng_8cc" startline="391" endline="417">shutdown</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__wbxng__rx_1ade51b57b003e7a725bb87f2008f87ba4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_wbxng_rx::set_auto_tr</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>set_auto_tr</name>
+        <reimplements refid="classdb__base_1aa636457dfe89f1f0dca5fa06b67fdb58">set_auto_tr</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="87" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng.cc" bodystart="420" bodyend="434"/>
+        <references refid="structfreq__result__t_1a05f1d913c001ce385efb798e8ec9b649" compoundref="db__base_8h" startline="39">freq_result_t::ok</references>
+        <references refid="db__wbxng_8cc_1a0fa4ba56ee629b74af4d32d9afa30e6b" compoundref="db__wbxng_8cc" startline="40">RX2_RX1N</references>
+        <references refid="db__wbxng_8cc_1af604181a6fae1593f3f3d2566e2cb242" compoundref="db__wbxng_8cc" startline="41">RXBB_EN</references>
+        <references refid="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" compoundref="db__base_8cc" startline="107" endline="111">db_base::set_atr_mask</references>
+        <references refid="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" compoundref="db__base_8cc" startline="121" endline="125">db_base::set_atr_rxval</references>
+        <references refid="classdb__base_1a9722d03f078d1206539ad097c28a9562" compoundref="db__base_8cc" startline="114" endline="118">db_base::set_atr_txval</references>
+        <referencedby refid="classdb__wbxng__rx_1ab45fea965789fa0da8125ca2df198e46" compoundref="db__wbxng_8cc" startline="391" endline="417">shutdown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__wbxng__rx_1aee4e97531ff30353c15444aa72c77948" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_wbxng_rx::select_rx_antenna</definition>
+        <argsstring>(int which_antenna)</argsstring>
+        <name>select_rx_antenna</name>
+        <reimplements refid="classdb__base_1aecc92b603e94509aa04f12aec563ea17">select_rx_antenna</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_antenna</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="88" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng.cc" bodystart="437" bodyend="454"/>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">db_base::d_which</references>
+        <references refid="db__wbxng_8cc_1a0fa4ba56ee629b74af4d32d9afa30e6b" compoundref="db__wbxng_8cc" startline="40">RX2_RX1N</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <references refid="classusrp__basic_1a75aca6cca672ac2deedf14fb2c04ab0e">usrp_basic::write_io</references>
+        <referencedby refid="classdb__wbxng__rx_1a9778dac1e79a6c22ab1b1933a7fc9068" compoundref="db__wbxng_8cc" startline="340" endline="383">db_wbxng_rx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__wbxng__rx_1aa0288c6ce0b15c79e6a03400d69efbb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_wbxng_rx::select_rx_antenna</definition>
+        <argsstring>(const std::string &amp;which_antenna)</argsstring>
+        <name>select_rx_antenna</name>
+        <reimplements refid="classdb__base_1ab6aba3bd757102bf14fba4e98fb17f0d">select_rx_antenna</reimplements>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>which_antenna</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="89" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng.cc" bodystart="457" bodyend="476"/>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">db_base::d_which</references>
+        <references refid="db__wbxng_8cc_1a0fa4ba56ee629b74af4d32d9afa30e6b" compoundref="db__wbxng_8cc" startline="40">RX2_RX1N</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <references refid="classusrp__basic_1a75aca6cca672ac2deedf14fb2c04ab0e">usrp_basic::write_io</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__wbxng__rx_1a595900e96c84910c1596197a3534cba4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_wbxng_rx::set_gain</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>set_gain</name>
+        <reimplements refid="classdb__base_1aa3b2f58f8d96e0b6c4652495338ce2da">set_gain</reimplements>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="90" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng.cc" bodystart="479" bodyend="505"/>
+        <references refid="classdb__wbxng__rx_1a28ad8d2be4101e0c2616beda249a5acf" compoundref="db__wbxng_8cc" startline="508" endline="514">_set_attn</references>
+        <references refid="classwbxng__base_1a98f8ea722f6146dca866306d68bb9fed" compoundref="db__wbxng_8cc" startline="129" endline="140">wbxng_base::_set_pga</references>
+        <references refid="classdb__wbxng__rx_1a3e14d62b70c3f8f88a7daa85d025e58b" compoundref="db__wbxng_8cc" startline="523" endline="526">gain_max</references>
+        <references refid="classdb__wbxng__rx_1a2c116e2717bd6dc48506c8b6f14d84ac" compoundref="db__wbxng_8cc" startline="517" endline="520">gain_min</references>
+        <references refid="classusrp__basic_1ae6a0027c59862dcc2d4da73d50b6a598">usrp_basic::pga_max</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <referencedby refid="classdb__wbxng__rx_1a9778dac1e79a6c22ab1b1933a7fc9068" compoundref="db__wbxng_8cc" startline="340" endline="383">db_wbxng_rx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__wbxng__rx_1a2c116e2717bd6dc48506c8b6f14d84ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_wbxng_rx::gain_min</definition>
+        <argsstring>()</argsstring>
+        <name>gain_min</name>
+        <reimplements refid="classdb__base_1a8879fd876f4b31cd78f4713c64140176">gain_min</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="92" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng.cc" bodystart="517" bodyend="520"/>
+        <references refid="classusrp__basic_1afcab635a411c57f16820e44a83bfe259">usrp_basic::pga_min</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <referencedby refid="classdb__wbxng__rx_1a9778dac1e79a6c22ab1b1933a7fc9068" compoundref="db__wbxng_8cc" startline="340" endline="383">db_wbxng_rx</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1a595900e96c84910c1596197a3534cba4" compoundref="db__wbxng_8cc" startline="479" endline="505">set_gain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__wbxng__rx_1a3e14d62b70c3f8f88a7daa85d025e58b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_wbxng_rx::gain_max</definition>
+        <argsstring>()</argsstring>
+        <name>gain_max</name>
+        <reimplements refid="classdb__base_1aff5b963b288947ba6bfb5d5a6275a074">gain_max</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="93" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng.cc" bodystart="523" bodyend="526"/>
+        <references refid="classusrp__basic_1ae6a0027c59862dcc2d4da73d50b6a598">usrp_basic::pga_max</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <referencedby refid="classdb__wbxng__rx_1a595900e96c84910c1596197a3534cba4" compoundref="db__wbxng_8cc" startline="479" endline="505">set_gain</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__wbxng__rx_1a08622bbfb8ffc901752e37aaa57b9fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_wbxng_rx::gain_db_per_step</definition>
+        <argsstring>()</argsstring>
+        <name>gain_db_per_step</name>
+        <reimplements refid="classdb__base_1adcb54348e840f7c91cfeaa113974d32f">gain_db_per_step</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="94" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng.cc" bodystart="529" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__wbxng__rx_1ad583d6024ddfb5e4ceadab1b5413d3fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_wbxng_rx::i_and_q_swapped</definition>
+        <argsstring>()</argsstring>
+        <name>i_and_q_swapped</name>
+        <reimplements refid="classdb__base_1aa2d4002c1550d262e74def064a230e1a">i_and_q_swapped</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="95" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng.cc" bodystart="535" bodyend="538"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="639">
+        <label>wbxng_base</label>
+        <link refid="classwbxng__base"/>
+        <childnode refid="640" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="638">
+        <label>db_wbxng_rx</label>
+        <link refid="classdb__wbxng__rx"/>
+        <childnode refid="639" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="640">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="645">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="646">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="642">
+        <label>wbxng_base</label>
+        <link refid="classwbxng__base"/>
+        <childnode refid="643" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="641">
+        <label>db_wbxng_rx</label>
+        <link refid="classdb__wbxng__rx"/>
+        <childnode refid="642" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="644">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="645" relation="private-inheritance">
+        </childnode>
+        <childnode refid="646" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+      <node id="643">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+        <childnode refid="644" relation="usage">
+          <edgelabel>d_raw_usrp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" line="78" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_wbxng.h" bodystart="77" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>_enable_refclk</name></member>
+      <member refid="classwbxng__base_1a1bc680a65ad2272582c1764e1aff37dd" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>_get_locked</name></member>
+      <member refid="classwbxng__base_1abadb4addb09abc06a91ed255c976e4db" prot="protected" virt="virtual"><scope>db_wbxng_rx</scope><name>_refclk_divisor</name></member>
+      <member refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" prot="protected" virt="virtual"><scope>db_wbxng_rx</scope><name>_refclk_freq</name></member>
+      <member refid="classdb__wbxng__rx_1a28ad8d2be4101e0c2616beda249a5acf" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>_set_attn</name></member>
+      <member refid="classwbxng__base_1a98f8ea722f6146dca866306d68bb9fed" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>_set_pga</name></member>
+      <member refid="classwbxng__base_1a8a8d421e91573350da1369977534301f" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>_write_spi</name></member>
+      <member refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>bypass_adc_buffers</name></member>
+      <member refid="classwbxng__base_1a9d1c3a18cca0b22d66046d16ad56f47a" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>d_common</name></member>
+      <member refid="classwbxng__base_1ae2fd9c8fee73e21de054233e52fec2e8" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>d_first</name></member>
+      <member refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>d_is_shutdown</name></member>
+      <member refid="classdb__base_1a0665a615c2eb4236814825c89dd024e0" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>d_lo_offset</name></member>
+      <member refid="classwbxng__base_1a94a2d57ca4cd241771ccaaf55e0df2fe" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>d_PD</name></member>
+      <member refid="classwbxng__base_1a06af65ac9b185057709aa21118f5fe2f" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>d_power_on</name></member>
+      <member refid="classdb__base_1aa6e5420338ff3e0a9b1afe2ae1fbc58b" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>d_raw_usrp</name></member>
+      <member refid="classwbxng__base_1a273ff60175deff8127d9f2692315a199" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>d_spi_enable</name></member>
+      <member refid="classwbxng__base_1a0a0853411fbc988fe894bcd23ddcdda6" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>d_spi_format</name></member>
+      <member refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>d_which</name></member>
+      <member refid="classdb__base_1aeddb69ef4218642cb8b03eff94ff8efc" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>db_base</name></member>
+      <member refid="classdb__wbxng__rx_1a9778dac1e79a6c22ab1b1933a7fc9068" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>db_wbxng_rx</name></member>
+      <member refid="classdb__base_1a6c70380b8abff2d051eece9d2b208408" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>dbid</name></member>
+      <member refid="classwbxng__base_1a4aaa1b621ab03d83ffae5a75cb5f45fe" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>freq_max</name></member>
+      <member refid="classwbxng__base_1a1ae0a798e1bb637b984690d8343ef7f0" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>freq_min</name></member>
+      <member refid="classdb__wbxng__rx_1a08622bbfb8ffc901752e37aaa57b9fa0" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>gain_db_per_step</name></member>
+      <member refid="classdb__wbxng__rx_1a3e14d62b70c3f8f88a7daa85d025e58b" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>gain_max</name></member>
+      <member refid="classdb__wbxng__rx_1a2c116e2717bd6dc48506c8b6f14d84ac" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>gain_min</name></member>
+      <member refid="classdb__wbxng__rx_1ad583d6024ddfb5e4ceadab1b5413d3fb" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>i_and_q_swapped</name></member>
+      <member refid="classwbxng__base_1abb15ae7942785e2e9add3a00b5c27572" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>is_quadrature</name></member>
+      <member refid="classdb__base_1a07337ac0b59b2d36ced8f0dd7dd58b1e" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>lo_offset</name></member>
+      <member refid="classdb__base_1aef52f371112795b933570a269da85847" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>name</name></member>
+      <member refid="classdb__wbxng__rx_1aee4e97531ff30353c15444aa72c77948" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__wbxng__rx_1aa0288c6ce0b15c79e6a03400d69efbb4" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>set_atr_mask</name></member>
+      <member refid="classdb__base_1aec8010d1f2412ffe33bb0f27ee6d8275" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>set_atr_rx_delay</name></member>
+      <member refid="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>set_atr_rxval</name></member>
+      <member refid="classdb__base_1a01586c74a2cab95c3e12951402fab1a3" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>set_atr_tx_delay</name></member>
+      <member refid="classdb__base_1a9722d03f078d1206539ad097c28a9562" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>set_atr_txval</name></member>
+      <member refid="classdb__wbxng__rx_1ade51b57b003e7a725bb87f2008f87ba4" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>set_auto_tr</name></member>
+      <member refid="classdb__base_1a7adcd5e0883f838cc6cd2bc9dda1ef87" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>set_bw</name></member>
+      <member refid="classdb__base_1afa9d1b54d69312317258723a2ee1a1e7" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>set_enable</name></member>
+      <member refid="classwbxng__base_1a25c57a2564dab8697feea09b0d48b5cd" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>set_freq</name></member>
+      <member refid="classdb__wbxng__rx_1a595900e96c84910c1596197a3534cba4" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>set_gain</name></member>
+      <member refid="classdb__base_1a3d8eb19a95b9ca4970c56f1a699e85bf" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>set_lo_offset</name></member>
+      <member refid="classdb__wbxng__rx_1ab45fea965789fa0da8125ca2df198e46" prot="protected" virt="virtual"><scope>db_wbxng_rx</scope><name>shutdown</name></member>
+      <member refid="classdb__base_1a9cee7496d9a4d09b72a008fb5d7e6664" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>side_and_name</name></member>
+      <member refid="classdb__base_1ab6a6fad01c3df159fb7124aec13489d7" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>spectrum_inverted</name></member>
+      <member refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" prot="protected" virt="non-virtual"><scope>db_wbxng_rx</scope><name>usrp</name></member>
+      <member refid="classwbxng__base_1a5aff8f4f88f2aaaf00865f5776c16745" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>wbxng_base</name></member>
+      <member refid="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>which</name></member>
+      <member refid="classdb__base_1a6c28d39ecaa14d475acb9ce6bfc1b4b0" prot="public" virt="virtual"><scope>db_wbxng_rx</scope><name>~db_base</name></member>
+      <member refid="classdb__wbxng__rx_1a3e9dd147d50695529593c1d50c6e54d9" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>~db_wbxng_rx</name></member>
+      <member refid="classwbxng__base_1a35c04cb19ad34a04cda46556f1cfa16e" prot="public" virt="non-virtual"><scope>db_wbxng_rx</scope><name>~wbxng_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

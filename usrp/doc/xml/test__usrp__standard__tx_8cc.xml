@@ -1,0 +1,645 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="test__usrp__standard__tx_8cc" kind="file" language="C++">
+    <compoundname>test_usrp_standard_tx.cc</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includes refid="getopt_8h" local="no">getopt.h</includes>
+    <includes local="no">assert.h</includes>
+    <includes local="no">math.h</includes>
+    <includes refid="time__stuff_8h" local="yes">time_stuff.h</includes>
+    <includes refid="usrp__standard_8h" local="no">usrp/usrp_standard.h</includes>
+    <includes refid="usrp__bytesex_8h" local="no">usrp/usrp_bytesex.h</includes>
+    <includes local="no">boost/program_options.hpp</includes>
+    <incdepgraph>
+      <node id="921">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="914">
+        <label>assert.h</label>
+      </node>
+      <node id="926">
+        <label>usrp/libusb_types.h</label>
+        <link refid="libusb__types_8h"/>
+        <childnode refid="927" relation="include">
+        </childnode>
+      </node>
+      <node id="910">
+        <label>stdlib.h</label>
+      </node>
+      <node id="924">
+        <label>usrp/usrp_slots.h</label>
+        <link refid="usrp__slots_8h"/>
+      </node>
+      <node id="916">
+        <label>time_stuff.h</label>
+        <link refid="time__stuff_8h"/>
+      </node>
+      <node id="920">
+        <label>string</label>
+      </node>
+      <node id="922">
+        <label>boost/weak_ptr.hpp</label>
+      </node>
+      <node id="932">
+        <label>boost/program_options.hpp</label>
+      </node>
+      <node id="930">
+        <label>usrp/usrp_tune_result.h</label>
+        <link refid="usrp__tune__result_8h"/>
+      </node>
+      <node id="931">
+        <label>usrp/usrp_bytesex.h</label>
+        <link refid="usrp__bytesex_8h"/>
+      </node>
+      <node id="913">
+        <label>getopt.h</label>
+        <link refid="getopt_8h"/>
+      </node>
+      <node id="907">
+        <label>test_usrp_standard_tx.cc</label>
+        <link refid="test_usrp_standard_tx.cc"/>
+        <childnode refid="908" relation="include">
+        </childnode>
+        <childnode refid="909" relation="include">
+        </childnode>
+        <childnode refid="910" relation="include">
+        </childnode>
+        <childnode refid="911" relation="include">
+        </childnode>
+        <childnode refid="912" relation="include">
+        </childnode>
+        <childnode refid="913" relation="include">
+        </childnode>
+        <childnode refid="914" relation="include">
+        </childnode>
+        <childnode refid="915" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="917" relation="include">
+        </childnode>
+        <childnode refid="931" relation="include">
+        </childnode>
+        <childnode refid="932" relation="include">
+        </childnode>
+      </node>
+      <node id="911">
+        <label>string.h</label>
+      </node>
+      <node id="917">
+        <label>usrp/usrp_standard.h</label>
+        <link refid="usrp__standard_8h"/>
+        <childnode refid="918" relation="include">
+        </childnode>
+        <childnode refid="921" relation="include">
+        </childnode>
+        <childnode refid="930" relation="include">
+        </childnode>
+      </node>
+      <node id="912">
+        <label>unistd.h</label>
+      </node>
+      <node id="928">
+        <label>vector</label>
+      </node>
+      <node id="919">
+        <label>usrp/db_base.h</label>
+        <link refid="db__base_8h"/>
+        <childnode refid="920" relation="include">
+        </childnode>
+        <childnode refid="921" relation="include">
+        </childnode>
+        <childnode refid="922" relation="include">
+        </childnode>
+        <childnode refid="923" relation="include">
+        </childnode>
+      </node>
+      <node id="929">
+        <label>boost/utility.hpp</label>
+      </node>
+      <node id="915">
+        <label>math.h</label>
+      </node>
+      <node id="918">
+        <label>usrp/usrp_basic.h</label>
+        <link refid="usrp__basic_8h"/>
+        <childnode refid="919" relation="include">
+        </childnode>
+        <childnode refid="924" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+        <childnode refid="926" relation="include">
+        </childnode>
+        <childnode refid="920" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="929" relation="include">
+        </childnode>
+      </node>
+      <node id="923">
+        <label>iosfwd</label>
+      </node>
+      <node id="908">
+        <label>iostream</label>
+      </node>
+      <node id="925">
+        <label>usrp/usrp_subdev_spec.h</label>
+        <link refid="usrp__subdev__spec_8h"/>
+      </node>
+      <node id="927">
+        <label>usb.h</label>
+      </node>
+      <node id="909">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55b" prot="public" static="no">
+        <name>@0</name>
+        <enumvalue id="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba1aaa690eedd536ee12ab0a195292d341" prot="public">
+          <name>GR_SIN_WAVE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba75549f075c4566cf89664e5a0b889615" prot="public">
+          <name>GR_CONST_WAVE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" bodystart="40" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="test__usrp__standard__tx_8cc_1a598d558168ea9fcc902baf4a3a42a5ea" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* prog_name</definition>
+        <argsstring></argsstring>
+        <name>prog_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" line="47" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" bodystart="47" bodyend="-1"/>
+        <referencedby refid="test__usrp__standard__tx_8cc_1ae9a2141bb5f93c105c756c57de252973" compoundref="test__usrp__standard__tx_8cc" startline="50" endline="74">str_to_subdev</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="test__usrp__standard__tx_8cc_1ae9a2141bb5f93c105c756c57de252973" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structusrp__subdev__spec" kindref="compound">usrp_subdev_spec</ref></type>
+        <definition>usrp_subdev_spec str_to_subdev</definition>
+        <argsstring>(std::string spec_str)</argsstring>
+        <name>str_to_subdev</name>
+        <param>
+          <type>std::string</type>
+          <declname>spec_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" line="50" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" bodystart="50" bodyend="74"/>
+        <references refid="time__stuff_8h_1ac10b93ba7e62f74920ce08effc4f9dbb">get_cpu_usage</references>
+        <references refid="time__stuff_8h_1a3b779ef7feb6394ab1db5a7529a92e3f">get_elapsed_time</references>
+        <references refid="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba75549f075c4566cf89664e5a0b889615" compoundref="test__usrp__standard__tx_8cc" startline="42">GR_CONST_WAVE</references>
+        <references refid="test__usrp__standard__tx_8cc_1a598d558168ea9fcc902baf4a3a42a5ea" compoundref="test__usrp__standard__tx_8cc" startline="47">prog_name</references>
+        <references refid="structusrp__subdev__spec_1aeff15f40736fb2af3e1eddb85a243252" compoundref="usrp__subdev__spec_8h" startline="43">usrp_subdev_spec::side</references>
+        <references refid="structusrp__subdev__spec_1abb7b7dbdca4355d0957b2233a32119ef" compoundref="usrp__subdev__spec_8h" startline="44">usrp_subdev_spec::subdev</references>
+        <referencedby refid="test__usrp__standard__tx_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="test__usrp__standard__tx_8cc" startline="169" endline="298">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="test__usrp__standard__tx_8cc_1ab655a88e2ae6982c013acbd9e0b4322c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void set_progname</definition>
+        <argsstring>(char *path)</argsstring>
+        <name>set_progname</name>
+        <param>
+          <type>char *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" line="78" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" bodystart="78" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="test__usrp__standard__tx_8cc_1a3ff0b79d96423fac3426976845b269fe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void die</definition>
+        <argsstring>(const char *msg)</argsstring>
+        <name>die</name>
+        <param>
+          <type>const char *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" line="88" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" bodystart="88" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="test__usrp__standard__tx_8cc_1a6c4149a8a0299e2d29e0d1999cffb9a1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool test_output</definition>
+        <argsstring>(usrp_standard_tx_sptr utx, long long max_bytes, double ampl, int waveform)</argsstring>
+        <name>test_output</name>
+        <param>
+          <type><ref refid="usrp__standard_8h_1a0982118b5bcfa5fd08137dd5a7583b07" kindref="member">usrp_standard_tx_sptr</ref></type>
+          <declname>utx</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>max_bytes</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ampl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>waveform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" line="96" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" bodystart="96" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="test__usrp__standard__tx_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" line="169" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc" bodystart="169" bodyend="298"/>
+        <references refid="classusrp__tune__result_1afce6aec4b4c17753b44b9b6248a80699" compoundref="usrp__tune__result_8h" startline="28">usrp_tune_result::baseband_freq</references>
+        <references refid="classusrp__tune__result_1ad22e2d19229dda43762adf156eccc082" compoundref="usrp__tune__result_8h" startline="31">usrp_tune_result::dxc_freq</references>
+        <references refid="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba75549f075c4566cf89664e5a0b889615" compoundref="test__usrp__standard__tx_8cc" startline="42">GR_CONST_WAVE</references>
+        <references refid="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba1aaa690eedd536ee12ab0a195292d341" compoundref="test__usrp__standard__tx_8cc" startline="41">GR_SIN_WAVE</references>
+        <references refid="classusrp__tune__result_1af3eb751b900a27776e8fdce8e857f364" compoundref="usrp__tune__result_8h" startline="37">usrp_tune_result::inverted</references>
+        <references refid="classusrp__standard__tx_1ac156d958c028f4c30a18bda9f23ba8b9" compoundref="usrp__standard_8cc" startline="875" endline="894">usrp_standard_tx::make</references>
+        <references refid="getopt_8h_1adb50a0eab9fed92fc3bfc7dfa4f2c410">optarg</references>
+        <references refid="classusrp__tune__result_1ab981c862fc1f0da87ddec80a47dac767" compoundref="usrp__tune__result_8h" startline="34">usrp_tune_result::residual_freq</references>
+        <references refid="test__usrp__standard__tx_8cc_1ae9a2141bb5f93c105c756c57de252973" compoundref="test__usrp__standard__tx_8cc" startline="50" endline="74">str_to_subdev</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2003,2004,2008,2009<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_CONFIG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;config.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unistd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="getopt_8h" kindref="compound">getopt.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="time__stuff_8h" kindref="compound">time_stuff.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="usrp__standard_8h" kindref="compound">usrp/usrp_standard.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="usrp__bytesex_8h" kindref="compound">usrp/usrp_bytesex.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/program_options.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="41" refid="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba1aaa690eedd536ee12ab0a195292d341" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba1aaa690eedd536ee12ab0a195292d341" kindref="member">GR_SIN_WAVE</ref>,</highlight></codeline>
+<codeline lineno="42" refid="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba75549f075c4566cf89664e5a0b889615" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba75549f075c4566cf89664e5a0b889615" kindref="member">GR_CONST_WAVE</ref></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">po<sp/>=<sp/>boost::program_options;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="test__usrp__standard__tx_8cc_1a598d558168ea9fcc902baf4a3a42a5ea" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="test__usrp__standard__tx_8cc_1a598d558168ea9fcc902baf4a3a42a5ea" kindref="member">prog_name</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><ref refid="structusrp__subdev__spec" kindref="compound">usrp_subdev_spec</ref></highlight></codeline>
+<codeline lineno="50" refid="test__usrp__standard__tx_8cc_1ae9a2141bb5f93c105c756c57de252973" refkind="member"><highlight class="normal"><ref refid="test__usrp__standard__tx_8cc_1ae9a2141bb5f93c105c756c57de252973" kindref="member">str_to_subdev</ref>(std::string<sp/>spec_str)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><ref refid="structusrp__subdev__spec" kindref="compound">usrp_subdev_spec</ref><sp/>spec;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(spec_str<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;A&quot;</highlight><highlight class="normal"><sp/>||<sp/>spec_str<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;A:0&quot;</highlight><highlight class="normal"><sp/>||<sp/>spec_str<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;0:0&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>spec.<ref refid="structusrp__subdev__spec_1aeff15f40736fb2af3e1eddb85a243252" kindref="member">side</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>spec.<ref refid="structusrp__subdev__spec_1abb7b7dbdca4355d0957b2233a32119ef" kindref="member">subdev</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(spec_str<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;A:1&quot;</highlight><highlight class="normal"><sp/>||<sp/>spec_str<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;0:1&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>spec.<ref refid="structusrp__subdev__spec_1aeff15f40736fb2af3e1eddb85a243252" kindref="member">side</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>spec.<ref refid="structusrp__subdev__spec_1abb7b7dbdca4355d0957b2233a32119ef" kindref="member">subdev</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(spec_str<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;B&quot;</highlight><highlight class="normal"><sp/>||<sp/>spec_str<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;B:0&quot;</highlight><highlight class="normal"><sp/>||<sp/>spec_str<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;1:0&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>spec.<ref refid="structusrp__subdev__spec_1aeff15f40736fb2af3e1eddb85a243252" kindref="member">side</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>spec.<ref refid="structusrp__subdev__spec_1abb7b7dbdca4355d0957b2233a32119ef" kindref="member">subdev</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(spec_str<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;B:1&quot;</highlight><highlight class="normal"><sp/>||<sp/>spec_str<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;1:1&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>spec.<ref refid="structusrp__subdev__spec_1aeff15f40736fb2af3e1eddb85a243252" kindref="member">side</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>spec.<ref refid="structusrp__subdev__spec_1abb7b7dbdca4355d0957b2233a32119ef" kindref="member">subdev</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::range_error(</highlight><highlight class="stringliteral">&quot;Incorrect<sp/>subdevice<sp/>specifications.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>spec;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">set_progname<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*p<sp/>=<sp/>strrchr<sp/>(path,<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(p<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="test__usrp__standard__tx_8cc_1a598d558168ea9fcc902baf4a3a42a5ea" kindref="member">prog_name</ref><sp/>=<sp/>p+1;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="test__usrp__standard__tx_8cc_1a598d558168ea9fcc902baf4a3a42a5ea" kindref="member">prog_name</ref><sp/>=<sp/>path;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">die<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*msg)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>fprintf<sp/>(stderr,<sp/></highlight><highlight class="stringliteral">&quot;die:<sp/>%s:<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="test__usrp__standard__tx_8cc_1a598d558168ea9fcc902baf4a3a42a5ea" kindref="member">prog_name</ref>,<sp/>msg);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>exit<sp/>(1);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">test_output<sp/>(<ref refid="usrp__standard_8h_1a0982118b5bcfa5fd08137dd5a7583b07" kindref="member">usrp_standard_tx_sptr</ref><sp/>utx,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>max_bytes,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ampl,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>waveform)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>BUFSIZE<sp/>=<sp/>utx-&gt;block_size();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>N<sp/>=<sp/>BUFSIZE/</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(short);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buf[N];</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>nbytes<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>----------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>one<sp/>time<sp/>initialization<sp/>of<sp/>the<sp/>pattern<sp/>we&apos;re<sp/>going<sp/>to<sp/>transmit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>PERIOD<sp/>=<sp/>65;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>any<sp/>value<sp/>is<sp/>valid</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>PATLEN<sp/>=<sp/>2<sp/>*<sp/>PERIOD;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pattern[PATLEN];</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>PERIOD;<sp/>i++){</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(waveform<sp/>==<sp/><ref refid="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba75549f075c4566cf89664e5a0b889615" kindref="member">GR_CONST_WAVE</ref>){</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>pattern[2*i+0]<sp/>=<sp/>host_to_usrp_short((</highlight><highlight class="keywordtype">short</highlight><highlight class="normal">)<sp/>ampl);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>pattern[2*i+1]<sp/>=<sp/>host_to_usrp_short((</highlight><highlight class="keywordtype">short</highlight><highlight class="normal">)<sp/>0);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>pattern[2*i+0]<sp/>=<sp/>host_to_usrp_short((</highlight><highlight class="keywordtype">short</highlight><highlight class="normal">)<sp/>(ampl<sp/>*<sp/>cos(2*M_PI<sp/>*<sp/>i<sp/>/<sp/>PERIOD)));</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>pattern[2*i+1]<sp/>=<sp/>host_to_usrp_short((</highlight><highlight class="keywordtype">short</highlight><highlight class="normal">)<sp/>(ampl<sp/>*<sp/>sin(2*M_PI<sp/>*<sp/>i<sp/>/<sp/>PERIOD)));</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>----------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>start_wall_time<sp/>=<sp/><ref refid="time__stuff_8h_1a3b779ef7feb6394ab1db5a7529a92e3f" kindref="member">get_elapsed_time</ref><sp/>();</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>start_cpu_time<sp/><sp/>=<sp/><ref refid="time__stuff_8h_1ac10b93ba7e62f74920ce08effc4f9dbb" kindref="member">get_cpu_usage</ref><sp/>();</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/>underrun;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/>nunderruns<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/>pi<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(nbytes<sp/>=<sp/>0;<sp/>max_bytes<sp/>==<sp/>0<sp/>||<sp/>nbytes<sp/>&lt;<sp/>max_bytes;<sp/>nbytes<sp/>+=<sp/>BUFSIZE){</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>N;<sp/>i++){</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>buf[i]<sp/>=<sp/>pattern[pi];</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>pi++;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pi<sp/>&gt;=<sp/>PATLEN)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pi<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ret<sp/>=<sp/>utx-&gt;write<sp/>(buf,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(buf),<sp/>&amp;underrun);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal">)<sp/>ret<sp/>!=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(buf)){</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>fprintf<sp/>(stderr,<sp/></highlight><highlight class="stringliteral">&quot;test_output:<sp/>error,<sp/>ret<sp/>=<sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>ret);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(underrun){</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>nunderruns++;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;tx_underrun\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//printf<sp/>(&quot;tx_underrun<sp/>%9d<sp/>%6d\n&quot;,<sp/>nbytes,<sp/>nbytes/BUFSIZE);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>utx-&gt;wait_for_completion<sp/>();</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>stop_wall_time<sp/>=<sp/><ref refid="time__stuff_8h_1a3b779ef7feb6394ab1db5a7529a92e3f" kindref="member">get_elapsed_time</ref><sp/>();</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>stop_cpu_time<sp/><sp/>=<sp/><ref refid="time__stuff_8h_1ac10b93ba7e62f74920ce08effc4f9dbb" kindref="member">get_cpu_usage</ref><sp/>();</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>delta_wall<sp/>=<sp/>stop_wall_time<sp/>-<sp/>start_wall_time;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>delta_cpu<sp/><sp/>=<sp/>stop_cpu_time<sp/><sp/>-<sp/>start_cpu_time;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;xfered<sp/>%.3g<sp/>bytes<sp/>in<sp/>%.3g<sp/>seconds.<sp/><sp/>%.4g<sp/>bytes/sec.<sp/><sp/>cpu<sp/>time<sp/>=<sp/>%.3g\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>max_bytes,<sp/>delta_wall,<sp/>max_bytes<sp/>/<sp/>delta_wall,<sp/>delta_cpu);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>printf<sp/>(</highlight><highlight class="stringliteral">&quot;%d<sp/>underruns\n&quot;</highlight><highlight class="normal">,<sp/>nunderruns);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="test__usrp__standard__tx_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"><ref refid="test__usrp__standard__tx_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**argv)</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which<sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>specify<sp/>which<sp/>USRP<sp/>board</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><ref refid="structusrp__subdev__spec" kindref="compound">usrp_subdev_spec</ref><sp/>spec(0,0);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>specify<sp/>the<sp/>d&apos;board<sp/>side</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>interp<sp/>=<sp/>16;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>interpolation<sp/>rate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rf_freq<sp/>=<sp/>-1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>frequency</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>amp<sp/>=<sp/>10000;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>amplitude<sp/>of<sp/>the<sp/>output</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>gain<sp/>=<sp/>-1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>d&apos;board<sp/>PGA<sp/>gain</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>waveform;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/>fusb_block_size<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/>fusb_nblocks<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/>realtime_p<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>nsamples<sp/>=<sp/>32e6;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>set_progname<sp/>(argv[0]);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/>po::options_description<sp/>cmdconfig(</highlight><highlight class="stringliteral">&quot;Program<sp/>options&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/>cmdconfig.add_options()</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;help,h&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;produce<sp/>help<sp/>message&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;which,W&quot;</highlight><highlight class="normal">,<sp/>po::value&lt;int&gt;(&amp;which),<sp/></highlight><highlight class="stringliteral">&quot;select<sp/>which<sp/>USRP<sp/>board&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;tx-subdev-spec,T&quot;</highlight><highlight class="normal">,<sp/>po::value&lt;std::string&gt;(),<sp/></highlight><highlight class="stringliteral">&quot;select<sp/>USRP<sp/>Tx<sp/>side<sp/>A<sp/>or<sp/>B&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;rf-freq,f&quot;</highlight><highlight class="normal">,<sp/>po::value&lt;double&gt;(),<sp/></highlight><highlight class="stringliteral">&quot;set<sp/>RF<sp/>center<sp/>frequency<sp/>to<sp/>FREQ&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;interp,i&quot;</highlight><highlight class="normal">,<sp/>po::value&lt;int&gt;(&amp;interp),<sp/></highlight><highlight class="stringliteral">&quot;set<sp/>fgpa<sp/>interpolation<sp/>rate<sp/>to<sp/>INTERP&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;sine&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;generate<sp/>a<sp/>complex<sp/>sinusoid<sp/>[default]&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;const&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;generate<sp/>a<sp/>constant<sp/>output&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//(&quot;waveform-freq,w&quot;,<sp/>po::value&lt;double&gt;(&amp;wfreq),<sp/>&quot;set<sp/>waveform<sp/>frequency<sp/>to<sp/>FREQ&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;amplitude,a&quot;</highlight><highlight class="normal">,<sp/>po::value&lt;float&gt;(&amp;amp),<sp/></highlight><highlight class="stringliteral">&quot;set<sp/>amplitude&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;gain,g&quot;</highlight><highlight class="normal">,<sp/>po::value&lt;float&gt;(&amp;gain),<sp/></highlight><highlight class="stringliteral">&quot;set<sp/>output<sp/>gain<sp/>to<sp/>GAIN<sp/>[default=MAX]&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//(&quot;offset,o&quot;,<sp/>po::value&lt;float&gt;(&amp;offset),<sp/>&quot;set<sp/>waveform<sp/>offset<sp/>to<sp/>OFFSET&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;nsamples,N&quot;</highlight><highlight class="normal">,<sp/>po::value&lt;double&gt;(&amp;nsamples),<sp/></highlight><highlight class="stringliteral">&quot;number<sp/>of<sp/>samples<sp/>to<sp/>send<sp/>[default=32M]&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/>po::variables_map<sp/>vm;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/>po::store(po::command_line_parser(argc,<sp/>argv).</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>options(cmdconfig).run(),<sp/>vm);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>po::notify(vm);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(vm.count(</highlight><highlight class="stringliteral">&quot;help&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>cmdconfig<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(vm.count(</highlight><highlight class="stringliteral">&quot;tx-subdev-spec&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>s<sp/>=<sp/>vm[</highlight><highlight class="stringliteral">&quot;tx-subdev-spec&quot;</highlight><highlight class="normal">].as&lt;std::string&gt;();</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>spec<sp/>=<sp/><ref refid="test__usrp__standard__tx_8cc_1ae9a2141bb5f93c105c756c57de252973" kindref="member">str_to_subdev</ref>(s);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(vm.count(</highlight><highlight class="stringliteral">&quot;sine&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>waveform<sp/>=<sp/><ref refid="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba1aaa690eedd536ee12ab0a195292d341" kindref="member">GR_SIN_WAVE</ref>;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(vm.count(</highlight><highlight class="stringliteral">&quot;const&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>waveform<sp/>=<sp/><ref refid="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba75549f075c4566cf89664e5a0b889615" kindref="member">GR_CONST_WAVE</ref>;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>waveform<sp/>=<sp/><ref refid="test__usrp__standard__tx_8cc_1a06fc87d81c62e9abb8790b6e5713c55ba1aaa690eedd536ee12ab0a195292d341" kindref="member">GR_SIN_WAVE</ref>;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;which:<sp/><sp/><sp/><sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>which);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;interp:<sp/><sp/><sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>interp);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;rf_freq:<sp/><sp/>%g\n&quot;</highlight><highlight class="normal">,<sp/>rf_freq);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;amp:<sp/><sp/><sp/><sp/><sp/><sp/>%f\n&quot;</highlight><highlight class="normal">,<sp/>amp);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;nsamples:<sp/>%g\n&quot;</highlight><highlight class="normal">,<sp/>nsamples);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(realtime_p){</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>FIXME</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><ref refid="usrp__standard_8h_1a0982118b5bcfa5fd08137dd5a7583b07" kindref="member">usrp_standard_tx_sptr</ref><sp/>utx;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/>utx<sp/>=<sp/><ref refid="classusrp__standard__tx_1ac156d958c028f4c30a18bda9f23ba8b9" kindref="member">usrp_standard_tx::make</ref><sp/>(which,</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>interp,</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>nchan</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-1,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>mux</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fusb_block_size,</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fusb_nblocks);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(utx<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>die<sp/>(</highlight><highlight class="stringliteral">&quot;usrp_standard_tx::make&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>FIXME</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref><sp/>subdev<sp/>=<sp/>utx-&gt;selected_subdev(spec);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Subdevice<sp/>name<sp/>is<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>subdev-&gt;name().c_str());</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Subdevice<sp/>freq<sp/>range:<sp/>(%g,<sp/>%g)\n&quot;</highlight><highlight class="normal">,<sp/></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>subdev-&gt;freq_min(),<sp/>subdev-&gt;freq_max());</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mux<sp/>=<sp/>utx-&gt;determine_tx_mux_value(spec);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;mux:<sp/>%#08x\n&quot;</highlight><highlight class="normal">,<sp/><sp/>mux);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/>utx-&gt;set_mux(mux);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(gain<sp/>==<sp/>-1)</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>gain<sp/>=<sp/>subdev-&gt;gain_max();</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/>subdev-&gt;set_gain(gain);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>input_rate<sp/>=<sp/>utx-&gt;dac_rate()<sp/>/<sp/>utx-&gt;interp_rate();</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;baseband<sp/>rate:<sp/>%g\n&quot;</highlight><highlight class="normal">,<sp/><sp/>input_rate);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><ref refid="classusrp__tune__result" kindref="compound">usrp_tune_result</ref><sp/>r;</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rf_freq<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>rf_freq<sp/>=<sp/>(subdev-&gt;freq_min()<sp/>+<sp/>subdev-&gt;freq_max())<sp/>*<sp/>0.5;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>target_freq<sp/>=<sp/>rf_freq;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ok<sp/>=<sp/>utx-&gt;tune(subdev-&gt;which(),<sp/>subdev,<sp/>target_freq,<sp/>&amp;r);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!ok)<sp/>{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;Could<sp/>not<sp/>set<sp/>frequency.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/>subdev-&gt;set_enable(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;target_freq:<sp/><sp/><sp/><sp/><sp/>%f\n&quot;</highlight><highlight class="normal">,<sp/>target_freq);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ok:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>ok<sp/>?<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal"><sp/>:<sp/></highlight><highlight class="stringliteral">&quot;false&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;r.baseband_freq:<sp/>%f\n&quot;</highlight><highlight class="normal">,<sp/>r.<ref refid="classusrp__tune__result_1afce6aec4b4c17753b44b9b6248a80699" kindref="member">baseband_freq</ref>);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;r.dxc_freq:<sp/><sp/><sp/><sp/><sp/><sp/>%f\n&quot;</highlight><highlight class="normal">,<sp/>r.<ref refid="classusrp__tune__result_1ad22e2d19229dda43762adf156eccc082" kindref="member">dxc_freq</ref>);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;r.residual_freq:<sp/>%f\n&quot;</highlight><highlight class="normal">,<sp/>r.<ref refid="classusrp__tune__result_1ab981c862fc1f0da87ddec80a47dac767" kindref="member">residual_freq</ref>);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;r.inverted:<sp/><sp/><sp/><sp/><sp/><sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>r.<ref refid="classusrp__tune__result_1af3eb751b900a27776e8fdce8e857f364" kindref="member">inverted</ref>);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/>fflush<sp/>(stdout);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/>fflush<sp/>(stderr);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/>utx-&gt;start();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>start<sp/>data<sp/>xfers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/>test_output<sp/>(utx,<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)<sp/>nsamples,<sp/>amp,<sp/>waveform);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal">}<sp/><sp/></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;B&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>fusb_block_size<sp/>=<sp/>strtol<sp/>(<ref refid="getopt_8h_1adb50a0eab9fed92fc3bfc7dfa4f2c410" kindref="member">optarg</ref>,<sp/>0,<sp/>0);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;N&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>fusb_nblocks<sp/>=<sp/>strtol<sp/>(<ref refid="getopt_8h_1adb50a0eab9fed92fc3bfc7dfa4f2c410" kindref="member">optarg</ref>,<sp/>0,<sp/>0);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="charliteral">&apos;R&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>realtime_p<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/apps/test_usrp_standard_tx.cc"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="usrp__tune__result_8h" kind="file" language="C++">
+    <compoundname>usrp_tune_result.h</compoundname>
+    <includedby refid="usrp__standard_8h" local="no">usrp_standard.h</includedby>
+    <invincdepgraph>
+      <node id="1267">
+        <label>usrp_standard.cc</label>
+        <link refid="usrp__standard_8cc"/>
+      </node>
+      <node id="1266">
+        <label>usrp_cal_dc_offset.cc</label>
+        <link refid="usrp__cal__dc__offset_8cc"/>
+      </node>
+      <node id="1262">
+        <label>usrp_tune_result.h</label>
+        <link refid="usrp_tune_result.h"/>
+        <childnode refid="1263" relation="include">
+        </childnode>
+      </node>
+      <node id="1265">
+        <label>test_usrp_standard_tx.cc</label>
+        <link refid="test__usrp__standard__tx_8cc"/>
+      </node>
+      <node id="1263">
+        <label>usrp_standard.h</label>
+        <link refid="usrp__standard_8h"/>
+        <childnode refid="1264" relation="include">
+        </childnode>
+        <childnode refid="1265" relation="include">
+        </childnode>
+        <childnode refid="1266" relation="include">
+        </childnode>
+        <childnode refid="1267" relation="include">
+        </childnode>
+      </node>
+      <node id="1264">
+        <label>test_usrp_standard_rx.cc</label>
+        <link refid="test__usrp__standard__rx_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classusrp__tune__result" prot="public">usrp_tune_result</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2008<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>along</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_USRP_TUNE_RESULT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_USRP_TUNE_RESULT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classusrp__tune__result" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classusrp__tune__result" kindref="compound">usrp_tune_result</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>RF<sp/>frequency<sp/>that<sp/>corresponds<sp/>to<sp/>DC<sp/>in<sp/>the<sp/>IF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classusrp__tune__result_1afce6aec4b4c17753b44b9b6248a80699" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__tune__result_1afce6aec4b4c17753b44b9b6248a80699" kindref="member">baseband_freq</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>frequency<sp/>programmed<sp/>into<sp/>the<sp/>DDC/DUC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classusrp__tune__result_1ad22e2d19229dda43762adf156eccc082" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__tune__result_1ad22e2d19229dda43762adf156eccc082" kindref="member">dxc_freq</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>residual<sp/>frequency<sp/>(typically<sp/>&lt;<sp/>0.01<sp/>Hz)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classusrp__tune__result_1ab981c862fc1f0da87ddec80a47dac767" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classusrp__tune__result_1ab981c862fc1f0da87ddec80a47dac767" kindref="member">residual_freq</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>is<sp/>the<sp/>spectrum<sp/>inverted?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classusrp__tune__result_1af3eb751b900a27776e8fdce8e857f364" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classusrp__tune__result_1af3eb751b900a27776e8fdce8e857f364" kindref="member">inverted</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classusrp__tune__result_1af198cc95fa851bc1b2895494705d44a7" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classusrp__tune__result_1af198cc95fa851bc1b2895494705d44a7" kindref="member">usrp_tune_result</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>baseband=0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dxc=0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>residual=0,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_inverted=</highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>baseband_freq(baseband),<sp/>dxc_freq(dxc),</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>residual_freq(residual),<sp/>inverted(_inverted)<sp/>{}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_USRP_TUNE_RESULT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h"/>
+  </compounddef>
+</doxygen>

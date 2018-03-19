@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classusrp__standard__common" kind="class" language="C++" prot="public">
+    <compoundname>usrp_standard_common</compoundname>
+    <derivedcompoundref refid="classusrp__standard__rx" prot="public" virt="non-virtual">usrp_standard_rx</derivedcompoundref>
+    <derivedcompoundref refid="classusrp__standard__tx" prot="public" virt="non-virtual">usrp_standard_tx</derivedcompoundref>
+    <includes refid="usrp__standard_8h" local="no">usrp_standard.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classusrp__standard__common_1aa270c21aec2edab1d29e12ec091904ec" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usrp_standard_common::d_fpga_caps</definition>
+        <argsstring></argsstring>
+        <name>d_fpga_caps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="41" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classusrp__standard__common_1a084f39cd160734d41e6c1cb8f6513dd6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>usrp_standard_common::usrp_standard_common</definition>
+        <argsstring>(usrp_basic *parent)</argsstring>
+        <name>usrp_standard_common</name>
+        <param>
+          <type><ref refid="classusrp__basic" kindref="compound">usrp_basic</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="44" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="260" bodyend="278"/>
+        <references refid="classusrp__basic_1a4fa26bd8164bd5782adf7fbe00b3d411" compoundref="usrp__basic_8cc" startline="411" endline="414">usrp_basic::_read_fpga_reg</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classusrp__standard__common_1ac259e77beebe73376a45b6116ab845e1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_standard_common::has_rx_halfband</definition>
+        <argsstring>() const </argsstring>
+        <name>has_rx_halfband</name>
+        <briefdescription>
+<para>does the FPGA implement the final Rx half-band filter? If it doesn&apos;t, the maximum decimation factor with proper gain is 1/2 of what it would otherwise be. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="52" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="281" bodyend="284"/>
+        <referencedby refid="classusrp__standard__rx_1af75a82a32f50117b4acfe518b0c31e89" compoundref="usrp__standard_8cc" startline="404" endline="428">usrp_standard_rx::set_decim_rate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__common_1a07b889dbe4fecd870f40ddf2401948c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usrp_standard_common::nddcs</definition>
+        <argsstring>() const </argsstring>
+        <name>nddcs</name>
+        <briefdescription>
+<para>number of digital downconverters implemented in the FPGA This will be 0, 1, 2 or 4. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="58" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="287" bodyend="290"/>
+        <referencedby refid="classusrp__standard__rx_1a9ab9aa92005647b967d063003a841ca0" compoundref="usrp__standard_8cc" startline="430" endline="441">usrp_standard_rx::set_nchannels</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__common_1a4192e505766a5920f8771bde1fd871ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_standard_common::has_tx_halfband</definition>
+        <argsstring>() const </argsstring>
+        <name>has_tx_halfband</name>
+        <briefdescription>
+<para>does the FPGA implement the initial Tx half-band filter? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="63" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="293" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__standard__common_1a9dec671bc0d7c50157083f46538844af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usrp_standard_common::nducs</definition>
+        <argsstring>() const </argsstring>
+        <name>nducs</name>
+        <briefdescription>
+<para>number of digital upconverters implemented in the FPGA This will be 0, 1, or 2. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="69" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="299" bodyend="302"/>
+        <referencedby refid="classusrp__standard__tx_1a5e9167c1f811c6446467ba2935cde618" compoundref="usrp__standard_8cc" startline="921" endline="931">usrp_standard_tx::set_nchannels</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classusrp__standard__common_1a9452b1ce5881965ca36d780f928b6cb6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void usrp_standard_common::calc_dxc_freq</definition>
+        <argsstring>(double target_freq, double baseband_freq, double fs, double *dxc_freq, bool *inverted)</argsstring>
+        <name>calc_dxc_freq</name>
+        <param>
+          <type>double</type>
+          <declname>target_freq</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>baseband_freq</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fs</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>dxc_freq</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>inverted</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the frequency to use for setting the digital up or down converter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>target_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the desired RF frequency (Hz). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>baseband_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the RF frequency that corresponds to DC in the IF coming from the d&apos;board. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the sampling frequency. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">dxc_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the frequency to program into the DDC (or DUC). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">inverted</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is true if we&apos;re operating in an inverted Nyquist zone. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="80" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_standard.cc" bodystart="53" bodyend="108"/>
+        <referencedby refid="classduc__control_1aa07e6f0983597d6659aff1b7b0c6bd17" compoundref="usrp__standard_8cc" startline="144" endline="144">duc_control::dxc_freq</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="909">
+        <label>usrp_standard_common</label>
+        <link refid="classusrp__standard__common"/>
+      </node>
+      <node id="910">
+        <label>usrp_standard_rx</label>
+        <link refid="classusrp__standard__rx"/>
+        <childnode refid="909" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="911">
+        <label>usrp_standard_tx</label>
+        <link refid="classusrp__standard__tx"/>
+        <childnode refid="909" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_standard.h" bodystart="39" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classusrp__standard__common_1a9452b1ce5881965ca36d780f928b6cb6" prot="public" virt="non-virtual"><scope>usrp_standard_common</scope><name>calc_dxc_freq</name></member>
+      <member refid="classusrp__standard__common_1aa270c21aec2edab1d29e12ec091904ec" prot="private" virt="non-virtual"><scope>usrp_standard_common</scope><name>d_fpga_caps</name></member>
+      <member refid="classusrp__standard__common_1ac259e77beebe73376a45b6116ab845e1" prot="public" virt="non-virtual"><scope>usrp_standard_common</scope><name>has_rx_halfband</name></member>
+      <member refid="classusrp__standard__common_1a4192e505766a5920f8771bde1fd871ae" prot="public" virt="non-virtual"><scope>usrp_standard_common</scope><name>has_tx_halfband</name></member>
+      <member refid="classusrp__standard__common_1a07b889dbe4fecd870f40ddf2401948c6" prot="public" virt="non-virtual"><scope>usrp_standard_common</scope><name>nddcs</name></member>
+      <member refid="classusrp__standard__common_1a9dec671bc0d7c50157083f46538844af" prot="public" virt="non-virtual"><scope>usrp_standard_common</scope><name>nducs</name></member>
+      <member refid="classusrp__standard__common_1a084f39cd160734d41e6c1cb8f6513dd6" prot="protected" virt="non-virtual"><scope>usrp_standard_common</scope><name>usrp_standard_common</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

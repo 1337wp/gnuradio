@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="db__wbxng__adf4350__regs_8h" kind="file" language="C++">
+    <compoundname>db_wbxng_adf4350_regs.h</compoundname>
+    <includes refid="db__base_8h" local="no">usrp/db_base.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includedby refid="db__wbxng__adf4350_8h" local="yes">db_wbxng_adf4350.h</includedby>
+    <includedby refid="db__wbxng__adf4350__regs_8cc" local="yes">db_wbxng_adf4350_regs.cc</includedby>
+    <incdepgraph>
+      <node id="564">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="567">
+        <label>stdint.h</label>
+      </node>
+      <node id="563">
+        <label>string</label>
+      </node>
+      <node id="565">
+        <label>boost/weak_ptr.hpp</label>
+      </node>
+      <node id="561">
+        <label>db_wbxng_adf4350_regs.h</label>
+        <link refid="db_wbxng_adf4350_regs.h"/>
+        <childnode refid="562" relation="include">
+        </childnode>
+        <childnode refid="567" relation="include">
+        </childnode>
+      </node>
+      <node id="562">
+        <label>usrp/db_base.h</label>
+        <link refid="db__base_8h"/>
+        <childnode refid="563" relation="include">
+        </childnode>
+        <childnode refid="564" relation="include">
+        </childnode>
+        <childnode refid="565" relation="include">
+        </childnode>
+        <childnode refid="566" relation="include">
+        </childnode>
+      </node>
+      <node id="566">
+        <label>iosfwd</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="569">
+        <label>db_wbxng_adf4350.h</label>
+        <link refid="db__wbxng__adf4350_8h"/>
+        <childnode refid="570" relation="include">
+        </childnode>
+        <childnode refid="571" relation="include">
+        </childnode>
+        <childnode refid="572" relation="include">
+        </childnode>
+      </node>
+      <node id="568">
+        <label>db_wbxng_adf4350_regs.h</label>
+        <link refid="db_wbxng_adf4350_regs.h"/>
+        <childnode refid="569" relation="include">
+        </childnode>
+        <childnode refid="572" relation="include">
+        </childnode>
+      </node>
+      <node id="571">
+        <label>db_wbxng_adf4350.cc</label>
+        <link refid="db__wbxng__adf4350_8cc"/>
+      </node>
+      <node id="570">
+        <label>db_wbxng.cc</label>
+        <link refid="db__wbxng_8cc"/>
+      </node>
+      <node id="572">
+        <label>db_wbxng_adf4350_regs.cc</label>
+        <link refid="db__wbxng__adf4350__regs_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classadf4350__regs" prot="public">adf4350_regs</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>2009<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>asversion<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>any<sp/>later<sp/>version.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ADF4350_REGS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADF4350_REGS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__base_8h" kindref="compound">usrp/db_base.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classadf4350" kindref="compound">adf4350</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classadf4350__regs" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classadf4350__regs" kindref="compound">adf4350_regs</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classadf4350__regs_1ae74f21e13be7ba140bce58a17d77609c" kindref="member">adf4350_regs</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classadf4350__regs_1aa5f3d3b38d36cf9682064895488bb3a5" kindref="member">~adf4350_regs</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="classadf4350__regs_1aff9f4049600fa1239420c27092bb2b37" kindref="member">_reg_shift</ref>(uint32_t<sp/>data,<sp/>uint32_t<sp/>shift);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="classadf4350__regs_1a6832cc35d81385287c9e798b267c7699" kindref="member">compute_register</ref>(uint8_t<sp/>addr);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>reg<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classadf4350__regs_1a5b9e7b8f5a63c5e584eecdf826c0e596" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="classadf4350__regs_1a5b9e7b8f5a63c5e584eecdf826c0e596" kindref="member">d_int</ref>;</highlight></codeline>
+<codeline lineno="40" refid="classadf4350__regs_1a2d96c2a60d85538106209fddfdcd8a80" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="classadf4350__regs_1a2d96c2a60d85538106209fddfdcd8a80" kindref="member">d_frac</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>reg<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="classadf4350__regs_1a354be40452a58e5e19db66b0681c3267" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a354be40452a58e5e19db66b0681c3267" kindref="member">d_prescaler</ref>;</highlight></codeline>
+<codeline lineno="43" refid="classadf4350__regs_1a3fcb2afd6a811060c04972126c46f392" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t<sp/><ref refid="classadf4350__regs_1a3fcb2afd6a811060c04972126c46f392" kindref="member">s_phase</ref>;</highlight></codeline>
+<codeline lineno="44" refid="classadf4350__regs_1a8416de193ee7c543ab520c056b14b8d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="classadf4350__regs_1a8416de193ee7c543ab520c056b14b8d8" kindref="member">d_mod</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>reg<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="classadf4350__regs_1a09b6a8dd613a4bfb362505653c77cf5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a09b6a8dd613a4bfb362505653c77cf5a" kindref="member">s_low_noise_and_low_spur_modes</ref>;</highlight></codeline>
+<codeline lineno="47" refid="classadf4350__regs_1a6cc20bf182daf87c58096a91e5d479ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a6cc20bf182daf87c58096a91e5d479ed" kindref="member">s_muxout</ref>;</highlight></codeline>
+<codeline lineno="48" refid="classadf4350__regs_1ad977c9a998138e78d73f842b95e1007b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1ad977c9a998138e78d73f842b95e1007b" kindref="member">s_reference_doubler</ref>;</highlight></codeline>
+<codeline lineno="49" refid="classadf4350__regs_1a890298264c48c1c29e67434e152e1ec2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a890298264c48c1c29e67434e152e1ec2" kindref="member">s_rdiv2</ref>;</highlight></codeline>
+<codeline lineno="50" refid="classadf4350__regs_1ab55d7273aae76ce97d68be3365f4fbeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="classadf4350__regs_1ab55d7273aae76ce97d68be3365f4fbeb" kindref="member">d_10_bit_r_counter</ref>;</highlight></codeline>
+<codeline lineno="51" refid="classadf4350__regs_1a5d8098517c8745ab9ad68f66df6dd18e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a5d8098517c8745ab9ad68f66df6dd18e" kindref="member">s_double_buff</ref>;</highlight></codeline>
+<codeline lineno="52" refid="classadf4350__regs_1acd924607540df02c9998004518df25e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1acd924607540df02c9998004518df25e6" kindref="member">s_charge_pump_setting</ref>;</highlight></codeline>
+<codeline lineno="53" refid="classadf4350__regs_1a5261ac95f0326545af6098568136656f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a5261ac95f0326545af6098568136656f" kindref="member">s_ldf</ref>;</highlight></codeline>
+<codeline lineno="54" refid="classadf4350__regs_1a079ab64cead9c1c9e0dedd5290687eea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a079ab64cead9c1c9e0dedd5290687eea" kindref="member">s_ldp</ref>;</highlight></codeline>
+<codeline lineno="55" refid="classadf4350__regs_1af80125aef96fa6c2146bfb15886ebd08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1af80125aef96fa6c2146bfb15886ebd08" kindref="member">s_pd_polarity</ref>;</highlight></codeline>
+<codeline lineno="56" refid="classadf4350__regs_1aee8559a8c6d006cffe11e485d7b034d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1aee8559a8c6d006cffe11e485d7b034d8" kindref="member">s_power_down</ref>;</highlight></codeline>
+<codeline lineno="57" refid="classadf4350__regs_1a3d1e6d80d3ce57ed102f5da49d10a66f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a3d1e6d80d3ce57ed102f5da49d10a66f" kindref="member">s_cp_three_state</ref>;</highlight></codeline>
+<codeline lineno="58" refid="classadf4350__regs_1a3673b5656eaf9301b75b8c187c3631bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a3673b5656eaf9301b75b8c187c3631bc" kindref="member">s_counter_reset</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>reg<sp/>3<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="classadf4350__regs_1a347f64fccc5a0d32dcbc65c4f1511a17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a347f64fccc5a0d32dcbc65c4f1511a17" kindref="member">s_csr</ref>;</highlight></codeline>
+<codeline lineno="61" refid="classadf4350__regs_1a7c623418cbc2894b620fe0a08bedbafd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a7c623418cbc2894b620fe0a08bedbafd" kindref="member">s_clk_div_mode</ref>;</highlight></codeline>
+<codeline lineno="62" refid="classadf4350__regs_1ab7913fe253a397e8f04b7d323655d152" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t<sp/><ref refid="classadf4350__regs_1ab7913fe253a397e8f04b7d323655d152" kindref="member">s_12_bit_clock_divider_value</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>reg<sp/>4<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="classadf4350__regs_1a6b20f8d46d3f85ee6db768a123577c7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a6b20f8d46d3f85ee6db768a123577c7e" kindref="member">s_feedback_select</ref>;</highlight></codeline>
+<codeline lineno="65" refid="classadf4350__regs_1a10a12a767f493cf8e1a1c494abfe9160" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a10a12a767f493cf8e1a1c494abfe9160" kindref="member">d_divider_select</ref>;</highlight></codeline>
+<codeline lineno="66" refid="classadf4350__regs_1a76e2a5314d84c6d4d8f227fc1d99777f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a76e2a5314d84c6d4d8f227fc1d99777f" kindref="member">d_8_bit_band_select_clock_divider_value</ref>;</highlight></codeline>
+<codeline lineno="67" refid="classadf4350__regs_1a5c5e0b5bd7476d74e8c31d4366ce0491" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a5c5e0b5bd7476d74e8c31d4366ce0491" kindref="member">s_vco_power_down</ref>;</highlight></codeline>
+<codeline lineno="68" refid="classadf4350__regs_1a386d3c8e9e4835b7487d29c590da2992" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a386d3c8e9e4835b7487d29c590da2992" kindref="member">s_mtld</ref>;</highlight></codeline>
+<codeline lineno="69" refid="classadf4350__regs_1ad25a2aa08aa6bcee10caa1a22fc783fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1ad25a2aa08aa6bcee10caa1a22fc783fa" kindref="member">s_aux_output_select</ref>;</highlight></codeline>
+<codeline lineno="70" refid="classadf4350__regs_1a2813e965fc44c9c63b231872dcce4fd1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a2813e965fc44c9c63b231872dcce4fd1" kindref="member">s_aux_output_enable</ref>;</highlight></codeline>
+<codeline lineno="71" refid="classadf4350__regs_1a73108870f2b7cc9394c7c68c25af716b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a73108870f2b7cc9394c7c68c25af716b" kindref="member">s_aux_output_power</ref>;</highlight></codeline>
+<codeline lineno="72" refid="classadf4350__regs_1ac5d3d1ad531aaa72ab11cb2045450cf3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1ac5d3d1ad531aaa72ab11cb2045450cf3" kindref="member">s_rf_output_enable</ref>;</highlight></codeline>
+<codeline lineno="73" refid="classadf4350__regs_1a4dd46452af589797b4b20566b4cac406" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1a4dd46452af589797b4b20566b4cac406" kindref="member">s_output_power</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>reg<sp/>5<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="classadf4350__regs_1aae3bc5f9ce8c813e0d6b66272a9ee314" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="classadf4350__regs_1aae3bc5f9ce8c813e0d6b66272a9ee314" kindref="member">s_ld_pin_mode</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="78" refid="classadf4350__regs_1a01660015c8ed626090ff55e0d84de9fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref><sp/><ref refid="classadf4350__regs_1a01660015c8ed626090ff55e0d84de9fe" kindref="member">d_usrp</ref>;</highlight></codeline>
+<codeline lineno="79" refid="classadf4350__regs_1ab3f417bf69b129fd15f9b90c556ad298" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classadf4350__regs_1ab3f417bf69b129fd15f9b90c556ad298" kindref="member">d_spi_enable</ref>;</highlight></codeline>
+<codeline lineno="80" refid="classadf4350__regs_1a4c0629452bc8fb125b8f87a7337b018a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classadf4350__regs_1a4c0629452bc8fb125b8f87a7337b018a" kindref="member">d_spi_format</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>ADF4350_REGS_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350_regs.h"/>
+  </compounddef>
+</doxygen>

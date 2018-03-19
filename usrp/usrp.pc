@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib64
+includedir=${prefix}/include
+
+Name: usrp
+Description: USRP Client Side C++ interface
+Requires: libusb
+Version: 3.4.0
+Libs: -L${libdir} -lusrp
+Cflags: -I${includedir}

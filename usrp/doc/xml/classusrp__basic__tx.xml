@@ -1,0 +1,1270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classusrp__basic__tx" kind="class" language="C++" prot="public">
+    <compoundname>usrp_basic_tx</compoundname>
+    <basecompoundref refid="classusrp__basic" prot="public" virt="non-virtual">usrp_basic</basecompoundref>
+    <derivedcompoundref refid="classusrp__standard__tx" prot="public" virt="non-virtual">usrp_standard_tx</derivedcompoundref>
+    <includes refid="usrp__basic_8h" local="no">usrp_basic.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classusrp__basic__tx_1acbb401209911ef454eee6762cd9ed71a" prot="private" static="no" mutable="no">
+        <type><ref refid="classfusb__devhandle" kindref="compound">fusb_devhandle</ref> *</type>
+        <definition>fusb_devhandle* usrp_basic_tx::d_devhandle</definition>
+        <argsstring></argsstring>
+        <name>d_devhandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="885" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" bodystart="885" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__basic__tx_1a3c76468c8a1746511389be7cd1a67fe6" prot="private" static="no" mutable="no">
+        <type><ref refid="classfusb__ephandle" kindref="compound">fusb_ephandle</ref> *</type>
+        <definition>fusb_ephandle* usrp_basic_tx::d_ephandle</definition>
+        <argsstring></argsstring>
+        <name>d_ephandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="886" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" bodystart="886" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__basic__tx_1ad87e9e2454491b2ec015ff6b42158b80" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usrp_basic_tx::d_bytes_seen</definition>
+        <argsstring></argsstring>
+        <name>d_bytes_seen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="887" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" bodystart="887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__basic__tx_1ac79652c1ff08cfa78e37bf2b20c256a7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::d_first_write</definition>
+        <argsstring></argsstring>
+        <name>d_first_write</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="888" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" bodystart="888" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__basic__tx_1a3e424cf1c4c239f7f5e70f5c0f960eca" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::d_tx_enable</definition>
+        <argsstring></argsstring>
+        <name>d_tx_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="889" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" bodystart="889" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classusrp__basic__tx_1ab8bb942f1c956624553ac18b0a838bd6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>usrp_basic_tx::usrp_basic_tx</definition>
+        <argsstring>(int which_board, int fusb_block_size=0, int fusb_nblocks=0, const std::string fpga_filename=&quot;&quot;, const std::string firmware_filename=&quot;&quot;)</argsstring>
+        <name>usrp_basic_tx</name>
+        <param>
+          <type>int</type>
+          <declname>which_board</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fusb_block_size</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fusb_nblocks</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>fpga_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>firmware_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_board</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Which USRP board on usb (not particularly useful; use 0) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fusb_block_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fast usb xfer block size. Must be a multiple of 512. Use zero for a reasonable default. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fusb_nblocks</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of fast usb URBs to allocate. Use zero for a reasonable default. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fpga_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of file that contains image to load into FPGA </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>firmware_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of file that contains image to load into FX2 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="900" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1171" bodyend="1227"/>
+        <references refid="classusrp__basic_1a747a3cfca6d00b8d2960b4692ae36bc2" compoundref="usrp__basic_8h" startline="70">usrp_basic::d_ctx</references>
+        <references refid="classusrp__basic_1aad5f6f17a9fde484c67e7dbdd0491f74" compoundref="usrp__basic_8h" startline="69">usrp_basic::d_udh</references>
+        <references refid="classfusb__sysconfig_1af27b17480582325710483900d672bfbe" compoundref="fusb__sysconfig__darwin_8cc" startline="30" endline="33">fusb_sysconfig::make_devhandle</references>
+        <references refid="classfusb__devhandle_1a9783b6b0082f783dc7638ff557998ff2">fusb_devhandle::make_ephandle</references>
+        <references refid="classusrp__basic__tx_1ac9e8934cb2136fd9c1f0bb2677991df0" compoundref="usrp__basic_8cc" startline="1393" endline="1438">probe_tx_slots</references>
+        <references refid="ad9862_8h_1ad5c63f9d7a28affa5c98fb7249a471e5" compoundref="ad9862_8h" startline="120">REG_TX_MODULATOR</references>
+        <references refid="ad9862_8h_1a1c81d40cf59f1207a2e424977e580d07" compoundref="ad9862_8h" startline="72">REG_TX_PWR_DN</references>
+        <references refid="classusrp__basic__tx_1a51d29f5416c2db61e74e1938aa22af72" compoundref="usrp__basic_8cc" startline="1308" endline="1311">set_fpga_tx_sample_rate_divisor</references>
+        <references refid="classusrp__basic__tx_1a13148a03a6d6df2be95679bc2bbea896" compoundref="usrp__basic_8cc" startline="1367" endline="1372">set_tx_enable</references>
+        <references refid="ad9862_8h_1a43eee1217b373c811b6cbace1b4a008c" compoundref="ad9862_8h" startline="126">TX_MODULATOR_COARSE_MODULATION_NONE</references>
+        <references refid="ad9862_8h_1a10a813fa1f8ad63553a9d5a6843d4010" compoundref="ad9862_8h" startline="122">TX_MODULATOR_DISABLE_NCO</references>
+        <references refid="ad9862_8h_1ae94623d5585c2188e37b02c20db61204" compoundref="ad9862_8h" startline="78">TX_PWR_DN_TX_ANALOG_BOTH</references>
+        <references refid="ad9862_8h_1a9eaa29ce86104ca174f95b41175d0bb2" compoundref="ad9862_8h" startline="75">TX_PWR_DN_TX_DIGITAL</references>
+        <references refid="usrp__prims_8h_1a5038d35fe755b8a3863082371b64782e" compoundref="usrp__prims__common_8cc" startline="877" endline="892">usrp_9862_write</references>
+        <references refid="usrp__prims_8h_1a4ffbe7a8f1f34c079f4e48dd63d5332b" compoundref="usrp__prims__common_8cc" startline="926" endline="935">usrp_9862_write_many_all</references>
+        <references refid="usrp__prims_8h_1a8dbb4b5a64714763d57d2d269c27b047" compoundref="usrp__prims__common_8cc" startline="533" endline="536">usrp_set_fpga_tx_reset</references>
+        <references refid="classusrp__basic__tx_1a8cfd094ce093e5d46fcad5531ee20570" compoundref="usrp__basic_8cc" startline="1501" endline="1504">write_atr_mask</references>
+        <references refid="classusrp__basic__tx_1a01b222b0ba0a365db87ab74731325d5b" compoundref="usrp__basic_8cc" startline="1513" endline="1516">write_atr_rxval</references>
+        <references refid="classusrp__basic__tx_1af4c224f2e92a07ded29fc6dedba8c2d7" compoundref="usrp__basic_8cc" startline="1507" endline="1510">write_atr_txval</references>
+        <referencedby refid="classusrp__basic__tx_1aee3b2b573a324ca3d8374566543f28ce" compoundref="usrp__basic_8cc" startline="1288" endline="1305">make</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a13148a03a6d6df2be95679bc2bbea896" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::set_tx_enable</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>set_tx_enable</name>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="907" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1367" bodyend="1372"/>
+        <references refid="classusrp__basic_1aad5f6f17a9fde484c67e7dbdd0491f74" compoundref="usrp__basic_8h" startline="69">usrp_basic::d_udh</references>
+        <references refid="usrp__prims_8h_1afdda6f72700cfeb73b9c3337cc4c7607" compoundref="usrp__prims__common_8cc" startline="521" endline="524">usrp_set_fpga_tx_enable</references>
+        <referencedby refid="classusrp__basic__tx_1a2298762ed6e3f39c000a141a4964e181" compoundref="usrp__basic_8cc" startline="1376" endline="1382">disable_tx</referencedby>
+        <referencedby refid="classusrp__basic__tx_1a7dd7dc05a7767f38ce25b407a705c2d5" compoundref="usrp__basic_8cc" startline="1386" endline="1390">restore_tx</referencedby>
+        <referencedby refid="classusrp__basic__tx_1a3d16b0d8e96d5124b6392bc44014124d" compoundref="usrp__basic_8cc" startline="1251" endline="1267">start</referencedby>
+        <referencedby refid="classusrp__basic__tx_1ab1c5851e72e29e86af914da5c7f62cf8" compoundref="usrp__basic_8cc" startline="1270" endline="1285">stop</referencedby>
+        <referencedby refid="classusrp__basic__tx_1ab8bb942f1c956624553ac18b0a838bd6" compoundref="usrp__basic_8cc" startline="1171" endline="1227">usrp_basic_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1ada7b24a807ade928dc5e57e823002f6d" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::tx_enable</definition>
+        <argsstring>() const </argsstring>
+        <name>tx_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="908" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" bodystart="908" bodyend="908"/>
+        <referencedby refid="classusrp__basic__tx_1a2298762ed6e3f39c000a141a4964e181" compoundref="usrp__basic_8cc" startline="1376" endline="1382">disable_tx</referencedby>
+        <referencedby refid="classusrp__basic__tx_1a7dd7dc05a7767f38ce25b407a705c2d5" compoundref="usrp__basic_8cc" startline="1386" endline="1390">restore_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a2298762ed6e3f39c000a141a4964e181" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::disable_tx</definition>
+        <argsstring>()</argsstring>
+        <name>disable_tx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="910" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1376" bodyend="1382"/>
+        <references refid="classusrp__basic__tx_1a13148a03a6d6df2be95679bc2bbea896" compoundref="usrp__basic_8cc" startline="1367" endline="1372">set_tx_enable</references>
+        <references refid="classusrp__basic__tx_1ada7b24a807ade928dc5e57e823002f6d" compoundref="usrp__basic_8h" startline="908" endline="908">tx_enable</references>
+        <referencedby refid="classusrp__standard__tx_1a7b092ae2811927291ffc3491e4461282" compoundref="usrp__standard_8cc" startline="897" endline="918">usrp_standard_tx::set_interp_rate</referencedby>
+        <referencedby refid="classusrp__standard__tx_1abd05aee7bbd18ef62bcc8dc18a11a960" compoundref="usrp__standard_8cc" startline="942" endline="948">usrp_standard_tx::write_hw_mux_reg</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a7dd7dc05a7767f38ce25b407a705c2d5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void usrp_basic_tx::restore_tx</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>restore_tx</name>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="911" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1386" bodyend="1390"/>
+        <references refid="classusrp__basic__tx_1a13148a03a6d6df2be95679bc2bbea896" compoundref="usrp__basic_8cc" startline="1367" endline="1372">set_tx_enable</references>
+        <references refid="classusrp__basic__tx_1ada7b24a807ade928dc5e57e823002f6d" compoundref="usrp__basic_8h" startline="908" endline="908">tx_enable</references>
+        <referencedby refid="classusrp__standard__tx_1a7b092ae2811927291ffc3491e4461282" compoundref="usrp__standard_8cc" startline="897" endline="918">usrp_standard_tx::set_interp_rate</referencedby>
+        <referencedby refid="classusrp__standard__tx_1abd05aee7bbd18ef62bcc8dc18a11a960" compoundref="usrp__standard_8cc" startline="942" endline="948">usrp_standard_tx::write_hw_mux_reg</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1ac9e8934cb2136fd9c1f0bb2677991df0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void usrp_basic_tx::probe_tx_slots</definition>
+        <argsstring>(bool verbose)</argsstring>
+        <name>probe_tx_slots</name>
+        <param>
+          <type>bool</type>
+          <declname>verbose</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="913" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1393" bodyend="1438"/>
+        <references refid="classusrp__basic_1ac5bdb9be69f27eb3a0530cba9536d0f4" compoundref="usrp__basic_8cc" startline="380" endline="391">usrp_basic::_write_fpga_reg</references>
+        <references refid="classusrp__basic_1a686ea66e3f43c9ab6df60bd80f41ac3b" compoundref="usrp__basic_8h" startline="79">usrp_basic::d_dbid</references>
+        <references refid="classusrp__basic_1aad5f6f17a9fde484c67e7dbdd0491f74" compoundref="usrp__basic_8h" startline="69">usrp_basic::d_udh</references>
+        <references refid="structusrp__dboard__eeprom_1abb084f9acf442d8b439c8e13479d0618" compoundref="usrp__prims_8h" startline="280">usrp_dboard_eeprom::id</references>
+        <references refid="structusrp__dboard__eeprom_1a644392481788aabc0226af00d4371124" compoundref="usrp__prims_8h" startline="281">usrp_dboard_eeprom::oe</references>
+        <references refid="usrp__prims_8h_1aff88561a43ab4eb5a12f1f6b6e1a5319ad40e7b8cbbd8ffbac091eaf5a3d5f800" compoundref="usrp__prims_8h" startline="277">UDBE_BAD_SLOT</references>
+        <references refid="usrp__prims_8h_1aff88561a43ab4eb5a12f1f6b6e1a5319a065b565a87b98cdb159a36fdbbbdc4a3" compoundref="usrp__prims_8h" startline="277">UDBE_INVALID_EEPROM</references>
+        <references refid="usrp__prims_8h_1aff88561a43ab4eb5a12f1f6b6e1a5319a52291acb7ae7f8b6ca4cc43a2a0c1444" compoundref="usrp__prims_8h" startline="277">UDBE_NO_EEPROM</references>
+        <references refid="usrp__prims_8h_1aff88561a43ab4eb5a12f1f6b6e1a5319a4511bf9a250718650f856819ec07132a" compoundref="usrp__prims_8h" startline="277">UDBE_OK</references>
+        <references refid="usrp__prims_8h_1ab860189f7bc6e0531912c03aa52d3dbe" compoundref="usrp__dbid_8cc" startline="95" endline="110">usrp_dbid_to_string</references>
+        <references refid="usrp__prims_8h_1a2bc4729b18234e966aadf42d50b882d6" compoundref="usrp__prims__common_8cc" startline="1181" endline="1198">usrp_read_dboard_eeprom</references>
+        <referencedby refid="classusrp__basic__tx_1ab8bb942f1c956624553ac18b0a838bd6" compoundref="usrp__basic_8cc" startline="1171" endline="1227">usrp_basic_tx</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classusrp__basic__tx_1a1742407fda891ebf3eea8f297310e455" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>usrp_basic_tx::~usrp_basic_tx</definition>
+        <argsstring>()</argsstring>
+        <name>~usrp_basic_tx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="917" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1237" bodyend="1248"/>
+        <references refid="classusrp__basic_1aad5f6f17a9fde484c67e7dbdd0491f74" compoundref="usrp__basic_8h" startline="69">usrp_basic::d_udh</references>
+        <references refid="classusrp__basic_1afaae41796f1468062d4ad237322baf9e" compoundref="usrp__basic_8cc" startline="168" endline="176">usrp_basic::shutdown_daughterboards</references>
+        <references refid="classfusb__ephandle_1a3cfe2cbb78870a6ce0ec8f696ebe45ab">fusb_ephandle::stop</references>
+        <references refid="usrp__prims_8h_1a4ffbe7a8f1f34c079f4e48dd63d5332b" compoundref="usrp__prims__common_8cc" startline="926" endline="935">usrp_9862_write_many_all</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a51d29f5416c2db61e74e1938aa22af72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::set_fpga_tx_sample_rate_divisor</definition>
+        <argsstring>(unsigned int div)</argsstring>
+        <name>set_fpga_tx_sample_rate_divisor</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>div</declname>
+        </param>
+        <briefdescription>
+<para>tell the fpga the rate tx samples are going to the D/A&apos;s </para>        </briefdescription>
+        <detaileddescription>
+<para>div = fpga_master_clock_freq () * 2</para><para>sample_rate is determined by a myriad of registers in the 9862. That&apos;s why you have to tell us, so we can tell the fpga. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="943" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1308" bodyend="1311"/>
+        <references refid="classusrp__basic_1ac5bdb9be69f27eb3a0530cba9536d0f4" compoundref="usrp__basic_8cc" startline="380" endline="391">usrp_basic::_write_fpga_reg</references>
+        <referencedby refid="classusrp__basic__tx_1ab8bb942f1c956624553ac18b0a838bd6" compoundref="usrp__basic_8cc" startline="1171" endline="1227">usrp_basic_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a0dd15899a23869336f455fa948b725af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usrp_basic_tx::write</definition>
+        <argsstring>(const void *buf, int len, bool *underrun)</argsstring>
+        <name>write</name>
+        <param>
+          <type>const void *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>underrun</declname>
+        </param>
+        <briefdescription>
+<para>Write data to the A/D&apos;s via the FPGA. </para>        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>len</computeroutput> must be a multiple of 512 bytes. <simplesect kind="return"><para>number of bytes written or -1 on error.</para></simplesect>
+if <computeroutput>underrun</computeroutput> is non-NULL, it will be set to true iff a transmit underrun condition is detected. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="954" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1323" bodyend="1358"/>
+        <references refid="classusrp__basic_1a1d6b6839b9ba385d93684c3497c3fb16" compoundref="usrp__basic_8h" startline="72">usrp_basic::d_bytes_per_poll</references>
+        <references refid="classusrp__basic_1aad5f6f17a9fde484c67e7dbdd0491f74" compoundref="usrp__basic_8h" startline="69">usrp_basic::d_udh</references>
+        <references refid="usrp__prims_8h_1ac901040cfe8868bf16bcb970454055a2" compoundref="usrp__prims__common_8cc" startline="818" endline="821">usrp_check_tx_underrun</references>
+        <references refid="classfusb__ephandle_1ab2a965c0f5fea6632bc08ea59c8c8fe1">fusb_ephandle::write</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1ad6486f2bff896af6109a338d7d954d50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void usrp_basic_tx::wait_for_completion</definition>
+        <argsstring>()</argsstring>
+        <name>wait_for_completion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="960" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1361" bodyend="1364"/>
+        <references refid="classfusb__ephandle_1a1e1a2c7173a14aea99686fad7c0e061c">fusb_ephandle::wait_for_completion</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a4eefc136417ea3a75a296c1b6dbbd470" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>long</type>
+        <definition>virtual long usrp_basic_tx::converter_rate</definition>
+        <argsstring>() const </argsstring>
+        <name>converter_rate</name>
+        <reimplements refid="classusrp__basic_1a551a0912d265427e595ba826858cf3d0">converter_rate</reimplements>
+        <briefdescription>
+<para>sampling rate of D/A converter </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="963" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" bodystart="963" bodyend="963"/>
+        <references refid="classusrp__basic_1a244d4aa01bb6a054cd5bd0998ce2a09a" compoundref="usrp__basic_8h" startline="183" endline="183">usrp_basic::fpga_master_clock_freq</references>
+        <referencedby refid="classusrp__standard__tx_1a5c992590408fe90d4711e355ee12852f" compoundref="usrp__standard_8cc" startline="1171" endline="1175">usrp_standard_tx::tune</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a618be27f79f9ab769f33ead42c9283a7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long usrp_basic_tx::dac_rate</definition>
+        <argsstring>() const </argsstring>
+        <name>dac_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="964" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" bodystart="964" bodyend="964"/>
+        <references refid="classusrp__basic_1a551a0912d265427e595ba826858cf3d0">usrp_basic::converter_rate</references>
+        <referencedby refid="classusrp__standard__tx_1a24a7b471679b8e2485bfff5cce7adb96" compoundref="usrp__standard_8cc" startline="982" endline="994">usrp_standard_tx::determine_tx_mux_value</referencedby>
+        <referencedby refid="classusrp__standard__tx_1a7b092ae2811927291ffc3491e4461282" compoundref="usrp__standard_8cc" startline="897" endline="918">usrp_standard_tx::set_interp_rate</referencedby>
+        <referencedby refid="classusrp__standard__tx_1ae75deb35fef49d5e647b2141443d7106" compoundref="usrp__standard_8cc" startline="1018" endline="1099">usrp_standard_tx::set_tx_freq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a25ef6153080bcd83637c87df6ea1d478" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int usrp_basic_tx::daughterboard_id</definition>
+        <argsstring>(int which_side) const </argsstring>
+        <name>daughterboard_id</name>
+        <reimplements refid="classusrp__basic_1a6d639e50633c165b23e0c4770b26bec2">daughterboard_id</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <briefdescription>
+<para>Return daughterboard ID for given side [0,1]. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_side</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[0,1] which daughterboard</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>daughterboard id &gt;= 0 if successful </para></simplesect>
+<simplesect kind="return"><para>-1 if no daugherboard </para></simplesect>
+<simplesect kind="return"><para>-2 if invalid EEPROM on daughterboard </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="965" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" bodystart="965" bodyend="965"/>
+        <references refid="classusrp__basic_1ac540c04b719f1ce30426ecb2214107ef">usrp_basic::_write_oe</references>
+        <references refid="classusrp__basic_1a1f769dc9ea28d701fa2f7da2be82325d">usrp_basic::block_size</references>
+        <references refid="classusrp__basic_1a731389d216c7232020041f7cecd3d581">usrp_basic::pga</references>
+        <references refid="classusrp__basic_1ae67abb570f10f1216c001f2409fe3331">usrp_basic::pga_db_per_step</references>
+        <references refid="classusrp__basic_1ae6a0027c59862dcc2d4da73d50b6a598">usrp_basic::pga_max</references>
+        <references refid="classusrp__basic_1afcab635a411c57f16820e44a83bfe259">usrp_basic::pga_min</references>
+        <references refid="classusrp__basic_1a7e90fb51366e9d6a8f2c844dbca2798a">usrp_basic::read_aux_adc</references>
+        <references refid="classusrp__basic_1ad443caee9815e7c69a8b39a29cf8846a">usrp_basic::read_io</references>
+        <references refid="classusrp__basic_1afdcf0497f2554589b36a57806e239a07">usrp_basic::set_pga</references>
+        <references refid="classusrp__basic_1a4291ecf3cc0870baaa12644143182db4" compoundref="usrp__basic_8cc" startline="217" endline="220">usrp_basic::start</references>
+        <references refid="classusrp__basic_1a69292bbc3b47b5ca85d4c0404dc4a58a" compoundref="usrp__basic_8cc" startline="223" endline="226">usrp_basic::stop</references>
+        <references refid="classusrp__basic_1a49074783b3757b6af17ddf8e8f56be6c">usrp_basic::write_atr_mask</references>
+        <references refid="classusrp__basic_1ae5466590dd7ec5646fefbb82d92ad899">usrp_basic::write_atr_rxval</references>
+        <references refid="classusrp__basic_1a504bf45d241c56ddf00ee07fc946207e">usrp_basic::write_atr_txval</references>
+        <references refid="classusrp__basic_1a332790fa84b6b64f82de8983b45b611a">usrp_basic::write_aux_dac</references>
+        <references refid="classusrp__basic_1a75aca6cca672ac2deedf14fb2c04ab0e">usrp_basic::write_io</references>
+        <references refid="classusrp__basic_1a80a4f8800742b6b06ec6f1908a448fc8">usrp_basic::write_refclk</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a5d950d5f8a8969e17525cee918d9bd06" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::set_pga</definition>
+        <argsstring>(int which_amp, double gain_in_db)</argsstring>
+        <name>set_pga</name>
+        <reimplements refid="classusrp__basic_1afdcf0497f2554589b36a57806e239a07">set_pga</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_amp</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gain_in_db</declname>
+        </param>
+        <briefdescription>
+<para>Set Programmable Gain Amplifier (PGA) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_amp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which amp [0,3] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gain_in_db</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>gain value (linear in dB)</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+gain is rounded to closest setting supported by hardware.</para><para><simplesect kind="return"><para>true iff sucessful.</para></simplesect>
+<simplesect kind="see"><para><ref refid="classusrp__basic__tx_1a7cae37094ad8d1a0095fc058649829d0" kindref="member">pga_min()</ref>, <ref refid="classusrp__basic__tx_1ac451445ef6cffdffb9e7817c3885f367" kindref="member">pga_max()</ref>, <ref refid="classusrp__basic__tx_1ac8f1b5ab8940fba58fe01d64727deb40" kindref="member">pga_db_per_step()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="967" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1441" bodyend="1444"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1a52f96a90c91ed6e74bfc6a91691a7fa2" compoundref="usrp__basic_8cc" startline="557" endline="582">usrp_basic::common_set_pga</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1aa7764a14b980820287ebe3d50a303fbd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double usrp_basic_tx::pga</definition>
+        <argsstring>(int which_amp) const </argsstring>
+        <name>pga</name>
+        <reimplements refid="classusrp__basic_1a731389d216c7232020041f7cecd3d581">pga</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_amp</declname>
+        </param>
+        <briefdescription>
+<para>Return programmable gain amplifier gain setting in dB. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_amp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which amp [0,3] </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="968" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1447" bodyend="1450"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1ac25d56e74572309a87397f0fce1a102b" compoundref="usrp__basic_8cc" startline="585" endline="609">usrp_basic::common_pga</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a7cae37094ad8d1a0095fc058649829d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double usrp_basic_tx::pga_min</definition>
+        <argsstring>() const </argsstring>
+        <name>pga_min</name>
+        <reimplements refid="classusrp__basic_1afcab635a411c57f16820e44a83bfe259">pga_min</reimplements>
+        <briefdescription>
+<para>Return minimum legal PGA gain in dB. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="969" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1453" bodyend="1456"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1a95453e5bb4d0ed4c05b1ea64c880170a" compoundref="usrp__basic_8cc" startline="612" endline="618">usrp_basic::common_pga_min</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1ac451445ef6cffdffb9e7817c3885f367" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double usrp_basic_tx::pga_max</definition>
+        <argsstring>() const </argsstring>
+        <name>pga_max</name>
+        <reimplements refid="classusrp__basic_1ae6a0027c59862dcc2d4da73d50b6a598">pga_max</reimplements>
+        <briefdescription>
+<para>Return maximum legal PGA gain in dB. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="970" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1459" bodyend="1462"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1a7dd5c384b9d2cd4e412939c3b7b7ac79" compoundref="usrp__basic_8cc" startline="621" endline="627">usrp_basic::common_pga_max</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1ac8f1b5ab8940fba58fe01d64727deb40" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double usrp_basic_tx::pga_db_per_step</definition>
+        <argsstring>() const </argsstring>
+        <name>pga_db_per_step</name>
+        <reimplements refid="classusrp__basic_1ae67abb570f10f1216c001f2409fe3331">pga_db_per_step</reimplements>
+        <briefdescription>
+<para>Return hardware step size of PGA (linear in dB). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="971" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1465" bodyend="1468"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1a06cfd0e5675618f773c5466bd235a369" compoundref="usrp__basic_8cc" startline="630" endline="636">usrp_basic::common_pga_db_per_step</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a0ecdfcb63c28d66b2f036156e33f20d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::_write_oe</definition>
+        <argsstring>(int which_side, int value, int mask)</argsstring>
+        <name>_write_oe</name>
+        <reimplements refid="classusrp__basic_1ac540c04b719f1ce30426ecb2214107ef">_write_oe</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>Write direction register (output enables) for pins that go to daughterboard. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_side</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[0,1] which size </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value to write into register </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which bits of value to write into reg</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Each d&apos;board has 16-bits of general purpose i/o. Setting the bit makes it an output from the FPGA to the d&apos;board.</para><para>This register is initialized based on a value stored in the d&apos;board EEPROM. In general, you shouldn&apos;t be using this routine without a very good reason. Using this method incorrectly will kill your USRP motherboard and/or daughterboard. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="973" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1471" bodyend="1474"/>
+        <references refid="classusrp__basic_1a09ce78134eea035e42464123356096e4" compoundref="usrp__basic_8cc" startline="639" endline="646">usrp_basic::_common_write_oe</references>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a19a1a1db062ac7d3d4625c95770353ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::write_io</definition>
+        <argsstring>(int which_side, int value, int mask)</argsstring>
+        <name>write_io</name>
+        <reimplements refid="classusrp__basic_1a75aca6cca672ac2deedf14fb2c04ab0e">write_io</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>Write daughterboard i/o pin value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_side</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[0,1] which d&apos;board </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value to write into register </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>which bits of value to write into reg </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="974" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1477" bodyend="1480"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1acf3120592af4df79d38d253c98c633ae" compoundref="usrp__basic_8cc" startline="649" endline="656">usrp_basic::common_write_io</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1ad5b21bcc2798026f5a1555e9ca4c899f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::read_io</definition>
+        <argsstring>(int which_side, int *value)</argsstring>
+        <name>read_io</name>
+        <reimplements refid="classusrp__basic_1ad443caee9815e7c69a8b39a29cf8846a">read_io</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Read daughterboard i/o pin value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_side</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[0,1] which d&apos;board </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="975" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1483" bodyend="1486"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1af7e33b5762cd9c80a714806fa6fa2244" compoundref="usrp__basic_8cc" startline="659" endline="678">usrp_basic::common_read_io</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a98999c00a4d121c09a234b23c63d8b42" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int usrp_basic_tx::read_io</definition>
+        <argsstring>(int which_side)</argsstring>
+        <name>read_io</name>
+        <reimplements refid="classusrp__basic_1a166feedb83f6425d3bbbbf65f29bf42c">read_io</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <briefdescription>
+<para>Read daughterboard i/o pin value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_side</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[0,1] which d&apos;board </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>register value if successful, else READ_FAILED </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="976" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1489" bodyend="1492"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1af7e33b5762cd9c80a714806fa6fa2244" compoundref="usrp__basic_8cc" startline="659" endline="678">usrp_basic::common_read_io</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a6076561547b3912ea535334e6e6d4c2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::write_refclk</definition>
+        <argsstring>(int which_side, int value)</argsstring>
+        <name>write_refclk</name>
+        <reimplements refid="classusrp__basic_1a80a4f8800742b6b06ec6f1908a448fc8">write_refclk</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Write daughterboard refclk config register. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_side</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[0,1] which d&apos;board </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value to write into register, see below</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<preformatted>
+Control whether a reference clock is sent to the daughterboards,
+and what frequency.  The refclk is sent on d&apos;board i/o pin 0.
+<verbatim>3                   2                   1                       
+</verbatim>
+  1 0 9 8 7 6 5 4 3 2 1 0 9 8 7 6 5 4 3 2 1 0 9 8 7 6 5 4 3 2 1 0
+ +--------------------------------------------<mdash/>+-+---------<mdash/>+
+ |             Reserved (Must be zero)           |E|   DIVISOR  |
+ +--------------------------------------------<mdash/>+-+---------<mdash/>+</preformatted></para><para><preformatted> Bit 7  <ndash/> 1 turns on refclk, 0 allows IO use
+ Bits 6:0 Divider value
+</preformatted> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="977" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1495" bodyend="1498"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1ad673bc49b311e29ab01727c5933ea028" compoundref="usrp__basic_8cc" startline="690" endline="697">usrp_basic::common_write_refclk</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a8cfd094ce093e5d46fcad5531ee20570" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::write_atr_mask</definition>
+        <argsstring>(int which_side, int value)</argsstring>
+        <name>write_atr_mask</name>
+        <reimplements refid="classusrp__basic_1a49074783b3757b6af17ddf8e8f56be6c">write_atr_mask</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="978" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1501" bodyend="1504"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1a0997e93568c71e5432c2445b1ebcc991" compoundref="usrp__basic_8cc" startline="700" endline="707">usrp_basic::common_write_atr_mask</references>
+        <referencedby refid="classusrp__basic__tx_1ab8bb942f1c956624553ac18b0a838bd6" compoundref="usrp__basic_8cc" startline="1171" endline="1227">usrp_basic_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1af4c224f2e92a07ded29fc6dedba8c2d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::write_atr_txval</definition>
+        <argsstring>(int which_side, int value)</argsstring>
+        <name>write_atr_txval</name>
+        <reimplements refid="classusrp__basic_1a504bf45d241c56ddf00ee07fc946207e">write_atr_txval</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="979" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1507" bodyend="1510"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1a26e38a0f9f98390b712709812e3387af" compoundref="usrp__basic_8cc" startline="710" endline="717">usrp_basic::common_write_atr_txval</references>
+        <referencedby refid="classusrp__basic__tx_1ab8bb942f1c956624553ac18b0a838bd6" compoundref="usrp__basic_8cc" startline="1171" endline="1227">usrp_basic_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a01b222b0ba0a365db87ab74731325d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::write_atr_rxval</definition>
+        <argsstring>(int which_side, int value)</argsstring>
+        <name>write_atr_rxval</name>
+        <reimplements refid="classusrp__basic_1ae5466590dd7ec5646fefbb82d92ad899">write_atr_rxval</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="980" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1513" bodyend="1516"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1a89eda6a96bc7f4d2d634da793eccbc20" compoundref="usrp__basic_8cc" startline="720" endline="727">usrp_basic::common_write_atr_rxval</references>
+        <referencedby refid="classusrp__basic__tx_1ab8bb942f1c956624553ac18b0a838bd6" compoundref="usrp__basic_8cc" startline="1171" endline="1227">usrp_basic_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a2d3f6eda1859921bb7c0f26d2dd1163d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::write_aux_dac</definition>
+        <argsstring>(int which_side, int which_dac, int value)</argsstring>
+        <name>write_aux_dac</name>
+        <reimplements refid="classusrp__basic_1a332790fa84b6b64f82de8983b45b611a">write_aux_dac</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which_dac</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Write auxiliary digital to analog converter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_side</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[0,1] which d&apos;board N.B., SLOT_TX_A and SLOT_RX_A share the same AUX DAC&apos;s. SLOT_TX_B and SLOT_RX_B share the same AUX DAC&apos;s. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>which_dac</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[2,3] TX slots must use only 2 and 3. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[0,4095] </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true iff successful </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="982" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1519" bodyend="1522"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1ac7354a9c4f7e961cb1b541c970a8d009" compoundref="usrp__basic_8cc" startline="730" endline="733">usrp_basic::common_write_aux_dac</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a237f04837e77f428551b6b66217f8d9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::read_aux_adc</definition>
+        <argsstring>(int which_side, int which_adc, int *value)</argsstring>
+        <name>read_aux_adc</name>
+        <reimplements refid="classusrp__basic_1a7e90fb51366e9d6a8f2c844dbca2798a">read_aux_adc</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which_adc</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Read auxiliary analog to digital converter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_side</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[0,1] which d&apos;board </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>which_adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[0,1] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>return 12-bit value [0,4095] </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true iff successful </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="983" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1525" bodyend="1528"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1a37bd03473a98cf3776f1988914c1a5ce" compoundref="usrp__basic_8cc" startline="736" endline="739">usrp_basic::common_read_aux_adc</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a1037a256b87c10e54e5650f80052cdc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int usrp_basic_tx::read_aux_adc</definition>
+        <argsstring>(int which_side, int which_adc)</argsstring>
+        <name>read_aux_adc</name>
+        <reimplements refid="classusrp__basic_1ab8b3158fe7448c951ad78bb54a06f5c5">read_aux_adc</reimplements>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which_adc</declname>
+        </param>
+        <briefdescription>
+<para>Read auxiliary analog to digital converter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_side</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[0,1] which d&apos;board </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>which_adc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[0,1] </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>value in the range [0,4095] if successful, else READ_FAILED. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="984" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1531" bodyend="1534"/>
+        <references refid="usrp__basic_8h_1a62f19b5a3751ce085242fa46f8761f71a9228bc40e4bcfb1b7363f686515e1846" compoundref="usrp__basic_8h" startline="39">C_TX</references>
+        <references refid="classusrp__basic_1a37bd03473a98cf3776f1988914c1a5ce" compoundref="usrp__basic_8cc" startline="736" endline="739">usrp_basic::common_read_aux_adc</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a3d88f6bddfb24f2ad375b65b935ac6e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int usrp_basic_tx::block_size</definition>
+        <argsstring>() const </argsstring>
+        <name>block_size</name>
+        <reimplements refid="classusrp__basic_1a1f769dc9ea28d701fa2f7da2be82325d">block_size</reimplements>
+        <briefdescription>
+<para>returns current fusb block size </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="986" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1537" bodyend="1537"/>
+        <references refid="classfusb__ephandle_1a969c00b4d8ef3c8ad6444eb92da7a61c" compoundref="fusb_8h" startline="106" endline="106">fusb_ephandle::block_size</references>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1a3d16b0d8e96d5124b6392bc44014124d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="989" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1251" bodyend="1267"/>
+        <references refid="classusrp__basic__tx_1a13148a03a6d6df2be95679bc2bbea896" compoundref="usrp__basic_8cc" startline="1367" endline="1372">set_tx_enable</references>
+        <references refid="classfusb__ephandle_1aac0498804e009ab78c47f2265f34a054">fusb_ephandle::start</references>
+        <references refid="classusrp__basic_1a4291ecf3cc0870baaa12644143182db4" compoundref="usrp__basic_8cc" startline="217" endline="220">usrp_basic::start</references>
+        <referencedby refid="classusrp__standard__tx_1ae6f8039f30bf641b937877001127176f" compoundref="usrp__standard_8cc" startline="854" endline="862">usrp_standard_tx::start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__basic__tx_1ab1c5851e72e29e86af914da5c7f62cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool usrp_basic_tx::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="990" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1270" bodyend="1285"/>
+        <references refid="classusrp__basic__tx_1a13148a03a6d6df2be95679bc2bbea896" compoundref="usrp__basic_8cc" startline="1367" endline="1372">set_tx_enable</references>
+        <references refid="classfusb__ephandle_1a3cfe2cbb78870a6ce0ec8f696ebe45ab">fusb_ephandle::stop</references>
+        <references refid="classusrp__basic_1a69292bbc3b47b5ca85d4c0404dc4a58a" compoundref="usrp__basic_8cc" startline="223" endline="226">usrp_basic::stop</references>
+        <referencedby refid="classusrp__standard__tx_1a5173292e6162fce54a875683f02cdd5c" compoundref="usrp__standard_8cc" startline="865" endline="872">usrp_standard_tx::stop</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classusrp__basic__tx_1aee3b2b573a324ca3d8374566543f28ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classusrp__basic__tx" kindref="compound">usrp_basic_tx</ref> *</type>
+        <definition>usrp_basic_tx * usrp_basic_tx::make</definition>
+        <argsstring>(int which_board, int fusb_block_size=0, int fusb_nblocks=0, const std::string fpga_filename=&quot;&quot;, const std::string firmware_filename=&quot;&quot;)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>which_board</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fusb_block_size</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fusb_nblocks</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>fpga_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>firmware_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>invokes constructor, returns instance or 0 if trouble </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>which_board</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Which USRP board on usb (not particularly useful; use 0) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fusb_block_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>fast usb xfer block size. Must be a multiple of 512. Use zero for a reasonable default. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fusb_nblocks</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of fast usb URBs to allocate. Use zero for a reasonable default. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fpga_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of file that contains image to load into FPGA </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>firmware_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of file that contains image to load into FX2 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="929" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_basic.cc" bodystart="1288" bodyend="1305"/>
+        <references refid="classusrp__basic__tx_1ab8bb942f1c956624553ac18b0a838bd6" compoundref="usrp__basic_8cc" startline="1171" endline="1227">usrp_basic_tx</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class for accessing the transmit side of the USRP </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="897">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="895">
+        <label>usrp_basic_tx</label>
+        <link refid="classusrp__basic__tx"/>
+        <childnode refid="896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="898">
+        <label>usrp_standard_tx</label>
+        <link refid="classusrp__standard__tx"/>
+        <childnode refid="895" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="896">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="897" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="901">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="899">
+        <label>usrp_basic_tx</label>
+        <link refid="classusrp__basic__tx"/>
+        <childnode refid="900" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="902">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="900">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="901" relation="private-inheritance">
+        </childnode>
+        <childnode refid="902" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" line="883" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_basic.h" bodystart="882" bodyend="991"/>
+    <listofallmembers>
+      <member refid="classusrp__basic_1a09ce78134eea035e42464123356096e4" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_common_write_oe</name></member>
+      <member refid="classusrp__basic_1a3814dc28edce07e3b5cb48bb3ebdf244" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_read_9862</name></member>
+      <member refid="classusrp__basic_1ad28278c9ff7a33b3a151c561ab037b9f" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_read_9862</name></member>
+      <member refid="classusrp__basic_1a8f92d2e9630ec614eedc61858756cce1" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_read_aux_adc</name></member>
+      <member refid="classusrp__basic_1a2aadef5c105459794b22a135730e7480" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_read_aux_adc</name></member>
+      <member refid="classusrp__basic_1a4fa26bd8164bd5782adf7fbe00b3d411" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_read_fpga_reg</name></member>
+      <member refid="classusrp__basic_1abf1f167a1c96dd0ed4589afc6c9fad6c" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_read_fpga_reg</name></member>
+      <member refid="classusrp__basic_1a9b54622fec87c2ed9c7808078931371f" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_read_spi</name></member>
+      <member refid="classusrp__basic_1a4585f9c7df7084a6acb29bd6d7950892" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_set_led</name></member>
+      <member refid="classusrp__basic_1a8a25444c83f59f7517d0ff687d2ff053" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_write_9862</name></member>
+      <member refid="classusrp__basic_1ab8870a35e0bdc63ee6655b5264a6d142" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_write_aux_dac</name></member>
+      <member refid="classusrp__basic_1ac5bdb9be69f27eb3a0530cba9536d0f4" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_write_fpga_reg</name></member>
+      <member refid="classusrp__basic_1a0c200dc2d39d68d7a77e92859c5228a0" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_write_fpga_reg_masked</name></member>
+      <member refid="classusrp__basic__tx_1a0ecdfcb63c28d66b2f036156e33f20d8" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>_write_oe</name></member>
+      <member refid="classusrp__basic_1aaf100fafc406ef75faafcf3e38df7849" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>_write_spi</name></member>
+      <member refid="classusrp__basic__tx_1a3d88f6bddfb24f2ad375b65b935ac6e9" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>block_size</name></member>
+      <member refid="classusrp__basic_1ac25d56e74572309a87397f0fce1a102b" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_pga</name></member>
+      <member refid="classusrp__basic_1a06cfd0e5675618f773c5466bd235a369" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_pga_db_per_step</name></member>
+      <member refid="classusrp__basic_1a7dd5c384b9d2cd4e412939c3b7b7ac79" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_pga_max</name></member>
+      <member refid="classusrp__basic_1a95453e5bb4d0ed4c05b1ea64c880170a" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_pga_min</name></member>
+      <member refid="classusrp__basic_1a37bd03473a98cf3776f1988914c1a5ce" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_read_aux_adc</name></member>
+      <member refid="classusrp__basic_1ab84d66e92dc16fdc104fae9341f1e64f" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_read_aux_adc</name></member>
+      <member refid="classusrp__basic_1af7e33b5762cd9c80a714806fa6fa2244" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_read_io</name></member>
+      <member refid="classusrp__basic_1a217f6865ef04d1111c2c1d3e7b4260f5" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_read_io</name></member>
+      <member refid="classusrp__basic_1a52f96a90c91ed6e74bfc6a91691a7fa2" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_set_pga</name></member>
+      <member refid="classusrp__basic_1a0997e93568c71e5432c2445b1ebcc991" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_write_atr_mask</name></member>
+      <member refid="classusrp__basic_1a89eda6a96bc7f4d2d634da793eccbc20" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_write_atr_rxval</name></member>
+      <member refid="classusrp__basic_1a26e38a0f9f98390b712709812e3387af" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_write_atr_txval</name></member>
+      <member refid="classusrp__basic_1ac7354a9c4f7e961cb1b541c970a8d009" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_write_aux_dac</name></member>
+      <member refid="classusrp__basic_1acf3120592af4df79d38d253c98c633ae" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_write_io</name></member>
+      <member refid="classusrp__basic_1ad673bc49b311e29ab01727c5933ea028" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>common_write_refclk</name></member>
+      <member refid="classusrp__basic__tx_1a4eefc136417ea3a75a296c1b6dbbd470" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>converter_rate</name></member>
+      <member refid="classusrp__basic_1a1d6b6839b9ba385d93684c3497c3fb16" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_bytes_per_poll</name></member>
+      <member refid="classusrp__basic__tx_1ad87e9e2454491b2ec015ff6b42158b80" prot="private" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_bytes_seen</name></member>
+      <member refid="classusrp__basic_1a747a3cfca6d00b8d2960b4692ae36bc2" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_ctx</name></member>
+      <member refid="classusrp__basic_1aa45df525ed16ee0c885a4972ac7908b4" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_db</name></member>
+      <member refid="classusrp__basic_1a686ea66e3f43c9ab6df60bd80f41ac3b" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_dbid</name></member>
+      <member refid="classusrp__basic__tx_1acbb401209911ef454eee6762cd9ed71a" prot="private" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_devhandle</name></member>
+      <member refid="classusrp__basic__tx_1a3c76468c8a1746511389be7cd1a67fe6" prot="private" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_ephandle</name></member>
+      <member refid="classusrp__basic__tx_1ac79652c1ff08cfa78e37bf2b20c256a7" prot="private" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_first_write</name></member>
+      <member refid="classusrp__basic_1afa81d2ee842dd6eef04c422276f52d1d" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_fpga_master_clock_freq</name></member>
+      <member refid="classusrp__basic_1af3d08c8bcdd0ed116e76ffa5449004f2" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_fpga_shadows</name></member>
+      <member refid="classusrp__basic__tx_1a3e424cf1c4c239f7f5e70f5c0f960eca" prot="private" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_tx_enable</name></member>
+      <member refid="classusrp__basic_1aad5f6f17a9fde484c67e7dbdd0491f74" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_udh</name></member>
+      <member refid="classusrp__basic_1a4e5297f0010c8f39cfe4fff838b113a4" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_usb_data_rate</name></member>
+      <member refid="classusrp__basic_1a6d0fecbe64f35fef20293c27dc33a0b0" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>d_verbose</name></member>
+      <member refid="classusrp__basic__tx_1a618be27f79f9ab769f33ead42c9283a7" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>dac_rate</name></member>
+      <member refid="classusrp__basic__tx_1a25ef6153080bcd83637c87df6ea1d478" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>daughterboard_id</name></member>
+      <member refid="classusrp__basic_1a8eb1f58ca819437d7f43ad87574bd6da" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>db</name></member>
+      <member refid="classusrp__basic_1a9e3dfe1821b5aa2438a014fd7ca579f4" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>db</name></member>
+      <member refid="classusrp__basic__tx_1a2298762ed6e3f39c000a141a4964e181" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>disable_tx</name></member>
+      <member refid="classusrp__basic_1a244d4aa01bb6a054cd5bd0998ce2a09a" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>fpga_master_clock_freq</name></member>
+      <member refid="classusrp__basic_1a9d4d1ef184ad622c7f84a6f940614b9b" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>init_db</name></member>
+      <member refid="classusrp__basic_1a61af504df443a9d846ecf909871f1481" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>is_valid</name></member>
+      <member refid="classusrp__basic__tx_1aee3b2b573a324ca3d8374566543f28ce" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>make</name></member>
+      <member refid="classusrp__basic_1ae9277f41b745b1c96c422804fafd058a" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>MAX_REGS</name></member>
+      <member refid="classusrp__basic__tx_1aa7764a14b980820287ebe3d50a303fbd" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>pga</name></member>
+      <member refid="classusrp__basic__tx_1ac8f1b5ab8940fba58fe01d64727deb40" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>pga_db_per_step</name></member>
+      <member refid="classusrp__basic__tx_1ac451445ef6cffdffb9e7817c3885f367" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>pga_max</name></member>
+      <member refid="classusrp__basic__tx_1a7cae37094ad8d1a0095fc058649829d0" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>pga_min</name></member>
+      <member refid="classusrp__basic__tx_1ac9e8934cb2136fd9c1f0bb2677991df0" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>probe_tx_slots</name></member>
+      <member refid="classusrp__basic__tx_1a237f04837e77f428551b6b66217f8d9b" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>read_aux_adc</name></member>
+      <member refid="classusrp__basic__tx_1a1037a256b87c10e54e5650f80052cdc0" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>read_aux_adc</name></member>
+      <member refid="classusrp__basic_1aefe7a2f10626831304091babff21dc0d" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>read_eeprom</name></member>
+      <member refid="classusrp__basic_1a364d3e56a0749a90cc5de2ac378e6863" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>READ_FAILED</name></member>
+      <member refid="classusrp__basic_1ab284caa2e15464f62aa80ad1f540ecc5" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>read_i2c</name></member>
+      <member refid="classusrp__basic__tx_1ad5b21bcc2798026f5a1555e9ca4c899f" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>read_io</name></member>
+      <member refid="classusrp__basic__tx_1a98999c00a4d121c09a234b23c63d8b42" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>read_io</name></member>
+      <member refid="classusrp__basic__tx_1a7dd7dc05a7767f38ce25b407a705c2d5" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>restore_tx</name></member>
+      <member refid="classusrp__basic_1a648de1479d7632b59bf2732f231ddbe0" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>selected_subdev</name></member>
+      <member refid="classusrp__basic_1a70a71308412a67eaf825c13399faa078" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>serial_number</name></member>
+      <member refid="classusrp__basic_1a97fc801cbafa85040a3d39be03d27a62" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>set_adc_buffer_bypass</name></member>
+      <member refid="classusrp__basic_1ad0e07c8d85aa220aaf150e27dd8b545f" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>set_adc_offset</name></member>
+      <member refid="classusrp__basic_1ab18f4a02c0efcac10f8e9406ca7a57a7" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>set_dac_offset</name></member>
+      <member refid="classusrp__basic_1af20cc324fca8d089226d5a6dfc3d3668" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>set_dc_offset_cl_enable</name></member>
+      <member refid="classusrp__basic_1a825640d1de15253b5bae18762a0e403e" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>set_fpga_master_clock_freq</name></member>
+      <member refid="classusrp__basic__tx_1a51d29f5416c2db61e74e1938aa22af72" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>set_fpga_tx_sample_rate_divisor</name></member>
+      <member refid="classusrp__basic__tx_1a5d950d5f8a8969e17525cee918d9bd06" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>set_pga</name></member>
+      <member refid="classusrp__basic__tx_1a13148a03a6d6df2be95679bc2bbea896" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>set_tx_enable</name></member>
+      <member refid="classusrp__basic_1a77535750946e7d8443a76941a9611cae" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>set_usb_data_rate</name></member>
+      <member refid="classusrp__basic_1ae200e6eb7dbbaf81a3c1353a401f97d3" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>set_verbose</name></member>
+      <member refid="classusrp__basic_1afaae41796f1468062d4ad237322baf9e" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>shutdown_daughterboards</name></member>
+      <member refid="classusrp__basic__tx_1a3d16b0d8e96d5124b6392bc44014124d" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>start</name></member>
+      <member refid="classusrp__basic__tx_1ab1c5851e72e29e86af914da5c7f62cf8" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>stop</name></member>
+      <member refid="classusrp__basic__tx_1ada7b24a807ade928dc5e57e823002f6d" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>tx_enable</name></member>
+      <member refid="classusrp__basic_1a530c23ff633c630530ec491c368a755d" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>usb_data_rate</name></member>
+      <member refid="classusrp__basic_1ac72f072eb9220e798019b60b3fe48af6" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>usrp_basic</name></member>
+      <member refid="classusrp__basic__tx_1ab8bb942f1c956624553ac18b0a838bd6" prot="protected" virt="non-virtual"><scope>usrp_basic_tx</scope><name>usrp_basic_tx</name></member>
+      <member refid="classusrp__basic__tx_1ad6486f2bff896af6109a338d7d954d50" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>wait_for_completion</name></member>
+      <member refid="classusrp__basic__tx_1a0dd15899a23869336f455fa948b725af" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>write</name></member>
+      <member refid="classusrp__basic__tx_1a8cfd094ce093e5d46fcad5531ee20570" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>write_atr_mask</name></member>
+      <member refid="classusrp__basic_1ad9b95b1ca0e2616c1b3808892fdda1b0" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>write_atr_rx_delay</name></member>
+      <member refid="classusrp__basic__tx_1a01b222b0ba0a365db87ab74731325d5b" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>write_atr_rxval</name></member>
+      <member refid="classusrp__basic_1a70f4070830b0db3fd0c3addb97ce966e" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>write_atr_tx_delay</name></member>
+      <member refid="classusrp__basic__tx_1af4c224f2e92a07ded29fc6dedba8c2d7" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>write_atr_txval</name></member>
+      <member refid="classusrp__basic__tx_1a2d3f6eda1859921bb7c0f26d2dd1163d" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>write_aux_dac</name></member>
+      <member refid="classusrp__basic_1a3900d37e951b83c938669f5fa0255866" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>write_eeprom</name></member>
+      <member refid="classusrp__basic_1a664e5aa3a3fb8a4c50b752906fcb79a0" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>write_i2c</name></member>
+      <member refid="classusrp__basic__tx_1a19a1a1db062ac7d3d4625c95770353ff" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>write_io</name></member>
+      <member refid="classusrp__basic__tx_1a6076561547b3912ea535334e6e6d4c2f" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>write_refclk</name></member>
+      <member refid="classusrp__basic_1a01313a5f1c8e0eea1a1ff26388e25f78" prot="public" virt="virtual"><scope>usrp_basic_tx</scope><name>~usrp_basic</name></member>
+      <member refid="classusrp__basic__tx_1a1742407fda891ebf3eea8f297310e455" prot="public" virt="non-virtual"><scope>usrp_basic_tx</scope><name>~usrp_basic_tx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

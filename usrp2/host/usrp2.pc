@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib64
+includedir=${prefix}/include
+
+Name: usrp2
+Description: Universal Software Radio Peripheral 2
+Requires: gruel
+Version: 3.4.0
+Libs: -L${libdir} -lusrp2
+Cflags: -I${includedir} 

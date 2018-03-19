@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classusrp__local__sighandler" kind="class" language="C++" prot="public">
+    <compoundname>usrp_local_sighandler</compoundname>
+    <includes refid="usrp__local__sighandler_8h" local="no">usrp_local_sighandler.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classusrp__local__sighandler_1ae72b874633d66b712e50fe049f754382" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usrp_local_sighandler::d_signum</definition>
+        <argsstring></argsstring>
+        <name>d_signum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" line="49" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classusrp__local__sighandler_1a01c3242e9ae8aa9d7c49dcb9ce209531" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>usrp_local_sighandler::usrp_local_sighandler</definition>
+        <argsstring>(int signum, void(*new_handler)(int))</argsstring>
+        <name>usrp_local_sighandler</name>
+        <param>
+          <type>int</type>
+          <declname>signum</declname>
+        </param>
+        <param>
+          <type>void(*)(int)</type>
+          <declname>new_handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" line="54" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_local_sighandler.cc" bodystart="37" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classusrp__local__sighandler_1a21172943a9ff6ccabf831e54a80319d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>usrp_local_sighandler::~usrp_local_sighandler</definition>
+        <argsstring>()</argsstring>
+        <name>~usrp_local_sighandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" line="55" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_local_sighandler.cc" bodystart="56" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classusrp__local__sighandler_1a69dec0b78601916439d08e9183d7e0e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void usrp_local_sighandler::throw_signal</definition>
+        <argsstring>(int signum)</argsstring>
+        <name>throw_signal</name>
+        <param>
+          <type>int</type>
+          <declname>signum</declname>
+        </param>
+        <exceptions> throw (<ref refid="classusrp__signal" kindref="compound">usrp_signal</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" line="58" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_local_sighandler.cc" bodystart="67" bodyend="70"/>
+        <referencedby refid="usrp__cal__dc__offset_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="usrp__cal__dc__offset_8cc" startline="145" endline="238">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Get and set signal handler. </para>    </briefdescription>
+    <detaileddescription>
+<para>Constructor installs new handler, destructor reinstalls original value. </para>    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" line="48" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_local_sighandler.h" bodystart="48" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classusrp__local__sighandler_1ae72b874633d66b712e50fe049f754382" prot="private" virt="non-virtual"><scope>usrp_local_sighandler</scope><name>d_signum</name></member>
+      <member refid="classusrp__local__sighandler_1a69dec0b78601916439d08e9183d7e0e0" prot="public" virt="non-virtual"><scope>usrp_local_sighandler</scope><name>throw_signal</name></member>
+      <member refid="classusrp__local__sighandler_1a01c3242e9ae8aa9d7c49dcb9ce209531" prot="public" virt="non-virtual"><scope>usrp_local_sighandler</scope><name>usrp_local_sighandler</name></member>
+      <member refid="classusrp__local__sighandler_1a21172943a9ff6ccabf831e54a80319d5" prot="public" virt="non-virtual"><scope>usrp_local_sighandler</scope><name>~usrp_local_sighandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

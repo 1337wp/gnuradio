@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="usrp__config_8h" kind="file" language="C++">
+    <compoundname>usrp_config.h</compoundname>
+    <includedby refid="usrp__config_8cc" local="yes">usrp_config.cc</includedby>
+    <invincdepgraph>
+      <node id="1034">
+        <label>usrp_config.cc</label>
+        <link refid="usrp__config_8cc"/>
+      </node>
+      <node id="1033">
+        <label>usrp_config.h</label>
+        <link refid="usrp_config.h"/>
+        <childnode refid="1034" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="usrp__config_8h_1acb387ab997587b90acb62288deebe0ff" prot="public" static="no">
+        <name>USRP_RX_CONFIG_DEFAULT</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_config.h" line="38" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_config.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="usrp__config_8h_1a6dc852b050d1d4af4a4898b4c9fe1898" prot="public" static="no">
+        <name>USRP_TX_CONFIG_DEFAULT</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_config.h" line="57" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_config.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="usrp__config_8h_1aa9842be1ea62d780ed377329ec569e9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usrp_rx_config_stream_count</definition>
+        <argsstring>(unsigned int usrp_rx_config)</argsstring>
+        <name>usrp_rx_config_stream_count</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>usrp_rx_config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given a usrp_rx_config word, return the number of I &amp; Q streams that are interleaved on the USB. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_config.h" line="45" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_config.cc" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="usrp__config_8h_1a2ac9645a6e8f554b25fbcf5648b92cd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usrp_tx_config_stream_count</definition>
+        <argsstring>(unsigned int usrp_tx_config)</argsstring>
+        <name>usrp_tx_config_stream_count</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>usrp_tx_config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given a usrp_tx_config word, return the number of I &amp; Q streams that are interleaved on the USB. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_config.h" line="64" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_config.cc" bodystart="32" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2003<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_USRP_CONFIG_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USRP_CONFIG_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>----------------------------------------------------------------</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>USRP<sp/>Rx<sp/>configurations.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>For<sp/>now<sp/>this<sp/>is<sp/>a<sp/>placeholder,<sp/>but<sp/>will<sp/>eventually<sp/>specify<sp/>the</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>mapping<sp/>from<sp/>A/D<sp/>outputs<sp/>to<sp/>DDC<sp/>inputs<sp/>(I<sp/>&amp;<sp/>Q).</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/>What&apos;s<sp/>implemented<sp/>today<sp/>is<sp/>a<sp/>single<sp/>DDC<sp/>that<sp/>has<sp/>its<sp/>I<sp/>input</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>connected<sp/>to<sp/>ADC0<sp/>and<sp/>its<sp/>Q<sp/>input<sp/>connected<sp/>to<sp/>ADC1</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/>----------------------------------------------------------------</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="usrp__config_8h_1acb387ab997587b90acb62288deebe0ff" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_RX_CONFIG_DEFAULT<sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="usrp__config_8h_1aa9842be1ea62d780ed377329ec569e9a" kindref="member">usrp_rx_config_stream_count</ref><sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usrp_rx_config);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>USRP<sp/>Tx<sp/>configurations.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>For<sp/>now<sp/>this<sp/>is<sp/>a<sp/>placeholder,<sp/>but<sp/>will<sp/>eventually<sp/>specify<sp/>the</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>mapping<sp/>from<sp/>DUC<sp/>outputs<sp/>to<sp/>D/A<sp/>inputs.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*<sp/>What&apos;s<sp/>implemented<sp/>today<sp/>is<sp/>a<sp/>single<sp/>DUC<sp/>that<sp/>has<sp/>its<sp/>I<sp/>output</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>connected<sp/>to<sp/>DAC0<sp/>and<sp/>its<sp/>Q<sp/>output<sp/>connected<sp/>to<sp/>DAC1</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="usrp__config_8h_1a6dc852b050d1d4af4a4898b4c9fe1898" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USRP_TX_CONFIG_DEFAULT<sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="usrp__config_8h_1a2ac9645a6e8f554b25fbcf5648b92cd2" kindref="member">usrp_tx_config_stream_count</ref><sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>usrp_tx_config);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_USRP_CONFIG_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/usrp_config.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,682 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class__AD4360__common" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>_AD4360_common</compoundname>
+    <derivedcompoundref refid="class__1200__common" prot="public" virt="non-virtual">_1200_common</derivedcompoundref>
+    <derivedcompoundref refid="class__1800__common" prot="public" virt="non-virtual">_1800_common</derivedcompoundref>
+    <derivedcompoundref refid="class__2200__common" prot="public" virt="non-virtual">_2200_common</derivedcompoundref>
+    <derivedcompoundref refid="class__2400__common" prot="public" virt="non-virtual">_2400_common</derivedcompoundref>
+    <derivedcompoundref refid="class__400__common" prot="public" virt="non-virtual">_400_common</derivedcompoundref>
+    <derivedcompoundref refid="class__900__common" prot="public" virt="non-virtual">_900_common</derivedcompoundref>
+    <includes refid="db__flexrf_8h" local="no">db_flexrf.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class__AD4360__common_1a80eb93d6bec181472001cf88399203b8" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_R_RSV</definition>
+        <argsstring></argsstring>
+        <name>d_R_RSV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="130" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a90674604db3f6a1ce57915940942aa57" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_BSC</definition>
+        <argsstring></argsstring>
+        <name>d_BSC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="130" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a56bc313f1a2f2c77c803e8438bf3d02b" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_TEST</definition>
+        <argsstring></argsstring>
+        <name>d_TEST</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="130" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1aab518a97fb565c3af821572a97252cb7" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_LDP</definition>
+        <argsstring></argsstring>
+        <name>d_LDP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="130" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a11c88b6cd6fbd51c5f1680aab70243c1" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_ABP</definition>
+        <argsstring></argsstring>
+        <name>d_ABP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="130" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a0b8abeecbe27d71d1c8fe6d7a13c00d3" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_N_RSV</definition>
+        <argsstring></argsstring>
+        <name>d_N_RSV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="130" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1af493b620c0f41c35c630a304ce7165f2" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_PL</definition>
+        <argsstring></argsstring>
+        <name>d_PL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="130" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a874f22b59bc809a8677328a395c220b6" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_MTLD</definition>
+        <argsstring></argsstring>
+        <name>d_MTLD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="130" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a7392371fbd5f08a29fe331b5a89f5b5c" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_CPG</definition>
+        <argsstring></argsstring>
+        <name>d_CPG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="131" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1abe642853e653b8c8cccc19951415ef8b" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_CP3S</definition>
+        <argsstring></argsstring>
+        <name>d_CP3S</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="131" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1acb7459c3fe58beddbf8665d414cb6619" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_PDP</definition>
+        <argsstring></argsstring>
+        <name>d_PDP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="131" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a1552d3adfde3e8a56d25092107257228" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_MUXOUT</definition>
+        <argsstring></argsstring>
+        <name>d_MUXOUT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="131" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a8465d7d6aea6051d8085dab7e00f2223" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_CR</definition>
+        <argsstring></argsstring>
+        <name>d_CR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="131" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a5bb01c4d565f067c0894d8dee4ab4703" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_PC</definition>
+        <argsstring></argsstring>
+        <name>d_PC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="131" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a82c2c397622b5ecbc416873b189d8dc6" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_A_DIV</definition>
+        <argsstring></argsstring>
+        <name>d_A_DIV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="134" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a72d73a72c396a1003449268c2faaec43" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_B_DIV</definition>
+        <argsstring></argsstring>
+        <name>d_B_DIV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="134" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1ad8acb524b55741639773aaba2a93a6d4" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_R_DIV</definition>
+        <argsstring></argsstring>
+        <name>d_R_DIV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="134" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="class__1200__common_1a488c3796e67d54d89a38c98c6472583d" compoundref="db__flexrf_8cc" startline="709" endline="725">_1200_common::_1200_common</referencedby>
+        <referencedby refid="class__1800__common_1aed55f96135b7cef83822740777b86db7" compoundref="db__flexrf_8cc" startline="741" endline="757">_1800_common::_1800_common</referencedby>
+        <referencedby refid="class__2200__common_1a97dac02993f71a280d9b93bc1b059b8d" compoundref="db__flexrf_8cc" startline="645" endline="661">_2200_common::_2200_common</referencedby>
+        <referencedby refid="class__2400__common_1a40b2e8b63018f446723759ef23ede06c" compoundref="db__flexrf_8cc" startline="677" endline="693">_2400_common::_2400_common</referencedby>
+        <referencedby refid="class__400__common_1a3f33d1c6359403a93f7cc022e3b8facb" compoundref="db__flexrf_8cc" startline="805" endline="821">_400_common::_400_common</referencedby>
+        <referencedby refid="class__900__common_1a5ab8860825abd6b0f173dc1d614b25f7" compoundref="db__flexrf_8cc" startline="773" endline="789">_900_common::_900_common</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a58526b089e7621cdb8858863556b69c0" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_P</definition>
+        <argsstring></argsstring>
+        <name>d_P</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="134" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="class__1200__common_1a488c3796e67d54d89a38c98c6472583d" compoundref="db__flexrf_8cc" startline="709" endline="725">_1200_common::_1200_common</referencedby>
+        <referencedby refid="class__1800__common_1aed55f96135b7cef83822740777b86db7" compoundref="db__flexrf_8cc" startline="741" endline="757">_1800_common::_1800_common</referencedby>
+        <referencedby refid="class__2200__common_1a97dac02993f71a280d9b93bc1b059b8d" compoundref="db__flexrf_8cc" startline="645" endline="661">_2200_common::_2200_common</referencedby>
+        <referencedby refid="class__2400__common_1a40b2e8b63018f446723759ef23ede06c" compoundref="db__flexrf_8cc" startline="677" endline="693">_2400_common::_2400_common</referencedby>
+        <referencedby refid="class__400__common_1a3f33d1c6359403a93f7cc022e3b8facb" compoundref="db__flexrf_8cc" startline="805" endline="821">_400_common::_400_common</referencedby>
+        <referencedby refid="class__900__common_1a5ab8860825abd6b0f173dc1d614b25f7" compoundref="db__flexrf_8cc" startline="773" endline="789">_900_common::_900_common</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1a6fbf3c6f6793c404a22429818f3129b1" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_PD</definition>
+        <argsstring></argsstring>
+        <name>d_PD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="134" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1ad75393245f7868fe38c583d23336d04a" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_CP2</definition>
+        <argsstring></argsstring>
+        <name>d_CP2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="134" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="class__1200__common_1a488c3796e67d54d89a38c98c6472583d" compoundref="db__flexrf_8cc" startline="709" endline="725">_1200_common::_1200_common</referencedby>
+        <referencedby refid="class__1800__common_1aed55f96135b7cef83822740777b86db7" compoundref="db__flexrf_8cc" startline="741" endline="757">_1800_common::_1800_common</referencedby>
+        <referencedby refid="class__2200__common_1a97dac02993f71a280d9b93bc1b059b8d" compoundref="db__flexrf_8cc" startline="645" endline="661">_2200_common::_2200_common</referencedby>
+        <referencedby refid="class__2400__common_1a40b2e8b63018f446723759ef23ede06c" compoundref="db__flexrf_8cc" startline="677" endline="693">_2400_common::_2400_common</referencedby>
+        <referencedby refid="class__400__common_1a3f33d1c6359403a93f7cc022e3b8facb" compoundref="db__flexrf_8cc" startline="805" endline="821">_400_common::_400_common</referencedby>
+        <referencedby refid="class__900__common_1a5ab8860825abd6b0f173dc1d614b25f7" compoundref="db__flexrf_8cc" startline="773" endline="789">_900_common::_900_common</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1adff5846a38cc6f69695f5ef5faba9f95" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_CP1</definition>
+        <argsstring></argsstring>
+        <name>d_CP1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="134" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="class__1200__common_1a488c3796e67d54d89a38c98c6472583d" compoundref="db__flexrf_8cc" startline="709" endline="725">_1200_common::_1200_common</referencedby>
+        <referencedby refid="class__1800__common_1aed55f96135b7cef83822740777b86db7" compoundref="db__flexrf_8cc" startline="741" endline="757">_1800_common::_1800_common</referencedby>
+        <referencedby refid="class__2200__common_1a97dac02993f71a280d9b93bc1b059b8d" compoundref="db__flexrf_8cc" startline="645" endline="661">_2200_common::_2200_common</referencedby>
+        <referencedby refid="class__2400__common_1a40b2e8b63018f446723759ef23ede06c" compoundref="db__flexrf_8cc" startline="677" endline="693">_2400_common::_2400_common</referencedby>
+        <referencedby refid="class__400__common_1a3f33d1c6359403a93f7cc022e3b8facb" compoundref="db__flexrf_8cc" startline="805" endline="821">_400_common::_400_common</referencedby>
+        <referencedby refid="class__900__common_1a5ab8860825abd6b0f173dc1d614b25f7" compoundref="db__flexrf_8cc" startline="773" endline="789">_900_common::_900_common</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1ab14229ca30e2f5d7af12ec3380a3cbfd" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_DIVSEL</definition>
+        <argsstring></argsstring>
+        <name>d_DIVSEL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="134" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="class__1200__common_1a488c3796e67d54d89a38c98c6472583d" compoundref="db__flexrf_8cc" startline="709" endline="725">_1200_common::_1200_common</referencedby>
+        <referencedby refid="class__1800__common_1aed55f96135b7cef83822740777b86db7" compoundref="db__flexrf_8cc" startline="741" endline="757">_1800_common::_1800_common</referencedby>
+        <referencedby refid="class__2200__common_1a97dac02993f71a280d9b93bc1b059b8d" compoundref="db__flexrf_8cc" startline="645" endline="661">_2200_common::_2200_common</referencedby>
+        <referencedby refid="class__2400__common_1a40b2e8b63018f446723759ef23ede06c" compoundref="db__flexrf_8cc" startline="677" endline="693">_2400_common::_2400_common</referencedby>
+        <referencedby refid="class__400__common_1a3f33d1c6359403a93f7cc022e3b8facb" compoundref="db__flexrf_8cc" startline="805" endline="821">_400_common::_400_common</referencedby>
+        <referencedby refid="class__900__common_1a5ab8860825abd6b0f173dc1d614b25f7" compoundref="db__flexrf_8cc" startline="773" endline="789">_900_common::_900_common</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1aaeed848bcf7a4cb0a13be54fda9c38b0" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_DIV2</definition>
+        <argsstring></argsstring>
+        <name>d_DIV2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="135" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="135" bodyend="-1"/>
+        <referencedby refid="class__1200__common_1a488c3796e67d54d89a38c98c6472583d" compoundref="db__flexrf_8cc" startline="709" endline="725">_1200_common::_1200_common</referencedby>
+        <referencedby refid="class__1800__common_1aed55f96135b7cef83822740777b86db7" compoundref="db__flexrf_8cc" startline="741" endline="757">_1800_common::_1800_common</referencedby>
+        <referencedby refid="class__2200__common_1a97dac02993f71a280d9b93bc1b059b8d" compoundref="db__flexrf_8cc" startline="645" endline="661">_2200_common::_2200_common</referencedby>
+        <referencedby refid="class__2400__common_1a40b2e8b63018f446723759ef23ede06c" compoundref="db__flexrf_8cc" startline="677" endline="693">_2400_common::_2400_common</referencedby>
+        <referencedby refid="class__400__rx_1a75ed0f75575bed201c3895a90fa5c9ae" compoundref="db__flexrf_8cc" startline="841" endline="845">_400_rx::_400_rx</referencedby>
+        <referencedby refid="class__400__tx_1a45340eadd84ac7c606f8fadbbe8e28db" compoundref="db__flexrf_8cc" startline="835" endline="839">_400_tx::_400_tx</referencedby>
+        <referencedby refid="class__900__common_1a5ab8860825abd6b0f173dc1d614b25f7" compoundref="db__flexrf_8cc" startline="773" endline="789">_900_common::_900_common</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1af0dd2b57f79ec53f430b0ca339c3a752" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_CPGAIN</definition>
+        <argsstring></argsstring>
+        <name>d_CPGAIN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="135" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="135" bodyend="-1"/>
+        <referencedby refid="class__1200__common_1a488c3796e67d54d89a38c98c6472583d" compoundref="db__flexrf_8cc" startline="709" endline="725">_1200_common::_1200_common</referencedby>
+        <referencedby refid="class__1800__common_1aed55f96135b7cef83822740777b86db7" compoundref="db__flexrf_8cc" startline="741" endline="757">_1800_common::_1800_common</referencedby>
+        <referencedby refid="class__2200__common_1a97dac02993f71a280d9b93bc1b059b8d" compoundref="db__flexrf_8cc" startline="645" endline="661">_2200_common::_2200_common</referencedby>
+        <referencedby refid="class__2400__common_1a40b2e8b63018f446723759ef23ede06c" compoundref="db__flexrf_8cc" startline="677" endline="693">_2400_common::_2400_common</referencedby>
+        <referencedby refid="class__400__common_1a3f33d1c6359403a93f7cc022e3b8facb" compoundref="db__flexrf_8cc" startline="805" endline="821">_400_common::_400_common</referencedby>
+        <referencedby refid="class__900__common_1a5ab8860825abd6b0f173dc1d614b25f7" compoundref="db__flexrf_8cc" startline="773" endline="789">_900_common::_900_common</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class__AD4360__common_1aed35fa971d46d8329a05c94ad31a71de" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _AD4360_common::d_freq_mult</definition>
+        <argsstring></argsstring>
+        <name>d_freq_mult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="135" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="135" bodyend="-1"/>
+        <referencedby refid="class__1200__common_1a488c3796e67d54d89a38c98c6472583d" compoundref="db__flexrf_8cc" startline="709" endline="725">_1200_common::_1200_common</referencedby>
+        <referencedby refid="class__1800__common_1aed55f96135b7cef83822740777b86db7" compoundref="db__flexrf_8cc" startline="741" endline="757">_1800_common::_1800_common</referencedby>
+        <referencedby refid="class__2200__common_1a97dac02993f71a280d9b93bc1b059b8d" compoundref="db__flexrf_8cc" startline="645" endline="661">_2200_common::_2200_common</referencedby>
+        <referencedby refid="class__2400__common_1a40b2e8b63018f446723759ef23ede06c" compoundref="db__flexrf_8cc" startline="677" endline="693">_2400_common::_2400_common</referencedby>
+        <referencedby refid="class__400__common_1a3f33d1c6359403a93f7cc022e3b8facb" compoundref="db__flexrf_8cc" startline="805" endline="821">_400_common::_400_common</referencedby>
+        <referencedby refid="class__900__common_1a5ab8860825abd6b0f173dc1d614b25f7" compoundref="db__flexrf_8cc" startline="773" endline="789">_900_common::_900_common</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class__AD4360__common_1ab549861642206b4a92255d36e3ebced8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_AD4360_common::_AD4360_common</definition>
+        <argsstring>()</argsstring>
+        <name>_AD4360_common</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="115" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_flexrf.cc" bodystart="535" bodyend="557"/>
+        <references refid="classflexrf__base_1a7a79d232b0cd8759fd63d9bdd36119af" compoundref="db__flexrf_8h" startline="67">flexrf_base::d_PD</references>
+      </memberdef>
+      <memberdef kind="function" id="class__AD4360__common_1ab246698cac4149987ec48a7a78de976e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>_AD4360_common::~_AD4360_common</definition>
+        <argsstring>()</argsstring>
+        <name>~_AD4360_common</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="116" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_flexrf.cc" bodystart="559" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="class__AD4360__common_1a4dee1725b5de28ef98a63931be2da54b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double _AD4360_common::freq_min</definition>
+        <argsstring>()=0</argsstring>
+        <name>freq_min</name>
+        <reimplementedby refid="class__2200__common_1acc2c2bbc7343a131767802e58842fb10">freq_min</reimplementedby>
+        <reimplementedby refid="class__2400__common_1a48654e178c4063ee68c985ad7caf0b26">freq_min</reimplementedby>
+        <reimplementedby refid="class__1200__common_1acc76d278714280675ea04531f883d749">freq_min</reimplementedby>
+        <reimplementedby refid="class__1800__common_1a4eb8634053fa31bf684d92e378efa7e9">freq_min</reimplementedby>
+        <reimplementedby refid="class__900__common_1a80476da3e43f4c2befb87308a19c1c88">freq_min</reimplementedby>
+        <reimplementedby refid="class__400__common_1ae194803319c917e65690873fb613d469">freq_min</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="118" column="1"/>
+        <referencedby refid="classflexrf__base_1a76e7973a7036e1f1aa21627d38504122" compoundref="db__flexrf_8cc" startline="241" endline="244">flexrf_base::freq_min</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class__AD4360__common_1acb146e6a02fee481128947cd9c457075" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double _AD4360_common::freq_max</definition>
+        <argsstring>()=0</argsstring>
+        <name>freq_max</name>
+        <reimplementedby refid="class__2200__common_1a9fb2698354f351465b24aa03b4d98745">freq_max</reimplementedby>
+        <reimplementedby refid="class__2400__common_1a7b3847f303f93cad7d36a8a7d9a5b202">freq_max</reimplementedby>
+        <reimplementedby refid="class__1200__common_1ad31eeca6d2ad3e306d2e02527965d713">freq_max</reimplementedby>
+        <reimplementedby refid="class__1800__common_1ae632be49f8be60aef45ee9061a70d9ab">freq_max</reimplementedby>
+        <reimplementedby refid="class__900__common_1a491d6fbbab4fd4fc7c9026f157ec7737">freq_max</reimplementedby>
+        <reimplementedby refid="class__400__common_1a75c38e043e7c7291ca35fcd2fc602571">freq_max</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="119" column="1"/>
+        <referencedby refid="classflexrf__base_1a86f590882da38694587ed0b7d460e49a" compoundref="db__flexrf_8cc" startline="247" endline="250">flexrf_base::freq_max</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class__AD4360__common_1aadcc4f3490555f4d6239b7344329c799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool _AD4360_common::_compute_regs</definition>
+        <argsstring>(double refclk_freq, double freq, int &amp;retR, int &amp;retcontrol, int &amp;retN, double &amp;retfreq)</argsstring>
+        <name>_compute_regs</name>
+        <param>
+          <type>double</type>
+          <declname>refclk_freq</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>retR</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>retcontrol</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>retN</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>retfreq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="121" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_flexrf.cc" bodystart="564" bodyend="608"/>
+        <references refid="classflexrf__base_1a6fc44cb9070a05330ff2b5af4eb56f38" compoundref="db__flexrf_8cc" startline="172" endline="175">flexrf_base::_compute_control_reg</references>
+        <referencedby refid="classdb__flexrf__2200__tx_1a803c3aaffdb24bc28c21635648ec354d" compoundref="db__flexrf_8cc" startline="860" endline="865">db_flexrf_2200_tx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__2200__rx_1a4ec2b358176b3346f4d8ea1f6141c8a4" compoundref="db__flexrf_8cc" startline="906" endline="911">db_flexrf_2200_rx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__2400__tx_1a2777c1ccd8e9b39aaa17c8fa4f57898a" compoundref="db__flexrf_8cc" startline="926" endline="931">db_flexrf_2400_tx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__2400__rx_1a2acef712b4ea674595bd045d520f6a9b" compoundref="db__flexrf_8cc" startline="972" endline="977">db_flexrf_2400_rx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__1200__tx_1a72f46ce193b1a428442344ca1dd0f49f" compoundref="db__flexrf_8cc" startline="993" endline="998">db_flexrf_1200_tx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__1200__rx_1a688aeab44dd1d1e98c09b8d4b3cb891d" compoundref="db__flexrf_8cc" startline="1039" endline="1044">db_flexrf_1200_rx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__1800__tx_1a79e3ecc2bcdfc07da9cf4f3d895fcef9" compoundref="db__flexrf_8cc" startline="1061" endline="1066">db_flexrf_1800_tx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__1800__rx_1a89c85e4299a0782ce575b38903337832" compoundref="db__flexrf_8cc" startline="1107" endline="1112">db_flexrf_1800_rx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__900__tx_1a7c4cde1455aeec2a79401e2455ab1269" compoundref="db__flexrf_8cc" startline="1129" endline="1134">db_flexrf_900_tx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__900__rx_1a26457afe0002a5f7f729005f4c72b864" compoundref="db__flexrf_8cc" startline="1173" endline="1178">db_flexrf_900_rx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__400__tx_1a10eeb8d6480a7b69ba4fc25a0c1ad083" compoundref="db__flexrf_8cc" startline="1194" endline="1199">db_flexrf_400_tx::_compute_regs</referencedby>
+        <referencedby refid="classdb__flexrf__400__rx_1af6e139ab28da02215f252dec9e54649b" compoundref="db__flexrf_8cc" startline="1241" endline="1246">db_flexrf_400_rx::_compute_regs</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class__AD4360__common_1aa6038f27dbbb8512cccaa7a63cdfd904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _AD4360_common::_compute_control_reg</definition>
+        <argsstring>()</argsstring>
+        <name>_compute_control_reg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="123" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_flexrf.cc" bodystart="611" bodyend="618"/>
+        <references refid="classflexrf__base_1a7a79d232b0cd8759fd63d9bdd36119af" compoundref="db__flexrf_8h" startline="67">flexrf_base::d_PD</references>
+        <referencedby refid="classflexrf__base_1a6fc44cb9070a05330ff2b5af4eb56f38" compoundref="db__flexrf_8cc" startline="172" endline="175">flexrf_base::_compute_control_reg</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class__AD4360__common_1a69977e4c15fe6b253c9cd033ee3b0219" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int _AD4360_common::_refclk_divisor</definition>
+        <argsstring>()</argsstring>
+        <name>_refclk_divisor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="124" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_flexrf.cc" bodystart="621" bodyend="627"/>
+        <referencedby refid="classflexrf__base_1a12bc5bc6f5d29a934a52378b7fea7e0b" compoundref="db__flexrf_8cc" startline="178" endline="181">flexrf_base::_refclk_divisor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class__AD4360__common_1afb65e23494fd4bd49452a1f8faf90ad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _AD4360_common::_prescaler</definition>
+        <argsstring>()</argsstring>
+        <name>_prescaler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="125" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_flexrf.cc" bodystart="630" bodyend="641"/>
+      </memberdef>
+      <memberdef kind="function" id="class__AD4360__common_1ae0be237318cd32cfc30cdc277b1179ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void _AD4360_common::R_DIV</definition>
+        <argsstring>(int div)</argsstring>
+        <name>R_DIV</name>
+        <param>
+          <type>int</type>
+          <declname>div</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="127" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="127" bodyend="127"/>
+        <referencedby refid="classdb__flexrf__1200__rx__mimo__a_1a6a4f2bc53deae22dbd8fc86089662b86" compoundref="db__flexrf__mimo_8cc" startline="146" endline="151">db_flexrf_1200_rx_mimo_a::db_flexrf_1200_rx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__1200__rx__mimo__b_1a207963987264cb38ea4732b37bcbc783" compoundref="db__flexrf__mimo_8cc" startline="171" endline="175">db_flexrf_1200_rx_mimo_b::db_flexrf_1200_rx_mimo_b</referencedby>
+        <referencedby refid="classdb__flexrf__1200__tx__mimo__a_1ae623e23658c6b9158fd1c8f44701a5a1" compoundref="db__flexrf__mimo_8cc" startline="133" endline="138">db_flexrf_1200_tx_mimo_a::db_flexrf_1200_tx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__1200__tx__mimo__b_1a6dec280b5fe5aae4a01677daf275a256" compoundref="db__flexrf__mimo_8cc" startline="159" endline="163">db_flexrf_1200_tx_mimo_b::db_flexrf_1200_tx_mimo_b</referencedby>
+        <referencedby refid="classdb__flexrf__1800__rx__mimo__a_1a05fe95424ae9f0bbbf9588a2c1d1b109" compoundref="db__flexrf__mimo_8cc" startline="96" endline="101">db_flexrf_1800_rx_mimo_a::db_flexrf_1800_rx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__1800__rx__mimo__b_1a1c498141be820f06c613c12f887d19c5" compoundref="db__flexrf__mimo_8cc" startline="121" endline="125">db_flexrf_1800_rx_mimo_b::db_flexrf_1800_rx_mimo_b</referencedby>
+        <referencedby refid="classdb__flexrf__1800__tx__mimo__a_1a63263e0f4ab8a3d9490b48f870b58561" compoundref="db__flexrf__mimo_8cc" startline="83" endline="88">db_flexrf_1800_tx_mimo_a::db_flexrf_1800_tx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__1800__tx__mimo__b_1ad68b3f456f3b7cc445a637b46247b325" compoundref="db__flexrf__mimo_8cc" startline="109" endline="113">db_flexrf_1800_tx_mimo_b::db_flexrf_1800_tx_mimo_b</referencedby>
+        <referencedby refid="classdb__flexrf__2400__rx__mimo__a_1a1a356672bc067727b54d890488a9a350" compoundref="db__flexrf__mimo_8cc" startline="46" endline="51">db_flexrf_2400_rx_mimo_a::db_flexrf_2400_rx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__2400__rx__mimo__b_1a419506c1001d97dd6d4736b4e9d78f17" compoundref="db__flexrf__mimo_8cc" startline="71" endline="75">db_flexrf_2400_rx_mimo_b::db_flexrf_2400_rx_mimo_b</referencedby>
+        <referencedby refid="classdb__flexrf__2400__tx__mimo__a_1ac675c113ba78718906d9715e1df0f609" compoundref="db__flexrf__mimo_8cc" startline="33" endline="38">db_flexrf_2400_tx_mimo_a::db_flexrf_2400_tx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__2400__tx__mimo__b_1a24c7d74d790d6ca6294f4e897325e45f" compoundref="db__flexrf__mimo_8cc" startline="59" endline="63">db_flexrf_2400_tx_mimo_b::db_flexrf_2400_tx_mimo_b</referencedby>
+        <referencedby refid="classdb__flexrf__400__rx__mimo__a_1a9b796e77d87fe8991936b4641a0b7ab3" compoundref="db__flexrf__mimo_8cc" startline="245" endline="250">db_flexrf_400_rx_mimo_a::db_flexrf_400_rx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__400__rx__mimo__b_1a56462f5b4c924e8cfbee1dc1defe45be" compoundref="db__flexrf__mimo_8cc" startline="270" endline="274">db_flexrf_400_rx_mimo_b::db_flexrf_400_rx_mimo_b</referencedby>
+        <referencedby refid="classdb__flexrf__400__tx__mimo__a_1afdf34d9e1370fee6700b515ee3fd2637" compoundref="db__flexrf__mimo_8cc" startline="232" endline="237">db_flexrf_400_tx_mimo_a::db_flexrf_400_tx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__400__tx__mimo__b_1a8888d60de5d9f75547d892b75f8ae895" compoundref="db__flexrf__mimo_8cc" startline="258" endline="262">db_flexrf_400_tx_mimo_b::db_flexrf_400_tx_mimo_b</referencedby>
+        <referencedby refid="classdb__flexrf__900__rx__mimo__a_1a07cbd271950a6f36fb81fba680816b98" compoundref="db__flexrf__mimo_8cc" startline="196" endline="201">db_flexrf_900_rx_mimo_a::db_flexrf_900_rx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__900__rx__mimo__b_1ae9b021130e101cd513ff7039e848e637" compoundref="db__flexrf__mimo_8cc" startline="221" endline="225">db_flexrf_900_rx_mimo_b::db_flexrf_900_rx_mimo_b</referencedby>
+        <referencedby refid="classdb__flexrf__900__tx__mimo__a_1ae61b9566e7bfbff6f8e381c6293e4c44" compoundref="db__flexrf__mimo_8cc" startline="183" endline="188">db_flexrf_900_tx_mimo_a::db_flexrf_900_tx_mimo_a</referencedby>
+        <referencedby refid="classdb__flexrf__900__tx__mimo__b_1a193a25ef663ad0defba40310234a7c9c" compoundref="db__flexrf__mimo_8cc" startline="209" endline="213">db_flexrf_900_tx_mimo_b::db_flexrf_900_tx_mimo_b</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>_1200_common</label>
+        <link refid="class__1200__common"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>_2200_common</label>
+        <link refid="class__2200__common"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>_1800_common</label>
+        <link refid="class__1800__common"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>_900_common</label>
+        <link refid="class__900__common"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>_400_common</label>
+        <link refid="class__400__common"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>_400_tx</label>
+        <link refid="class__400__tx"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>_400_rx</label>
+        <link refid="class__400__rx"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>_AD4360_common</label>
+        <link refid="class__AD4360__common"/>
+      </node>
+      <node id="42">
+        <label>_2400_common</label>
+        <link refid="class__2400__common"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="113" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="112" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class__AD4360__common_1ab549861642206b4a92255d36e3ebced8" prot="public" virt="non-virtual"><scope>_AD4360_common</scope><name>_AD4360_common</name></member>
+      <member refid="class__AD4360__common_1aa6038f27dbbb8512cccaa7a63cdfd904" prot="public" virt="non-virtual"><scope>_AD4360_common</scope><name>_compute_control_reg</name></member>
+      <member refid="class__AD4360__common_1aadcc4f3490555f4d6239b7344329c799" prot="public" virt="non-virtual"><scope>_AD4360_common</scope><name>_compute_regs</name></member>
+      <member refid="class__AD4360__common_1afb65e23494fd4bd49452a1f8faf90ad9" prot="public" virt="non-virtual"><scope>_AD4360_common</scope><name>_prescaler</name></member>
+      <member refid="class__AD4360__common_1a69977e4c15fe6b253c9cd033ee3b0219" prot="public" virt="virtual"><scope>_AD4360_common</scope><name>_refclk_divisor</name></member>
+      <member refid="class__AD4360__common_1a82c2c397622b5ecbc416873b189d8dc6" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_A_DIV</name></member>
+      <member refid="class__AD4360__common_1a11c88b6cd6fbd51c5f1680aab70243c1" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_ABP</name></member>
+      <member refid="class__AD4360__common_1a72d73a72c396a1003449268c2faaec43" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_B_DIV</name></member>
+      <member refid="class__AD4360__common_1a90674604db3f6a1ce57915940942aa57" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_BSC</name></member>
+      <member refid="class__AD4360__common_1adff5846a38cc6f69695f5ef5faba9f95" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_CP1</name></member>
+      <member refid="class__AD4360__common_1ad75393245f7868fe38c583d23336d04a" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_CP2</name></member>
+      <member refid="class__AD4360__common_1abe642853e653b8c8cccc19951415ef8b" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_CP3S</name></member>
+      <member refid="class__AD4360__common_1a7392371fbd5f08a29fe331b5a89f5b5c" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_CPG</name></member>
+      <member refid="class__AD4360__common_1af0dd2b57f79ec53f430b0ca339c3a752" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_CPGAIN</name></member>
+      <member refid="class__AD4360__common_1a8465d7d6aea6051d8085dab7e00f2223" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_CR</name></member>
+      <member refid="class__AD4360__common_1aaeed848bcf7a4cb0a13be54fda9c38b0" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_DIV2</name></member>
+      <member refid="class__AD4360__common_1ab14229ca30e2f5d7af12ec3380a3cbfd" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_DIVSEL</name></member>
+      <member refid="class__AD4360__common_1aed35fa971d46d8329a05c94ad31a71de" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_freq_mult</name></member>
+      <member refid="class__AD4360__common_1aab518a97fb565c3af821572a97252cb7" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_LDP</name></member>
+      <member refid="class__AD4360__common_1a874f22b59bc809a8677328a395c220b6" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_MTLD</name></member>
+      <member refid="class__AD4360__common_1a1552d3adfde3e8a56d25092107257228" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_MUXOUT</name></member>
+      <member refid="class__AD4360__common_1a0b8abeecbe27d71d1c8fe6d7a13c00d3" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_N_RSV</name></member>
+      <member refid="class__AD4360__common_1a58526b089e7621cdb8858863556b69c0" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_P</name></member>
+      <member refid="class__AD4360__common_1a5bb01c4d565f067c0894d8dee4ab4703" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_PC</name></member>
+      <member refid="class__AD4360__common_1a6fbf3c6f6793c404a22429818f3129b1" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_PD</name></member>
+      <member refid="class__AD4360__common_1acb7459c3fe58beddbf8665d414cb6619" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_PDP</name></member>
+      <member refid="class__AD4360__common_1af493b620c0f41c35c630a304ce7165f2" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_PL</name></member>
+      <member refid="class__AD4360__common_1ad8acb524b55741639773aaba2a93a6d4" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_R_DIV</name></member>
+      <member refid="class__AD4360__common_1a80eb93d6bec181472001cf88399203b8" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_R_RSV</name></member>
+      <member refid="class__AD4360__common_1a56bc313f1a2f2c77c803e8438bf3d02b" prot="protected" virt="non-virtual"><scope>_AD4360_common</scope><name>d_TEST</name></member>
+      <member refid="class__AD4360__common_1acb146e6a02fee481128947cd9c457075" prot="public" virt="pure-virtual"><scope>_AD4360_common</scope><name>freq_max</name></member>
+      <member refid="class__AD4360__common_1a4dee1725b5de28ef98a63931be2da54b" prot="public" virt="pure-virtual"><scope>_AD4360_common</scope><name>freq_min</name></member>
+      <member refid="class__AD4360__common_1ae0be237318cd32cfc30cdc277b1179ea" prot="public" virt="non-virtual"><scope>_AD4360_common</scope><name>R_DIV</name></member>
+      <member refid="class__AD4360__common_1ab246698cac4149987ec48a7a78de976e" prot="public" virt="virtual"><scope>_AD4360_common</scope><name>~_AD4360_common</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

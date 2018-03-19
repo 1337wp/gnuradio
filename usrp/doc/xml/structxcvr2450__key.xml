@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structxcvr2450__key" kind="struct" language="C++" prot="public">
+    <compoundname>xcvr2450_key</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structxcvr2450__key_1ac40cb8420b934941ed8596f3d9abac9f" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string xcvr2450_key::serial_no</definition>
+        <argsstring></argsstring>
+        <name>serial_no</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="74" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="74" bodyend="-1"/>
+        <referencedby refid="structxcvr2450__key_1acd07bed7da380fd92e79d4697625c262" compoundref="db__xcvr2450_8cc" startline="77" endline="79">operator==</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structxcvr2450__key_1a311069d20e5da20d16e692f5be63d9c8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int xcvr2450_key::which</definition>
+        <argsstring></argsstring>
+        <name>which</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="75" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="75" bodyend="-1"/>
+        <referencedby refid="structxcvr2450__key_1acd07bed7da380fd92e79d4697625c262" compoundref="db__xcvr2450_8cc" startline="77" endline="79">operator==</referencedby>
+        <referencedby refid="classxcvr2450_1a6753b44e61dc9706d61422e048b9ab19" compoundref="db__xcvr2450_8cc" startline="112" endline="114">xcvr2450::usrp</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structxcvr2450__key_1acd07bed7da380fd92e79d4697625c262" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool xcvr2450_key::operator==</definition>
+        <argsstring>(const xcvr2450_key &amp;x)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structxcvr2450__key" kindref="compound">xcvr2450_key</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="77" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="77" bodyend="79"/>
+        <references refid="structxcvr2450__key_1ac40cb8420b934941ed8596f3d9abac9f" compoundref="db__xcvr2450_8cc" startline="74">serial_no</references>
+        <references refid="structxcvr2450__key_1a311069d20e5da20d16e692f5be63d9c8" compoundref="db__xcvr2450_8cc" startline="75">which</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" line="73" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_xcvr2450.cc" bodystart="73" bodyend="80"/>
+    <listofallmembers>
+      <member refid="structxcvr2450__key_1acd07bed7da380fd92e79d4697625c262" prot="public" virt="non-virtual"><scope>xcvr2450_key</scope><name>operator==</name></member>
+      <member refid="structxcvr2450__key_1ac40cb8420b934941ed8596f3d9abac9f" prot="public" virt="non-virtual"><scope>xcvr2450_key</scope><name>serial_no</name></member>
+      <member refid="structxcvr2450__key_1a311069d20e5da20d16e692f5be63d9c8" prot="public" virt="non-virtual"><scope>xcvr2450_key</scope><name>which</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

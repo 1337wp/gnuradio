@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classusrp__tune__result" kind="class" language="C++" prot="public">
+    <compoundname>usrp_tune_result</compoundname>
+    <includes refid="usrp__tune__result_8h" local="no">usrp_tune_result.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classusrp__tune__result_1afce6aec4b4c17753b44b9b6248a80699" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double usrp_tune_result::baseband_freq</definition>
+        <argsstring></argsstring>
+        <name>baseband_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h" line="28" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="classduc__control_1aa07e6f0983597d6659aff1b7b0c6bd17" compoundref="usrp__standard_8cc" startline="144" endline="144">duc_control::dxc_freq</referencedby>
+        <referencedby refid="test__usrp__standard__tx_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="test__usrp__standard__tx_8cc" startline="169" endline="298">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__tune__result_1ad22e2d19229dda43762adf156eccc082" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double usrp_tune_result::dxc_freq</definition>
+        <argsstring></argsstring>
+        <name>dxc_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h" line="31" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classduc__control_1aa07e6f0983597d6659aff1b7b0c6bd17" compoundref="usrp__standard_8cc" startline="144" endline="144">duc_control::dxc_freq</referencedby>
+        <referencedby refid="test__usrp__standard__tx_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="test__usrp__standard__tx_8cc" startline="169" endline="298">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__tune__result_1ab981c862fc1f0da87ddec80a47dac767" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double usrp_tune_result::residual_freq</definition>
+        <argsstring></argsstring>
+        <name>residual_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h" line="34" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classduc__control_1aa07e6f0983597d6659aff1b7b0c6bd17" compoundref="usrp__standard_8cc" startline="144" endline="144">duc_control::dxc_freq</referencedby>
+        <referencedby refid="test__usrp__standard__tx_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="test__usrp__standard__tx_8cc" startline="169" endline="298">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classusrp__tune__result_1af3eb751b900a27776e8fdce8e857f364" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool usrp_tune_result::inverted</definition>
+        <argsstring></argsstring>
+        <name>inverted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h" line="37" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classduc__control_1aa07e6f0983597d6659aff1b7b0c6bd17" compoundref="usrp__standard_8cc" startline="144" endline="144">duc_control::dxc_freq</referencedby>
+        <referencedby refid="test__usrp__standard__tx_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="test__usrp__standard__tx_8cc" startline="169" endline="298">main</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classusrp__tune__result_1af198cc95fa851bc1b2895494705d44a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>usrp_tune_result::usrp_tune_result</definition>
+        <argsstring>(double baseband=0, double dxc=0, double residual=0, bool _inverted=false)</argsstring>
+        <name>usrp_tune_result</name>
+        <param>
+          <type>double</type>
+          <declname>baseband</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dxc</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>residual</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_inverted</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h" bodystart="39" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h" line="25" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/usrp_tune_result.h" bodystart="24" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classusrp__tune__result_1afce6aec4b4c17753b44b9b6248a80699" prot="public" virt="non-virtual"><scope>usrp_tune_result</scope><name>baseband_freq</name></member>
+      <member refid="classusrp__tune__result_1ad22e2d19229dda43762adf156eccc082" prot="public" virt="non-virtual"><scope>usrp_tune_result</scope><name>dxc_freq</name></member>
+      <member refid="classusrp__tune__result_1af3eb751b900a27776e8fdce8e857f364" prot="public" virt="non-virtual"><scope>usrp_tune_result</scope><name>inverted</name></member>
+      <member refid="classusrp__tune__result_1ab981c862fc1f0da87ddec80a47dac767" prot="public" virt="non-virtual"><scope>usrp_tune_result</scope><name>residual_freq</name></member>
+      <member refid="classusrp__tune__result_1af198cc95fa851bc1b2895494705d44a7" prot="public" virt="non-virtual"><scope>usrp_tune_result</scope><name>usrp_tune_result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

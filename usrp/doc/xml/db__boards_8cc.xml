@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="db__boards_8cc" kind="file" language="C++">
+    <compoundname>db_boards.cc</compoundname>
+    <includes refid="db__boards_8h" local="no">db_boards.h</includes>
+    <includes refid="usrp__dbid_8h" local="no">usrp/usrp_dbid.h</includes>
+    <includes refid="db__basic_8h" local="no">usrp/db_basic.h</includes>
+    <includes refid="db__tv__rx_8h" local="no">usrp/db_tv_rx.h</includes>
+    <includes refid="db__tv__rx__mimo_8h" local="no">usrp/db_tv_rx_mimo.h</includes>
+    <includes refid="db__dbs__rx_8h" local="no">usrp/db_dbs_rx.h</includes>
+    <includes refid="db__flexrf_8h" local="no">usrp/db_flexrf.h</includes>
+    <includes refid="db__flexrf__mimo_8h" local="no">usrp/db_flexrf_mimo.h</includes>
+    <includes refid="db__wbxng_8h" local="no">usrp/db_wbxng.h</includes>
+    <includes refid="db__xcvr2450_8h" local="no">usrp/db_xcvr2450.h</includes>
+    <includes refid="db__dtt754_8h" local="no">usrp/db_dtt754.h</includes>
+    <includes refid="db__dtt768_8h" local="no">usrp/db_dtt768.h</includes>
+    <includes refid="db__bitshark__rx_8h" local="no">usrp/db_bitshark_rx.h</includes>
+    <includes local="no">cstdio</includes>
+    <incdepgraph>
+      <node id="201">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="207">
+        <label>usrp/libusb_types.h</label>
+        <link refid="libusb__types_8h"/>
+        <childnode refid="208" relation="include">
+        </childnode>
+      </node>
+      <node id="224">
+        <label>stdint.h</label>
+      </node>
+      <node id="217">
+        <label>cmath</label>
+      </node>
+      <node id="211">
+        <label>usrp/usrp_dbid.h</label>
+        <link refid="usrp__dbid_8h"/>
+      </node>
+      <node id="197">
+        <label>db_boards.cc</label>
+        <link refid="db_boards.cc"/>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="214" relation="include">
+        </childnode>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+      </node>
+      <node id="205">
+        <label>usrp/usrp_slots.h</label>
+        <link refid="usrp__slots_8h"/>
+      </node>
+      <node id="200">
+        <label>string</label>
+      </node>
+      <node id="202">
+        <label>boost/weak_ptr.hpp</label>
+      </node>
+      <node id="215">
+        <label>usrp/db_dbs_rx.h</label>
+        <link refid="db__dbs__rx_8h"/>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+      </node>
+      <node id="213">
+        <label>usrp/db_tv_rx.h</label>
+        <link refid="db__tv__rx_8h"/>
+        <childnode refid="199" relation="include">
+        </childnode>
+      </node>
+      <node id="218">
+        <label>usrp/db_flexrf_mimo.h</label>
+        <link refid="db__flexrf__mimo_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+      </node>
+      <node id="225">
+        <label>cstdio</label>
+      </node>
+      <node id="222">
+        <label>usrp/db_dtt768.h</label>
+        <link refid="db__dtt768_8h"/>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+      </node>
+      <node id="209">
+        <label>vector</label>
+      </node>
+      <node id="199">
+        <label>usrp/db_base.h</label>
+        <link refid="db__base_8h"/>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>usrp/db_dtt754.h</label>
+        <link refid="db__dtt754_8h"/>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+      </node>
+      <node id="212">
+        <label>usrp/db_basic.h</label>
+        <link refid="db__basic_8h"/>
+        <childnode refid="199" relation="include">
+        </childnode>
+      </node>
+      <node id="210">
+        <label>boost/utility.hpp</label>
+      </node>
+      <node id="214">
+        <label>usrp/db_tv_rx_mimo.h</label>
+        <link refid="db__tv__rx__mimo_8h"/>
+        <childnode refid="213" relation="include">
+        </childnode>
+      </node>
+      <node id="220">
+        <label>usrp/db_xcvr2450.h</label>
+        <link refid="db__xcvr2450_8h"/>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+      </node>
+      <node id="204">
+        <label>usrp/usrp_basic.h</label>
+        <link refid="usrp__basic_8h"/>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>usrp/db_bitshark_rx.h</label>
+        <link refid="db__bitshark__rx_8h"/>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+      </node>
+      <node id="203">
+        <label>iosfwd</label>
+      </node>
+      <node id="216">
+        <label>usrp/db_flexrf.h</label>
+        <link refid="db__flexrf_8h"/>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>usrp/db_wbxng.h</label>
+        <link refid="db__wbxng_8h"/>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+      </node>
+      <node id="206">
+        <label>usrp/usrp_subdev_spec.h</label>
+        <link refid="usrp__subdev__spec_8h"/>
+      </node>
+      <node id="208">
+        <label>usb.h</label>
+      </node>
+      <node id="198">
+        <label>db_boards.h</label>
+        <link refid="db__boards_8h"/>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="db__boards_8cc_1a907da1c1e1143e5c2fe68ec8e5704faa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref> &gt;</type>
+        <definition>std::vector&lt;db_base_sptr&gt; instantiate_dbs</definition>
+        <argsstring>(int dbid, usrp_basic_sptr usrp, int which_side)</argsstring>
+        <name>instantiate_dbs</name>
+        <param>
+          <type>int</type>
+          <declname>dbid</declname>
+        </param>
+        <param>
+          <type><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref></type>
+          <declname>usrp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which_side</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_boards.cc" line="43" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_boards.cc" bodystart="43" bodyend="244"/>
+        <references refid="usrp__dbid_8h_1ab97c0168b5b16de0ea863f7ccb85a74b" compoundref="usrp__dbid_8h" startline="14">USRP_DBID_BASIC_RX</references>
+        <references refid="usrp__dbid_8h_1a463e9ecf8b5a3f87ff118bb73d9d5101" compoundref="usrp__dbid_8h" startline="13">USRP_DBID_BASIC_TX</references>
+        <references refid="usrp__dbid_8h_1a73156ef431fe4dfb4ba737091c7fa1c3" compoundref="usrp__dbid_8h" startline="65">USRP_DBID_BITSHARK_RX</references>
+        <references refid="usrp__dbid_8h_1ae84dfd43400901caf4cd6417a167745c" compoundref="usrp__dbid_8h" startline="15">USRP_DBID_DBS_RX</references>
+        <references refid="usrp__dbid_8h_1a762b8bc28af1113951c77aae41242eb8" compoundref="usrp__dbid_8h" startline="54">USRP_DBID_DTT754</references>
+        <references refid="usrp__dbid_8h_1ab889be5e68be0715ba8e1fc6ddaf2eb6" compoundref="usrp__dbid_8h" startline="55">USRP_DBID_DTT768</references>
+        <references refid="usrp__dbid_8h_1ae8e511ae8d9932454e7fc6e0f9df43ba" compoundref="usrp__dbid_8h" startline="19">USRP_DBID_FLEX_1200_RX</references>
+        <references refid="usrp__dbid_8h_1a7b9470440621874bbbbc5dcc5a14539f" compoundref="usrp__dbid_8h" startline="31">USRP_DBID_FLEX_1200_RX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1aa088b1af133c443b35b493dc813474cf" compoundref="usrp__dbid_8h" startline="39">USRP_DBID_FLEX_1200_RX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1abaf21e7c23333e025558bd22df1b925d" compoundref="usrp__dbid_8h" startline="23">USRP_DBID_FLEX_1200_TX</references>
+        <references refid="usrp__dbid_8h_1ac10d1c44c7bd54eaca19558b39cc6e98" compoundref="usrp__dbid_8h" startline="35">USRP_DBID_FLEX_1200_TX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1a31af8e520e75edad747a92443c5b07df" compoundref="usrp__dbid_8h" startline="43">USRP_DBID_FLEX_1200_TX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a6e8403ca0e06bd304913559671af74c7" compoundref="usrp__dbid_8h" startline="47">USRP_DBID_FLEX_1800_RX</references>
+        <references refid="usrp__dbid_8h_1a466382d062064b84833fd4c2bcaf8194" compoundref="usrp__dbid_8h" startline="49">USRP_DBID_FLEX_1800_RX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1a51c42757d3a81ac022475122ba2d3723" compoundref="usrp__dbid_8h" startline="51">USRP_DBID_FLEX_1800_RX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a59c570b06bd1e60f332abe6bbba96162" compoundref="usrp__dbid_8h" startline="48">USRP_DBID_FLEX_1800_TX</references>
+        <references refid="usrp__dbid_8h_1a2faec59d518b3fc8fbff2fcb80e28c3f" compoundref="usrp__dbid_8h" startline="50">USRP_DBID_FLEX_1800_TX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1ae2d714b572524893c4248a0bc5bd2c2c" compoundref="usrp__dbid_8h" startline="52">USRP_DBID_FLEX_1800_TX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a1c0a36f4dc274f26f7ef0ed986211b4f" compoundref="usrp__dbid_8h" startline="20">USRP_DBID_FLEX_2400_RX</references>
+        <references refid="usrp__dbid_8h_1a6fb0d845563b950af0606cf548720209" compoundref="usrp__dbid_8h" startline="32">USRP_DBID_FLEX_2400_RX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1aa9d2522b8677dd0a861759896c42e134" compoundref="usrp__dbid_8h" startline="40">USRP_DBID_FLEX_2400_RX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a3f479e898cd0852331fcf37f57561ebb" compoundref="usrp__dbid_8h" startline="24">USRP_DBID_FLEX_2400_TX</references>
+        <references refid="usrp__dbid_8h_1ac3a1d575eb081542278a0a67c35f65ca" compoundref="usrp__dbid_8h" startline="36">USRP_DBID_FLEX_2400_TX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1a10961eba0a70d299d62dca5e85bf5445" compoundref="usrp__dbid_8h" startline="44">USRP_DBID_FLEX_2400_TX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a88938d5d1f057a14a7f85ba7631c70b4" compoundref="usrp__dbid_8h" startline="17">USRP_DBID_FLEX_400_RX</references>
+        <references refid="usrp__dbid_8h_1a281584fa0a65d9f390184ffee7739c98" compoundref="usrp__dbid_8h" startline="29">USRP_DBID_FLEX_400_RX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1a71efd45e621c10e1381dd23f5420afd8" compoundref="usrp__dbid_8h" startline="37">USRP_DBID_FLEX_400_RX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1ab4c96a886230948b27b9f9f5ebb412ba" compoundref="usrp__dbid_8h" startline="21">USRP_DBID_FLEX_400_TX</references>
+        <references refid="usrp__dbid_8h_1a5c758548b566005dccb51aa663c7b247" compoundref="usrp__dbid_8h" startline="33">USRP_DBID_FLEX_400_TX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1af2a1fb97ec6c082cb0c5f522094f7ad3" compoundref="usrp__dbid_8h" startline="41">USRP_DBID_FLEX_400_TX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a3d3428b696bf8f649b3eb62fb85f1cdb" compoundref="usrp__dbid_8h" startline="18">USRP_DBID_FLEX_900_RX</references>
+        <references refid="usrp__dbid_8h_1a12cd27fa45f8d90ea3be76d142947a16" compoundref="usrp__dbid_8h" startline="30">USRP_DBID_FLEX_900_RX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1a7b1ab525188c2494679b7c07f9f67aec" compoundref="usrp__dbid_8h" startline="38">USRP_DBID_FLEX_900_RX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a850f6658172a6a6f37ab72abd3b4e365" compoundref="usrp__dbid_8h" startline="22">USRP_DBID_FLEX_900_TX</references>
+        <references refid="usrp__dbid_8h_1a0cf674876098563551793e6bebe8da3b" compoundref="usrp__dbid_8h" startline="34">USRP_DBID_FLEX_900_TX_MIMO_A</references>
+        <references refid="usrp__dbid_8h_1a99ee63d11ecc3c165b44df23213ba953" compoundref="usrp__dbid_8h" startline="42">USRP_DBID_FLEX_900_TX_MIMO_B</references>
+        <references refid="usrp__dbid_8h_1a31d7eb7584336ae87ac16736b3d7f154" compoundref="usrp__dbid_8h" startline="28">USRP_DBID_LF_RX</references>
+        <references refid="usrp__dbid_8h_1adee640c223856a7498c61b92518d0a8c" compoundref="usrp__dbid_8h" startline="27">USRP_DBID_LF_TX</references>
+        <references refid="usrp__dbid_8h_1af8855fd553eab05e416b5a9589f63c91" compoundref="usrp__dbid_8h" startline="16">USRP_DBID_TV_RX</references>
+        <references refid="usrp__dbid_8h_1a0d1134103c93cf2dd55289b775b829e3" compoundref="usrp__dbid_8h" startline="56">USRP_DBID_TV_RX_MIMO</references>
+        <references refid="usrp__dbid_8h_1a4d03b61cbc53c45ea4c390cf0c78e4a6" compoundref="usrp__dbid_8h" startline="25">USRP_DBID_TV_RX_REV_2</references>
+        <references refid="usrp__dbid_8h_1afcb531859b7c89c56f40919fb71d0696" compoundref="usrp__dbid_8h" startline="57">USRP_DBID_TV_RX_REV_2_MIMO</references>
+        <references refid="usrp__dbid_8h_1ad1e82d8bf38a54b3786eeb5abb725ac2" compoundref="usrp__dbid_8h" startline="53">USRP_DBID_TV_RX_REV_3</references>
+        <references refid="usrp__dbid_8h_1afc73310b1c3d8c419947e7faf57b4ca5" compoundref="usrp__dbid_8h" startline="58">USRP_DBID_TV_RX_REV_3_MIMO</references>
+        <references refid="usrp__dbid_8h_1ad93af0a922afed9b7ced55c9f9674092" compoundref="usrp__dbid_8h" startline="60">USRP_DBID_WBX_LO_RX</references>
+        <references refid="usrp__dbid_8h_1a3b93f6f77465dd0d674ae537bfa1fad0" compoundref="usrp__dbid_8h" startline="59">USRP_DBID_WBX_LO_TX</references>
+        <references refid="usrp__dbid_8h_1a32a5d2ec1a6a93891260fd0ef13f47fd" compoundref="usrp__dbid_8h" startline="62">USRP_DBID_WBX_NG_RX</references>
+        <references refid="usrp__dbid_8h_1a18c5932ca572d59e89ae161640c07f28" compoundref="usrp__dbid_8h" startline="61">USRP_DBID_WBX_NG_TX</references>
+        <references refid="usrp__dbid_8h_1ab76b55589fc04eb4a93064eba414f431" compoundref="usrp__dbid_8h" startline="64">USRP_DBID_XCVR2450_RX</references>
+        <references refid="usrp__dbid_8h_1a582e2b1136b70d8fbe0640f304c73d4a" compoundref="usrp__dbid_8h" startline="63">USRP_DBID_XCVR2450_TX</references>
+        <referencedby refid="classusrp__basic_1a9d4d1ef184ad622c7f84a6f940614b9b" compoundref="usrp__basic_8cc" startline="179" endline="186">usrp_basic::init_db</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>2008,2009<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>asversion<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>any<sp/>later<sp/>version.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_CONFIG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;config.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__boards_8h" kindref="compound">db_boards.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="usrp__dbid_8h" kindref="compound">usrp/usrp_dbid.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__basic_8h" kindref="compound">usrp/db_basic.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__tv__rx_8h" kindref="compound">usrp/db_tv_rx.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__tv__rx__mimo_8h" kindref="compound">usrp/db_tv_rx_mimo.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__dbs__rx_8h" kindref="compound">usrp/db_dbs_rx.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__flexrf_8h" kindref="compound">usrp/db_flexrf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__flexrf__mimo_8h" kindref="compound">usrp/db_flexrf_mimo.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__wbxng_8h" kindref="compound">usrp/db_wbxng.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__xcvr2450_8h" kindref="compound">usrp/db_xcvr2450.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__dtt754_8h" kindref="compound">usrp/db_dtt754.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__dtt768_8h" kindref="compound">usrp/db_dtt768.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__bitshark__rx_8h" kindref="compound">usrp/db_bitshark_rx.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdio&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">std::vector&lt;db_base_sptr&gt;</highlight></codeline>
+<codeline lineno="43" refid="db__boards_8h_1a907da1c1e1143e5c2fe68ec8e5704faa" refkind="member"><highlight class="normal"><ref refid="db__boards_8cc_1a907da1c1e1143e5c2fe68ec8e5704faa" kindref="member">instantiate_dbs</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="usrp__dbid_8cc_1a87c643e07fc4c8ba890706ac2f2203ea" kindref="member">dbid</ref>,<sp/><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref><sp/>usrp,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>which_side)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>std::vector&lt;db_base_sptr&gt;<sp/>db;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(dbid)<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a463e9ecf8b5a3f87ff118bb73d9d5101" kindref="member">USRP_DBID_BASIC_TX</ref>):</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__basic__tx" kindref="compound">db_basic_tx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1ab97c0168b5b16de0ea863f7ccb85a74b" kindref="member">USRP_DBID_BASIC_RX</ref>):</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__basic__rx" kindref="compound">db_basic_rx</ref>(usrp,<sp/>which_side,<sp/>0)));</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__basic__rx" kindref="compound">db_basic_rx</ref>(usrp,<sp/>which_side,<sp/>1)));</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__basic__rx" kindref="compound">db_basic_rx</ref>(usrp,<sp/>which_side,<sp/>2)));</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1adee640c223856a7498c61b92518d0a8c" kindref="member">USRP_DBID_LF_TX</ref>):</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__lf__tx" kindref="compound">db_lf_tx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a31d7eb7584336ae87ac16736b3d7f154" kindref="member">USRP_DBID_LF_RX</ref>):</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__lf__rx" kindref="compound">db_lf_rx</ref>(usrp,<sp/>which_side,<sp/>0)));</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__lf__rx" kindref="compound">db_lf_rx</ref>(usrp,<sp/>which_side,<sp/>1)));</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__lf__rx" kindref="compound">db_lf_rx</ref>(usrp,<sp/>which_side,<sp/>2)));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1ae84dfd43400901caf4cd6417a167745c" kindref="member">USRP_DBID_DBS_RX</ref>):</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__dbs__rx" kindref="compound">db_dbs_rx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1af8855fd553eab05e416b5a9589f63c91" kindref="member">USRP_DBID_TV_RX</ref>):</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__tv__rx" kindref="compound">db_tv_rx</ref>(usrp,<sp/>which_side,<sp/>43.75e6,<sp/>5.75e6)));</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a4d03b61cbc53c45ea4c390cf0c78e4a6" kindref="member">USRP_DBID_TV_RX_REV_2</ref>):</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__tv__rx" kindref="compound">db_tv_rx</ref>(usrp,<sp/>which_side,<sp/>44e6,<sp/>20e6)));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1ad1e82d8bf38a54b3786eeb5abb725ac2" kindref="member">USRP_DBID_TV_RX_REV_3</ref>):</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__tv__rx" kindref="compound">db_tv_rx</ref>(usrp,<sp/>which_side,<sp/>44e6,<sp/>20e6)));</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a0d1134103c93cf2dd55289b775b829e3" kindref="member">USRP_DBID_TV_RX_MIMO</ref>):</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__tv__rx__mimo" kindref="compound">db_tv_rx_mimo</ref>(usrp,<sp/>which_side,<sp/>43.75e6,<sp/>5.75e6)));</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1afcb531859b7c89c56f40919fb71d0696" kindref="member">USRP_DBID_TV_RX_REV_2_MIMO</ref>):</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__tv__rx__mimo" kindref="compound">db_tv_rx_mimo</ref>(usrp,<sp/>which_side,<sp/>44e6,<sp/>20e6)));</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1afc73310b1c3d8c419947e7faf57b4ca5" kindref="member">USRP_DBID_TV_RX_REV_3_MIMO</ref>):</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__tv__rx__mimo" kindref="compound">db_tv_rx_mimo</ref>(usrp,<sp/>which_side,<sp/>44e6,<sp/>20e6)));</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a3f479e898cd0852331fcf37f57561ebb" kindref="member">USRP_DBID_FLEX_2400_TX</ref>):</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__2400__tx" kindref="compound">db_flexrf_2400_tx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a1c0a36f4dc274f26f7ef0ed986211b4f" kindref="member">USRP_DBID_FLEX_2400_RX</ref>):</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__2400__rx" kindref="compound">db_flexrf_2400_rx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1abaf21e7c23333e025558bd22df1b925d" kindref="member">USRP_DBID_FLEX_1200_TX</ref>):</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__1200__tx" kindref="compound">db_flexrf_1200_tx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1ae8e511ae8d9932454e7fc6e0f9df43ba" kindref="member">USRP_DBID_FLEX_1200_RX</ref>):</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__1200__rx" kindref="compound">db_flexrf_1200_rx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a59c570b06bd1e60f332abe6bbba96162" kindref="member">USRP_DBID_FLEX_1800_TX</ref>):</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__1800__tx" kindref="compound">db_flexrf_1800_tx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a6e8403ca0e06bd304913559671af74c7" kindref="member">USRP_DBID_FLEX_1800_RX</ref>):</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__1800__rx" kindref="compound">db_flexrf_1800_rx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a850f6658172a6a6f37ab72abd3b4e365" kindref="member">USRP_DBID_FLEX_900_TX</ref>):</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__900__tx" kindref="compound">db_flexrf_900_tx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a3d3428b696bf8f649b3eb62fb85f1cdb" kindref="member">USRP_DBID_FLEX_900_RX</ref>):</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__900__rx" kindref="compound">db_flexrf_900_rx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1ab4c96a886230948b27b9f9f5ebb412ba" kindref="member">USRP_DBID_FLEX_400_TX</ref>):</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__400__tx" kindref="compound">db_flexrf_400_tx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a88938d5d1f057a14a7f85ba7631c70b4" kindref="member">USRP_DBID_FLEX_400_RX</ref>):</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__400__rx" kindref="compound">db_flexrf_400_rx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1ac3a1d575eb081542278a0a67c35f65ca" kindref="member">USRP_DBID_FLEX_2400_TX_MIMO_A</ref>):</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__2400__tx__mimo__a" kindref="compound">db_flexrf_2400_tx_mimo_a</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a6fb0d845563b950af0606cf548720209" kindref="member">USRP_DBID_FLEX_2400_RX_MIMO_A</ref>):</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__2400__rx__mimo__a" kindref="compound">db_flexrf_2400_rx_mimo_a</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a2faec59d518b3fc8fbff2fcb80e28c3f" kindref="member">USRP_DBID_FLEX_1800_TX_MIMO_A</ref>):</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__1800__tx__mimo__a" kindref="compound">db_flexrf_1800_tx_mimo_a</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a466382d062064b84833fd4c2bcaf8194" kindref="member">USRP_DBID_FLEX_1800_RX_MIMO_A</ref>):</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__1800__rx__mimo__a" kindref="compound">db_flexrf_1800_rx_mimo_a</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1ac10d1c44c7bd54eaca19558b39cc6e98" kindref="member">USRP_DBID_FLEX_1200_TX_MIMO_A</ref>):</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__1200__tx__mimo__a" kindref="compound">db_flexrf_1200_tx_mimo_a</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a7b9470440621874bbbbc5dcc5a14539f" kindref="member">USRP_DBID_FLEX_1200_RX_MIMO_A</ref>):</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__1200__rx__mimo__a" kindref="compound">db_flexrf_1200_rx_mimo_a</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a0cf674876098563551793e6bebe8da3b" kindref="member">USRP_DBID_FLEX_900_TX_MIMO_A</ref>):</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__900__tx__mimo__a" kindref="compound">db_flexrf_900_tx_mimo_a</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a12cd27fa45f8d90ea3be76d142947a16" kindref="member">USRP_DBID_FLEX_900_RX_MIMO_A</ref>):</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__900__rx__mimo__a" kindref="compound">db_flexrf_900_rx_mimo_a</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a5c758548b566005dccb51aa663c7b247" kindref="member">USRP_DBID_FLEX_400_TX_MIMO_A</ref>):</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__400__tx__mimo__a" kindref="compound">db_flexrf_400_tx_mimo_a</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a281584fa0a65d9f390184ffee7739c98" kindref="member">USRP_DBID_FLEX_400_RX_MIMO_A</ref>):</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__400__rx__mimo__a" kindref="compound">db_flexrf_400_rx_mimo_a</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a10961eba0a70d299d62dca5e85bf5445" kindref="member">USRP_DBID_FLEX_2400_TX_MIMO_B</ref>):</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__2400__tx__mimo__b" kindref="compound">db_flexrf_2400_tx_mimo_b</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1aa9d2522b8677dd0a861759896c42e134" kindref="member">USRP_DBID_FLEX_2400_RX_MIMO_B</ref>):</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__2400__rx__mimo__b" kindref="compound">db_flexrf_2400_rx_mimo_b</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1ae2d714b572524893c4248a0bc5bd2c2c" kindref="member">USRP_DBID_FLEX_1800_TX_MIMO_B</ref>):</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__1800__tx__mimo__b" kindref="compound">db_flexrf_1800_tx_mimo_b</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a51c42757d3a81ac022475122ba2d3723" kindref="member">USRP_DBID_FLEX_1800_RX_MIMO_B</ref>):</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__1800__rx__mimo__b" kindref="compound">db_flexrf_1800_rx_mimo_b</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a31af8e520e75edad747a92443c5b07df" kindref="member">USRP_DBID_FLEX_1200_TX_MIMO_B</ref>):</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__1200__tx__mimo__b" kindref="compound">db_flexrf_1200_tx_mimo_b</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1aa088b1af133c443b35b493dc813474cf" kindref="member">USRP_DBID_FLEX_1200_RX_MIMO_B</ref>):</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__1200__rx__mimo__b" kindref="compound">db_flexrf_1200_rx_mimo_b</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a99ee63d11ecc3c165b44df23213ba953" kindref="member">USRP_DBID_FLEX_900_TX_MIMO_B</ref>):</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__900__tx__mimo__b" kindref="compound">db_flexrf_900_tx_mimo_b</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a7b1ab525188c2494679b7c07f9f67aec" kindref="member">USRP_DBID_FLEX_900_RX_MIMO_B</ref>):</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__900__rx__mimo__b" kindref="compound">db_flexrf_900_rx_mimo_b</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1af2a1fb97ec6c082cb0c5f522094f7ad3" kindref="member">USRP_DBID_FLEX_400_TX_MIMO_B</ref>):</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__400__tx__mimo__b" kindref="compound">db_flexrf_400_tx_mimo_b</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a71efd45e621c10e1381dd23f5420afd8" kindref="member">USRP_DBID_FLEX_400_RX_MIMO_B</ref>):</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__flexrf__400__rx__mimo__b" kindref="compound">db_flexrf_400_rx_mimo_b</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a582e2b1136b70d8fbe0640f304c73d4a" kindref="member">USRP_DBID_XCVR2450_TX</ref>):</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__xcvr2450__tx" kindref="compound">db_xcvr2450_tx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1ab76b55589fc04eb4a93064eba414f431" kindref="member">USRP_DBID_XCVR2450_RX</ref>):</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__xcvr2450__rx" kindref="compound">db_xcvr2450_rx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>0<sp/><sp/><sp/>//<sp/>FIXME<sp/>wbx<sp/>doesn&apos;t<sp/>compile</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a3b93f6f77465dd0d674ae537bfa1fad0" kindref="member">USRP_DBID_WBX_LO_TX</ref>):</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>db_wbx_lo_tx(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1ad93af0a922afed9b7ced55c9f9674092" kindref="member">USRP_DBID_WBX_LO_RX</ref>):</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>db_wbx_lo_rx(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a18c5932ca572d59e89ae161640c07f28" kindref="member">USRP_DBID_WBX_NG_TX</ref>):</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__wbxng__tx" kindref="compound">db_wbxng_tx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a32a5d2ec1a6a93891260fd0ef13f47fd" kindref="member">USRP_DBID_WBX_NG_RX</ref>):</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__wbxng__rx" kindref="compound">db_wbxng_rx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a762b8bc28af1113951c77aae41242eb8" kindref="member">USRP_DBID_DTT754</ref>):</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__dtt754" kindref="compound">db_dtt754</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1ab889be5e68be0715ba8e1fc6ddaf2eb6" kindref="member">USRP_DBID_DTT768</ref>):</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__dtt768" kindref="compound">db_dtt768</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(<ref refid="usrp__dbid_8h_1a73156ef431fe4dfb4ba737091c7fa1c3" kindref="member">USRP_DBID_BITSHARK_RX</ref>):</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__bitshark__rx" kindref="compound">db_bitshark_rx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(-1):</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(boost::dynamic_pointer_cast&lt;usrp_basic_tx&gt;(usrp)){</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__basic__tx" kindref="compound">db_basic_tx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__basic__rx" kindref="compound">db_basic_rx</ref>(usrp,<sp/>which_side,<sp/>0)));</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__basic__rx" kindref="compound">db_basic_rx</ref>(usrp,<sp/>which_side,<sp/>1)));</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal">(-2):</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(boost::dynamic_pointer_cast&lt;usrp_basic_tx&gt;(usrp)){</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;\n\aWarning:<sp/>Treating<sp/>daughterboard<sp/>with<sp/>invalid<sp/>EEPROM<sp/>contents<sp/>as<sp/>if<sp/>it<sp/>were<sp/>a<sp/>\&quot;Basic<sp/>Tx.\&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Warning:<sp/>This<sp/>is<sp/>almost<sp/>certainly<sp/>wrong...<sp/><sp/>Use<sp/>appropriate<sp/>burn-*-eeprom<sp/>utility.\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__basic__tx" kindref="compound">db_basic_tx</ref>(usrp,<sp/>which_side)));</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;\n\aWarning:<sp/>Treating<sp/>daughterboard<sp/>with<sp/>invalid<sp/>EEPROM<sp/>contents<sp/>as<sp/>if<sp/>it<sp/>were<sp/>a<sp/>\&quot;Basic<sp/>Rx.\&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Warning:<sp/>This<sp/>is<sp/>almost<sp/>certainly<sp/>wrong...<sp/><sp/>Use<sp/>appropriate<sp/>burn-*-eeprom<sp/>utility.\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__basic__rx" kindref="compound">db_basic_rx</ref>(usrp,<sp/>which_side,<sp/>0)));</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>db.push_back(<ref refid="db__base_8h_1a61ead10400f658a22128a321e14ae0ac" kindref="member">db_base_sptr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classdb__basic__rx" kindref="compound">db_basic_rx</ref>(usrp,<sp/>which_side,<sp/>1)));</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>db;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_boards.cc"/>
+  </compounddef>
+</doxygen>

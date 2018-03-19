@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_e839221b911be9ca1d4935be85bedea2" kind="dir">
+    <compoundname>include</compoundname>
+    <innerdir refid="dir_59907e15f87b3677c72829078c648f29">usrp</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classdb__basic__tx" kind="class" language="C++" prot="public">
+    <compoundname>db_basic_tx</compoundname>
+    <basecompoundref refid="classdb__base" prot="public" virt="non-virtual">db_base</basecompoundref>
+    <derivedcompoundref refid="classdb__lf__tx" prot="public" virt="non-virtual">db_lf_tx</derivedcompoundref>
+    <includes refid="db__basic_8h" local="no">db_basic.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdb__basic__tx_1a4eca48b9d392a04a205acd7439189e63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_basic_tx::db_basic_tx</definition>
+        <argsstring>(usrp_basic_sptr usrp, int which)</argsstring>
+        <name>db_basic_tx</name>
+        <param>
+          <type><ref refid="db__base_8h_1a4847231f7e2f85d0a0f4a5ed78b25ee7" kindref="member">usrp_basic_sptr</ref></type>
+          <declname>usrp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>which</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_basic.h" line="34" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_basic.cc" bodystart="28" bodyend="37"/>
+        <references refid="classdb__basic__tx_1ad3aa9e1b4736dd31461a1a68fb821fae" compoundref="db__basic_8cc" startline="80" endline="83">gain_max</references>
+        <references refid="classdb__basic__tx_1a7c0d95c9d9cc3df8b145dd26785f08f6" compoundref="db__basic_8cc" startline="74" endline="77">gain_min</references>
+        <references refid="classdb__basic__tx_1a42ee65ad9d8092dc4134b9a1d46c6bf7" compoundref="db__basic_8cc" startline="92" endline="102">set_gain</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__basic__tx_1aa30dc754cec9d25ebf390b89e3356a12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>db_basic_tx::~db_basic_tx</definition>
+        <argsstring>()</argsstring>
+        <name>~db_basic_tx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_basic.h" line="35" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_basic.cc" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__basic__tx_1a7c0d95c9d9cc3df8b145dd26785f08f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_basic_tx::gain_min</definition>
+        <argsstring>()</argsstring>
+        <name>gain_min</name>
+        <reimplements refid="classdb__base_1a8879fd876f4b31cd78f4713c64140176">gain_min</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_basic.h" line="37" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_basic.cc" bodystart="74" bodyend="77"/>
+        <references refid="classusrp__basic_1afcab635a411c57f16820e44a83bfe259">usrp_basic::pga_min</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <referencedby refid="classdb__basic__tx_1a4eca48b9d392a04a205acd7439189e63" compoundref="db__basic_8cc" startline="28" endline="37">db_basic_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__basic__tx_1ad3aa9e1b4736dd31461a1a68fb821fae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_basic_tx::gain_max</definition>
+        <argsstring>()</argsstring>
+        <name>gain_max</name>
+        <reimplements refid="classdb__base_1aff5b963b288947ba6bfb5d5a6275a074">gain_max</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_basic.h" line="38" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_basic.cc" bodystart="80" bodyend="83"/>
+        <references refid="classusrp__basic_1ae6a0027c59862dcc2d4da73d50b6a598">usrp_basic::pga_max</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <referencedby refid="classdb__basic__tx_1a4eca48b9d392a04a205acd7439189e63" compoundref="db__basic_8cc" startline="28" endline="37">db_basic_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__basic__tx_1afbdf85ff00ab18986d630ce310dff016" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>float</type>
+        <definition>float db_basic_tx::gain_db_per_step</definition>
+        <argsstring>()</argsstring>
+        <name>gain_db_per_step</name>
+        <reimplements refid="classdb__base_1adcb54348e840f7c91cfeaa113974d32f">gain_db_per_step</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_basic.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_basic.cc" bodystart="86" bodyend="89"/>
+        <references refid="classusrp__basic_1ae67abb570f10f1216c001f2409fe3331">usrp_basic::pga_db_per_step</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__basic__tx_1a2ff21f798528688b042248c4a5255b8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double db_basic_tx::freq_min</definition>
+        <argsstring>()</argsstring>
+        <name>freq_min</name>
+        <reimplements refid="classdb__base_1a87f1e9f6ebe56002c0d3cd894f91732a">freq_min</reimplements>
+        <reimplementedby refid="classdb__lf__tx_1a5931304c575ae4122b7a26f4c16da451">freq_min</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_basic.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_basic.cc" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__basic__tx_1af6a317197d92de7e3a96dd14eb4849dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double db_basic_tx::freq_max</definition>
+        <argsstring>()</argsstring>
+        <name>freq_max</name>
+        <reimplements refid="classdb__base_1afdd3d7d4dc53311b09ce96e06722be08">freq_max</reimplements>
+        <reimplementedby refid="classdb__lf__tx_1a4ded03488b374324539c35fb4eb31804">freq_max</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_basic.h" line="41" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_basic.cc" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classdb__basic__tx_1abf1638d76bfa2a73bd780a72c01071ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>struct <ref refid="structfreq__result__t" kindref="compound">freq_result_t</ref></type>
+        <definition>struct freq_result_t db_basic_tx::set_freq</definition>
+        <argsstring>(double target_freq)</argsstring>
+        <name>set_freq</name>
+        <reimplements refid="classdb__base_1a6b23423681d9df85338f5519eed33159">set_freq</reimplements>
+        <param>
+          <type>double</type>
+          <declname>target_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_basic.h" line="41" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_basic.cc" bodystart="56" bodyend="71"/>
+        <references refid="structfreq__result__t_1a1c7c958029dfd98e62b6e1fa60fb5a1f" compoundref="db__base_8h" startline="40">freq_result_t::baseband_freq</references>
+        <references refid="structfreq__result__t_1a05f1d913c001ce385efb798e8ec9b649" compoundref="db__base_8h" startline="39">freq_result_t::ok</references>
+      </memberdef>
+      <memberdef kind="function" id="classdb__basic__tx_1a42ee65ad9d8092dc4134b9a1d46c6bf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_basic_tx::set_gain</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>set_gain</name>
+        <reimplements refid="classdb__base_1aa3b2f58f8d96e0b6c4652495338ce2da">set_gain</reimplements>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_basic.h" line="43" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_basic.cc" bodystart="92" bodyend="102"/>
+        <references refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" compoundref="db__base_8h" startline="54">db_base::d_which</references>
+        <references refid="structfreq__result__t_1a05f1d913c001ce385efb798e8ec9b649" compoundref="db__base_8h" startline="39">freq_result_t::ok</references>
+        <references refid="classusrp__basic_1afdcf0497f2554589b36a57806e239a07">usrp_basic::set_pga</references>
+        <references refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" compoundref="db__base_8h" startline="61" endline="63">db_base::usrp</references>
+        <referencedby refid="classdb__basic__tx_1a4eca48b9d392a04a205acd7439189e63" compoundref="db__basic_8cc" startline="28" endline="37">db_basic_tx</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classdb__basic__tx_1ae3442a83400301f00aeb0591f5587127" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool db_basic_tx::is_quadrature</definition>
+        <argsstring>()</argsstring>
+        <name>is_quadrature</name>
+        <reimplements refid="classdb__base_1a7c6fac86794800bd49b433cbb0ff3b3b">is_quadrature</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_basic.h" line="44" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_basic.cc" bodystart="105" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="125">
+        <label>db_lf_tx</label>
+        <link refid="classdb__lf__tx"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>db_basic_tx</label>
+        <link refid="classdb__basic__tx"/>
+        <childnode refid="124" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="124">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="129">
+        <label>boost::noncopyable</label>
+      </node>
+      <node id="130">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+      </node>
+      <node id="126">
+        <label>db_basic_tx</label>
+        <link refid="classdb__basic__tx"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>usrp_basic</label>
+        <link refid="classusrp__basic"/>
+        <childnode refid="129" relation="private-inheritance">
+        </childnode>
+        <childnode refid="130" relation="usage">
+          <edgelabel>d_udh</edgelabel>
+        </childnode>
+      </node>
+      <node id="127">
+        <label>db_base</label>
+        <link refid="classdb__base"/>
+        <childnode refid="128" relation="usage">
+          <edgelabel>d_raw_usrp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_basic.h" line="32" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_basic.h" bodystart="31" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classdb__base_1a7a076785965c3252a663b762b4a25d73" prot="protected" virt="non-virtual"><scope>db_basic_tx</scope><name>_enable_refclk</name></member>
+      <member refid="classdb__base_1acd58b612941f45fabab13438463c327b" prot="protected" virt="virtual"><scope>db_basic_tx</scope><name>_refclk_divisor</name></member>
+      <member refid="classdb__base_1a5f8f3e592b85cb3151b5d2c81802f6ed" prot="protected" virt="virtual"><scope>db_basic_tx</scope><name>_refclk_freq</name></member>
+      <member refid="classdb__base_1a159a4f97c1c6ecc966b6822174e58735" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>bypass_adc_buffers</name></member>
+      <member refid="classdb__base_1ac181e0dee5a23fcd36e1e610965ae1b9" prot="protected" virt="non-virtual"><scope>db_basic_tx</scope><name>d_is_shutdown</name></member>
+      <member refid="classdb__base_1a0665a615c2eb4236814825c89dd024e0" prot="protected" virt="non-virtual"><scope>db_basic_tx</scope><name>d_lo_offset</name></member>
+      <member refid="classdb__base_1aa6e5420338ff3e0a9b1afe2ae1fbc58b" prot="protected" virt="non-virtual"><scope>db_basic_tx</scope><name>d_raw_usrp</name></member>
+      <member refid="classdb__base_1a0d3eb10d9abb8b863dcee0fcb8183d7a" prot="protected" virt="non-virtual"><scope>db_basic_tx</scope><name>d_which</name></member>
+      <member refid="classdb__base_1aeddb69ef4218642cb8b03eff94ff8efc" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>db_base</name></member>
+      <member refid="classdb__basic__tx_1a4eca48b9d392a04a205acd7439189e63" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>db_basic_tx</name></member>
+      <member refid="classdb__base_1a6c70380b8abff2d051eece9d2b208408" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>dbid</name></member>
+      <member refid="classdb__basic__tx_1af6a317197d92de7e3a96dd14eb4849dd" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>freq_max</name></member>
+      <member refid="classdb__basic__tx_1a2ff21f798528688b042248c4a5255b8b" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>freq_min</name></member>
+      <member refid="classdb__basic__tx_1afbdf85ff00ab18986d630ce310dff016" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>gain_db_per_step</name></member>
+      <member refid="classdb__basic__tx_1ad3aa9e1b4736dd31461a1a68fb821fae" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>gain_max</name></member>
+      <member refid="classdb__basic__tx_1a7c0d95c9d9cc3df8b145dd26785f08f6" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>gain_min</name></member>
+      <member refid="classdb__base_1aa2d4002c1550d262e74def064a230e1a" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>i_and_q_swapped</name></member>
+      <member refid="classdb__basic__tx_1ae3442a83400301f00aeb0591f5587127" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>is_quadrature</name></member>
+      <member refid="classdb__base_1a07337ac0b59b2d36ced8f0dd7dd58b1e" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>lo_offset</name></member>
+      <member refid="classdb__base_1aef52f371112795b933570a269da85847" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>name</name></member>
+      <member refid="classdb__base_1aecc92b603e94509aa04f12aec563ea17" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1ab6aba3bd757102bf14fba4e98fb17f0d" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>select_rx_antenna</name></member>
+      <member refid="classdb__base_1a13d2573892b4acea9fc0f6125aaee4f2" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>set_atr_mask</name></member>
+      <member refid="classdb__base_1aec8010d1f2412ffe33bb0f27ee6d8275" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>set_atr_rx_delay</name></member>
+      <member refid="classdb__base_1aa74f9ee4316672004876d1f2c81728ce" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>set_atr_rxval</name></member>
+      <member refid="classdb__base_1a01586c74a2cab95c3e12951402fab1a3" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>set_atr_tx_delay</name></member>
+      <member refid="classdb__base_1a9722d03f078d1206539ad097c28a9562" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>set_atr_txval</name></member>
+      <member refid="classdb__base_1aa636457dfe89f1f0dca5fa06b67fdb58" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>set_auto_tr</name></member>
+      <member refid="classdb__base_1a7adcd5e0883f838cc6cd2bc9dda1ef87" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>set_bw</name></member>
+      <member refid="classdb__base_1afa9d1b54d69312317258723a2ee1a1e7" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>set_enable</name></member>
+      <member refid="classdb__basic__tx_1abf1638d76bfa2a73bd780a72c01071ab" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>set_freq</name></member>
+      <member refid="classdb__basic__tx_1a42ee65ad9d8092dc4134b9a1d46c6bf7" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>set_gain</name></member>
+      <member refid="classdb__base_1a3d8eb19a95b9ca4970c56f1a699e85bf" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>set_lo_offset</name></member>
+      <member refid="classdb__base_1a73aae0d09b138c28e70541c63e2cb498" prot="protected" virt="virtual"><scope>db_basic_tx</scope><name>shutdown</name></member>
+      <member refid="classdb__base_1a9cee7496d9a4d09b72a008fb5d7e6664" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>side_and_name</name></member>
+      <member refid="classdb__base_1ab6a6fad01c3df159fb7124aec13489d7" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>spectrum_inverted</name></member>
+      <member refid="classdb__base_1a67eafbae0359d2f082f73914d40abc82" prot="protected" virt="non-virtual"><scope>db_basic_tx</scope><name>usrp</name></member>
+      <member refid="classdb__base_1a75f954b2fa50c9309021da9d16a81ee2" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>which</name></member>
+      <member refid="classdb__base_1a6c28d39ecaa14d475acb9ce6bfc1b4b0" prot="public" virt="virtual"><scope>db_basic_tx</scope><name>~db_base</name></member>
+      <member refid="classdb__basic__tx_1aa30dc754cec9d25ebf390b89e3356a12" prot="public" virt="non-virtual"><scope>db_basic_tx</scope><name>~db_basic_tx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

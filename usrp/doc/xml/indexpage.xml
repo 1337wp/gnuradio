@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Universal Software Radio Peripheral</title>
+    <detaileddescription>
+<para>The top level interfaces to the USRP are <ref refid="classusrp__standard__rx" kindref="compound">usrp_standard_rx</ref> and <ref refid="classusrp__standard__tx" kindref="compound">usrp_standard_tx</ref>. Also take a look at their base classes, <ref refid="classusrp__basic__rx" kindref="compound">usrp_basic_rx</ref>, <ref refid="classusrp__basic__tx" kindref="compound">usrp_basic_tx</ref> and <ref refid="classusrp__basic" kindref="compound">usrp_basic</ref>.</para><para>See also <ulink url="usrp_guide.html">USRP User&apos;s and Developer&apos;s Guide</ulink> </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

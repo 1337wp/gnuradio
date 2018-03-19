@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="db__util_8h" kind="file" language="C++">
+    <compoundname>db_util.h</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="db__base__impl_8h" local="no">db_base_impl.h</includedby>
+    <includedby refid="db__util_8cc" local="no">db_util.cc</includedby>
+    <incdepgraph>
+      <node id="461">
+        <label>string</label>
+      </node>
+      <node id="460">
+        <label>db_util.h</label>
+        <link refid="db_util.h"/>
+        <childnode refid="461" relation="include">
+        </childnode>
+        <childnode refid="462" relation="include">
+        </childnode>
+      </node>
+      <node id="462">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="467">
+        <label>db_bitshark_rx.cc</label>
+        <link refid="db__bitshark__rx_8cc"/>
+      </node>
+      <node id="464">
+        <label>db_base_impl.h</label>
+        <link refid="db__base__impl_8h"/>
+        <childnode refid="465" relation="include">
+        </childnode>
+        <childnode refid="466" relation="include">
+        </childnode>
+        <childnode refid="467" relation="include">
+        </childnode>
+        <childnode refid="468" relation="include">
+        </childnode>
+        <childnode refid="469" relation="include">
+        </childnode>
+        <childnode refid="470" relation="include">
+        </childnode>
+        <childnode refid="471" relation="include">
+        </childnode>
+        <childnode refid="472" relation="include">
+        </childnode>
+        <childnode refid="473" relation="include">
+        </childnode>
+        <childnode refid="474" relation="include">
+        </childnode>
+        <childnode refid="475" relation="include">
+        </childnode>
+      </node>
+      <node id="468">
+        <label>db_dbs_rx.cc</label>
+        <link refid="db__dbs__rx_8cc"/>
+      </node>
+      <node id="465">
+        <label>db_base.cc</label>
+        <link refid="db__base_8cc"/>
+      </node>
+      <node id="466">
+        <label>db_basic.cc</label>
+        <link refid="db__basic_8cc"/>
+      </node>
+      <node id="463">
+        <label>db_util.h</label>
+        <link refid="db_util.h"/>
+        <childnode refid="464" relation="include">
+        </childnode>
+        <childnode refid="476" relation="include">
+        </childnode>
+      </node>
+      <node id="469">
+        <label>db_dtt754.cc</label>
+        <link refid="db__dtt754_8cc"/>
+      </node>
+      <node id="472">
+        <label>db_tv_rx.cc</label>
+        <link refid="db__tv__rx_8cc"/>
+      </node>
+      <node id="476">
+        <label>db_util.cc</label>
+        <link refid="db__util_8cc"/>
+      </node>
+      <node id="475">
+        <label>db_xcvr2450.cc</label>
+        <link refid="db__xcvr2450_8cc"/>
+      </node>
+      <node id="474">
+        <label>db_wbxng_adf4350.cc</label>
+        <link refid="db__wbxng__adf4350_8cc"/>
+      </node>
+      <node id="473">
+        <label>db_wbxng.cc</label>
+        <link refid="db__wbxng_8cc"/>
+      </node>
+      <node id="470">
+        <label>db_dtt768.cc</label>
+        <link refid="db__dtt768_8cc"/>
+      </node>
+      <node id="471">
+        <label>db_flexrf.cc</label>
+        <link refid="db__flexrf_8cc"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="db__util_8h_1ac1397f7615adcb5571c7555538fcf8e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string int_seq_to_str</definition>
+        <argsstring>(std::vector&lt; int &gt; &amp;seq)</argsstring>
+        <name>int_seq_to_str</name>
+        <param>
+          <type>std::vector&lt; int &gt; &amp;</type>
+          <declname>seq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_util.h" line="28" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_util.cc" bodystart="29" bodyend="39"/>
+        <referencedby refid="classdb__bitshark__rx_1ae8b8f942df5c56d3ce7c9653c98ac701" compoundref="db__bitshark__rx_8cc" startline="192" endline="225">db_bitshark_rx::set_bw</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1aed98afdec32fd066bd4ed833390c9cc9" compoundref="db__bitshark__rx_8cc" startline="292" endline="341">db_bitshark_rx::set_clock_scheme</referencedby>
+        <referencedby refid="classdb__dtt768_1a286c356823a4914045e89bfac81ab4ef" compoundref="db__dtt768_8cc" startline="181" endline="222">db_dtt768::set_freq</referencedby>
+        <referencedby refid="classdb__dtt754_1a92258314599337578b552d457d816e30" compoundref="db__dtt754_8cc" startline="209" endline="249">db_dtt754::set_freq</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1aa1b71b8cecd0e4f72c16fe15e480d59c" compoundref="db__bitshark__rx_8cc" startline="356" endline="403">db_bitshark_rx::set_freq</referencedby>
+        <referencedby refid="classdb__tv__rx_1adcbac7d83d1f3a14d3e6ca653e71b2d6" compoundref="db__tv__rx_8cc" startline="169" endline="209">db_tv_rx::set_freq</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1a2bffea86cc9c569523f4c2169bd2b918" compoundref="db__bitshark__rx_8cc" startline="256" endline="288">db_bitshark_rx::set_gain</referencedby>
+        <referencedby refid="classdb__dbs__rx_1a772ca7aea92c7223d4749ff6600f2d29" compoundref="db__dbs__rx_8cc" startline="78" endline="85">db_dbs_rx::shutdown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db__util_8h_1a5c37d757f9535b7489cca3dcf7e1fcff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; str_to_int_seq</definition>
+        <argsstring>(std::string str)</argsstring>
+        <name>str_to_int_seq</name>
+        <param>
+          <type>std::string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_util.h" line="29" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_util.cc" bodystart="42" bodyend="53"/>
+        <referencedby refid="classdb__dbs__rx_1a772ca7aea92c7223d4749ff6600f2d29" compoundref="db__dbs__rx_8cc" startline="78" endline="85">db_dbs_rx::shutdown</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>-*-<sp/>c++<sp/>-*-<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2008<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>along</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>51<sp/>Franklin<sp/>Street,<sp/>Fifth<sp/>Floor,<sp/>Boston,<sp/>MA<sp/>02110-1301<sp/>USA.</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_DB_UTIL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_DB_UTIL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">std::string<sp/><ref refid="db__util_8h_1ac1397f7615adcb5571c7555538fcf8e8" kindref="member">int_seq_to_str</ref>(std::vector&lt;int&gt;<sp/>&amp;seq);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">std::vector&lt;int&gt;<sp/><ref refid="db__util_8h_1a5c37d757f9535b7489cca3dcf7e1fcff" kindref="member">str_to_int_seq</ref>(std::string<sp/>str);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_DB_UTIL_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_util.h"/>
+  </compounddef>
+</doxygen>

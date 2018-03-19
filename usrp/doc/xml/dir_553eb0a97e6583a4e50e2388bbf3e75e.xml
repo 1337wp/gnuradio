@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_553eb0a97e6583a4e50e2388bbf3e75e" kind="dir">
+    <compoundname>apps</compoundname>
+    <innerfile refid="check__order__quickly_8cc">check_order_quickly.cc</innerfile>
+    <innerfile refid="test__usrp__standard__rx_8cc">test_usrp_standard_rx.cc</innerfile>
+    <innerfile refid="test__usrp__standard__tx_8cc">test_usrp_standard_tx.cc</innerfile>
+    <innerfile refid="time__stuff_8h">time_stuff.h</innerfile>
+    <innerfile refid="usrp__cal__dc__offset_8cc">usrp_cal_dc_offset.cc</innerfile>
+    <innerfile refid="usrper_8cc">usrper.cc</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/apps/"/>
+  </compounddef>
+</doxygen>

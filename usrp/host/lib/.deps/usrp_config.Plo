@@ -1,0 +1,5 @@
+usrp_config.lo: usrp_config.cc /usr/include/stdc-predef.h usrp_config.h
+
+/usr/include/stdc-predef.h:
+
+usrp_config.h:

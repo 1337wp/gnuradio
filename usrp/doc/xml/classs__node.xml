@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classs__node" kind="class" language="C++" prot="public">
+    <compoundname>s_node</compoundname>
+    <includes refid="circular__linked__list_8h" local="no">circular_linked_list.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classs__node_1aff0706836c144a30cbb8cc8e07525f79" prot="private" static="no">
+        <type><ref refid="classs__node" kindref="compound">s_node</ref>&lt; T &gt; *</type>
+        <definition>typedef s_node&lt;T&gt;* s_node&lt; T &gt;::s_node_ptr</definition>
+        <argsstring></argsstring>
+        <name>s_node_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="45" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classs__node_1a5c4730eb41c6817f151372a4c0f6e2fe" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T s_node&lt; T &gt;::d_object</definition>
+        <argsstring></argsstring>
+        <name>d_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="48" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classs__node_1ad54c8c41fec349f0ad936ddd719ed17a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool s_node&lt; T &gt;::d_available</definition>
+        <argsstring></argsstring>
+        <name>d_available</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="49" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classs__node_1addc8c8ec31d9872c638ba283f9592c5e" prot="private" static="no" mutable="no">
+        <type><ref refid="classs__node" kindref="compound">s_node_ptr</ref></type>
+        <definition>s_node_ptr s_node&lt; T &gt;::d_prev</definition>
+        <argsstring></argsstring>
+        <name>d_prev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="50" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classs__node_1aaf6af6929fd3fa9b712a5de529f6d42a" prot="private" static="no" mutable="no">
+        <type><ref refid="classs__node" kindref="compound">s_node_ptr</ref></type>
+        <definition>s_node_ptr s_node&lt; T &gt;::d_next</definition>
+        <argsstring></argsstring>
+        <name>d_next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="50" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classs__node_1af02eaa607fc7acee16f020adf00959ca" prot="private" static="no" mutable="no">
+        <type><ref refid="classs__both" kindref="compound">s_both</ref>&lt; T &gt; *</type>
+        <definition>s_both&lt;T&gt;* s_node&lt; T &gt;::d_both</definition>
+        <argsstring></argsstring>
+        <name>d_both</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="51" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classs__node_1afbe3c276a0423decc8af7aaf90433f4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>s_node&lt; T &gt;::s_node</definition>
+        <argsstring>(T l_object, s_node_ptr l_prev=NULL, s_node_ptr l_next=NULL)</argsstring>
+        <name>s_node</name>
+        <param>
+          <type>T</type>
+          <declname>l_object</declname>
+        </param>
+        <param>
+          <type><ref refid="classs__node" kindref="compound">s_node_ptr</ref></type>
+          <declname>l_prev</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type><ref refid="classs__node" kindref="compound">s_node_ptr</ref></type>
+          <declname>l_next</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="54" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1a2a29651bdde8d34fd8464c998d1ae1dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref></type>
+        <definition>__INLINE__ s_node&lt; T &gt;::s_node</definition>
+        <argsstring>(s_node_ptr l_prev, s_node_ptr l_next=NULL)</argsstring>
+        <name>s_node</name>
+        <param>
+          <type><ref refid="classs__node" kindref="compound">s_node_ptr</ref></type>
+          <declname>l_prev</declname>
+        </param>
+        <param>
+          <type><ref refid="classs__node" kindref="compound">s_node_ptr</ref></type>
+          <declname>l_next</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="60" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="60" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1a5ca67627e354cc80b7ec005f6fcc53f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref></type>
+        <definition>__INLINE__ s_node&lt; T &gt;::s_node</definition>
+        <argsstring>()</argsstring>
+        <name>s_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="62" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="62" bodyend="62"/>
+        <referencedby refid="classs__node_1a2a29651bdde8d34fd8464c998d1ae1dd" compoundref="circular__linked__list_8h" startline="60" endline="61">s_node&lt; s_buffer_ptr &gt;::s_node</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1a8ae901b835a536058e95002760ead401" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref></type>
+        <definition>__INLINE__ s_node&lt; T &gt;::~s_node</definition>
+        <argsstring>()</argsstring>
+        <name>~s_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="63" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1a4aaf8f0ea1cf81523e4d80796f1bc8ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void s_node&lt; T &gt;::remove</definition>
+        <argsstring>()</argsstring>
+        <name>remove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="65" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="65" bodyend="69"/>
+        <referencedby refid="classcircular__linked__list_1a7217a832472b5bfa0425c8ad60ef1e93" compoundref="circular__linked__list_8h" startline="172" endline="202">circular_linked_list&lt; s_buffer_ptr &gt;::find_next_available_node</referencedby>
+        <referencedby refid="classcircular__linked__list_1ac46c781dd6e3c9933628a55b3b35a1e5" compoundref="circular__linked__list_8h" startline="204" endline="227">circular_linked_list&lt; s_buffer_ptr &gt;::make_node_available</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1a6d608ac8cebbbd59d758811fad7a705d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void s_node&lt; T &gt;::insert_before</definition>
+        <argsstring>(s_node_ptr l_next)</argsstring>
+        <name>insert_before</name>
+        <param>
+          <type><ref refid="classs__node" kindref="compound">s_node_ptr</ref></type>
+          <declname>l_next</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="71" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="71" bodyend="80"/>
+        <referencedby refid="classcircular__linked__list_1a7217a832472b5bfa0425c8ad60ef1e93" compoundref="circular__linked__list_8h" startline="172" endline="202">circular_linked_list&lt; s_buffer_ptr &gt;::find_next_available_node</referencedby>
+        <referencedby refid="classcircular__linked__list_1ac46c781dd6e3c9933628a55b3b35a1e5" compoundref="circular__linked__list_8h" startline="204" endline="227">circular_linked_list&lt; s_buffer_ptr &gt;::make_node_available</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1a670d64f28a305d0c6d6cb1cea15574de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void s_node&lt; T &gt;::insert_after</definition>
+        <argsstring>(s_node_ptr l_prev)</argsstring>
+        <name>insert_after</name>
+        <param>
+          <type><ref refid="classs__node" kindref="compound">s_node_ptr</ref></type>
+          <declname>l_prev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="82" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="82" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1a8051b14d5a222a3f9c60836f38216755" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref> T</type>
+        <definition>__INLINE__ T s_node&lt; T &gt;::object</definition>
+        <argsstring>()</argsstring>
+        <name>object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="93" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="93" bodyend="93"/>
+        <referencedby refid="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" compoundref="fusb__darwin_8cc" startline="59" endline="91">fusb_ephandle_darwin::fusb_ephandle_darwin</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">fusb_ephandle_darwin::start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" compoundref="fusb__darwin_8cc" startline="441" endline="493">fusb_ephandle_darwin::write</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a7487f22bb9d633e00ed69fed86ce697b" compoundref="fusb__darwin_8cc" startline="93" endline="126">fusb_ephandle_darwin::~fusb_ephandle_darwin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1ae58bc285b15ad2cd041e6b6118609f1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref> void</type>
+        <definition>__INLINE__ void s_node&lt; T &gt;::object</definition>
+        <argsstring>(T l_object)</argsstring>
+        <name>object</name>
+        <param>
+          <type>T</type>
+          <declname>l_object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="94" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1aa8220eb78502b97b61a24cefca6f77b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref> bool</type>
+        <definition>__INLINE__ bool s_node&lt; T &gt;::available</definition>
+        <argsstring>()</argsstring>
+        <name>available</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="95" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1ad71bf0bba7b638ef8772796e14b1040f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref> void</type>
+        <definition>__INLINE__ void s_node&lt; T &gt;::set_available</definition>
+        <argsstring>()</argsstring>
+        <name>set_available</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="96" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="96" bodyend="96"/>
+        <referencedby refid="classcircular__linked__list_1acf64b05d565fd8ef5ee74ceba8adbee3" compoundref="circular__linked__list_8h" startline="117" endline="155">circular_linked_list&lt; s_buffer_ptr &gt;::circular_linked_list</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">fusb_ephandle_darwin::start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1a54fe1a9f52fd4d2c31ed9926ef9ff376" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref> void</type>
+        <definition>__INLINE__ void s_node&lt; T &gt;::set_available</definition>
+        <argsstring>(bool l_avail)</argsstring>
+        <name>set_available</name>
+        <param>
+          <type>bool</type>
+          <declname>l_avail</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="97" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1ae78f39a138892b241295a9e7f9a470d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref> void</type>
+        <definition>__INLINE__ void s_node&lt; T &gt;::set_not_available</definition>
+        <argsstring>()</argsstring>
+        <name>set_not_available</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="98" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="98" bodyend="98"/>
+        <referencedby refid="classcircular__linked__list_1a7217a832472b5bfa0425c8ad60ef1e93" compoundref="circular__linked__list_8h" startline="172" endline="202">circular_linked_list&lt; s_buffer_ptr &gt;::find_next_available_node</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1aa2ae7bb98c523f2d35a3f3a6219fb6e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref> <ref refid="classs__node" kindref="compound">s_node_ptr</ref></type>
+        <definition>__INLINE__ s_node_ptr s_node&lt; T &gt;::next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="99" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="99" bodyend="99"/>
+        <referencedby refid="classcircular__linked__list_1acf64b05d565fd8ef5ee74ceba8adbee3" compoundref="circular__linked__list_8h" startline="117" endline="155">circular_linked_list&lt; s_buffer_ptr &gt;::circular_linked_list</referencedby>
+        <referencedby refid="classcircular__linked__list_1a7217a832472b5bfa0425c8ad60ef1e93" compoundref="circular__linked__list_8h" startline="172" endline="202">circular_linked_list&lt; s_buffer_ptr &gt;::find_next_available_node</referencedby>
+        <referencedby refid="classs__node_1a670d64f28a305d0c6d6cb1cea15574de" compoundref="circular__linked__list_8h" startline="82" endline="91">s_node&lt; s_buffer_ptr &gt;::insert_after</referencedby>
+        <referencedby refid="classs__node_1a6d608ac8cebbbd59d758811fad7a705d" compoundref="circular__linked__list_8h" startline="71" endline="80">s_node&lt; s_buffer_ptr &gt;::insert_before</referencedby>
+        <referencedby refid="classcircular__linked__list_1a873b3b21f61ac088ec8e69a413289d8c" compoundref="circular__linked__list_8h" startline="231" endline="244">circular_linked_list&lt; s_buffer_ptr &gt;::iterate_next</referencedby>
+        <referencedby refid="classcircular__linked__list_1ac46c781dd6e3c9933628a55b3b35a1e5" compoundref="circular__linked__list_8h" startline="204" endline="227">circular_linked_list&lt; s_buffer_ptr &gt;::make_node_available</referencedby>
+        <referencedby refid="classs__node_1a4aaf8f0ea1cf81523e4d80796f1bc8ab" compoundref="circular__linked__list_8h" startline="65" endline="69">s_node&lt; s_buffer_ptr &gt;::remove</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1acf2f3ec45ec25871a9485813f3277c8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref> <ref refid="classs__node" kindref="compound">s_node_ptr</ref></type>
+        <definition>__INLINE__ s_node_ptr s_node&lt; T &gt;::prev</definition>
+        <argsstring>()</argsstring>
+        <name>prev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="100" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="100" bodyend="100"/>
+        <referencedby refid="classcircular__linked__list_1acf64b05d565fd8ef5ee74ceba8adbee3" compoundref="circular__linked__list_8h" startline="117" endline="155">circular_linked_list&lt; s_buffer_ptr &gt;::circular_linked_list</referencedby>
+        <referencedby refid="classs__node_1a670d64f28a305d0c6d6cb1cea15574de" compoundref="circular__linked__list_8h" startline="82" endline="91">s_node&lt; s_buffer_ptr &gt;::insert_after</referencedby>
+        <referencedby refid="classs__node_1a6d608ac8cebbbd59d758811fad7a705d" compoundref="circular__linked__list_8h" startline="71" endline="80">s_node&lt; s_buffer_ptr &gt;::insert_before</referencedby>
+        <referencedby refid="classs__node_1a4aaf8f0ea1cf81523e4d80796f1bc8ab" compoundref="circular__linked__list_8h" startline="65" endline="69">s_node&lt; s_buffer_ptr &gt;::remove</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1ac3b0c2f62a6d14dcf295ae0238a6b5be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref> <ref refid="classs__both" kindref="compound">s_both</ref>&lt; T &gt; *</type>
+        <definition>__INLINE__ s_both&lt;T&gt;* s_node&lt; T &gt;::both</definition>
+        <argsstring>()</argsstring>
+        <name>both</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="101" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="101" bodyend="101"/>
+        <referencedby refid="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" compoundref="fusb__darwin_8cc" startline="59" endline="91">fusb_ephandle_darwin::fusb_ephandle_darwin</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">fusb_ephandle_darwin::start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" compoundref="fusb__darwin_8cc" startline="441" endline="493">fusb_ephandle_darwin::write</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a7487f22bb9d633e00ed69fed86ce697b" compoundref="fusb__darwin_8cc" startline="93" endline="126">fusb_ephandle_darwin::~fusb_ephandle_darwin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1aaaf2f3c58455d6814dba0040d603c7d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref> void</type>
+        <definition>__INLINE__ void s_node&lt; T &gt;::next</definition>
+        <argsstring>(s_node_ptr l_next)</argsstring>
+        <name>next</name>
+        <param>
+          <type><ref refid="classs__node" kindref="compound">s_node_ptr</ref></type>
+          <declname>l_next</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="102" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1a54fbb84a674624a3a93bb77eddd8d776" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref> void</type>
+        <definition>__INLINE__ void s_node&lt; T &gt;::prev</definition>
+        <argsstring>(s_node_ptr l_prev)</argsstring>
+        <name>prev</name>
+        <param>
+          <type><ref refid="classs__node" kindref="compound">s_node_ptr</ref></type>
+          <declname>l_prev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="103" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classs__node_1a709ea4820a298a701697f7f40545d2de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="circular__linked__list_8h_1a1b7c2cc6285d73f0449071856f1f5af7" kindref="member">__INLINE__</ref> void</type>
+        <definition>__INLINE__ void s_node&lt; T &gt;::both</definition>
+        <argsstring>(s_both&lt; T &gt; *l_both)</argsstring>
+        <name>both</name>
+        <param>
+          <type><ref refid="classs__both" kindref="compound">s_both</ref>&lt; T &gt; *</type>
+          <declname>l_both</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="104" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" line="44" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/circular_linked_list.h" bodystart="43" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classs__node_1aa8220eb78502b97b61a24cefca6f77b9" prot="public" virt="non-virtual"><scope>s_node</scope><name>available</name></member>
+      <member refid="classs__node_1ac3b0c2f62a6d14dcf295ae0238a6b5be" prot="public" virt="non-virtual"><scope>s_node</scope><name>both</name></member>
+      <member refid="classs__node_1a709ea4820a298a701697f7f40545d2de" prot="public" virt="non-virtual"><scope>s_node</scope><name>both</name></member>
+      <member refid="classs__node_1ad54c8c41fec349f0ad936ddd719ed17a" prot="private" virt="non-virtual"><scope>s_node</scope><name>d_available</name></member>
+      <member refid="classs__node_1af02eaa607fc7acee16f020adf00959ca" prot="private" virt="non-virtual"><scope>s_node</scope><name>d_both</name></member>
+      <member refid="classs__node_1aaf6af6929fd3fa9b712a5de529f6d42a" prot="private" virt="non-virtual"><scope>s_node</scope><name>d_next</name></member>
+      <member refid="classs__node_1a5c4730eb41c6817f151372a4c0f6e2fe" prot="private" virt="non-virtual"><scope>s_node</scope><name>d_object</name></member>
+      <member refid="classs__node_1addc8c8ec31d9872c638ba283f9592c5e" prot="private" virt="non-virtual"><scope>s_node</scope><name>d_prev</name></member>
+      <member refid="classs__node_1a670d64f28a305d0c6d6cb1cea15574de" prot="public" virt="non-virtual"><scope>s_node</scope><name>insert_after</name></member>
+      <member refid="classs__node_1a6d608ac8cebbbd59d758811fad7a705d" prot="public" virt="non-virtual"><scope>s_node</scope><name>insert_before</name></member>
+      <member refid="classs__node_1aa2ae7bb98c523f2d35a3f3a6219fb6e6" prot="public" virt="non-virtual"><scope>s_node</scope><name>next</name></member>
+      <member refid="classs__node_1aaaf2f3c58455d6814dba0040d603c7d7" prot="public" virt="non-virtual"><scope>s_node</scope><name>next</name></member>
+      <member refid="classs__node_1a8051b14d5a222a3f9c60836f38216755" prot="public" virt="non-virtual"><scope>s_node</scope><name>object</name></member>
+      <member refid="classs__node_1ae58bc285b15ad2cd041e6b6118609f1b" prot="public" virt="non-virtual"><scope>s_node</scope><name>object</name></member>
+      <member refid="classs__node_1acf2f3ec45ec25871a9485813f3277c8a" prot="public" virt="non-virtual"><scope>s_node</scope><name>prev</name></member>
+      <member refid="classs__node_1a54fbb84a674624a3a93bb77eddd8d776" prot="public" virt="non-virtual"><scope>s_node</scope><name>prev</name></member>
+      <member refid="classs__node_1a4aaf8f0ea1cf81523e4d80796f1bc8ab" prot="public" virt="non-virtual"><scope>s_node</scope><name>remove</name></member>
+      <member refid="classs__node_1afbe3c276a0423decc8af7aaf90433f4c" prot="public" virt="non-virtual"><scope>s_node</scope><name>s_node</name></member>
+      <member refid="classs__node_1a2a29651bdde8d34fd8464c998d1ae1dd" prot="public" virt="non-virtual"><scope>s_node</scope><name>s_node</name></member>
+      <member refid="classs__node_1a5ca67627e354cc80b7ec005f6fcc53f3" prot="public" virt="non-virtual"><scope>s_node</scope><name>s_node</name></member>
+      <member refid="classs__node_1aff0706836c144a30cbb8cc8e07525f79" prot="private" virt="non-virtual"><scope>s_node</scope><name>s_node_ptr</name></member>
+      <member refid="classs__node_1ad71bf0bba7b638ef8772796e14b1040f" prot="public" virt="non-virtual"><scope>s_node</scope><name>set_available</name></member>
+      <member refid="classs__node_1a54fe1a9f52fd4d2c31ed9926ef9ff376" prot="public" virt="non-virtual"><scope>s_node</scope><name>set_available</name></member>
+      <member refid="classs__node_1ae78f39a138892b241295a9e7f9a470d5" prot="public" virt="non-virtual"><scope>s_node</scope><name>set_not_available</name></member>
+      <member refid="classs__node_1a8ae901b835a536058e95002760ead401" prot="public" virt="non-virtual"><scope>s_node</scope><name>~s_node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

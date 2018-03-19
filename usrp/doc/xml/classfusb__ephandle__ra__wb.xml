@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfusb__ephandle__ra__wb" kind="class" language="C++" prot="public">
+    <compoundname>fusb_ephandle_ra_wb</compoundname>
+    <basecompoundref refid="classfusb__ephandle" prot="public" virt="non-virtual">fusb_ephandle</basecompoundref>
+    <includes refid="fusb__ra__wb_8h" local="no">fusb_ra_wb.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classfusb__ephandle__ra__wb_1a4fdda618fc2f0b0b9902cc09cdd6bd93" prot="private" static="no" mutable="no">
+        <type><ref refid="classfusb__devhandle__ra__wb" kindref="compound">fusb_devhandle_ra_wb</ref> *</type>
+        <definition>fusb_devhandle_ra_wb* fusb_ephandle_ra_wb::d_devhandle</definition>
+        <argsstring></argsstring>
+        <name>d_devhandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" line="50" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__ra__wb_1a36122057665cbf8e342de61391e09aeb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool fusb_ephandle_ra_wb::d_ra_wb_on</definition>
+        <argsstring></argsstring>
+        <name>d_ra_wb_on</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" line="51" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfusb__ephandle__ra__wb_1a45fe615379716a663eb9c08f2f0430df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fusb_ephandle_ra_wb::fusb_ephandle_ra_wb</definition>
+        <argsstring>(fusb_devhandle_ra_wb *dh, int endpoint, bool input_p, int block_size=0, int nblocks=0)</argsstring>
+        <name>fusb_ephandle_ra_wb</name>
+        <param>
+          <type><ref refid="classfusb__devhandle__ra__wb" kindref="compound">fusb_devhandle_ra_wb</ref> *</type>
+          <declname>dh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>endpoint</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>input_p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block_size</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nblocks</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" line="55" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.cc" bodystart="99" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__ra__wb_1a32cf3b58c935cfb1ec6527087b511db0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>fusb_ephandle_ra_wb::~fusb_ephandle_ra_wb</definition>
+        <argsstring>()</argsstring>
+        <name>~fusb_ephandle_ra_wb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" line="57" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.cc" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__ra__wb_1a91f857a0b30c44131a39f09f4b6f0a00" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool fusb_ephandle_ra_wb::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <reimplements refid="classfusb__ephandle_1aac0498804e009ab78c47f2265f34a054">start</reimplements>
+        <briefdescription>
+<para>begin streaming i/o </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" line="61" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.cc" bodystart="114" bodyend="168"/>
+        <references refid="classfusb__ephandle_1aa8b4afe1f6aaa45491d9ae0dfdad3c0b" compoundref="fusb_8h" startline="73">fusb_ephandle::d_block_size</references>
+        <references refid="classfusb__ephandle_1a136e1ab7ba9e180a78ea5085739dd018" compoundref="fusb_8h" startline="71">fusb_ephandle::d_endpoint</references>
+        <references refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" compoundref="fusb_8h" startline="72">fusb_ephandle::d_input_p</references>
+        <references refid="classfusb__ephandle_1a3d38bb3ad76925c044fe8e14ecb408e7" compoundref="fusb_8h" startline="74">fusb_ephandle::d_nblocks</references>
+        <references refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" compoundref="fusb_8h" startline="75">fusb_ephandle::d_started</references>
+        <references refid="classfusb__devhandle_1a0f1b7e9680e730d0f6faca7ec41175f1" compoundref="fusb_8h" startline="57" endline="57">fusb_devhandle::get_usb_dev_handle</references>
+        <references refid="classfusb__ephandle__ra__wb_1a7c12de8f49b5ad0c0a3d5a247fc0faa4" compoundref="fusb__ra__wb_8cc" startline="215" endline="226">read</references>
+        <references refid="classfusb__ephandle__ra__wb_1a676dee0f85cd80f6e1832cc815a159c8" compoundref="fusb__ra__wb_8cc" startline="202" endline="212">write</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__ra__wb_1a0051aeecc7661099f6099cfcf1dfed2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool fusb_ephandle_ra_wb::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <reimplements refid="classfusb__ephandle_1a3cfe2cbb78870a6ce0ec8f696ebe45ab">stop</reimplements>
+        <briefdescription>
+<para>stop streaming i/o </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" line="62" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.cc" bodystart="171" bodyend="199"/>
+        <references refid="classfusb__ephandle_1a136e1ab7ba9e180a78ea5085739dd018" compoundref="fusb_8h" startline="71">fusb_ephandle::d_endpoint</references>
+        <references refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" compoundref="fusb_8h" startline="72">fusb_ephandle::d_input_p</references>
+        <references refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" compoundref="fusb_8h" startline="75">fusb_ephandle::d_started</references>
+        <references refid="classfusb__devhandle_1a0f1b7e9680e730d0f6faca7ec41175f1" compoundref="fusb_8h" startline="57" endline="57">fusb_devhandle::get_usb_dev_handle</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__ra__wb_1a676dee0f85cd80f6e1832cc815a159c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int fusb_ephandle_ra_wb::write</definition>
+        <argsstring>(const void *buffer, int nbytes)</argsstring>
+        <name>write</name>
+        <reimplements refid="classfusb__ephandle_1ab2a965c0f5fea6632bc08ea59c8c8fe1">write</reimplements>
+        <param>
+          <type>const void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>nbytes</computeroutput> if write was successfully enqueued, else -1. Will block if no free buffers available. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" line="68" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.cc" bodystart="202" bodyend="212"/>
+        <references refid="classfusb__ephandle_1a136e1ab7ba9e180a78ea5085739dd018" compoundref="fusb_8h" startline="71">fusb_ephandle::d_endpoint</references>
+        <references refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" compoundref="fusb_8h" startline="72">fusb_ephandle::d_input_p</references>
+        <references refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" compoundref="fusb_8h" startline="75">fusb_ephandle::d_started</references>
+        <references refid="classfusb__devhandle_1a0f1b7e9680e730d0f6faca7ec41175f1" compoundref="fusb_8h" startline="57" endline="57">fusb_devhandle::get_usb_dev_handle</references>
+        <referencedby refid="classfusb__ephandle__ra__wb_1a91f857a0b30c44131a39f09f4b6f0a00" compoundref="fusb__ra__wb_8cc" startline="114" endline="168">start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__ra__wb_1a7c12de8f49b5ad0c0a3d5a247fc0faa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int fusb_ephandle_ra_wb::read</definition>
+        <argsstring>(void *buffer, int nbytes)</argsstring>
+        <name>read</name>
+        <reimplements refid="classfusb__ephandle_1a835533e974fb159174c44f2ec0d5668d">read</reimplements>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of bytes read or -1 if error. number of bytes read will be &lt;= nbytes. Will block if no input available. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" line="75" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.cc" bodystart="215" bodyend="226"/>
+        <references refid="classfusb__ephandle_1a136e1ab7ba9e180a78ea5085739dd018" compoundref="fusb_8h" startline="71">fusb_ephandle::d_endpoint</references>
+        <references refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" compoundref="fusb_8h" startline="72">fusb_ephandle::d_input_p</references>
+        <references refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" compoundref="fusb_8h" startline="75">fusb_ephandle::d_started</references>
+        <references refid="classfusb__devhandle_1a0f1b7e9680e730d0f6faca7ec41175f1" compoundref="fusb_8h" startline="57" endline="57">fusb_devhandle::get_usb_dev_handle</references>
+        <referencedby refid="classfusb__ephandle__ra__wb_1a91f857a0b30c44131a39f09f4b6f0a00" compoundref="fusb__ra__wb_8cc" startline="114" endline="168">start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__ra__wb_1af99aba7bd66cd6d212725b1fed6f18bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void fusb_ephandle_ra_wb::wait_for_completion</definition>
+        <argsstring>()</argsstring>
+        <name>wait_for_completion</name>
+        <reimplements refid="classfusb__ephandle_1a1e1a2c7173a14aea99686fad7c0e061c">wait_for_completion</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" line="80" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.cc" bodystart="229" bodyend="258"/>
+        <references refid="classfusb__ephandle_1aa8b4afe1f6aaa45491d9ae0dfdad3c0b" compoundref="fusb_8h" startline="73">fusb_ephandle::d_block_size</references>
+        <references refid="classfusb__ephandle_1a136e1ab7ba9e180a78ea5085739dd018" compoundref="fusb_8h" startline="71">fusb_ephandle::d_endpoint</references>
+        <references refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" compoundref="fusb_8h" startline="72">fusb_ephandle::d_input_p</references>
+        <references refid="classfusb__ephandle_1a3d38bb3ad76925c044fe8e14ecb408e7" compoundref="fusb_8h" startline="74">fusb_ephandle::d_nblocks</references>
+        <references refid="classfusb__devhandle_1a0f1b7e9680e730d0f6faca7ec41175f1" compoundref="fusb_8h" startline="57" endline="57">fusb_devhandle::get_usb_dev_handle</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>generic implementation of <ref refid="classfusb__ephandle" kindref="compound">fusb_ephandle</ref> using only libusb </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="856">
+        <label>fusb_ephandle_ra_wb</label>
+        <link refid="classfusb__ephandle__ra__wb"/>
+        <childnode refid="857" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="857">
+        <label>fusb_ephandle</label>
+        <link refid="classfusb__ephandle"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="858">
+        <label>fusb_ephandle_ra_wb</label>
+        <link refid="classfusb__ephandle__ra__wb"/>
+        <childnode refid="859" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="859">
+        <label>fusb_ephandle</label>
+        <link refid="classfusb__ephandle"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" line="48" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_ra_wb.h" bodystart="47" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classfusb__ephandle_1a969c00b4d8ef3c8ad6444eb92da7a61c" prot="public" virt="non-virtual"><scope>fusb_ephandle_ra_wb</scope><name>block_size</name></member>
+      <member refid="classfusb__ephandle_1aa8b4afe1f6aaa45491d9ae0dfdad3c0b" prot="protected" virt="non-virtual"><scope>fusb_ephandle_ra_wb</scope><name>d_block_size</name></member>
+      <member refid="classfusb__ephandle__ra__wb_1a4fdda618fc2f0b0b9902cc09cdd6bd93" prot="private" virt="non-virtual"><scope>fusb_ephandle_ra_wb</scope><name>d_devhandle</name></member>
+      <member refid="classfusb__ephandle_1a136e1ab7ba9e180a78ea5085739dd018" prot="protected" virt="non-virtual"><scope>fusb_ephandle_ra_wb</scope><name>d_endpoint</name></member>
+      <member refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" prot="protected" virt="non-virtual"><scope>fusb_ephandle_ra_wb</scope><name>d_input_p</name></member>
+      <member refid="classfusb__ephandle_1a3d38bb3ad76925c044fe8e14ecb408e7" prot="protected" virt="non-virtual"><scope>fusb_ephandle_ra_wb</scope><name>d_nblocks</name></member>
+      <member refid="classfusb__ephandle__ra__wb_1a36122057665cbf8e342de61391e09aeb" prot="private" virt="non-virtual"><scope>fusb_ephandle_ra_wb</scope><name>d_ra_wb_on</name></member>
+      <member refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" prot="protected" virt="non-virtual"><scope>fusb_ephandle_ra_wb</scope><name>d_started</name></member>
+      <member refid="classfusb__ephandle_1a5ad892734f7649f8444ce6c5fe33382e" prot="public" virt="non-virtual"><scope>fusb_ephandle_ra_wb</scope><name>fusb_ephandle</name></member>
+      <member refid="classfusb__ephandle__ra__wb_1a45fe615379716a663eb9c08f2f0430df" prot="public" virt="non-virtual"><scope>fusb_ephandle_ra_wb</scope><name>fusb_ephandle_ra_wb</name></member>
+      <member refid="classfusb__ephandle__ra__wb_1a7c12de8f49b5ad0c0a3d5a247fc0faa4" prot="public" virt="virtual"><scope>fusb_ephandle_ra_wb</scope><name>read</name></member>
+      <member refid="classfusb__ephandle__ra__wb_1a91f857a0b30c44131a39f09f4b6f0a00" prot="public" virt="virtual"><scope>fusb_ephandle_ra_wb</scope><name>start</name></member>
+      <member refid="classfusb__ephandle__ra__wb_1a0051aeecc7661099f6099cfcf1dfed2c" prot="public" virt="virtual"><scope>fusb_ephandle_ra_wb</scope><name>stop</name></member>
+      <member refid="classfusb__ephandle__ra__wb_1af99aba7bd66cd6d212725b1fed6f18bc" prot="public" virt="virtual"><scope>fusb_ephandle_ra_wb</scope><name>wait_for_completion</name></member>
+      <member refid="classfusb__ephandle__ra__wb_1a676dee0f85cd80f6e1832cc815a159c8" prot="public" virt="virtual"><scope>fusb_ephandle_ra_wb</scope><name>write</name></member>
+      <member refid="classfusb__ephandle_1a1450872641591afb4cdcda1853c0c81a" prot="public" virt="virtual"><scope>fusb_ephandle_ra_wb</scope><name>~fusb_ephandle</name></member>
+      <member refid="classfusb__ephandle__ra__wb_1a32cf3b58c935cfb1ec6527087b511db0" prot="public" virt="virtual"><scope>fusb_ephandle_ra_wb</scope><name>~fusb_ephandle_ra_wb</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="db__wbxng__adf4350_8cc" kind="file" language="C++">
+    <compoundname>db_wbxng_adf4350.cc</compoundname>
+    <includes refid="db__wbxng__adf4350_8h" local="yes">db_wbxng_adf4350.h</includes>
+    <includes refid="db__base__impl_8h" local="no">db_base_impl.h</includes>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="519">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="532">
+        <label>fpga_regs_standard.h</label>
+      </node>
+      <node id="529">
+        <label>usrp/libusb_types.h</label>
+        <link refid="libusb__types_8h"/>
+        <childnode refid="530" relation="include">
+        </childnode>
+      </node>
+      <node id="522">
+        <label>stdint.h</label>
+      </node>
+      <node id="523">
+        <label>db_base_impl.h</label>
+        <link refid="db__base__impl_8h"/>
+        <childnode refid="517" relation="include">
+        </childnode>
+        <childnode refid="524" relation="include">
+        </childnode>
+        <childnode refid="526" relation="include">
+        </childnode>
+        <childnode refid="532" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+        <childnode refid="534" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+      </node>
+      <node id="536">
+        <label>stdexcept</label>
+      </node>
+      <node id="527">
+        <label>usrp/usrp_slots.h</label>
+        <link refid="usrp__slots_8h"/>
+      </node>
+      <node id="518">
+        <label>string</label>
+      </node>
+      <node id="515">
+        <label>db_wbxng_adf4350.h</label>
+        <link refid="db__wbxng__adf4350_8h"/>
+        <childnode refid="516" relation="include">
+        </childnode>
+        <childnode refid="517" relation="include">
+        </childnode>
+        <childnode refid="522" relation="include">
+        </childnode>
+      </node>
+      <node id="520">
+        <label>boost/weak_ptr.hpp</label>
+      </node>
+      <node id="524">
+        <label>db_util.h</label>
+        <link refid="db__util_8h"/>
+        <childnode refid="518" relation="include">
+        </childnode>
+        <childnode refid="525" relation="include">
+        </childnode>
+      </node>
+      <node id="516">
+        <label>db_wbxng_adf4350_regs.h</label>
+        <link refid="db__wbxng__adf4350__regs_8h"/>
+        <childnode refid="517" relation="include">
+        </childnode>
+        <childnode refid="522" relation="include">
+        </childnode>
+      </node>
+      <node id="525">
+        <label>vector</label>
+      </node>
+      <node id="514">
+        <label>db_wbxng_adf4350.cc</label>
+        <link refid="db_wbxng_adf4350.cc"/>
+        <childnode refid="515" relation="include">
+        </childnode>
+        <childnode refid="523" relation="include">
+        </childnode>
+        <childnode refid="537" relation="include">
+        </childnode>
+      </node>
+      <node id="517">
+        <label>usrp/db_base.h</label>
+        <link refid="db__base_8h"/>
+        <childnode refid="518" relation="include">
+        </childnode>
+        <childnode refid="519" relation="include">
+        </childnode>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="521" relation="include">
+        </childnode>
+      </node>
+      <node id="531">
+        <label>boost/utility.hpp</label>
+      </node>
+      <node id="526">
+        <label>usrp/usrp_basic.h</label>
+        <link refid="usrp__basic_8h"/>
+        <childnode refid="517" relation="include">
+        </childnode>
+        <childnode refid="527" relation="include">
+        </childnode>
+        <childnode refid="528" relation="include">
+        </childnode>
+        <childnode refid="529" relation="include">
+        </childnode>
+        <childnode refid="518" relation="include">
+        </childnode>
+        <childnode refid="525" relation="include">
+        </childnode>
+        <childnode refid="531" relation="include">
+        </childnode>
+      </node>
+      <node id="521">
+        <label>iosfwd</label>
+      </node>
+      <node id="528">
+        <label>usrp/usrp_subdev_spec.h</label>
+        <link refid="usrp__subdev__spec_8h"/>
+      </node>
+      <node id="530">
+        <label>usb.h</label>
+      </node>
+      <node id="533">
+        <label>fpga_regs_common.h</label>
+      </node>
+      <node id="534">
+        <label>usrp/usrp_prims.h</label>
+        <link refid="usrp__prims_8h"/>
+        <childnode refid="527" relation="include">
+        </childnode>
+        <childnode refid="529" relation="include">
+        </childnode>
+        <childnode refid="518" relation="include">
+        </childnode>
+      </node>
+      <node id="537">
+        <label>stdio.h</label>
+      </node>
+      <node id="535">
+        <label>usrp_spi_defs.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="db__wbxng__adf4350_8cc_1a6eafdef0e43abad6d35d4d2b1cf4d232" prot="public" static="no">
+        <name>FREQ_C</name>
+        <param><defname>freq</defname></param>
+        <initializer>uint64_t(freq)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" line="29" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classadf4350_1ac107092e03eb81ebc7cae6f185d27ae2" compoundref="db__wbxng__adf4350_8cc" startline="82" endline="129">adf4350::_set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="db__wbxng__adf4350_8cc_1aa49ec60303565365eb18d470e3d87550" prot="public" static="no">
+        <name>DIV_ROUND</name>
+        <param><defname>num</defname></param>
+        <param><defname>denom</defname></param>
+        <initializer>(((num) + ((denom)/2))/(denom))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" line="30" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db__wbxng__adf4350_8cc_1a44ffc8d697ae28bc4f64bcfa2066477b" prot="public" static="no">
+        <name>MIN_INT_DIV</name>
+        <initializer>uint16_t(23)                                        /* minimum int divider, prescaler 4/5 only */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" line="31" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db__wbxng__adf4350_8cc_1ab455ec94e719253d903b1030b53f5c2b" prot="public" static="no">
+        <name>MAX_RF_DIV</name>
+        <initializer>uint8_t(16)                                          /* max rf divider, divides rf output */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" line="32" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db__wbxng__adf4350_8cc_1a4028643367a81118579bb9ff00dbb317" prot="public" static="no">
+        <name>MIN_VCO_FREQ</name>
+        <initializer><ref refid="db__wbxng__adf4350_8cc_1a6eafdef0e43abad6d35d4d2b1cf4d232" kindref="member">FREQ_C</ref>(2.2e9)                                      /* minimum vco freq */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" line="33" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classadf4350_1ac107092e03eb81ebc7cae6f185d27ae2" compoundref="db__wbxng__adf4350_8cc" startline="82" endline="129">adf4350::_set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="db__wbxng__adf4350_8cc_1a32482de274074ad01b9ad07b5a77e6e2" prot="public" static="no">
+        <name>MAX_VCO_FREQ</name>
+        <initializer><ref refid="db__wbxng__adf4350_8cc_1a6eafdef0e43abad6d35d4d2b1cf4d232" kindref="member">FREQ_C</ref>(4.4e9)                                      /* minimum vco freq */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" line="34" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db__wbxng__adf4350_8cc_1a9f1abe07c4d92ce70925be770153bb5d" prot="public" static="no">
+        <name>MAX_FREQ</name>
+        <initializer><ref refid="db__wbxng__adf4350_8cc_1aa49ec60303565365eb18d470e3d87550" kindref="member">DIV_ROUND</ref>(<ref refid="db__wbxng__adf4350_8cc_1a32482de274074ad01b9ad07b5a77e6e2" kindref="member">MAX_VCO_FREQ</ref>, 1)                                           /* upper bound freq (rf div = 1) */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" line="35" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classadf4350_1a518065c0964039c29d91a65a1550a925" compoundref="db__wbxng__adf4350_8cc" startline="70" endline="73">adf4350::_get_max_freq</referencedby>
+        <referencedby refid="classadf4350_1ac107092e03eb81ebc7cae6f185d27ae2" compoundref="db__wbxng__adf4350_8cc" startline="82" endline="129">adf4350::_set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="db__wbxng__adf4350_8cc_1a3ff435ff8937e2045dcd00a26064594c" prot="public" static="no">
+        <name>MIN_FREQ</name>
+        <initializer><ref refid="db__wbxng__adf4350_8cc_1aa49ec60303565365eb18d470e3d87550" kindref="member">DIV_ROUND</ref>(<ref refid="db__wbxng__adf4350_8cc_1a4028643367a81118579bb9ff00dbb317" kindref="member">MIN_VCO_FREQ</ref>, <ref refid="db__wbxng__adf4350_8cc_1ab455ec94e719253d903b1030b53f5c2b" kindref="member">MAX_RF_DIV</ref>)                    /* calculated lower bound freq */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" line="36" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classadf4350_1aebd0339aa8723bb931ff201fc310706a" compoundref="db__wbxng__adf4350_8cc" startline="76" endline="79">adf4350::_get_min_freq</referencedby>
+        <referencedby refid="classadf4350_1ac107092e03eb81ebc7cae6f185d27ae2" compoundref="db__wbxng__adf4350_8cc" startline="82" endline="129">adf4350::_set_freq</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="db__wbxng__adf4350_8cc_1abb388c9dfbdca89b280a12c4af1a030f" prot="public" static="no">
+        <name>CE_PIN</name>
+        <initializer>(1 &lt;&lt; 3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" line="38" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db__wbxng__adf4350_8cc_1a612d2161e17e8286a3c4ac5adbdd3e30" prot="public" static="no">
+        <name>PDB_RF_PIN</name>
+        <initializer>(1 &lt;&lt; 2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" line="39" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db__wbxng__adf4350_8cc_1aee84e3683ff488384f5ee612c1087b53" prot="public" static="no">
+        <name>MUX_PIN</name>
+        <initializer>(1 &lt;&lt; 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" line="40" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db__wbxng__adf4350_8cc_1ac1e0c6a736aa75d28c09ff29e2aa0363" prot="public" static="no">
+        <name>LD_PIN</name>
+        <initializer>(1 &lt;&lt; 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" line="41" column="9" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>2009<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>GNU<sp/>Radio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>asversion<sp/>3,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>any<sp/>later<sp/>version.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>Radio<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>along<sp/>with<sp/>GNU<sp/>Radio;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>write<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/>51<sp/>Franklin<sp/>Street,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Boston,<sp/>MA<sp/>02110-1301,<sp/>USA.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_CONFIG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;config.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db__wbxng__adf4350_8h" kindref="compound">db_wbxng_adf4350.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="db__base__impl_8h" kindref="compound">db_base_impl.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="db__wbxng__adf4350_8cc_1a6eafdef0e43abad6d35d4d2b1cf4d232" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FREQ_C(freq)<sp/>uint64_t(freq)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="db__wbxng__adf4350_8cc_1aa49ec60303565365eb18d470e3d87550" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DIV_ROUND(num,<sp/>denom)<sp/>(((num)<sp/>+<sp/>((denom)/2))/(denom))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="db__wbxng__adf4350_8cc_1a44ffc8d697ae28bc4f64bcfa2066477b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MIN_INT_DIV<sp/>uint16_t(23)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>minimum<sp/>int<sp/>divider,<sp/>prescaler<sp/>4/5<sp/>only<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="db__wbxng__adf4350_8cc_1ab455ec94e719253d903b1030b53f5c2b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_RF_DIV<sp/>uint8_t(16)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>max<sp/>rf<sp/>divider,<sp/>divides<sp/>rf<sp/>output<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="db__wbxng__adf4350_8cc_1a4028643367a81118579bb9ff00dbb317" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MIN_VCO_FREQ<sp/>FREQ_C(2.2e9)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>minimum<sp/>vco<sp/>freq<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="db__wbxng__adf4350_8cc_1a32482de274074ad01b9ad07b5a77e6e2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_VCO_FREQ<sp/>FREQ_C(4.4e9)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>minimum<sp/>vco<sp/>freq<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="db__wbxng__adf4350_8cc_1a9f1abe07c4d92ce70925be770153bb5d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_FREQ<sp/>DIV_ROUND(MAX_VCO_FREQ,<sp/>1)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>upper<sp/>bound<sp/>freq<sp/>(rf<sp/>div<sp/>=<sp/>1)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="db__wbxng__adf4350_8cc_1a3ff435ff8937e2045dcd00a26064594c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MIN_FREQ<sp/>DIV_ROUND(MIN_VCO_FREQ,<sp/>MAX_RF_DIV)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>calculated<sp/>lower<sp/>bound<sp/>freq<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="db__wbxng__adf4350_8cc_1abb388c9dfbdca89b280a12c4af1a030f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CE_PIN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>3)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="db__wbxng__adf4350_8cc_1a612d2161e17e8286a3c4ac5adbdd3e30" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PDB_RF_PIN<sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="db__wbxng__adf4350_8cc_1aee84e3683ff488384f5ee612c1087b53" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MUX_PIN<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="db__wbxng__adf4350_8cc_1ac1e0c6a736aa75d28c09ff29e2aa0363" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LD_PIN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classadf4350_1a61d649477209dec3e697df729f7586d0" refkind="member"><highlight class="normal"><ref refid="classadf4350_1a61d649477209dec3e697df729f7586d0" kindref="member">adf4350::adf4350</ref>()</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classadf4350__regs" kindref="compound">adf4350_regs</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="classadf4350_1ad9f665ccac7ab9ec653c127ed9b90d1b" refkind="member"><highlight class="normal"><ref refid="classadf4350_1ad9f665ccac7ab9ec653c127ed9b90d1b" kindref="member">adf4350::~adf4350</ref>()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">std::string</highlight></codeline>
+<codeline lineno="54" refid="classadf4350_1a6fe7b405c71c04d0739e60bbb8643994" refkind="member"><highlight class="normal"><ref refid="classadf4350_1a6fe7b405c71c04d0739e60bbb8643994" kindref="member">adf4350::compute_register</ref>(uint8_t<sp/>addr)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>data<sp/>=<sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a6832cc35d81385287c9e798b267c7699" kindref="member">compute_register</ref>(addr);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>data<sp/>|=<sp/>addr;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>std::string<sp/>from<sp/>data<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>s[4];</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>s[0]<sp/>=<sp/>(char)((data<sp/>&gt;&gt;<sp/>24)<sp/>&amp;<sp/>0xff);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>s[1]<sp/>=<sp/>(char)((data<sp/>&gt;&gt;<sp/>16)<sp/>&amp;<sp/>0xff);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>s[2]<sp/>=<sp/>(char)((data<sp/>&gt;&gt;<sp/><sp/>8)<sp/>&amp;<sp/>0xff);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>s[3]<sp/>=<sp/>(char)(data<sp/>&amp;<sp/>0xff);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::string(s,<sp/>4);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref></highlight></codeline>
+<codeline lineno="70" refid="classadf4350_1a518065c0964039c29d91a65a1550a925" refkind="member"><highlight class="normal"><ref refid="classadf4350_1a518065c0964039c29d91a65a1550a925" kindref="member">adf4350::_get_max_freq</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db__wbxng__adf4350_8cc_1a9f1abe07c4d92ce70925be770153bb5d" kindref="member">MAX_FREQ</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref></highlight></codeline>
+<codeline lineno="76" refid="classadf4350_1aebd0339aa8723bb931ff201fc310706a" refkind="member"><highlight class="normal"><ref refid="classadf4350_1aebd0339aa8723bb931ff201fc310706a" kindref="member">adf4350::_get_min_freq</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db__wbxng__adf4350_8cc_1a3ff435ff8937e2045dcd00a26064594c" kindref="member">MIN_FREQ</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="classadf4350_1ac107092e03eb81ebc7cae6f185d27ae2" refkind="member"><highlight class="normal"><ref refid="classadf4350_1ac107092e03eb81ebc7cae6f185d27ae2" kindref="member">adf4350::_set_freq</ref>(<ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref><sp/>freq,<sp/><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref><sp/>refclock_freq)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Set<sp/>the<sp/>frequency<sp/>by<sp/>setting<sp/>int,<sp/>frac,<sp/>mod,<sp/>r,<sp/>div<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(freq<sp/>&gt;<sp/><ref refid="db__wbxng__adf4350_8cc_1a9f1abe07c4d92ce70925be770153bb5d" kindref="member">MAX_FREQ</ref><sp/>||<sp/>freq<sp/>&lt;<sp/><ref refid="db__wbxng__adf4350_8cc_1a3ff435ff8937e2045dcd00a26064594c" kindref="member">MIN_FREQ</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>min_int_div<sp/>=<sp/>23;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a354be40452a58e5e19db66b0681c3267" kindref="member">d_prescaler</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(freq<sp/>&gt;<sp/><ref refid="db__wbxng__adf4350_8cc_1a6eafdef0e43abad6d35d4d2b1cf4d232" kindref="member">FREQ_C</ref>(3e9))<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>min_int_div<sp/>=<sp/>75;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a354be40452a58e5e19db66b0681c3267" kindref="member">d_prescaler</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Ramp<sp/>up<sp/>the<sp/>RF<sp/>divider<sp/>until<sp/>the<sp/>VCO<sp/>is<sp/>within<sp/>range.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a10a12a767f493cf8e1a1c494abfe9160" kindref="member">d_divider_select</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(freq<sp/>&lt;<sp/><ref refid="db__wbxng__adf4350_8cc_1a4028643367a81118579bb9ff00dbb317" kindref="member">MIN_VCO_FREQ</ref>){</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>freq<sp/>&lt;&lt;=<sp/>1;<sp/></highlight><highlight class="comment">//double<sp/>the<sp/>freq</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a10a12a767f493cf8e1a1c494abfe9160" kindref="member">d_divider_select</ref>++;<sp/></highlight><highlight class="comment">//double<sp/>the<sp/>divider</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Ramp<sp/>up<sp/>the<sp/>R<sp/>divider<sp/>until<sp/>the<sp/>N<sp/>divider<sp/>is<sp/>at<sp/>least<sp/>the<sp/>minimum.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//d_regs-&gt;d_10_bit_r_counter<sp/>=<sp/>refclock_freq*MIN_INT_DIV/freq;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1ab55d7273aae76ce97d68be3365f4fbeb" kindref="member">d_10_bit_r_counter</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>n_mod;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1ab55d7273aae76ce97d68be3365f4fbeb" kindref="member">d_10_bit_r_counter</ref>++;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n_mod<sp/>=<sp/>freq;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n_mod<sp/>*=<sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1ab55d7273aae76ce97d68be3365f4fbeb" kindref="member">d_10_bit_r_counter</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n_mod<sp/>*=<sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a8416de193ee7c543ab520c056b14b8d8" kindref="member">d_mod</ref>;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n_mod<sp/>/=<sp/>refclock_freq;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>calculate<sp/>int<sp/>and<sp/>frac<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a5b9e7b8f5a63c5e584eecdf826c0e596" kindref="member">d_int</ref><sp/>=<sp/>n_mod/<ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a8416de193ee7c543ab520c056b14b8d8" kindref="member">d_mod</ref>;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a2d96c2a60d85538106209fddfdcd8a80" kindref="member">d_frac</ref><sp/>=<sp/>(n_mod<sp/>-<sp/>(<ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref>)<ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a5b9e7b8f5a63c5e584eecdf826c0e596" kindref="member">d_int</ref>*<ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a8416de193ee7c543ab520c056b14b8d8" kindref="member">d_mod</ref>)<sp/>&amp;<sp/>uint16_t(0xfff);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;VCO<sp/>%lu<sp/>KHz,<sp/>Int<sp/>%u,<sp/>Frac<sp/>%u,<sp/>Mod<sp/>%u,<sp/>R<sp/>%u,<sp/>Div<sp/>%u\n&quot;,</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>freq,<sp/>d_regs-&gt;d_int,<sp/>d_regs-&gt;d_frac,</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d_regs-&gt;d_mod,<sp/>d_regs-&gt;d_10_bit_r_counter,<sp/>(1<sp/>&lt;&lt;<sp/>d_regs-&gt;d_divider_select)</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a5b9e7b8f5a63c5e584eecdf826c0e596" kindref="member">d_int</ref><sp/>&lt;<sp/>min_int_div);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>calculate<sp/>the<sp/>band<sp/>select<sp/>so<sp/>PFD<sp/>is<sp/>under<sp/>125<sp/>KHz<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a76e2a5314d84c6d4d8f227fc1d99777f" kindref="member">d_8_bit_band_select_clock_divider_value</ref><sp/>=<sp/>\</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>refclock_freq/(<ref refid="db__wbxng__adf4350_8cc_1a6eafdef0e43abad6d35d4d2b1cf4d232" kindref="member">FREQ_C</ref>(30e3)*<ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1ab55d7273aae76ce97d68be3365f4fbeb" kindref="member">d_10_bit_r_counter</ref>)<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/>&quot;Band<sp/>Selection:<sp/>Div<sp/>%u,<sp/>Freq<sp/>%lu\n&quot;,</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d_regs-&gt;d_8_bit_band_select_clock_divider_value,</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>refclock_freq/(d_regs-&gt;d_8_bit_band_select_clock_divider_value<sp/>*<sp/>d_regs-&gt;d_10_bit_r_counter)<sp/>+<sp/>1</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref></highlight></codeline>
+<codeline lineno="132" refid="classadf4350_1af25b011f719b1c935ff2504c2ef867cf" refkind="member"><highlight class="normal"><ref refid="classadf4350_1af25b011f719b1c935ff2504c2ef867cf" kindref="member">adf4350::_get_freq</ref>(<ref refid="db__wbxng__adf4350_8h_1af7c8dda157dfc665fa274cf9a22db27e" kindref="member">freq_t</ref><sp/>refclock_freq)</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Calculate<sp/>the<sp/>freq<sp/>from<sp/>int,<sp/>frac,<sp/>mod,<sp/>ref,<sp/>r,<sp/>div:</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>freq<sp/>=<sp/>(int<sp/>+<sp/>frac/mod)<sp/>*<sp/>(ref/r)</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Keep<sp/>precision<sp/>by<sp/>doing<sp/>multiplies<sp/>first:</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/>freq<sp/>=<sp/>(((((((int)*mod)<sp/>+<sp/>frac)*ref)/mod)/r)/div)</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>freq;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>freq<sp/>=<sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a5b9e7b8f5a63c5e584eecdf826c0e596" kindref="member">d_int</ref>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>freq<sp/>*=<sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a8416de193ee7c543ab520c056b14b8d8" kindref="member">d_mod</ref>;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>freq<sp/>+=<sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a2d96c2a60d85538106209fddfdcd8a80" kindref="member">d_frac</ref>;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>freq<sp/>*=<sp/>refclock_freq;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>freq<sp/>/=<sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a8416de193ee7c543ab520c056b14b8d8" kindref="member">d_mod</ref>;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>freq<sp/>/=<sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1ab55d7273aae76ce97d68be3365f4fbeb" kindref="member">d_10_bit_r_counter</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>freq<sp/>/=<sp/>(1<sp/>&lt;&lt;<sp/><ref refid="classadf4350_1abe5f10b753c512f2a2ef3fae61cecb8a" kindref="member">d_regs</ref>-&gt;<ref refid="classadf4350__regs_1a10a12a767f493cf8e1a1c494abfe9160" kindref="member">d_divider_select</ref>);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>freq;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/db_wbxng_adf4350.cc"/>
+  </compounddef>
+</doxygen>

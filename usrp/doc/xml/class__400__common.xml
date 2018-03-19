@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class__400__common" kind="class" language="C++" prot="public">
+    <compoundname>_400_common</compoundname>
+    <basecompoundref refid="class__AD4360__common" prot="public" virt="non-virtual">_AD4360_common</basecompoundref>
+    <derivedcompoundref refid="class__400__rx" prot="public" virt="non-virtual">_400_rx</derivedcompoundref>
+    <derivedcompoundref refid="class__400__tx" prot="public" virt="non-virtual">_400_tx</derivedcompoundref>
+    <includes refid="db__flexrf_8h" local="no">db_flexrf.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class__400__common_1a3f33d1c6359403a93f7cc022e3b8facb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_400_common::_400_common</definition>
+        <argsstring>()</argsstring>
+        <name>_400_common</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="204" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_flexrf.cc" bodystart="805" bodyend="821"/>
+        <references refid="class__AD4360__common_1adff5846a38cc6f69695f5ef5faba9f95" compoundref="db__flexrf_8h" startline="134">_AD4360_common::d_CP1</references>
+        <references refid="class__AD4360__common_1ad75393245f7868fe38c583d23336d04a" compoundref="db__flexrf_8h" startline="134">_AD4360_common::d_CP2</references>
+        <references refid="class__AD4360__common_1af0dd2b57f79ec53f430b0ca339c3a752" compoundref="db__flexrf_8h" startline="135">_AD4360_common::d_CPGAIN</references>
+        <references refid="class__AD4360__common_1ab14229ca30e2f5d7af12ec3380a3cbfd" compoundref="db__flexrf_8h" startline="134">_AD4360_common::d_DIVSEL</references>
+        <references refid="class__AD4360__common_1aed35fa971d46d8329a05c94ad31a71de" compoundref="db__flexrf_8h" startline="135">_AD4360_common::d_freq_mult</references>
+        <references refid="class__AD4360__common_1a58526b089e7621cdb8858863556b69c0" compoundref="db__flexrf_8h" startline="134">_AD4360_common::d_P</references>
+        <references refid="class__AD4360__common_1ad8acb524b55741639773aaba2a93a6d4" compoundref="db__flexrf_8h" startline="134">_AD4360_common::d_R_DIV</references>
+      </memberdef>
+      <memberdef kind="function" id="class__400__common_1a45b4c9796f7cb964b282c463aa306498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_400_common::~_400_common</definition>
+        <argsstring>()</argsstring>
+        <name>~_400_common</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="205" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="205" bodyend="205"/>
+        <references refid="classflexrf__base_1a86f590882da38694587ed0b7d460e49a" compoundref="db__flexrf_8cc" startline="247" endline="250">flexrf_base::freq_max</references>
+        <references refid="classflexrf__base_1a76e7973a7036e1f1aa21627d38504122" compoundref="db__flexrf_8cc" startline="241" endline="244">flexrf_base::freq_min</references>
+      </memberdef>
+      <memberdef kind="function" id="class__400__common_1ae194803319c917e65690873fb613d469" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double _400_common::freq_min</definition>
+        <argsstring>()</argsstring>
+        <name>freq_min</name>
+        <reimplements refid="class__AD4360__common_1a4dee1725b5de28ef98a63931be2da54b">freq_min</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="207" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_flexrf.cc" bodystart="824" bodyend="827"/>
+      </memberdef>
+      <memberdef kind="function" id="class__400__common_1a75c38e043e7c7291ca35fcd2fc602571" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double _400_common::freq_max</definition>
+        <argsstring>()</argsstring>
+        <name>freq_max</name>
+        <reimplements refid="class__AD4360__common_1acb146e6a02fee481128947cd9c457075">freq_max</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="208" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/db_flexrf.cc" bodystart="830" bodyend="833"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>_400_common</label>
+        <link refid="class__400__common"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>_400_tx</label>
+        <link refid="class__400__tx"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>_400_rx</label>
+        <link refid="class__400__rx"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>_AD4360_common</label>
+        <link refid="class__AD4360__common"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="20">
+        <label>_400_common</label>
+        <link refid="class__400__common"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>_AD4360_common</label>
+        <link refid="class__AD4360__common"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" line="202" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_flexrf.h" bodystart="201" bodyend="209"/>
+    <listofallmembers>
+      <member refid="class__400__common_1a3f33d1c6359403a93f7cc022e3b8facb" prot="public" virt="non-virtual"><scope>_400_common</scope><name>_400_common</name></member>
+      <member refid="class__AD4360__common_1ab549861642206b4a92255d36e3ebced8" prot="public" virt="non-virtual"><scope>_400_common</scope><name>_AD4360_common</name></member>
+      <member refid="class__AD4360__common_1aa6038f27dbbb8512cccaa7a63cdfd904" prot="public" virt="non-virtual"><scope>_400_common</scope><name>_compute_control_reg</name></member>
+      <member refid="class__AD4360__common_1aadcc4f3490555f4d6239b7344329c799" prot="public" virt="non-virtual"><scope>_400_common</scope><name>_compute_regs</name></member>
+      <member refid="class__AD4360__common_1afb65e23494fd4bd49452a1f8faf90ad9" prot="public" virt="non-virtual"><scope>_400_common</scope><name>_prescaler</name></member>
+      <member refid="class__AD4360__common_1a69977e4c15fe6b253c9cd033ee3b0219" prot="public" virt="virtual"><scope>_400_common</scope><name>_refclk_divisor</name></member>
+      <member refid="class__AD4360__common_1a82c2c397622b5ecbc416873b189d8dc6" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_A_DIV</name></member>
+      <member refid="class__AD4360__common_1a11c88b6cd6fbd51c5f1680aab70243c1" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_ABP</name></member>
+      <member refid="class__AD4360__common_1a72d73a72c396a1003449268c2faaec43" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_B_DIV</name></member>
+      <member refid="class__AD4360__common_1a90674604db3f6a1ce57915940942aa57" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_BSC</name></member>
+      <member refid="class__AD4360__common_1adff5846a38cc6f69695f5ef5faba9f95" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_CP1</name></member>
+      <member refid="class__AD4360__common_1ad75393245f7868fe38c583d23336d04a" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_CP2</name></member>
+      <member refid="class__AD4360__common_1abe642853e653b8c8cccc19951415ef8b" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_CP3S</name></member>
+      <member refid="class__AD4360__common_1a7392371fbd5f08a29fe331b5a89f5b5c" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_CPG</name></member>
+      <member refid="class__AD4360__common_1af0dd2b57f79ec53f430b0ca339c3a752" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_CPGAIN</name></member>
+      <member refid="class__AD4360__common_1a8465d7d6aea6051d8085dab7e00f2223" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_CR</name></member>
+      <member refid="class__AD4360__common_1aaeed848bcf7a4cb0a13be54fda9c38b0" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_DIV2</name></member>
+      <member refid="class__AD4360__common_1ab14229ca30e2f5d7af12ec3380a3cbfd" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_DIVSEL</name></member>
+      <member refid="class__AD4360__common_1aed35fa971d46d8329a05c94ad31a71de" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_freq_mult</name></member>
+      <member refid="class__AD4360__common_1aab518a97fb565c3af821572a97252cb7" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_LDP</name></member>
+      <member refid="class__AD4360__common_1a874f22b59bc809a8677328a395c220b6" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_MTLD</name></member>
+      <member refid="class__AD4360__common_1a1552d3adfde3e8a56d25092107257228" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_MUXOUT</name></member>
+      <member refid="class__AD4360__common_1a0b8abeecbe27d71d1c8fe6d7a13c00d3" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_N_RSV</name></member>
+      <member refid="class__AD4360__common_1a58526b089e7621cdb8858863556b69c0" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_P</name></member>
+      <member refid="class__AD4360__common_1a5bb01c4d565f067c0894d8dee4ab4703" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_PC</name></member>
+      <member refid="class__AD4360__common_1a6fbf3c6f6793c404a22429818f3129b1" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_PD</name></member>
+      <member refid="class__AD4360__common_1acb7459c3fe58beddbf8665d414cb6619" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_PDP</name></member>
+      <member refid="class__AD4360__common_1af493b620c0f41c35c630a304ce7165f2" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_PL</name></member>
+      <member refid="class__AD4360__common_1ad8acb524b55741639773aaba2a93a6d4" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_R_DIV</name></member>
+      <member refid="class__AD4360__common_1a80eb93d6bec181472001cf88399203b8" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_R_RSV</name></member>
+      <member refid="class__AD4360__common_1a56bc313f1a2f2c77c803e8438bf3d02b" prot="protected" virt="non-virtual"><scope>_400_common</scope><name>d_TEST</name></member>
+      <member refid="class__400__common_1a75c38e043e7c7291ca35fcd2fc602571" prot="public" virt="virtual"><scope>_400_common</scope><name>freq_max</name></member>
+      <member refid="class__400__common_1ae194803319c917e65690873fb613d469" prot="public" virt="virtual"><scope>_400_common</scope><name>freq_min</name></member>
+      <member refid="class__AD4360__common_1ae0be237318cd32cfc30cdc277b1179ea" prot="public" virt="non-virtual"><scope>_400_common</scope><name>R_DIV</name></member>
+      <member refid="class__400__common_1a45b4c9796f7cb964b282c463aa306498" prot="public" virt="non-virtual"><scope>_400_common</scope><name>~_400_common</name></member>
+      <member refid="class__AD4360__common_1ab246698cac4149987ec48a7a78de976e" prot="public" virt="virtual"><scope>_400_common</scope><name>~_AD4360_common</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

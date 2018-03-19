@@ -1,0 +1,694 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classfusb__ephandle__darwin" kind="class" language="C++" prot="public">
+    <compoundname>fusb_ephandle_darwin</compoundname>
+    <basecompoundref refid="classfusb__ephandle" prot="public" virt="non-virtual">fusb_ephandle</basecompoundref>
+    <includes refid="fusb__darwin_8h" local="no">fusb_darwin.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1a19c106a5b2497a95c34d3d3ec3ccc411" prot="private" static="no" mutable="no">
+        <type><ref refid="classfusb__devhandle__darwin" kindref="compound">fusb_devhandle_darwin</ref> *</type>
+        <definition>fusb_devhandle_darwin* fusb_ephandle_darwin::d_devhandle</definition>
+        <argsstring></argsstring>
+        <name>d_devhandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="152" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1a6fc8992940b400d4591d81f1fc72d3e4" prot="private" static="no" mutable="no">
+        <type>gruel::thread *</type>
+        <definition>gruel::thread* fusb_ephandle_darwin::d_runThread</definition>
+        <argsstring></argsstring>
+        <name>d_runThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="153" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1ae063062736c09be63345a34eb6bb3dd7" prot="private" static="no" mutable="no">
+        <type>gruel::mutex *</type>
+        <definition>gruel::mutex* fusb_ephandle_darwin::d_runThreadRunning</definition>
+        <argsstring></argsstring>
+        <name>d_runThreadRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="154" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1abb102b4f30e6ddb184e71ca248dc188a" prot="private" static="no" mutable="no">
+        <type>CFRunLoopRef</type>
+        <definition>CFRunLoopRef fusb_ephandle_darwin::d_CFRunLoopRef</definition>
+        <argsstring></argsstring>
+        <name>d_CFRunLoopRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="156" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1a0fe61b67ad1e4cf8e1f867b5d7428a90" prot="public" static="no" mutable="no">
+        <type>UInt8</type>
+        <definition>UInt8 fusb_ephandle_darwin::d_pipeRef</definition>
+        <argsstring></argsstring>
+        <name>d_pipeRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="171" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="171" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1aa5067d1f65048940bffdfdb7996ea8d3" compoundref="fusb__darwin_8cc" startline="523" endline="538">abort</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" compoundref="fusb__darwin_8cc" startline="441" endline="493">write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1a6335642bc300216ff8e43a28453c9b6d" prot="public" static="no" mutable="no">
+        <type>UInt8</type>
+        <definition>UInt8 fusb_ephandle_darwin::d_transferType</definition>
+        <argsstring></argsstring>
+        <name>d_transferType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="171" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="171" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" compoundref="fusb__darwin_8cc" startline="441" endline="493">write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1a833a58e14de40f53f45df6ba213d2058" prot="public" static="no" mutable="no">
+        <type><ref refid="fusb__darwin_8h_1ab20603f7900e18ac518c5684661b9f58" kindref="member">usb_interface_t</ref> **</type>
+        <definition>usb_interface_t** fusb_ephandle_darwin::d_interfaceRef</definition>
+        <argsstring></argsstring>
+        <name>d_interfaceRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="172" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="172" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1aa5067d1f65048940bffdfdb7996ea8d3" compoundref="fusb__darwin_8cc" startline="523" endline="538">abort</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" compoundref="fusb__darwin_8cc" startline="441" endline="493">write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1a4c946cfbb61ca98f1c3afc5f14e693ec" prot="public" static="no" mutable="no">
+        <type><ref refid="fusb__darwin_8h_1ab20603f7900e18ac518c5684661b9f58" kindref="member">usb_interface_t</ref> *</type>
+        <definition>usb_interface_t* fusb_ephandle_darwin::d_interface</definition>
+        <argsstring></argsstring>
+        <name>d_interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="173" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="173" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1aa5067d1f65048940bffdfdb7996ea8d3" compoundref="fusb__darwin_8cc" startline="523" endline="538">abort</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" compoundref="fusb__darwin_8cc" startline="441" endline="493">write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1a547ad950d744a4af1fcd1908bfc43135" prot="public" static="no" mutable="no">
+        <type><ref refid="fusb__darwin_8h_1a0ad379ec681818f6ee2e5a507d129f8e" kindref="member">s_queue_ptr</ref></type>
+        <definition>s_queue_ptr fusb_ephandle_darwin::d_queue</definition>
+        <argsstring></argsstring>
+        <name>d_queue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="174" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="174" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" compoundref="fusb__darwin_8cc" startline="59" endline="91">fusb_ephandle_darwin</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a456d75e85abf8c2d3e76c7bed03e9993" compoundref="fusb__darwin_8cc" startline="577" endline="582">wait_for_completion</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" compoundref="fusb__darwin_8cc" startline="441" endline="493">write</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a7487f22bb9d633e00ed69fed86ce697b" compoundref="fusb__darwin_8cc" startline="93" endline="126">~fusb_ephandle_darwin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1a86826bf2951e9be5f28d38f0bc38ec7b" prot="public" static="no" mutable="no">
+        <type><ref refid="classcircular__buffer" kindref="compound">circular_buffer</ref>&lt; char &gt; *</type>
+        <definition>circular_buffer&lt;char&gt;* fusb_ephandle_darwin::d_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="175" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="175" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" compoundref="fusb__darwin_8cc" startline="59" endline="91">fusb_ephandle_darwin</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a9f45fa5d5fd0c1dda8244da08f707862" compoundref="fusb__darwin_8cc" startline="427" endline="438">read</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1af1424a7d28d0fc927ecdd6a5c3c26ef0" compoundref="fusb__darwin_8cc" startline="541" endline="574">stop</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a7487f22bb9d633e00ed69fed86ce697b" compoundref="fusb__darwin_8cc" startline="93" endline="126">~fusb_ephandle_darwin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1abe51d11608df5388d3ea7d1a0ed125b3" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t fusb_ephandle_darwin::d_bufLenBytes</definition>
+        <argsstring></argsstring>
+        <name>d_bufLenBytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="176" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="176" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" compoundref="fusb__darwin_8cc" startline="59" endline="91">fusb_ephandle_darwin</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" compoundref="fusb__darwin_8cc" startline="441" endline="493">write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1a88814e7de36d423c025bdeb126e64f50" prot="public" static="no" mutable="no">
+        <type>gruel::mutex *</type>
+        <definition>gruel::mutex* fusb_ephandle_darwin::d_readRunning</definition>
+        <argsstring></argsstring>
+        <name>d_readRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="177" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="177" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" compoundref="fusb__darwin_8cc" startline="59" endline="91">fusb_ephandle_darwin</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a7487f22bb9d633e00ed69fed86ce697b" compoundref="fusb__darwin_8cc" startline="93" endline="126">~fusb_ephandle_darwin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1a42b7dff6eecba8b3157ad44298a8e827" prot="public" static="no" mutable="no">
+        <type>gruel::mutex *</type>
+        <definition>gruel::mutex* fusb_ephandle_darwin::d_runBlock_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_runBlock_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="178" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="178" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" compoundref="fusb__darwin_8cc" startline="59" endline="91">fusb_ephandle_darwin</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a7487f22bb9d633e00ed69fed86ce697b" compoundref="fusb__darwin_8cc" startline="93" endline="126">~fusb_ephandle_darwin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1ae796719c23f4ca218c8808ba1cf6db34" prot="public" static="no" mutable="no">
+        <type>gruel::mutex *</type>
+        <definition>gruel::mutex* fusb_ephandle_darwin::d_readBlock_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_readBlock_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="179" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="179" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" compoundref="fusb__darwin_8cc" startline="59" endline="91">fusb_ephandle_darwin</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a7487f22bb9d633e00ed69fed86ce697b" compoundref="fusb__darwin_8cc" startline="93" endline="126">~fusb_ephandle_darwin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1a86634b17d337747f9483db8ba51136fa" prot="public" static="no" mutable="no">
+        <type>gruel::condition_variable *</type>
+        <definition>gruel::condition_variable* fusb_ephandle_darwin::d_runBlock</definition>
+        <argsstring></argsstring>
+        <name>d_runBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="180" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="180" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" compoundref="fusb__darwin_8cc" startline="59" endline="91">fusb_ephandle_darwin</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a7487f22bb9d633e00ed69fed86ce697b" compoundref="fusb__darwin_8cc" startline="93" endline="126">~fusb_ephandle_darwin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classfusb__ephandle__darwin_1acc9a054a9d2e8c8dae26c3f3af7a3039" prot="public" static="no" mutable="no">
+        <type>gruel::condition_variable *</type>
+        <definition>gruel::condition_variable* fusb_ephandle_darwin::d_readBlock</definition>
+        <argsstring></argsstring>
+        <name>d_readBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="181" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="181" bodyend="-1"/>
+        <referencedby refid="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" compoundref="fusb__darwin_8cc" startline="59" endline="91">fusb_ephandle_darwin</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" compoundref="fusb__darwin_8cc" startline="129" endline="221">start</referencedby>
+        <referencedby refid="classfusb__ephandle__darwin_1a7487f22bb9d633e00ed69fed86ce697b" compoundref="fusb__darwin_8cc" startline="93" endline="126">~fusb_ephandle_darwin</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1aca96602a8a10ac3a55f7d37736714c75" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fusb_ephandle_darwin::write_completed</definition>
+        <argsstring>(void *ret_io_size, io_return_t result, void *io_size)</argsstring>
+        <name>write_completed</name>
+        <param>
+          <type>void *</type>
+          <declname>ret_io_size</declname>
+        </param>
+        <param>
+          <type><ref refid="fusb__darwin_8h_1a33b766964215f52ef3eeae1397a3d244" kindref="member">io_return_t</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>io_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="158" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="496" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1a439c502045391213e5f5fccb6461d01d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fusb_ephandle_darwin::read_completed</definition>
+        <argsstring>(void *ret_io_size, io_return_t result, void *io_size)</argsstring>
+        <name>read_completed</name>
+        <param>
+          <type>void *</type>
+          <declname>ret_io_size</declname>
+        </param>
+        <param>
+          <type><ref refid="fusb__darwin_8h_1a33b766964215f52ef3eeae1397a3d244" kindref="member">io_return_t</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>io_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="161" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="391" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1a4e25a37160dd270568368c51406560d6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fusb_ephandle_darwin::run_thread</definition>
+        <argsstring>(void *arg)</argsstring>
+        <name>run_thread</name>
+        <param>
+          <type>void *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="164" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="224" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1add41e8823a80a29204c12f77001c9a6d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fusb_ephandle_darwin::read_thread</definition>
+        <argsstring>(void *arg)</argsstring>
+        <name>read_thread</name>
+        <param>
+          <type>void *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="165" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="302" bodyend="342"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1afa3a8e66907609cc80ffc4d48f4390d5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fusb_ephandle_darwin::read_issue</definition>
+        <argsstring>(s_both_ptr l_both)</argsstring>
+        <name>read_issue</name>
+        <param>
+          <type><ref refid="fusb__darwin_8h_1a62cf7423e082faa54017f76a4fee983d" kindref="member">s_both_ptr</ref></type>
+          <declname>l_both</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="167" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="345" bodyend="388"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fusb_ephandle_darwin::fusb_ephandle_darwin</definition>
+        <argsstring>(fusb_devhandle_darwin *dh, int endpoint, bool input_p, int block_size=0, int nblocks=0)</argsstring>
+        <name>fusb_ephandle_darwin</name>
+        <param>
+          <type><ref refid="classfusb__devhandle__darwin" kindref="compound">fusb_devhandle_darwin</ref> *</type>
+          <declname>dh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>endpoint</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>input_p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>block_size</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nblocks</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="185" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="59" bodyend="91"/>
+        <references refid="classs__node_1ac3b0c2f62a6d14dcf295ae0238a6b5be" compoundref="circular__linked__list_8h" startline="101" endline="101">s_node&lt; T &gt;::both</references>
+        <references refid="classfusb__ephandle__darwin_1a86826bf2951e9be5f28d38f0bc38ec7b" compoundref="fusb__darwin_8h" startline="175">d_buffer</references>
+        <references refid="classfusb__ephandle__darwin_1abe51d11608df5388d3ea7d1a0ed125b3" compoundref="fusb__darwin_8h" startline="176">d_bufLenBytes</references>
+        <references refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" compoundref="fusb_8h" startline="72">fusb_ephandle::d_input_p</references>
+        <references refid="classfusb__ephandle__darwin_1a547ad950d744a4af1fcd1908bfc43135" compoundref="fusb__darwin_8h" startline="174">d_queue</references>
+        <references refid="classfusb__ephandle__darwin_1acc9a054a9d2e8c8dae26c3f3af7a3039" compoundref="fusb__darwin_8h" startline="181">d_readBlock</references>
+        <references refid="classfusb__ephandle__darwin_1ae796719c23f4ca218c8808ba1cf6db34" compoundref="fusb__darwin_8h" startline="179">d_readBlock_mutex</references>
+        <references refid="classfusb__ephandle__darwin_1a88814e7de36d423c025bdeb126e64f50" compoundref="fusb__darwin_8h" startline="177">d_readRunning</references>
+        <references refid="classfusb__ephandle__darwin_1a86634b17d337747f9483db8ba51136fa" compoundref="fusb__darwin_8h" startline="180">d_runBlock</references>
+        <references refid="classfusb__ephandle__darwin_1a42b7dff6eecba8b3157ad44298a8e827" compoundref="fusb__darwin_8h" startline="178">d_runBlock_mutex</references>
+        <references refid="classfusb__sysconfig_1a984f66e5b11b677d810c0a11f33f4ef6" compoundref="fusb__sysconfig__darwin_8cc" startline="35" endline="38">fusb_sysconfig::max_block_size</references>
+        <references refid="classs__node_1a8051b14d5a222a3f9c60836f38216755" compoundref="circular__linked__list_8h" startline="93" endline="93">s_node&lt; T &gt;::object</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1a7487f22bb9d633e00ed69fed86ce697b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>fusb_ephandle_darwin::~fusb_ephandle_darwin</definition>
+        <argsstring>()</argsstring>
+        <name>~fusb_ephandle_darwin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="187" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="93" bodyend="126"/>
+        <references refid="classs__node_1ac3b0c2f62a6d14dcf295ae0238a6b5be" compoundref="circular__linked__list_8h" startline="101" endline="101">s_node&lt; T &gt;::both</references>
+        <references refid="classfusb__ephandle__darwin_1a86826bf2951e9be5f28d38f0bc38ec7b" compoundref="fusb__darwin_8h" startline="175">d_buffer</references>
+        <references refid="classfusb__ephandle__darwin_1a547ad950d744a4af1fcd1908bfc43135" compoundref="fusb__darwin_8h" startline="174">d_queue</references>
+        <references refid="classfusb__ephandle__darwin_1acc9a054a9d2e8c8dae26c3f3af7a3039" compoundref="fusb__darwin_8h" startline="181">d_readBlock</references>
+        <references refid="classfusb__ephandle__darwin_1ae796719c23f4ca218c8808ba1cf6db34" compoundref="fusb__darwin_8h" startline="179">d_readBlock_mutex</references>
+        <references refid="classfusb__ephandle__darwin_1a88814e7de36d423c025bdeb126e64f50" compoundref="fusb__darwin_8h" startline="177">d_readRunning</references>
+        <references refid="classfusb__ephandle__darwin_1a86634b17d337747f9483db8ba51136fa" compoundref="fusb__darwin_8h" startline="180">d_runBlock</references>
+        <references refid="classfusb__ephandle__darwin_1a42b7dff6eecba8b3157ad44298a8e827" compoundref="fusb__darwin_8h" startline="178">d_runBlock_mutex</references>
+        <references refid="classcircular__linked__list_1a873b3b21f61ac088ec8e69a413289d8c" compoundref="circular__linked__list_8h" startline="231" endline="244">circular_linked_list&lt; T &gt;::iterate_next</references>
+        <references refid="classcircular__linked__list_1aace2f5222a9d5b500b94001e81ec0159" compoundref="circular__linked__list_8h" startline="229" endline="229">circular_linked_list&lt; T &gt;::iterate_start</references>
+        <references refid="classs__node_1a8051b14d5a222a3f9c60836f38216755" compoundref="circular__linked__list_8h" startline="93" endline="93">s_node&lt; T &gt;::object</references>
+        <references refid="classfusb__ephandle__darwin_1af1424a7d28d0fc927ecdd6a5c3c26ef0" compoundref="fusb__darwin_8cc" startline="541" endline="574">stop</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool fusb_ephandle_darwin::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <reimplements refid="classfusb__ephandle_1aac0498804e009ab78c47f2265f34a054">start</reimplements>
+        <briefdescription>
+<para>begin streaming i/o </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="191" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="129" bodyend="221"/>
+        <references refid="classs__node_1ac3b0c2f62a6d14dcf295ae0238a6b5be" compoundref="circular__linked__list_8h" startline="101" endline="101">s_node&lt; T &gt;::both</references>
+        <references refid="classs__buffer_1a9200cbab69c0e3c8f2a9e52042d9e9a7" compoundref="fusb__darwin_8h" startline="99" endline="110">s_buffer::buffer</references>
+        <references refid="classfusb__ephandle__darwin_1a86826bf2951e9be5f28d38f0bc38ec7b" compoundref="fusb__darwin_8h" startline="175">d_buffer</references>
+        <references refid="classfusb__ephandle__darwin_1abe51d11608df5388d3ea7d1a0ed125b3" compoundref="fusb__darwin_8h" startline="176">d_bufLenBytes</references>
+        <references refid="classfusb__ephandle_1a136e1ab7ba9e180a78ea5085739dd018" compoundref="fusb_8h" startline="71">fusb_ephandle::d_endpoint</references>
+        <references refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" compoundref="fusb_8h" startline="72">fusb_ephandle::d_input_p</references>
+        <references refid="classfusb__ephandle__darwin_1a4c946cfbb61ca98f1c3afc5f14e693ec" compoundref="fusb__darwin_8h" startline="173">d_interface</references>
+        <references refid="classfusb__ephandle__darwin_1a833a58e14de40f53f45df6ba213d2058" compoundref="fusb__darwin_8h" startline="172">d_interfaceRef</references>
+        <references refid="classfusb__ephandle__darwin_1a0fe61b67ad1e4cf8e1f867b5d7428a90" compoundref="fusb__darwin_8h" startline="171">d_pipeRef</references>
+        <references refid="classfusb__ephandle__darwin_1a547ad950d744a4af1fcd1908bfc43135" compoundref="fusb__darwin_8h" startline="174">d_queue</references>
+        <references refid="classfusb__ephandle__darwin_1acc9a054a9d2e8c8dae26c3f3af7a3039" compoundref="fusb__darwin_8h" startline="181">d_readBlock</references>
+        <references refid="classfusb__ephandle__darwin_1ae796719c23f4ca218c8808ba1cf6db34" compoundref="fusb__darwin_8h" startline="179">d_readBlock_mutex</references>
+        <references refid="classfusb__ephandle__darwin_1a88814e7de36d423c025bdeb126e64f50" compoundref="fusb__darwin_8h" startline="177">d_readRunning</references>
+        <references refid="classfusb__ephandle__darwin_1a86634b17d337747f9483db8ba51136fa" compoundref="fusb__darwin_8h" startline="180">d_runBlock</references>
+        <references refid="classfusb__ephandle__darwin_1a42b7dff6eecba8b3157ad44298a8e827" compoundref="fusb__darwin_8h" startline="178">d_runBlock_mutex</references>
+        <references refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" compoundref="fusb_8h" startline="75">fusb_ephandle::d_started</references>
+        <references refid="classfusb__ephandle__darwin_1a6335642bc300216ff8e43a28453c9b6d" compoundref="fusb__darwin_8h" startline="171">d_transferType</references>
+        <references refid="classcircular__buffer_1abcd24de17aa8258835c6dff2c027a6d6" compoundref="circular__buffer_8h" startline="153" endline="212">circular_buffer&lt; T &gt;::enqueue</references>
+        <references refid="classfusb__devhandle_1a0f1b7e9680e730d0f6faca7ec41175f1" compoundref="fusb_8h" startline="57" endline="57">fusb_devhandle::get_usb_dev_handle</references>
+        <references refid="structusb__dev__handle_1ab08f2af9083159ae86648eae05b52c01" compoundref="fusb__darwin_8h" startline="57">usb_dev_handle::impl_info</references>
+        <references refid="structdarwin__dev__handle_1a24033b6bf2283cebd863675951365439" compoundref="fusb__darwin_8h" startline="63">darwin_dev_handle::interface</references>
+        <references refid="classcircular__linked__list_1a873b3b21f61ac088ec8e69a413289d8c" compoundref="circular__linked__list_8h" startline="231" endline="244">circular_linked_list&lt; T &gt;::iterate_next</references>
+        <references refid="classcircular__linked__list_1aace2f5222a9d5b500b94001e81ec0159" compoundref="circular__linked__list_8h" startline="229" endline="229">circular_linked_list&lt; T &gt;::iterate_start</references>
+        <references refid="classs__buffer_1a9a7363a8a0ce0f66235c216e6584d8d9" compoundref="fusb__darwin_8h" startline="95" endline="95">s_buffer::n_used</references>
+        <references refid="classs__both_1ab9720e2c280172daa9c536c8de34f4a6" compoundref="circular__linked__list_8h" startline="272" endline="272">s_both&lt; T &gt;::node</references>
+        <references refid="classcircular__linked__list_1a931507cc0f607c024e1e78dc277f7a60" compoundref="circular__linked__list_8h" startline="249" endline="249">circular_linked_list&lt; T &gt;::num_used</references>
+        <references refid="classs__node_1a8051b14d5a222a3f9c60836f38216755" compoundref="circular__linked__list_8h" startline="93" endline="93">s_node&lt; T &gt;::object</references>
+        <references refid="classs__buffer_1aa554e07718c3c8160b1e5de3f6a4ee97" compoundref="fusb__darwin_8h" startline="112" endline="115">s_buffer::reset</references>
+        <references refid="classcircular__buffer_1acc29c0f342fa153d64561b622e3cf3d4" compoundref="circular__buffer_8h" startline="114" endline="130">circular_buffer&lt; T &gt;::reset</references>
+        <references refid="classs__both_1ac50997822c5ec236770136a594278098" compoundref="circular__linked__list_8h" startline="274" endline="275">s_both&lt; T &gt;::set</references>
+        <references refid="classs__node_1ad71bf0bba7b638ef8772796e14b1040f" compoundref="circular__linked__list_8h" startline="96" endline="96">s_node&lt; T &gt;::set_available</references>
+        <references refid="classs__both_1a12266700e2cd36fa5fc127e345014d10" compoundref="circular__linked__list_8h" startline="273" endline="273">s_both&lt; T &gt;::This</references>
+        <references refid="fusb__darwin_8h_1ae3f6d70c719c77e228ccc905331d7784">usb_debug</references>
+        <references refid="darwin__libusb_8h_1a91458181f6a0e61a1a81b135ced5aaa7" compoundref="darwin__libusb_8h" startline="126">USB_ERROR_STR</references>
+        <references refid="darwin__libusb_8h_1a6c7a312a78f69953e39305ab222522ca" compoundref="darwin__libusb_8h" startline="148">USB_ERROR_STR_NO_RET</references>
+        <references refid="fusb__darwin_8h_1ab20603f7900e18ac518c5684661b9f58" compoundref="fusb__darwin_8h" startline="36">usb_interface_t</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1af1424a7d28d0fc927ecdd6a5c3c26ef0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool fusb_ephandle_darwin::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <reimplements refid="classfusb__ephandle_1a3cfe2cbb78870a6ce0ec8f696ebe45ab">stop</reimplements>
+        <briefdescription>
+<para>stop streaming i/o </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="192" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="541" bodyend="574"/>
+        <references refid="classfusb__ephandle__darwin_1aa5067d1f65048940bffdfdb7996ea8d3" compoundref="fusb__darwin_8cc" startline="523" endline="538">abort</references>
+        <references refid="classcircular__buffer_1a1da17d5f94fe3ca1ffca42a5d307f4f5" compoundref="circular__buffer_8h" startline="307" endline="312">circular_buffer&lt; T &gt;::abort</references>
+        <references refid="classfusb__ephandle__darwin_1a86826bf2951e9be5f28d38f0bc38ec7b" compoundref="fusb__darwin_8h" startline="175">d_buffer</references>
+        <references refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" compoundref="fusb_8h" startline="72">fusb_ephandle::d_input_p</references>
+        <references refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" compoundref="fusb_8h" startline="75">fusb_ephandle::d_started</references>
+        <references refid="fusb__darwin_8h_1ae3f6d70c719c77e228ccc905331d7784">usb_debug</references>
+        <references refid="classfusb__ephandle__darwin_1a456d75e85abf8c2d3e76c7bed03e9993" compoundref="fusb__darwin_8cc" startline="577" endline="582">wait_for_completion</references>
+        <referencedby refid="classfusb__ephandle__darwin_1a7487f22bb9d633e00ed69fed86ce697b" compoundref="fusb__darwin_8cc" startline="93" endline="126">~fusb_ephandle_darwin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int fusb_ephandle_darwin::write</definition>
+        <argsstring>(const void *buffer, int nbytes)</argsstring>
+        <name>write</name>
+        <reimplements refid="classfusb__ephandle_1ab2a965c0f5fea6632bc08ea59c8c8fe1">write</reimplements>
+        <param>
+          <type>const void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>nbytes</computeroutput> if write was successfully enqueued, else -1. Will block if no free buffers available. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="198" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="441" bodyend="493"/>
+        <references refid="classs__node_1ac3b0c2f62a6d14dcf295ae0238a6b5be" compoundref="circular__linked__list_8h" startline="101" endline="101">s_node&lt; T &gt;::both</references>
+        <references refid="classs__buffer_1a9200cbab69c0e3c8f2a9e52042d9e9a7" compoundref="fusb__darwin_8h" startline="99" endline="110">s_buffer::buffer</references>
+        <references refid="classfusb__ephandle__darwin_1abe51d11608df5388d3ea7d1a0ed125b3" compoundref="fusb__darwin_8h" startline="176">d_bufLenBytes</references>
+        <references refid="classfusb__ephandle__darwin_1a4c946cfbb61ca98f1c3afc5f14e693ec" compoundref="fusb__darwin_8h" startline="173">d_interface</references>
+        <references refid="classfusb__ephandle__darwin_1a833a58e14de40f53f45df6ba213d2058" compoundref="fusb__darwin_8h" startline="172">d_interfaceRef</references>
+        <references refid="classfusb__ephandle__darwin_1a0fe61b67ad1e4cf8e1f867b5d7428a90" compoundref="fusb__darwin_8h" startline="171">d_pipeRef</references>
+        <references refid="classfusb__ephandle__darwin_1a547ad950d744a4af1fcd1908bfc43135" compoundref="fusb__darwin_8h" startline="174">d_queue</references>
+        <references refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" compoundref="fusb_8h" startline="75">fusb_ephandle::d_started</references>
+        <references refid="classfusb__ephandle__darwin_1a6335642bc300216ff8e43a28453c9b6d" compoundref="fusb__darwin_8h" startline="171">d_transferType</references>
+        <references refid="classcircular__linked__list_1a7217a832472b5bfa0425c8ad60ef1e93" compoundref="circular__linked__list_8h" startline="172" endline="202">circular_linked_list&lt; T &gt;::find_next_available_node</references>
+        <references refid="classcircular__linked__list_1ac46c781dd6e3c9933628a55b3b35a1e5" compoundref="circular__linked__list_8h" startline="204" endline="227">circular_linked_list&lt; T &gt;::make_node_available</references>
+        <references refid="classs__buffer_1a9a7363a8a0ce0f66235c216e6584d8d9" compoundref="fusb__darwin_8h" startline="95" endline="95">s_buffer::n_used</references>
+        <references refid="classs__both_1ab9720e2c280172daa9c536c8de34f4a6" compoundref="circular__linked__list_8h" startline="272" endline="272">s_both&lt; T &gt;::node</references>
+        <references refid="classs__node_1a8051b14d5a222a3f9c60836f38216755" compoundref="circular__linked__list_8h" startline="93" endline="93">s_node&lt; T &gt;::object</references>
+        <references refid="classs__both_1a12266700e2cd36fa5fc127e345014d10" compoundref="circular__linked__list_8h" startline="273" endline="273">s_both&lt; T &gt;::This</references>
+        <references refid="fusb__darwin_8h_1ae3f6d70c719c77e228ccc905331d7784">usb_debug</references>
+        <references refid="darwin__libusb_8h_1a91458181f6a0e61a1a81b135ced5aaa7" compoundref="darwin__libusb_8h" startline="126">USB_ERROR_STR</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1a9f45fa5d5fd0c1dda8244da08f707862" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int fusb_ephandle_darwin::read</definition>
+        <argsstring>(void *buffer, int nbytes)</argsstring>
+        <name>read</name>
+        <reimplements refid="classfusb__ephandle_1a835533e974fb159174c44f2ec0d5668d">read</reimplements>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of bytes read or -1 if error. number of bytes read will be &lt;= nbytes. Will block if no input available. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="205" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="427" bodyend="438"/>
+        <references refid="classfusb__ephandle__darwin_1a86826bf2951e9be5f28d38f0bc38ec7b" compoundref="fusb__darwin_8h" startline="175">d_buffer</references>
+        <references refid="classcircular__buffer_1a7f86491a41b04da07ed2f5b3dbc748d1" compoundref="circular__buffer_8h" startline="235" endline="305">circular_buffer&lt; T &gt;::dequeue</references>
+        <references refid="fusb__darwin_8h_1ae3f6d70c719c77e228ccc905331d7784">usb_debug</references>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1aa5067d1f65048940bffdfdb7996ea8d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fusb_ephandle_darwin::abort</definition>
+        <argsstring>()</argsstring>
+        <name>abort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="210" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="523" bodyend="538"/>
+        <references refid="classfusb__ephandle__darwin_1a4c946cfbb61ca98f1c3afc5f14e693ec" compoundref="fusb__darwin_8h" startline="173">d_interface</references>
+        <references refid="classfusb__ephandle__darwin_1a833a58e14de40f53f45df6ba213d2058" compoundref="fusb__darwin_8h" startline="172">d_interfaceRef</references>
+        <references refid="classfusb__ephandle__darwin_1a0fe61b67ad1e4cf8e1f867b5d7428a90" compoundref="fusb__darwin_8h" startline="171">d_pipeRef</references>
+        <references refid="fusb__darwin_8h_1ae3f6d70c719c77e228ccc905331d7784">usb_debug</references>
+        <references refid="darwin__libusb_8h_1a6c7a312a78f69953e39305ab222522ca" compoundref="darwin__libusb_8h" startline="148">USB_ERROR_STR_NO_RET</references>
+        <referencedby refid="classfusb__ephandle__darwin_1af1424a7d28d0fc927ecdd6a5c3c26ef0" compoundref="fusb__darwin_8cc" startline="541" endline="574">stop</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classfusb__ephandle__darwin_1a456d75e85abf8c2d3e76c7bed03e9993" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void fusb_ephandle_darwin::wait_for_completion</definition>
+        <argsstring>()</argsstring>
+        <name>wait_for_completion</name>
+        <reimplements refid="classfusb__ephandle_1a1e1a2c7173a14aea99686fad7c0e061c">wait_for_completion</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="215" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.cc" bodystart="577" bodyend="582"/>
+        <references refid="classfusb__ephandle__darwin_1a547ad950d744a4af1fcd1908bfc43135" compoundref="fusb__darwin_8h" startline="174">d_queue</references>
+        <references refid="classcircular__linked__list_1a89aa83f4cce7dce63bac75d8161c193f" compoundref="circular__linked__list_8h" startline="260" endline="260">circular_linked_list&lt; T &gt;::in_use</references>
+        <referencedby refid="classfusb__ephandle__darwin_1af1424a7d28d0fc927ecdd6a5c3c26ef0" compoundref="fusb__darwin_8cc" startline="541" endline="574">stop</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>darwin implementation of <ref refid="classfusb__ephandle" kindref="compound">fusb_ephandle</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para>This is currently identical to the generic implementation and is intended as a starting point for whatever magic is required to make usb fly. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="839">
+        <label>fusb_ephandle</label>
+        <link refid="classfusb__ephandle"/>
+      </node>
+      <node id="838">
+        <label>fusb_ephandle_darwin</label>
+        <link refid="classfusb__ephandle__darwin"/>
+        <childnode refid="839" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="843">
+        <label>circular_linked_list&lt; s_buffer_ptr &gt;</label>
+        <link refid="classcircular__linked__list"/>
+      </node>
+      <node id="842">
+        <label>circular_buffer&lt; char &gt;</label>
+        <link refid="classcircular__buffer"/>
+      </node>
+      <node id="841">
+        <label>fusb_ephandle</label>
+        <link refid="classfusb__ephandle"/>
+      </node>
+      <node id="840">
+        <label>fusb_ephandle_darwin</label>
+        <link refid="classfusb__ephandle__darwin"/>
+        <childnode refid="841" relation="public-inheritance">
+        </childnode>
+        <childnode refid="842" relation="usage">
+          <edgelabel>d_buffer</edgelabel>
+        </childnode>
+        <childnode refid="843" relation="usage">
+          <edgelabel>d_queue</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" line="150" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/lib/fusb_darwin.h" bodystart="149" bodyend="216"/>
+    <listofallmembers>
+      <member refid="classfusb__ephandle__darwin_1aa5067d1f65048940bffdfdb7996ea8d3" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>abort</name></member>
+      <member refid="classfusb__ephandle_1a969c00b4d8ef3c8ad6444eb92da7a61c" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>block_size</name></member>
+      <member refid="classfusb__ephandle_1aa8b4afe1f6aaa45491d9ae0dfdad3c0b" prot="protected" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_block_size</name></member>
+      <member refid="classfusb__ephandle__darwin_1a86826bf2951e9be5f28d38f0bc38ec7b" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_buffer</name></member>
+      <member refid="classfusb__ephandle__darwin_1abe51d11608df5388d3ea7d1a0ed125b3" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_bufLenBytes</name></member>
+      <member refid="classfusb__ephandle__darwin_1abb102b4f30e6ddb184e71ca248dc188a" prot="private" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_CFRunLoopRef</name></member>
+      <member refid="classfusb__ephandle__darwin_1a19c106a5b2497a95c34d3d3ec3ccc411" prot="private" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_devhandle</name></member>
+      <member refid="classfusb__ephandle_1a136e1ab7ba9e180a78ea5085739dd018" prot="protected" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_endpoint</name></member>
+      <member refid="classfusb__ephandle_1a123fcada49a57077500fab084e537643" prot="protected" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_input_p</name></member>
+      <member refid="classfusb__ephandle__darwin_1a4c946cfbb61ca98f1c3afc5f14e693ec" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_interface</name></member>
+      <member refid="classfusb__ephandle__darwin_1a833a58e14de40f53f45df6ba213d2058" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_interfaceRef</name></member>
+      <member refid="classfusb__ephandle_1a3d38bb3ad76925c044fe8e14ecb408e7" prot="protected" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_nblocks</name></member>
+      <member refid="classfusb__ephandle__darwin_1a0fe61b67ad1e4cf8e1f867b5d7428a90" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_pipeRef</name></member>
+      <member refid="classfusb__ephandle__darwin_1a547ad950d744a4af1fcd1908bfc43135" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_queue</name></member>
+      <member refid="classfusb__ephandle__darwin_1acc9a054a9d2e8c8dae26c3f3af7a3039" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_readBlock</name></member>
+      <member refid="classfusb__ephandle__darwin_1ae796719c23f4ca218c8808ba1cf6db34" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_readBlock_mutex</name></member>
+      <member refid="classfusb__ephandle__darwin_1a88814e7de36d423c025bdeb126e64f50" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_readRunning</name></member>
+      <member refid="classfusb__ephandle__darwin_1a86634b17d337747f9483db8ba51136fa" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_runBlock</name></member>
+      <member refid="classfusb__ephandle__darwin_1a42b7dff6eecba8b3157ad44298a8e827" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_runBlock_mutex</name></member>
+      <member refid="classfusb__ephandle__darwin_1a6fc8992940b400d4591d81f1fc72d3e4" prot="private" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_runThread</name></member>
+      <member refid="classfusb__ephandle__darwin_1ae063062736c09be63345a34eb6bb3dd7" prot="private" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_runThreadRunning</name></member>
+      <member refid="classfusb__ephandle_1ad6506c0efdf8eea1dcd8df8d65ecc609" prot="protected" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_started</name></member>
+      <member refid="classfusb__ephandle__darwin_1a6335642bc300216ff8e43a28453c9b6d" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>d_transferType</name></member>
+      <member refid="classfusb__ephandle_1a5ad892734f7649f8444ce6c5fe33382e" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>fusb_ephandle</name></member>
+      <member refid="classfusb__ephandle__darwin_1a75115bc11f04aa7b71f5c834817dc667" prot="public" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>fusb_ephandle_darwin</name></member>
+      <member refid="classfusb__ephandle__darwin_1a9f45fa5d5fd0c1dda8244da08f707862" prot="public" virt="virtual"><scope>fusb_ephandle_darwin</scope><name>read</name></member>
+      <member refid="classfusb__ephandle__darwin_1a439c502045391213e5f5fccb6461d01d" prot="private" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>read_completed</name></member>
+      <member refid="classfusb__ephandle__darwin_1afa3a8e66907609cc80ffc4d48f4390d5" prot="private" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>read_issue</name></member>
+      <member refid="classfusb__ephandle__darwin_1add41e8823a80a29204c12f77001c9a6d" prot="private" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>read_thread</name></member>
+      <member refid="classfusb__ephandle__darwin_1a4e25a37160dd270568368c51406560d6" prot="private" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>run_thread</name></member>
+      <member refid="classfusb__ephandle__darwin_1aca1441ae1cd0cff2008c23db7cff9482" prot="public" virt="virtual"><scope>fusb_ephandle_darwin</scope><name>start</name></member>
+      <member refid="classfusb__ephandle__darwin_1af1424a7d28d0fc927ecdd6a5c3c26ef0" prot="public" virt="virtual"><scope>fusb_ephandle_darwin</scope><name>stop</name></member>
+      <member refid="classfusb__ephandle__darwin_1a456d75e85abf8c2d3e76c7bed03e9993" prot="public" virt="virtual"><scope>fusb_ephandle_darwin</scope><name>wait_for_completion</name></member>
+      <member refid="classfusb__ephandle__darwin_1ad703974c4df48763a1ec4d0d489237e3" prot="public" virt="virtual"><scope>fusb_ephandle_darwin</scope><name>write</name></member>
+      <member refid="classfusb__ephandle__darwin_1aca96602a8a10ac3a55f7d37736714c75" prot="private" virt="non-virtual"><scope>fusb_ephandle_darwin</scope><name>write_completed</name></member>
+      <member refid="classfusb__ephandle_1a1450872641591afb4cdcda1853c0c81a" prot="public" virt="virtual"><scope>fusb_ephandle_darwin</scope><name>~fusb_ephandle</name></member>
+      <member refid="classfusb__ephandle__darwin_1a7487f22bb9d633e00ed69fed86ce697b" prot="public" virt="virtual"><scope>fusb_ephandle_darwin</scope><name>~fusb_ephandle_darwin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

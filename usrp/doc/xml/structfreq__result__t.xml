@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structfreq__result__t" kind="struct" language="C++" prot="public">
+    <compoundname>freq_result_t</compoundname>
+    <includes refid="db__base_8h" local="no">db_base.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structfreq__result__t_1a05f1d913c001ce385efb798e8ec9b649" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool freq_result_t::ok</definition>
+        <argsstring></argsstring>
+        <name>ok</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="39" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classduc__control_1aa07e6f0983597d6659aff1b7b0c6bd17" compoundref="usrp__standard_8cc" startline="144" endline="144">duc_control::dxc_freq</referencedby>
+        <referencedby refid="classdb__wbxng__tx_1ae009e4d5b7ac3d4612d728e00f08940f" compoundref="db__wbxng_8cc" startline="246" endline="260">db_wbxng_tx::set_auto_tr</referencedby>
+        <referencedby refid="classdb__wbxng__rx_1ade51b57b003e7a725bb87f2008f87ba4" compoundref="db__wbxng_8cc" startline="420" endline="434">db_wbxng_rx::set_auto_tr</referencedby>
+        <referencedby refid="classflexrf__base__tx_1a4a06db467b00912b657ffc1613c7a572" compoundref="db__flexrf_8cc" startline="305" endline="319">flexrf_base_tx::set_auto_tr</referencedby>
+        <referencedby refid="classflexrf__base__rx_1ac66f7f678b99584856dd99975f04cc10" compoundref="db__flexrf_8cc" startline="435" endline="449">flexrf_base_rx::set_auto_tr</referencedby>
+        <referencedby refid="classwbxng__base_1a25c57a2564dab8697feea09b0d48b5cd" compoundref="db__wbxng_8cc" startline="82" endline="126">wbxng_base::set_freq</referencedby>
+        <referencedby refid="classflexrf__base_1aab0ad1d00de0050f1ae9c9e535b9a87e" compoundref="db__flexrf_8cc" startline="184" endline="213">flexrf_base::set_freq</referencedby>
+        <referencedby refid="classdb__basic__tx_1abf1638d76bfa2a73bd780a72c01071ab" compoundref="db__basic_8cc" startline="56" endline="71">db_basic_tx::set_freq</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1aa1b71b8cecd0e4f72c16fe15e480d59c" compoundref="db__bitshark__rx_8cc" startline="356" endline="403">db_bitshark_rx::set_freq</referencedby>
+        <referencedby refid="classxcvr2450_1ad2d195dab47cfee0437738bab86b5254" compoundref="db__xcvr2450_8cc" startline="449" endline="503">xcvr2450::set_freq</referencedby>
+        <referencedby refid="classdb__basic__tx_1a42ee65ad9d8092dc4134b9a1d46c6bf7" compoundref="db__basic_8cc" startline="92" endline="102">db_basic_tx::set_gain</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structfreq__result__t_1a1c7c958029dfd98e62b6e1fa60fb5a1f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double freq_result_t::baseband_freq</definition>
+        <argsstring></argsstring>
+        <name>baseband_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="40" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classduc__control_1aa07e6f0983597d6659aff1b7b0c6bd17" compoundref="usrp__standard_8cc" startline="144" endline="144">duc_control::dxc_freq</referencedby>
+        <referencedby refid="classflexrf__base_1aab0ad1d00de0050f1ae9c9e535b9a87e" compoundref="db__flexrf_8cc" startline="184" endline="213">flexrf_base::set_freq</referencedby>
+        <referencedby refid="classdb__basic__tx_1abf1638d76bfa2a73bd780a72c01071ab" compoundref="db__basic_8cc" startline="56" endline="71">db_basic_tx::set_freq</referencedby>
+        <referencedby refid="classdb__bitshark__rx_1aa1b71b8cecd0e4f72c16fe15e480d59c" compoundref="db__bitshark__rx_8cc" startline="356" endline="403">db_bitshark_rx::set_freq</referencedby>
+        <referencedby refid="classxcvr2450_1ad2d195dab47cfee0437738bab86b5254" compoundref="db__xcvr2450_8cc" startline="449" endline="503">xcvr2450::set_freq</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" line="38" column="1" bodyfile="/home/me/gnuradio-3.4.0/usrp/host/include/usrp/db_base.h" bodystart="37" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structfreq__result__t_1a1c7c958029dfd98e62b6e1fa60fb5a1f" prot="public" virt="non-virtual"><scope>freq_result_t</scope><name>baseband_freq</name></member>
+      <member refid="structfreq__result__t_1a05f1d913c001ce385efb798e8ec9b649" prot="public" virt="non-virtual"><scope>freq_result_t</scope><name>ok</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

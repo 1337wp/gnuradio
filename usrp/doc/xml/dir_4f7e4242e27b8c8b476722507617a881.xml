@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_4f7e4242e27b8c8b476722507617a881" kind="dir">
+    <compoundname>host</compoundname>
+    <innerdir refid="dir_553eb0a97e6583a4e50e2388bbf3e75e">apps</innerdir>
+    <innerdir refid="dir_e839221b911be9ca1d4935be85bedea2">include</innerdir>
+    <innerdir refid="dir_3e162aed70a8375637768e3fce01c848">lib</innerdir>
+    <innerdir refid="dir_347950bb63620d0daea3f5637f221d4f">misc</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/me/gnuradio-3.4.0/usrp/host/"/>
+  </compounddef>
+</doxygen>
